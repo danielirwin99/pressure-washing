@@ -9,6 +9,10 @@
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: none;
+  text-rendering: optimizeLegibility;
 }
 
 html {
@@ -25,6 +29,10 @@ html {
 #quotes,
 #photos {
   scroll-margin-top: 100px;
+}
+
+#quotes {
+  scroll-margin-top: 88px;
 }
 
 /* Handle */
@@ -116,6 +124,7 @@ html {
 }
 
 .services-tabs {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -123,16 +132,28 @@ html {
   margin: 8px 8px;
   background: rgba(0, 0, 0, 0.25);
   padding: 20px 0;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
 .services-header {
   padding-top: 20px;
   font-weight: bold;
   font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .services-header {
+    font-size: 16px;
+    padding: 20px 4px 0 4px;
+  }
 }
 
 .services-quote {
   margin-top: 20px;
+  color: white;
   text-decoration: underline;
   text-underline-offset: 6px;
   transition: all 150ms ease-in-out;

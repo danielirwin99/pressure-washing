@@ -8,7 +8,7 @@ const Header = () => {
       <header className="h-[calc(100vh-88px)] relative ">
         {/* FIXED BUTTON */}
         <div className="fixed bottom-10 right-10 z-[999]">
-          <a href="#contact" className="contact-now">
+          <a href="#quotes" className="contact-now">
             Contact Now
           </a>
         </div>

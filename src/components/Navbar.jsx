@@ -12,13 +12,13 @@ const Navbar = () => {
           href="/"
         >
           <img
-            className="h-14 w-14"
+            className="lg:h-14 lg:w-14 w-10 h-10"
             src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Shamrock.svg"
             alt="Logo"
           />
           <h1 className="font-bold text-2xl mb-1">Irwin Power Washing</h1>
         </a>
-        <ul className="ms-auto flex space-x-10 items-center lg:items-end mb-1">
+        <ul className="ms-auto flex space-x-10 items-center lg:items-end lg:mb-1">
           <li className="nav-item hidden lg:flex">
             <a className="nav-link" href="#about">
               About
@@ -35,7 +35,7 @@ const Navbar = () => {
             </a>
           </li> */}
           <li className="nav-item hidden lg:flex">
-            <a className="nav-link" href="#contact">
+            <a className="nav-link" href="#quotes">
               Contact
             </a>
           </li>
@@ -49,8 +49,8 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item lg:hidden">
-            <a className="nav-link" href="#contact">
-              <Hamburger />
+            <a className="nav-link" href="#quotes">
+              <Hamburger  />
             </a>
           </li>
         </ul>

@@ -4,8 +4,6 @@ import ClickAwayListener from "@mui/material/ClickAwayListener";
 import Grow from "@mui/material/Grow";
 import Paper from "@mui/material/Paper";
 import Popper from "@mui/material/Popper";
-import MenuItem from "@mui/material/MenuItem";
-import MenuList from "@mui/material/MenuList";
 import Stack from "@mui/material/Stack";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -49,16 +47,17 @@ export default function Hamburger() {
       <div>
         <Button
           ref={anchorRef}
+          clas
           id="composition-button"
           aria-controls={open ? "composition-menu" : undefined}
           aria-expanded={open ? "true" : undefined}
           aria-haspopup="true"
           onClick={handleToggle}
         >
-          <GiHamburgerMenu className="" />
+          <GiHamburgerMenu className="text-black text-2xl" />
         </Button>
         <Popper
-        className="z-999"
+          className="z-999"
           open={open}
           anchorEl={anchorRef.current}
           role={undefined}
@@ -76,16 +75,35 @@ export default function Hamburger() {
             >
               <Paper>
                 <ClickAwayListener onClickAway={handleClose}>
-                  <MenuList
+                  <ul
+                    className="flex flex-col py-3 px-5"
                     autoFocusItem={open}
                     id="composition-menu"
                     aria-labelledby="composition-button"
                     onKeyDown={handleListKeyDown}
                   >
-                    <MenuItem class onClick={handleClose}>Profile</MenuItem>
-                    <MenuItem onClick={handleClose}>My account</MenuItem>
-                    <MenuItem onClick={handleClose}>Logout</MenuItem>
-                  </MenuList>
+                    <a
+                      className="py-1 text-sm text-cyan-500"
+                      href="#about"
+                      onClick={handleClose}
+                    >
+                      About
+                    </a>
+                    <a
+                      className="py-1 text-sm text-cyan-500"
+                      href="#services"
+                      onClick={handleClose}
+                    >
+                      Services
+                    </a>
+                    <a
+                      className="py-1 text-sm text-cyan-500"
+                      href="#about"
+                      onClick={handleClose}
+                    >
+                      Contact
+                    </a>
+                  </ul>
                 </ClickAwayListener>
               </Paper>
             </Grow>

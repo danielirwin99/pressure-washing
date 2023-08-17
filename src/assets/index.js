@@ -3,6 +3,25 @@ import before2 from "./before2.jpg";
 import before3 from "./before3.jpg";
 import before4 from "./before4.png";
 import clean from "./clean.jpg";
-import image from "./power.webp"
+import image from "./power.webp";
+import service1 from "./service1.jpg";
+import service2 from "./service2.jpeg";
+import service3 from "./service3.jpg";
+import service4 from "./service4.jpg";
+import service5 from "./service5.jpg";
+import service6 from "./service6.jpg";
 
-export { before1, before2, before3, before4, clean, image };
+export {
+  before1,
+  before2,
+  before3,
+  before4,
+  clean,
+  image,
+  service1,
+  service2,
+  service3,
+  service4,
+  service5,
+  service6,
+};

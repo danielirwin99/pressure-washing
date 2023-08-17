@@ -5,8 +5,8 @@ const Photos = () => {
   return (
     <section id="photos" className="mt-10 mx-auto px-3 max-w-[1700px] w-full">
       <div className="flex flex-col w-full items-center justify-center">
-        <h3 className="text-center text-[aqua] tracking-[0.3em] font-semibold text-md lg:text-lg ">
-          BEFORE AND AFTER
+        <h3 className="text-center text-cyan-500 tracking-[0.3em] font-semibold text-md lg:text-lg ">
+          BEFORE AND AFTERS
         </h3>
         <h2 className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider">
           Our Recent Jobs

@@ -2,7 +2,7 @@ import React from "react";
 
 const Benefits = () => {
   return (
-    <section id="benefits" className="bg-gray-300 ">
+    <section id="benefits" className="bg-gray-200 ">
       <div className="flex flex-col w-full justify-center px-10 lg:px-20 py-20 mt-10">
         {/* <h3 className="text-[aqua] tracking-[0.3em] font-semibold text-lg ">
           GET A FREE QUOTE TODAY
@@ -10,7 +10,7 @@ const Benefits = () => {
         <h2 className="text-3xl font-bold  mt-1 tracking-wider mb-4 text-blue-500">
           Benefits of Pressuring Cleaning
         </h2>
-        <div className="space-y-4">
+        <div className="space-y-6">
           <p>
             1.{" "}
             <span className="font-bold italic text-red-800 underline">

@@ -30,7 +30,7 @@ const Quotes = () => {
           {/* Our Right Side of the Contact */}
           <div className="bg-white w-full lg:w-2/5 mx-10 md:mx-14 lg:mx-0 rounded-md">
             <form className="rounded py-5 px-10 ">
-              <h2 className="font-semibold text-sm tracking-wide mb-5">
+              <h2 className="font-semibold text-sm tracking-wide mb-5 text-cyan-500">
                 ASK US FOR A FREE QUOTE
               </h2>
               <h2 className="font-bold text-2xl text-gray-800 mb-5">
