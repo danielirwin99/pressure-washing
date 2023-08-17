@@ -19,8 +19,8 @@ const About = () => {
           </p>
           <p className="mt-5 lg:mt-0 text-[1.2rem] text-center xl:text-start  leading-loose">
             We pride ourselves on our ability to provide outstanding, reliable
-            and friendly service at affordable prices. We are available
-            throughout Sydney.{" "}
+            and friendly service at affordable prices. <br /> We are available
+            throughout Sydney and Illawarra Areas{" "}
           </p>
           <div className="quote-now mt-14 mx-auto">
             <h4 className="font-semibold mb-1 text-lg tracking-wide">

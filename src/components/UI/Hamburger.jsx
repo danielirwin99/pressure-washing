@@ -47,7 +47,6 @@ export default function Hamburger() {
       <div>
         <Button
           ref={anchorRef}
-          clas
           id="composition-button"
           aria-controls={open ? "composition-menu" : undefined}
           aria-expanded={open ? "true" : undefined}
@@ -76,29 +75,29 @@ export default function Hamburger() {
               <Paper>
                 <ClickAwayListener onClickAway={handleClose}>
                   <ul
-                    className="flex flex-col py-3 px-5"
+                    className="flex flex-col py-3 px-7"
                     autoFocusItem={open}
                     id="composition-menu"
                     aria-labelledby="composition-button"
                     onKeyDown={handleListKeyDown}
                   >
                     <a
-                      className="py-1 text-sm text-cyan-500"
+                      className="py-1 text-md font-bold text-cyan-500"
                       href="#about"
                       onClick={handleClose}
                     >
                       About
                     </a>
                     <a
-                      className="py-1 text-sm text-cyan-500"
+                      className="py-1 text-md font-bold text-cyan-500"
                       href="#services"
                       onClick={handleClose}
                     >
                       Services
                     </a>
                     <a
-                      className="py-1 text-sm text-cyan-500"
-                      href="#about"
+                      className="py-1 text-md font-bold text-cyan-500"
+                      href="#quotes"
                       onClick={handleClose}
                     >
                       Contact

@@ -21,7 +21,7 @@ const Services = () => {
       <p className="mt-4 text-[1.2rem] font-normal leading-loose text-center">
         Some of our Sydney Pressure Cleaning Services Include:
       </p>
-      <div className="grid grid-cols-2 lg:grid-cols-3 w-full mt-10">
+      <div className="grid grid-cols-2 lg:grid-cols-3 w-full max-w-[1600px] mx-auto mt-5">
         <div className="services-tabs">
           <img
             src={service1}
@@ -39,7 +39,7 @@ const Services = () => {
           </a>
         </div>
 
-        <div className="services-tabs">
+        <div className="services-tabs ">
           <img
             src={service2}
             alt="service1"

@@ -1,7 +1,6 @@
-import before1 from "./before1.webp";
-import before2 from "./before2.jpg";
-import before3 from "./before3.jpg";
-import before4 from "./before4.png";
+// import before1 from "./before1.webp";
+// import before2 from "./before2.jpg";
+// import before3 from "./before3.jpg";
 import clean from "./clean.jpg";
 import image from "./power.webp";
 import service1 from "./service1.jpg";
@@ -12,10 +11,9 @@ import service5 from "./service5.jpg";
 import service6 from "./service6.jpg";
 
 export {
-  before1,
-  before2,
-  before3,
-  before4,
+  // before1,
+  // before2,
+  // before3,
   clean,
   image,
   service1,

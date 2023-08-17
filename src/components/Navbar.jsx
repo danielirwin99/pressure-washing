@@ -49,7 +49,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item lg:hidden">
-            <a className="nav-link" href="#quotes">
+            <a className="nav-link">
               <Hamburger  />
             </a>
           </li>

@@ -1,9 +1,9 @@
 import React from "react";
-import { clean, image } from "../../assets";
+import { clean } from "../../assets";
 
 const Quotes = () => {
   return (
-    <section id="quotes" className="mt-20 w-full">
+    <section id="quotes" className="mt-14 w-full">
       <div className="flex flex-col w-full h-full items-center justify-center py-10 relative">
         <div className="absolute w-full h-full -z-10">
           <img
@@ -53,14 +53,14 @@ const Quotes = () => {
                 placeholder="Email"
                 className="border -ml-1 px-3 outline-none py-2 w-full"
               />
-              <p className="mt-4 mb-3">Phone#: *</p>
+              <p className="mt-4 mb-3">Phone#: </p>
               <input
                 type="text"
                 placeholder="Phone #:"
                 className="border -ml-1 px-3 py-2 w-full outline-none"
               />
               <textarea
-                className="border mt-5 w-full -ml-1 p-2 resize-none"
+                className="border mt-5 w-full -ml-1 p-3 resize-none outline-none"
                 placeholder="Message..."
                 id=""
                 cols="30"

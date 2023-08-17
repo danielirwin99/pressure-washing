@@ -1,5 +1,13 @@
 import React from "react";
-import { before1, before2, before3, before4 } from "../../assets";
+import {
+  before1,
+  before2,
+  before3,
+  after1,
+  after2,
+  after3,
+  before4,
+} from "../../assets/B&A/Index";
 
 const Photos = () => {
   return (
@@ -12,29 +20,50 @@ const Photos = () => {
           Our Recent Jobs
         </h2>
         <p></p>
-        <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-5 md:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
           <figure className="photos-container">
-            <img
-              src={before1}
-              alt="before1"
-              className="w-full h-full object-fill rounded-lg"
-            />
+            <div className="h-full flex">
+              <img
+                src={before1}
+                alt="before3"
+                className="w-1/2 h-full object-fill rounded-l-lg"
+              />
+              <img
+                src={after1}
+                alt="before3"
+                className="w-1/2 h-full object-fill rounded-r-lg"
+              />
+            </div>
           </figure>
           <figure className="photos-container">
-            <img
-              src={before2}
-              alt="before1"
-              className="w-full h-full object-fill rounded-lg"
-            />
+            <div className="h-full flex">
+              <img
+                src={before2}
+                alt="before3"
+                className="w-1/2 h-full object-fill rounded-l-lg"
+              />
+              <img
+                src={after2}
+                alt="before3"
+                className="w-1/2 h-full object-fill rounded-r-lg"
+              />
+            </div>
           </figure>
           <figure className="photos-container">
-            <img
-              src={before3}
-              alt="before3"
-              className="w-full h-full object-fill rounded-lg"
-            />
+            <div className="h-full flex">
+              <img
+                src={before3}
+                alt="before3"
+                className="w-1/2 h-full object-fill rounded-l-lg"
+              />
+              <img
+                src={after3}
+                alt="before3"
+                className="w-1/2 h-full object-fill rounded-r-lg"
+              />
+            </div>
           </figure>
-          <figure className="photos-container h-[500px] lg:flex hidden xl:hidden">
+          <figure className="photos-container  md:flex hidden xl:hidden">
             <img
               src={before4}
               alt="before4"
