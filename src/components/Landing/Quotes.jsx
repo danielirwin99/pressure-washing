@@ -18,7 +18,10 @@ const Quotes = () => {
             <h3 className="text-center text-[aqua] tracking-widest font-semibold text-xl ">
               GET IN TOUCH TODAY
             </h3>
-            <h2 className="text-center text-6xl font-bold text-white mt-7 tracking-wider">
+            <h2
+              className="text-center text-6xl font-bold text-white mt-7 tracking-wider"
+              style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.2)" }}
+            >
               Contact Us
             </h2>
             <img
@@ -29,17 +32,17 @@ const Quotes = () => {
           </div>
           {/* Our Right Side of the Contact */}
           <div className="bg-white w-full lg:w-2/5 mx-10 md:mx-14 lg:mx-0 rounded-md">
-            <form className="rounded py-5 px-10 ">
+            <form className="rounded py-5 px-10 template-shadow">
               <h2 className="font-semibold text-sm tracking-wide mb-5 text-cyan-500">
                 ASK US FOR A FREE QUOTE
               </h2>
-              <h2 className="font-bold text-2xl text-gray-800 mb-5">
+              <h2 className="font-bold text-3xl text-gray-800 mb-5">
                 Contact Form
               </h2>
               <p className="mb-3">
                 Whether you have a residential or commercial property, our
-                services ensure that your property is shiny and free from
-                graffiti and debris.
+                services ensure that your property is immaculately rejuvenated,
+                radiating with a newfound brilliance.
               </p>
               <p className="mt-8 mb-3">Full Name *</p>
               <input

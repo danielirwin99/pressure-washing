@@ -17,7 +17,7 @@ const Footer = () => {
           </figure>
         </a> */}
         <div className="grid grid-cols-2 lg:grid-cols-3 lg:text-md">
-          <ul className="flex flex-col text-xs md:text-sm ">
+          <ul className="flex flex-col text-xs md:text-sm lg:text-md ">
             <p className="text-white font-bold">QUICK LINKS</p>
             <a href="#" className="footerLinks">
               Home
@@ -33,9 +33,24 @@ const Footer = () => {
             </a>
           </ul>
           <div className="lg:flex flex-col text-xs md:text-sm lg:text-md hidden">
-            <a className="footerLinks">Reviews</a>
-            <a className="footerLinks">Refer a friend</a>
-            <a className="footerLinks">Profile</a>
+            <ul className="flex flex-col text-xs md:text-sm ">
+              <p className="text-white font-bold">SERVICES</p>
+              <a href="#" className="text-white py-2 pt-4">
+                Powerwashing
+              </a>
+              <a href="#about" className="text-white py-2 ">
+                Driveway Sealing
+              </a>
+              <a href="#services" className="text-white py-2 ">
+                Window Cleaning
+              </a>
+              <a href="#photos" className="text-white py-2 ">
+                Hedging & Trimming
+              </a>
+              <a href="#photos" className="text-white py-2 ">
+                Garden Maintenance
+              </a>
+            </ul>
           </div>
           <div className="flex flex-col text-xs md:text-sm lg:text-md -ml-3">
             <p className="text-white font-bold">CONTACT US</p>
@@ -58,7 +73,7 @@ const Footer = () => {
       </div>
       <div className="bg-white w-full py-6">
         <h2 className=" text-sm lg:text-md px-3 text-center ">
-          Copyright &copy; {`${new Date().getFullYear()}`} Irwin Washing. All
+          Copyright &copy; {`${new Date().getFullYear()}`} Shamrock Exterior . All
           Rights Reserved
         </h2>
       </div>

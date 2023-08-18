@@ -7,7 +7,10 @@ const Benefits = () => {
         {/* <h3 className="text-[aqua] tracking-[0.3em] font-semibold text-lg ">
           GET A FREE QUOTE TODAY
         </h3> */}
-        <h2 className="text-3xl font-bold  mt-1 tracking-wider mb-4 text-blue-500">
+        <h2
+          className="text-3xl font-bold  mt-1 tracking-wider mb-4 text-blue-500"
+          style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
+        >
           Benefits of Pressuring Cleaning
         </h2>
         <div className="space-y-6">

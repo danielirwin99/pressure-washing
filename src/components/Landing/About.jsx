@@ -10,7 +10,7 @@ const About = () => {
           <h3 className="text-center text-cyan-500 tracking-[0.3em] font-bold text-md lg:text-lg ">
             ABOUT US
           </h3>
-          <h2 className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider">
+          <h2 className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider" style={{textShadow:"2px 4px 3px rgba(0,0,0,0.1)"}}>
             Full Service Exterior Cleaners You Can Trust
           </h2>
           <p className="mt-14 text-[1.2rem] text-center xl:text-start leading-loose">
@@ -22,7 +22,7 @@ const About = () => {
             and friendly service at affordable prices. <br /> We are available
             throughout Sydney and Illawarra Areas{" "}
           </p>
-          <div className="quote-now mt-14 mx-auto">
+          <div className="quote-now mt-14 mx-auto template-shadow">
             <h4 className="font-semibold mb-1 text-lg tracking-wide">
               Call Now For Your Free Quote
             </h4>
@@ -36,11 +36,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-full xl:w-1/2 h-[500px] xl:h-auto ">
+        <div className="w-full xl:w-1/2 h-[500px] xl:h-auto template-shadow rounded-lg ">
           <img
             src={power}
             alt=""
-            className="w-full h-full rounded-2xl object-cover xl:object-fill"
+            className="w-full h-full rounded-lg object-cover xl:object-fill"
           />
         </div>
       </div>

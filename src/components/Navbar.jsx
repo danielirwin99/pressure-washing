@@ -1,6 +1,5 @@
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
-import { GiHamburgerMenu } from "react-icons/gi";
 import Hamburger from "./UI/Hamburger";
 
 const Navbar = () => {
@@ -16,7 +15,12 @@ const Navbar = () => {
             src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Shamrock.svg"
             alt="Logo"
           />
-          <h1 className="font-bold text-2xl mb-1">Irwin Power Washing</h1>
+          <h1
+            className="font-bold text-2xl mb-1 text-gray-800"
+            style={{ textShadow: "4px 4px 3px rgba(0,0,0,0.1)" }}
+          >
+            Shamrock Exterior Cleaning
+          </h1>
         </a>
         <ul className="ms-auto flex space-x-10 items-center lg:items-end lg:mb-1">
           <li className="nav-item hidden lg:flex">
@@ -40,7 +44,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item hidden md:flex ">
-            <a className="nav-link text-center flex flex-col" href="#contact">
+            <a className="nav-link text-center flex flex-col" href="#quotes">
               <div className="flex justify-center items-center space-x-4">
                 <BsTelephone className="mr-3 " />
                 049943828
@@ -50,7 +54,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item lg:hidden">
             <a className="nav-link">
-              <Hamburger  />
+              <Hamburger />
             </a>
           </li>
         </ul>

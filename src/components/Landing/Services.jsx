@@ -15,7 +15,10 @@ const Services = () => {
       <h3 className="text-center text-cyan-500 tracking-[0.3em] font-semibold text-md lg:text-lg ">
         OUR SERVICES
       </h3>
-      <h2 className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider">
+      <h2
+        className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider"
+        style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
+      >
         What We Can Do
       </h2>
       <p className="mt-4 text-[1.2rem] font-normal leading-loose text-center">
