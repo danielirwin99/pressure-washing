@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#004358] flex flex-col justify-center items-center pt-9 md:pl-0 ">
+    <footer className="bg-[#004358] flex flex-col justify-center items-center pt-14 md:pl-0 ">
       <div className="flex items-center pb-10 max-w-5xl px-7">
         {/* <a
           href="#"
