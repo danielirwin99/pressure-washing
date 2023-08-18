@@ -176,6 +176,11 @@ html {
   .photos-container > img {
     height: 250px !important;
   }
+
+  .mobile {
+    padding: 14px 20px;
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 768px) {
