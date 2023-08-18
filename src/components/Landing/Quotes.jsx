@@ -19,7 +19,7 @@ const Quotes = () => {
               GET IN TOUCH TODAY
             </h3>
             <h2
-              className="text-center text-7xl font-bold text-white mt-7 tracking-wider"
+              className="text-center text-5xl lg:text-7xl font-bold text-white mt-7 tracking-wider"
               style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.2)" }}
             >
               Contact Us
