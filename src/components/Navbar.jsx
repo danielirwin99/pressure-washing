@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="static md:sticky h-[88px] top-0 z-[999] w-full bg-white py-4 px-4 lg:px-20 border-b-2 border-b-gray-200">
       <div className="flex justify-around items-center">
         <a
-          className="flex items-center lg:items-end justify-center space-x-4"
+          className="flex items-center justify-center space-x-4"
           href="/"
         >
           <img
