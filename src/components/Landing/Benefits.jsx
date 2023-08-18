@@ -2,21 +2,21 @@ import React from "react";
 
 const Benefits = () => {
   return (
-    <section id="benefits" className="bg-gray-200 ">
-      <div className="flex flex-col w-full justify-center px-10 lg:px-20 py-20 mt-10">
+    <section id="benefits" className="bg-[#004358] gradient ">
+      <div className="flex flex-col w-full justify-center px-10 lg:px-20 pt-10 pb-5 mt-10">
         {/* <h3 className="text-[aqua] tracking-[0.3em] font-semibold text-lg ">
           GET A FREE QUOTE TODAY
         </h3> */}
         <h2
-          className="text-3xl font-bold  mt-1 tracking-wider mb-4 text-blue-500"
+          className="text-3xl font-extrabold  mt-1 tracking-wider mb-4 text-cyan-300"
           style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
         >
           Benefits of Pressuring Cleaning
         </h2>
-        <div className="space-y-6">
+        <div className="space-y-6 text-white">
           <p>
             1.{" "}
-            <span className="font-bold italic text-red-800 underline">
+            <span className="font-extrabold italic text-red-600 underline">
               {" "}
               Prevent Costly Repairs
             </span>{" "}
@@ -30,7 +30,7 @@ const Benefits = () => {
           </p>
           <p>
             2.{" "}
-            <span className="font-bold italic text-red-800 underline">
+            <span className="font-extrabold italic text-red-600 underline">
               {" "}
               Enhanced Property Value{" "}
             </span>{" "}
@@ -44,7 +44,7 @@ const Benefits = () => {
           </p>
           <p>
             3.{" "}
-            <span className="font-bold italic text-red-800 underline">
+            <span className="font-extrabold italic text-red-600 underline">
               {" "}
               Health and Safety
             </span>{" "}
@@ -57,7 +57,7 @@ const Benefits = () => {
           </p>
           <p>
             4.{" "}
-            <span className="font-bold italic text-red-800 underline">
+            <span className="font-extrabold italic text-red-600 underline">
               {" "}
               Saves Time
             </span>{" "}
@@ -67,6 +67,9 @@ const Benefits = () => {
             working around your schedule to save you even more time.
           </p>
         </div>
+        <p className="py-5 text-cyan-300 text-lg font-extrabold tracking-wide">
+          Get In Touch Shamrock Cleaning Today!
+        </p>
       </div>
     </section>
   );

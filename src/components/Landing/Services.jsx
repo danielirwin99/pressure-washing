@@ -12,7 +12,7 @@ import {
 const Services = () => {
   return (
     <section id="services" className="mt-24 md:mx-10">
-      <h3 className="text-center text-cyan-500 tracking-[0.3em] font-semibold text-md lg:text-lg ">
+      <h3 className="text-center from-gray-700 to-cyan-400 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.3em] font-semibold text-md lg:text-lg ">
         OUR SERVICES
       </h3>
       <h2

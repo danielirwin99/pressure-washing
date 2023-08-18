@@ -4,13 +4,16 @@ import { BsTelephone } from "react-icons/bs";
 
 const About = () => {
   return (
-    <section id="about" className="my-14 max-w-[1600px] mx-auto">
+    <section id="about" className="my-14 max-w-[1700px] mx-auto">
       <div className="flex flex-wrap h-full mx-10">
         <div className="w-full flex flex-col justify-center xl:w-1/2 mb-10 text-center lg:text-start xl:mb-0 pr-0 lg:pr-14">
-          <h3 className="text-center text-cyan-500 tracking-[0.3em] font-bold text-md lg:text-lg ">
+          <h3 className="text-center from-gray-700 to-cyan-400 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.3em] font-bold text-md lg:text-lg ">
             ABOUT US
           </h3>
-          <h2 className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider" style={{textShadow:"2px 4px 3px rgba(0,0,0,0.1)"}}>
+          <h2
+            className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider"
+            style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
+          >
             Full Service Exterior Cleaners You Can Trust
           </h2>
           <p className="mt-14 text-[1.2rem] text-center xl:text-start leading-loose">

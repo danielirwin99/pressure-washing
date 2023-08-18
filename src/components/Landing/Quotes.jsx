@@ -9,23 +9,23 @@ const Quotes = () => {
           <img
             src={clean}
             alt="Header Img"
-            className="w-full h-full lg:object-fill object-cover brightness-50"
+            className="w-full h-full lg:object-fill object-cover brightness-[.45]"
           />
         </div>
         <div className="flex flex-wrap justify-around w-full">
           {/* Our Left Side of the Contact */}
-          <div className="w-full flex flex-col justify-center items-center lg:w-2/5 mb-20 lg:mb-0 lg:pr-40">
-            <h3 className="text-center text-[aqua] tracking-widest font-semibold text-xl ">
+          <div className="w-full flex flex-col justify-center items-center lg:w-2/5 mb-20 lg:mb-0 lg:pr-30">
+            <h3 className="text-center text-cyan-300 tracking-widest font-semibold text-xl ">
               GET IN TOUCH TODAY
             </h3>
             <h2
-              className="text-center text-6xl font-bold text-white mt-7 tracking-wider"
+              className="text-center text-7xl font-bold text-white mt-7 tracking-wider"
               style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.2)" }}
             >
               Contact Us
             </h2>
             <img
-              className="mt-5 h-52 w-52"
+              className="mt-7 h-52 w-52 drop-shadow-lg"
               src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Shamrock.svg"
               alt=""
             />
@@ -36,7 +36,7 @@ const Quotes = () => {
               <h2 className="font-semibold text-sm tracking-wide mb-5 text-cyan-500">
                 ASK US FOR A FREE QUOTE
               </h2>
-              <h2 className="font-bold text-3xl text-gray-800 mb-5">
+              <h2 className="font-extrabold text-3xl  mb-5 from-gray-700 via-cyan-500 to-white bg-gradient-to-r bg-clip-text text-transparent">
                 Contact Form
               </h2>
               <p className="mb-3">
