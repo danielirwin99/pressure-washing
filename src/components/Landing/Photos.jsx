@@ -25,44 +25,44 @@ const Photos = () => {
         <p></p>
         <div className="mt-5 md:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
           <figure className="photos-container">
-            <div className="h-full flex">
+            <div className="h-full flex overflow-hidden ">
               <img
                 src={before1}
                 alt="before3"
-                className="w-1/2 h-full object-fill rounded-l-md"
+                className="w-1/2 h-full object-fill rounded-l-md hover:scale-105 duration-150 ease-in-out"
               />
               <img
                 src={after1}
                 alt="before3"
-                className="w-1/2 h-full object-fill rounded-r-md"
+                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 duration-150 ease-in-out"
               />
             </div>
           </figure>
           <figure className="photos-container">
-            <div className="h-full flex">
+            <div className="h-full flex overflow-hidden ">
               <img
                 src={before2}
                 alt="before3"
-                className="w-1/2 h-full object-fill rounded-l-md"
+                className="w-1/2 h-full object-fill rounded-l-md hover:scale-105 duration-150 ease-in-out"
               />
               <img
                 src={after2}
                 alt="before3"
-                className="w-1/2 h-full object-fill rounded-r-md"
+                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 rounded-l-md duration-150 ease-in-out"
               />
             </div>
           </figure>
           <figure className="photos-container">
-            <div className="h-full flex">
+            <div className="h-full flex overflow-hidden ">
               <img
                 src={before3}
                 alt="before3"
-                className="w-1/2 h-full object-fill rounded-l-md"
+                className="w-1/2 h-full object-fill hover:scale-105 rounded-l-md duration-150 ease-in-out"
               />
               <img
                 src={after3}
                 alt="before3"
-                className="w-1/2 h-full object-fill rounded-r-md"
+                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 rounded-l-md duration-150 ease-in-out"
               />
             </div>
           </figure>
@@ -70,7 +70,7 @@ const Photos = () => {
             <img
               src={before4}
               alt="before4"
-              className="w-full h-full object-fill rounded-md mt-5 lg:mt-0 "
+              className="w-full h-full object-fill rounded-md lg:mt-0  "
             />
           </figure>
         </div>

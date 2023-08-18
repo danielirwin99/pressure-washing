@@ -42,11 +42,12 @@ html {
 }
 
 .nav-link {
-  transition: all 300ms ease;
+  transition: all 150ms ease-in;
 }
 
 .nav-link:hover {
   color: aqua;
+  transform: scale(1.03);
 }
 
 .template-shadow {
@@ -61,7 +62,7 @@ html {
   appearance: none;
   background-color: #000000;
   border: 2px solid #1a1a1a;
-  border-radius: 15px;
+  border-radius: 16px;
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;

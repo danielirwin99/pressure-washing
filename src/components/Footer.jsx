@@ -35,11 +35,11 @@ const Footer = () => {
           <div className="lg:flex flex-col text-xs md:text-sm lg:text-md hidden">
             <ul className="flex flex-col text-xs md:text-sm ">
               <p className="text-white font-bold">SERVICES</p>
-              <a className="text-white py-2 pt-5">Pressure Washing</a>
-              <a className="text-white py-2 ">Driveway Sealing</a>
-              <a className="text-white py-2 ">Window Cleaning</a>
-              <a className="text-white py-2 ">Hedging & Trimming</a>
-              <a className="text-white py-2 ">Garden Maintenance</a>
+              <a className="text-white py-3 pt-5">Pressure Washing</a>
+              <a className="text-white py-3 ">Driveway Sealing</a>
+              <a className="text-white py-3 ">Window Cleaning</a>
+              <a className="text-white py-3 ">Hedging & Trimming</a>
+              <a className="text-white py-3 ">Garden Maintenance</a>
             </ul>
           </div>
           <div className="flex flex-col text-xs md:text-sm lg:text-md -ml-3">
