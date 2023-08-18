@@ -25,14 +25,14 @@ const About = () => {
             and friendly service at affordable prices. <br /> We are available
             throughout Sydney and Illawarra Areas{" "}
           </p>
-          <div className="quote-now mt-14 mx-auto template-shadow">
-            <h4 className="font-semibold mb-1 text-lg tracking-wide">
+          <div className="quote-now mt-6 md:mt-14 mx-auto template-shadow">
+            <h4 className="font-semibold mb-1 text-md md:text-lg tracking-wide">
               Call Now For Your Free Quote
             </h4>
             <div className="flex items-center justify-center">
               <div className="flex justify-center items-center space-x-3 ">
                 <BsTelephone />
-                <p className="text-center font-bold tracking-widest">
+                <p className="text-center ty font-bold tracking-widest">
                   0434448854
                 </p>
               </div>

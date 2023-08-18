@@ -45,7 +45,7 @@ const Footer = () => {
           <div className="flex flex-col text-xs md:text-sm lg:text-md -ml-3">
             <p className="text-white font-bold">CONTACT US</p>
             <p className="text-white space-y-1 py-4">
-              We Cater All South Sydney Wide Services <br /> Company based in in
+              We Cater All South Sydney & Illawarra Services <br /> Company based in in
               Sydney NSW
             </p>
             <p className="text-white space-y-1 py-4">
