@@ -36,7 +36,7 @@ const Footer = () => {
             <ul className="flex flex-col text-xs md:text-sm ">
               <p className="text-white font-bold">SERVICES</p>
               <a href="#" className="text-white py-2 pt-4">
-                Powerwashing
+                Pressure Washing
               </a>
               <a href="#about" className="text-white py-2 ">
                 Driveway Sealing
@@ -73,8 +73,8 @@ const Footer = () => {
       </div>
       <div className="bg-white w-full py-6">
         <h2 className=" text-sm lg:text-md px-3 text-center ">
-          Copyright &copy; {`${new Date().getFullYear()}`} Shamrock Exterior . All
-          Rights Reserved
+          Copyright &copy; {`${new Date().getFullYear()}`} Shamrock Exterior .
+          All Rights Reserved
         </h2>
       </div>
     </footer>
