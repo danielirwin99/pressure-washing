@@ -22,7 +22,7 @@ const Navbar = () => {
             Shamrock Exterior Cleaning
           </h1>
         </a>
-        <ul className="ms-auto flex space-x-10 items-center lg:items-end lg:mb-1">
+        <ul className="ms-auto flex lg:space-x-10 items-center lg:items-end lg:mb-1">
           <li className="nav-item hidden lg:flex">
             <a className="nav-link" href="#about">
               About

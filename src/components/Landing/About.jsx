@@ -1,11 +1,11 @@
 import React from "react";
-import power from "../../assets/power.webp";
 import { BsTelephone } from "react-icons/bs";
+import { about } from "../../assets";
 
 const About = () => {
   return (
     <section id="about" className="my-14 max-w-[1700px] mx-auto">
-      <div className="flex flex-wrap h-full mx-10">
+      <div className="flex flex-wrap h-full mx-5 lg:mx-10">
         <div className="w-full flex flex-col justify-center xl:w-1/2 mb-10 text-center lg:text-start xl:mb-0 pr-0 lg:pr-14">
           <h3 className="text-center from-gray-700 to-cyan-400 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.3em] font-bold text-md lg:text-lg ">
             ABOUT US
@@ -17,8 +17,8 @@ const About = () => {
             Full Service Exterior Cleaners You Can Trust
           </h2>
           <p className="mt-14 text-[1.2rem] text-center xl:text-start leading-loose">
-            Irwin Pressure Washing provides a brilliant finish to your exterior
-            surfaces.
+            Shamrock Exterior Cleaning provides a brilliant finish to your
+            exterior surfaces.
           </p>
           <p className="mt-5 lg:mt-0 text-[1.2rem] text-center xl:text-start  leading-loose">
             We pride ourselves on our ability to provide outstanding, reliable
@@ -39,11 +39,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-full xl:w-1/2 h-[500px] xl:h-auto template-shadow rounded-lg ">
+        <div className="w-full xl:w-1/2 h-[500px] xl:h-auto template-shadow rounded-md ">
           <img
-            src={power}
+            src={about}
             alt=""
-            className="w-full h-full rounded-lg object-cover xl:object-fill"
+            className="w-full h-full rounded-md object-cover xl:object-fill"
           />
         </div>
       </div>

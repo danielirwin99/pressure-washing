@@ -2,7 +2,7 @@
 // import before2 from "./before2.jpg";
 // import before3 from "./before3.jpg";
 import clean from "./clean.jpg";
-import image from "./power.webp";
+import about from "./about.jpg";
 import service1 from "./service1.jpg";
 import service2 from "./service2.jpeg";
 import service3 from "./service3.jpg";
@@ -15,7 +15,7 @@ export {
   // before2,
   // before3,
   clean,
-  image,
+  about,
   service1,
   service2,
   service3,
