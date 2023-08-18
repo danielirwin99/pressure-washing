@@ -16,13 +16,13 @@ const Navbar = () => {
             alt="Logo"
           />
           <h1
-            className="font-bold text-2xl mb-1 text-gray-800"
+            className="font-bold text-2xl text-gray-800"
             style={{ textShadow: "4px 4px 3px rgba(0,0,0,0.1)" }}
           >
             Shamrock Exterior Cleaning
           </h1>
         </a>
-        <ul className="ms-auto flex lg:space-x-10 items-center lg:items-end lg:mb-1">
+        <ul className="ms-auto flex lg:space-x-10 items-center ">
           <li className="nav-item hidden lg:flex">
             <a className="nav-link" href="#about">
               About
