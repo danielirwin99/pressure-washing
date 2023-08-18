@@ -80,7 +80,7 @@ const Benefits = () => {
             </p>
           </div>
         </div>
-        <p className="py-5 text-center text-cyan-300 text-lg font-extrabold tracking-wide">
+        <p className="py-5 text-center mt-2 text-cyan-300 text-lg font-extrabold tracking-wide">
           Get In Touch With Shamrock Cleaning Today!
         </p>
       </div>
