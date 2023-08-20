@@ -6,10 +6,7 @@ const Navbar = () => {
   return (
     <nav className="static md:sticky top-0 z-[999] w-full bg-white py-4 px-4 lg:px-20 border-b-2 border-b-gray-200">
       <div className="flex justify-around items-center">
-        <a
-          className="flex items-center justify-center space-x-4"
-          href="/"
-        >
+        <a className="flex items-center justify-center space-x-4" href="/">
           <img
             className="lg:h-14 lg:w-14 w-10 h-10"
             src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Shamrock.svg"
@@ -44,7 +41,10 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item hidden md:flex ">
-            <a className="nav-link text-center flex flex-col" href="#quotes">
+            <a
+              className="nav-link text-center flex flex-col"
+              href="tel:0417477117"
+            >
               <div className="flex justify-center items-center space-x-4">
                 <BsTelephone className="mr-3 " />
                 049943828

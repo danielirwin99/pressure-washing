@@ -32,7 +32,7 @@ const Header = () => {
           </div>
           <a
             href="#quotes"
-            className="contact-now header-button z-50 !text-2xl "
+            className="contact-now header-button z-50 !text-xl "
           >
             Get Your Free Quote
           </a>
