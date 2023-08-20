@@ -45,15 +45,21 @@ const Footer = () => {
           <div className="flex flex-col text-xs md:text-sm lg:text-md -ml-3">
             <p className="text-white font-bold">CONTACT US</p>
             <p className="text-white space-y-1 py-4">
-              We Cater All South Sydney & Illawarra Services <br /> Company based in in
-              Sydney NSW
+              We Cater All South Sydney & Illawarra Services <br /> Company
+              based in in Sydney NSW
             </p>
             <p className="text-white space-y-1 py-4">
-              Phone : <a href="tel:+61417477117" className="underline font-bold">0417477887</a>
+              Phone :{" "}
+              <a href="tel:0417477117" className="hover:underline font-bold">
+                0417477887
+              </a>
             </p>
             <p className="text-white space-y-1 py-4">
               Email:{" "}
-              <a className="hover:underline font-bold" href="mailto:email@sample.com">
+              <a
+                className="hover:underline font-bold"
+                href="mailto:email@sample.com"
+              >
                 irwin@powerwashings.com.au
               </a>
             </p>
