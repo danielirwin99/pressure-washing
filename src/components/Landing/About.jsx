@@ -25,7 +25,7 @@ const About = () => {
             and friendly service at affordable prices. <br /> We are available
             throughout Sydney and Illawarra Areas{" "}
           </p>
-          <div className="quote-now mt-6 md:mt-14 mx-auto template-shadow">
+          <div className="quote-now mt-6 md:mt-10 mx-auto template-shadow">
             <h4 className="font-semibold mb-1 text-md md:text-lg tracking-wide">
               Call Now For Your Free Quote
             </h4>
