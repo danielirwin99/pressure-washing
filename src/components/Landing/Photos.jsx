@@ -25,7 +25,7 @@ const Photos = () => {
         <p></p>
         <div className="mt-5 md:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
           <figure className="photos-container">
-            <div className="h-full flex overflow-hidden ">
+            <div className="h-full flex overflow-hidden rounded-md ">
               <img
                 src={before1}
                 alt="before3"
@@ -39,7 +39,7 @@ const Photos = () => {
             </div>
           </figure>
           <figure className="photos-container">
-            <div className="h-full flex overflow-hidden ">
+            <div className="h-full flex overflow-hidden rounded-md ">
               <img
                 src={before2}
                 alt="before3"
@@ -48,12 +48,12 @@ const Photos = () => {
               <img
                 src={after2}
                 alt="before3"
-                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 rounded-l-md duration-150 ease-in-out"
+                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105  duration-150 ease-in-out"
               />
             </div>
           </figure>
           <figure className="photos-container">
-            <div className="h-full flex overflow-hidden ">
+            <div className="h-full flex overflow-hidden rounded-md">
               <img
                 src={before3}
                 alt="before3"
@@ -62,7 +62,7 @@ const Photos = () => {
               <img
                 src={after3}
                 alt="before3"
-                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 rounded-l-md duration-150 ease-in-out"
+                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 duration-150 ease-in-out"
               />
             </div>
           </figure>
