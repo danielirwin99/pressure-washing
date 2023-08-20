@@ -49,11 +49,11 @@ const Footer = () => {
               Sydney NSW
             </p>
             <p className="text-white space-y-1 py-4">
-              Phone : <span>041448833</span>
+              Phone : <a href="tel:+61417477117" className="underline font-bold">0417477887</a>
             </p>
             <p className="text-white space-y-1 py-4">
               Email:{" "}
-              <a className="hover:underline" href="mailto:email@sample.com">
+              <a className="hover:underline font-bold" href="mailto:email@sample.com">
                 irwin@powerwashings.com.au
               </a>
             </p>
