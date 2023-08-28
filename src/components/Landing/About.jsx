@@ -18,24 +18,24 @@ const About = () => {
             Full Service Exterior Cleaners You Can Trust
           </h2>
           <ul className="space-y-2">
-            <li className="mt-14 flex items-center space-x-2">
-              <BiCheck className="h-8 w-8" />
-              <p className=" text-base w-4/5 leading-loose">
+            <li className="mt-14 flex items-start space-x-3">
+              <BiCheck className="h-9 w-9 text-cyan-500" />
+              <p className=" text-start w-full leading-loose">
                 Total Exterior Cleaning provides a brilliant finish to your
                 exterior surfaces.
               </p>
             </li>
-            <li className="flex items-center space-x-2">
-              <BiCheck className="h-8 w-8" />
-              <p className="w-4/5    leading-loose">
+            <li className="flex items-start space-x-3">
+              <BiCheck className="h-9 w-9 text-cyan-500" />
+              <p className="w-full text-start leading-loose">
                 We pride ourselves on our ability to provide outstanding,
                 reliable and friendly service at affordable prices.
               </p>
             </li>
 
-            <li className="flex items-center space-x-2">
-              <BiCheck className="h-8 w-8" />
-              <p className="w-4/5   leading-loose">
+            <li className="flex items-start space-x-3">
+              <BiCheck className="h-9 w-9 text-cyan-500" />
+              <p className="w-full text-start leading-loose">
                 We are available throughout Sydney and Illawarra Areas
               </p>
             </li>
