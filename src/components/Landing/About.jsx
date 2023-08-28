@@ -1,5 +1,6 @@
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
+import { BiCheck } from "react-icons/bi";
 import { about } from "../../assets";
 
 const About = () => {
@@ -16,26 +17,43 @@ const About = () => {
           >
             Full Service Exterior Cleaners You Can Trust
           </h2>
-          <p className="mt-14 text-[1.2rem] text-center xl:text-start leading-loose">
-            Shamrock Exterior Cleaning provides a brilliant finish to your
-            exterior surfaces.
-          </p>
-          <p className="mt-5 lg:mt-0 text-[1.2rem] text-center xl:text-start  leading-loose">
-            We pride ourselves on our ability to provide outstanding, reliable
-            and friendly service at affordable prices. <br /> We are available
-            throughout Sydney and Illawarra Areas{" "}
-          </p>
+          <ul className="space-y-2">
+            <li className="mt-14 flex items-center space-x-2">
+              <BiCheck className="h-8 w-8" />
+              <p className=" text-base w-4/5 leading-loose">
+                Total Exterior Cleaning provides a brilliant finish to your
+                exterior surfaces.
+              </p>
+            </li>
+            <li className="flex items-center space-x-2">
+              <BiCheck className="h-8 w-8" />
+              <p className="w-4/5    leading-loose">
+                We pride ourselves on our ability to provide outstanding,
+                reliable and friendly service at affordable prices.
+              </p>
+            </li>
+
+            <li className="flex items-center space-x-2">
+              <BiCheck className="h-8 w-8" />
+              <p className="w-4/5   leading-loose">
+                We are available throughout Sydney and Illawarra Areas
+              </p>
+            </li>
+          </ul>
           <div className="quote-now mt-6 md:mt-10 mx-auto template-shadow">
             <h4 className="font-semibold mb-1 text-md md:text-lg tracking-wide">
               Call Now For Your Free Quote
             </h4>
             <div className="flex items-center justify-center">
-              <div className="flex justify-center items-center space-x-3 ">
+              <a
+                href="tel:0417477117"
+                className="flex justify-center items-center space-x-3 "
+              >
                 <BsTelephone />
                 <p className="text-center ty font-bold tracking-widest">
-                  0434448854
+                  0417 477 117
                 </p>
-              </div>
+              </a>
             </div>
           </div>
         </div>

@@ -41,7 +41,22 @@ const Services = () => {
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
-
+        <div className="services-tabs">
+          <img
+            src={service3}
+            alt="service1"
+            className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
+          />
+          <BsHouseDoor className="text-white text-4xl" />
+          <h2 className="services-header">Window Cleaning</h2>
+          <a
+            className="flex justify-center items-center services-quote"
+            href="#quotes"
+          >
+            <p className="">Get a Quote</p>
+            <BsArrowRight className="ml-2 text-xl" />
+          </a>
+        </div>
         <div className="services-tabs ">
           <img
             src={service2}
@@ -58,22 +73,7 @@ const Services = () => {
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
-        <div className="services-tabs">
-          <img
-            src={service3}
-            alt="service1"
-            className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
-          />
-          <BsHouseDoor className="text-white text-4xl" />
-          <h2 className="services-header">Garden Maintenance</h2>
-          <a
-            className="flex justify-center items-center services-quote"
-            href="#quotes"
-          >
-            <p className="">Get a Quote</p>
-            <BsArrowRight className="ml-2 text-xl" />
-          </a>
-        </div>
+
         <div className="services-tabs">
           <img
             src={service4}
@@ -90,16 +90,14 @@ const Services = () => {
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
-        <div className="services-tabs">
+        <div className="services-tabs ">
           <img
-            src={service5}
+            src={service6}
             alt="service1"
             className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl" />
-          <h2 className="services-header ml-5 md:ml-0">
-            Other Exterior Cleaning
-          </h2>
+          <h2 className="services-header">Gutter Maintenance</h2>
           <a
             className="flex justify-center items-center services-quote"
             href="#quotes"
@@ -108,14 +106,14 @@ const Services = () => {
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
-        <div className="services-tabs ">
+        <div className="services-tabs">
           <img
-            src={service6}
+            src={service5}
             alt="service1"
             className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl" />
-          <h2 className="services-header">Hedge Trimming</h2>
+          <h2 className="services-header md:ml-0">Exterior Cleaning</h2>
           <a
             className="flex justify-center items-center services-quote"
             href="#quotes"

@@ -16,7 +16,7 @@ const Navbar = () => {
             className="font-bold text-2xl text-gray-800"
             style={{ textShadow: "4px 4px 3px rgba(0,0,0,0.1)" }}
           >
-            Shamrock Exterior Cleaning
+            Total Exterior Cleaning
           </h1>
         </a>
         <ul className="ms-auto flex lg:space-x-10 items-center ">
@@ -41,13 +41,10 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item hidden md:flex ">
-            <a
-              className="nav-link text-center flex flex-col"
-              href="tel:0417477117"
-            >
+            <a className="nav-link text-center flex flex-col">
               <div className="flex justify-center items-center space-x-4">
                 <BsTelephone className="mr-3 " />
-                049943828
+                0417 477 117
               </div>
               <p className="">Call now for a free quote</p>
             </a>

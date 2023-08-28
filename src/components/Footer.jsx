@@ -18,7 +18,7 @@ const Footer = () => {
         </a> */}
         <div className="grid grid-cols-2 lg:grid-cols-3 lg:text-md">
           <ul className="flex flex-col text-xs md:text-sm lg:text-md ">
-            <p className="text-white font-bold">QUICK LINKS</p>
+            <p className="text-white font-extrabold">QUICK LINKS</p>
             <a href="#" className="footerLinks">
               Home
             </a>
@@ -34,16 +34,15 @@ const Footer = () => {
           </ul>
           <div className="lg:flex flex-col text-xs md:text-sm lg:text-md hidden">
             <ul className="flex flex-col text-xs md:text-sm ">
-              <p className="text-white font-bold">SERVICES</p>
+              <p className="text-white font-extrabold">SERVICES</p>
               <a className="text-white py-3 pt-5">Pressure Washing</a>
               <a className="text-white py-3 ">Driveway Sealing</a>
               <a className="text-white py-3 ">Window Cleaning</a>
-              <a className="text-white py-3 ">Hedging & Trimming</a>
-              <a className="text-white py-3 ">Garden Maintenance</a>
+              <a className="text-white py-3 ">Gutter &nbsp; Vacuuming</a>
             </ul>
           </div>
           <div className="flex flex-col text-xs md:text-sm lg:text-md -ml-3">
-            <p className="text-white font-bold">CONTACT US</p>
+            <p className="text-white font-extrabold">CONTACT US</p>
             <p className="text-white space-y-1 py-4">
               We Cater All South Sydney & Illawarra Services <br /> Company
               based in in Sydney NSW
@@ -51,7 +50,7 @@ const Footer = () => {
             <p className="text-white space-y-1 py-4">
               Phone :{" "}
               <a href="tel:0417477117" className="hover:underline font-bold">
-                0417477887
+                0417 477 117
               </a>
             </p>
             <p className="text-white space-y-1 py-4">
@@ -69,8 +68,8 @@ const Footer = () => {
       </div>
       <div className="bg-white w-full py-6">
         <h2 className=" text-sm lg:text-md px-3 text-center ">
-          Copyright &copy; {`${new Date().getFullYear()}`} Shamrock Exterior .
-          All Rights Reserved
+          Copyright &copy; {`${new Date().getFullYear()}`} Shamrock Exterior.
+          &nbsp; All Rights Reserved
         </h2>
       </div>
     </footer>

@@ -22,13 +22,16 @@ const Header = () => {
         </div>
         <div className="flex h-full z-10 w-full flex-col justify-center items-center">
           <h1 className="text-white font-bold text-center text-4xl lg:text-7xl z-10 tracking-wider text-shadow">
-            Shamrock Exterior Cleaning
+            Total Exterior Cleaning
           </h1>
           <div className="flex items-center justify-center mt-10">
-            <BsTelephone className="mr-3 text-3xl text-cyan-300 text-shadow" />
-            <h2 className="text-4xl font-bold text-cyan-300 text-shadow">
-              043444342
-            </h2>
+            <BsTelephone className="mr-3 text-2xl text-cyan-300 text-shadow" />
+            <a
+              href="tel:0417477117"
+              className="text-2xl font-bold text-cyan-300 text-shadow"
+            >
+              0417 477 117
+            </a>
           </div>
           <a
             href="#quotes"
@@ -37,7 +40,7 @@ const Header = () => {
             Get Your Free Quote
           </a>
         </div>
-        <div className="absolute xs:bottom-10 bottom-10 w-full flex justify-center items-center">
+        <div className="absolute xs:bottom-10 bottom-8 w-full flex justify-center items-center">
           <a href="#about">
             <div className="w-[35px] h-[64px] rounded-3xl border-4 border-white flex justify-center items-start p-2">
               <motion.div
