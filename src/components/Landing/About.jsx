@@ -20,32 +20,32 @@ const About = () => {
           <ul className="space-y-2">
             <li className="mt-14 flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
-              <p className=" text-start w-full leading-loose">
+              <p className=" text-start md:text-xl w-full leading-loose">
                 Total Exterior Cleaning provides a brilliant finish to your
                 exterior surfaces.
               </p>
             </li>
             <li className="flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
-              <p className="w-full text-start leading-loose">
-                Environmentally Friendly Cleaning Methods
+              <p className="w-full text-start md:text-xl  leading-loose">
+                Environmentally friendly cleaning methods
               </p>
             </li>
             <li className="flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
-              <p className="w-full text-start leading-loose">
+              <p className="w-full text-start md:text-xl  leading-loose">
                 Family Owned and Operated
               </p>
             </li>
             <li className="flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
-              <p className="w-full text-start leading-loose">
+              <p className="w-full text-start md:text-xl  leading-loose">
                 Reliable and friendly service at affordable prices.
               </p>
             </li>
             <li className="flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
-              <p className="w-full text-start leading-loose">
+              <p className="w-full text-start md:text-xl  leading-loose">
                 Servicing All Sydney and Illawarra Areas
               </p>
             </li>
