@@ -6,7 +6,7 @@ import { BsTelephone } from "react-icons/bs";
 const Header = () => {
   return (
     <>
-      <header className="h-[calc(100vh-82px)] relative ">
+      <header className="h-[calc(100vh-72px)] lg:h-[calc(100vh-82px)] relative ">
         {/* FIXED BUTTON */}
         <div className="fixed bottom-5 right-4 sm:bottom-7 sm:right-5 z-[999] template-shadow rounded-2xl">
           <a href="#quotes" className="contact-now mobile">

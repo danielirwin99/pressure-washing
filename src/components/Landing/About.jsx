@@ -27,16 +27,19 @@ const About = () => {
             </li>
             <li className="flex items-start space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
+              <p className="w-full text-start leading-loose">Owner Operated</p>
+            </li>
+            <li className="flex items-start space-x-3">
+              <BiCheck className="h-9 w-9 text-cyan-500" />
               <p className="w-full text-start leading-loose">
                 We pride ourselves on our ability to provide outstanding,
                 reliable and friendly service at affordable prices.
               </p>
             </li>
-
             <li className="flex items-start space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
               <p className="w-full text-start leading-loose">
-                We are available throughout Sydney and Illawarra Areas
+                Servicing All Sydney and Illawarra Areas
               </p>
             </li>
           </ul>

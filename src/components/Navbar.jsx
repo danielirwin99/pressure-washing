@@ -4,11 +4,11 @@ import Hamburger from "./UI/Hamburger";
 
 const Navbar = () => {
   return (
-    <nav className="static md:sticky top-0 z-[999] w-full bg-white py-2 px-4 lg:px-20 border-b-2 border-b-gray-200">
+    <nav className="static md:sticky top-0 z-[999] w-full bg-white py-2 px-4 xl:px-20 lg:px-10 border-b-2 border-b-gray-200">
       <div className="flex justify-around items-center">
         <a className="flex items-center justify-center space-x-4" href="/">
           <img
-            className="lg:h-12 lg:w-12 w-10 h-10"
+            className="w-10 h-10"
             src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Shamrock.svg"
             alt="Logo"
           />
