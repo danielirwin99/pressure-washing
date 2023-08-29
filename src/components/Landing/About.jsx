@@ -1,7 +1,7 @@
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
 import { BiCheck } from "react-icons/bi";
-import { about } from "../../assets";
+import { about, service1, service6 } from "../../assets";
 
 const About = () => {
   return (
@@ -68,11 +68,18 @@ const About = () => {
           </div>
         </div>
         <div className="w-full xl:w-1/2 h-[500px] xl:h-auto template-shadow rounded-md ">
-          <img
-            src={about}
-            alt=""
-            className="w-full h-full rounded-md object-cover xl:object-fill"
-          />
+          <figure className="w-full relative flex h-full">
+            <img
+              src={service6}
+              alt=""
+              className="absolute w-full h-full rounded-md object-cover xl:object-fill image1"
+            />
+            <img
+              src={about}
+              className="absolute w-full h-full rounded-md object-cover xl:object-fill image2"
+              alt=""
+            />
+          </figure>
         </div>
       </div>
     </section>
