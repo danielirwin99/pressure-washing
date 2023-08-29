@@ -18,25 +18,32 @@ const About = () => {
             Full Service Exterior Cleaners You Can Trust
           </h2>
           <ul className="space-y-2">
-            <li className="mt-14 flex items-start space-x-3">
+            <li className="mt-14 flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
               <p className=" text-start w-full leading-loose">
                 Total Exterior Cleaning provides a brilliant finish to your
                 exterior surfaces.
               </p>
             </li>
-            <li className="flex items-start space-x-3">
-              <BiCheck className="h-9 w-9 text-cyan-500" />
-              <p className="w-full text-start leading-loose">Owner Operated</p>
-            </li>
-            <li className="flex items-start space-x-3">
+            <li className="flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
               <p className="w-full text-start leading-loose">
-                We pride ourselves on our ability to provide outstanding,
-                reliable and friendly service at affordable prices.
+                Environmentally Friendly Cleaning Methods
               </p>
             </li>
-            <li className="flex items-start space-x-3">
+            <li className="flex items-center space-x-3">
+              <BiCheck className="h-9 w-9 text-cyan-500" />
+              <p className="w-full text-start leading-loose">
+                Family Owned and Operated
+              </p>
+            </li>
+            <li className="flex items-center space-x-3">
+              <BiCheck className="h-9 w-9 text-cyan-500" />
+              <p className="w-full text-start leading-loose">
+                Reliable and friendly service at affordable prices.
+              </p>
+            </li>
+            <li className="flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
               <p className="w-full text-start leading-loose">
                 Servicing All Sydney and Illawarra Areas
