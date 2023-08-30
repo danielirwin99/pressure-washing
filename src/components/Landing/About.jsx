@@ -1,7 +1,7 @@
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
 import { BiCheck } from "react-icons/bi";
-import { about } from "../../assets";
+import { about, service1, service6 } from "../../assets";
 
 const About = () => {
   return (
@@ -18,27 +18,34 @@ const About = () => {
             Full Service Exterior Cleaners You Can Trust
           </h2>
           <ul className="space-y-2">
-            <li className="mt-10 flex items-start space-x-3">
+            <li className="mt-14 flex items-start space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
-              <p className=" text-start w-full leading-loose">
+              <p className=" text-start md:text-xl w-full leading-loose">
                 Total Exterior Cleaning provides a brilliant finish to your
                 exterior surfaces.
               </p>
             </li>
-            <li className="flex items-start space-x-3">
+            <li className="flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
-              <p className="w-full text-start leading-loose">Owner Operated</p>
-            </li>
-            <li className="flex items-start space-x-3">
-              <BiCheck className="h-9 w-9 text-cyan-500" />
-              <p className="w-full text-start leading-loose">
-                We pride ourselves on our ability to provide outstanding,
-                reliable and friendly service at affordable prices.
+              <p className="w-full text-start md:text-xl  leading-loose">
+                Environmentally friendly cleaning methods
               </p>
             </li>
-            <li className="flex items-start space-x-3">
+            <li className="flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
-              <p className="w-full text-start leading-loose">
+              <p className="w-full text-start md:text-xl  leading-loose">
+                Family Owned and Operated
+              </p>
+            </li>
+            <li className="flex items-center space-x-3">
+              <BiCheck className="h-9 w-9 text-cyan-500" />
+              <p className="w-full text-start md:text-xl  leading-loose">
+                Reliable and friendly service at affordable prices.
+              </p>
+            </li>
+            <li className="flex items-center space-x-3">
+              <BiCheck className="h-9 w-9 text-cyan-500" />
+              <p className="w-full text-start md:text-xl  leading-loose">
                 Servicing All Sydney and Illawarra Areas
               </p>
             </li>
@@ -60,7 +67,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-full xl:w-1/2 h-[300px] sm:h-[500px] xl:h-auto template-shadow rounded-md ">
+        <div className="w-full xl:w-1/2 h-[500px] xl:h-auto template-shadow rounded-md ">
           <img
             src={about}
             alt=""

@@ -68,7 +68,7 @@ const Footer = () => {
       </div>
       <div className="bg-white w-full py-6">
         <h2 className=" text-sm lg:text-md px-3 text-center ">
-          Copyright &copy; {`${new Date().getFullYear()}`} Shamrock Exterior.
+          Copyright &copy; {`${new Date().getFullYear()}`} Total Exterior Cleaning.
           &nbsp; All Rights Reserved
         </h2>
       </div>

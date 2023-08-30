@@ -81,7 +81,7 @@ const Benefits = () => {
           </div>
         </div>
         <p className="py-5 text-center mt-2 text-cyan-300 text-lg font-extrabold tracking-wide">
-          Get In Touch With Total Exterior Cleaning Today!
+          Get in touch With Total Exterior Cleaning today!
         </p>
       </div>
     </section>

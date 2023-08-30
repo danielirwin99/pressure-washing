@@ -6,7 +6,7 @@ import { BsTelephone } from "react-icons/bs";
 const Header = () => {
   return (
     <>
-      <header className="h-[calc(100vh-72px)] lg:h-[calc(100vh-82px)] relative ">
+      <header className="h-[calc(100vh-66px)] lg:h-[calc(100vh-66px)] relative ">
         {/* FIXED BUTTON */}
         <div className="fixed bottom-5 right-4 sm:bottom-7 sm:right-5 z-[999] template-shadow rounded-2xl">
           <a href="#quotes" className="contact-now mobile">
@@ -40,7 +40,7 @@ const Header = () => {
             Get Your Free Quote
           </a>
         </div>
-        <div className="absolute xs:bottom-10 bottom-8 w-full flex justify-center items-center">
+        <div className="absolute xs:bottom-10 bottom-8 w-full flex justify-center items-center template-shadow">
           <a href="#about">
             <div className="w-[35px] h-[64px] rounded-3xl border-4 border-white flex justify-center items-start p-2">
               <motion.div
