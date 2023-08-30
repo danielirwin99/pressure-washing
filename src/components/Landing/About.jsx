@@ -67,7 +67,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-full xl:w-1/2 h-[500px] xl:h-auto template-shadow rounded-md ">
+        <div className="w-full xl:w-1/2 h-[300px] md:h-[500px] xl:h-auto template-shadow rounded-md ">
           <img
             src={about}
             alt=""
