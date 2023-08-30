@@ -1,6 +1,6 @@
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
-import Hamburger from "./UI/Hamburger";
+// import Hamburger from "./UI/Hamburger";
 import BurgerBar from "./UI/BurgerBar";
 
 const Navbar = () => {
@@ -42,7 +42,10 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item hidden md:flex ">
-            <a className="nav-link text-center flex flex-col">
+            <a
+              href="tel:0417477117"
+              className="nav-link text-center flex flex-col"
+            >
               <div className="flex justify-center items-center text-sm lg:text-base">
                 <BsTelephone className="mr-3 " />
                 <span className="font-bold">0417 477 117</span>
