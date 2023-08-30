@@ -37,7 +37,7 @@ const Services = () => {
             className="flex justify-center items-center services-quote"
             href="#quotes"
           >
-            <p className="text-lg">Get a Quote</p>
+            <p className="text-sm">Get a Quote</p>
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
@@ -53,7 +53,7 @@ const Services = () => {
             className="flex justify-center items-center services-quote"
             href="#quotes"
           >
-            <p className="">Get a Quote</p>
+            <p className="text-sm">Get a Quote</p>
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
@@ -69,7 +69,7 @@ const Services = () => {
             className="flex justify-center items-center services-quote"
             href="#quotes"
           >
-            <p className="">Get a Quote</p>
+            <p className="text-sm">Get a Quote</p>
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
@@ -86,7 +86,7 @@ const Services = () => {
             className="flex justify-center items-center services-quote"
             href="#quotes"
           >
-            <p className="">Get a Quote</p>
+            <p className="text-sm">Get a Quote</p>
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
@@ -102,7 +102,7 @@ const Services = () => {
             className="flex justify-center items-center services-quote"
             href="#quotes"
           >
-            <p className="">Get a Quote</p>
+            <p className="text-sm">Get a Quote</p>
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
@@ -118,7 +118,7 @@ const Services = () => {
             className="flex justify-center items-center services-quote"
             href="#quotes"
           >
-            <p className="">Get a Quote</p>
+            <p className="text-sm">Get a Quote</p>
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>

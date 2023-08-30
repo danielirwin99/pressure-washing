@@ -1,6 +1,7 @@
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
 import Hamburger from "./UI/Hamburger";
+import BurgerBar from "./UI/BurgerBar";
 
 const Navbar = () => {
   return (
@@ -42,16 +43,19 @@ const Navbar = () => {
           </li>
           <li className="nav-item hidden md:flex ">
             <a className="nav-link text-center flex flex-col">
-              <div className="flex justify-center items-center space-x-4">
+              <div className="flex justify-center items-center text-sm lg:text-base">
                 <BsTelephone className="mr-3 " />
-                0417 477 117
+                <span className="font-bold">0417 477 117</span>
               </div>
-              <p className="">Call now for a free quote</p>
+              <p className="text-sm lg:text-base font-bold lg:font-normal">
+                Call now for a free quote
+              </p>
             </a>
           </li>
-          <li className="nav-item lg:hidden">
+          <li className="nav-item lg:hidden pl-5">
             <a className="nav-link">
-              <Hamburger />
+              {/* <Hamburger /> */}
+              <BurgerBar />
             </a>
           </li>
         </ul>

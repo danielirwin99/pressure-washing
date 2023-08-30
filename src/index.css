@@ -179,6 +179,79 @@ html {
   display: flex;
 }
 
+/* BURGER BAR */
+
+.navLeft__burger {
+  display: none;
+}
+
+.navLeft__logo {
+  height: 50px;
+  display: flex;
+  padding-left: 10px;
+}
+
+.burger__logo {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.burger__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-left: 8px;
+}
+
+.burger__list--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.burger__list--wrapper:hover {
+  transform: scale(1.03);
+}
+
+.burger__links--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-left: 0;
+}
+
+.burger__links {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 0px;
+}
+
+.burger__list--header {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.burger__list--header:active,
+.burger__list--header:hover {
+  color: aqua;
+}
+
+.burger__link {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+}
+/*  */
+
 @media screen and (max-width: 500px) {
   .services-header {
     font-size: 16px;
@@ -206,6 +279,17 @@ html {
   }
   .photos-container > img {
     height: 300px;
+  }
+
+  #about,
+  #services,
+  #quotes,
+  #photos {
+    scroll-margin-top: 20px;
+  }
+
+  #quotes {
+    scroll-margin-top: 10px;
   }
 }
 
