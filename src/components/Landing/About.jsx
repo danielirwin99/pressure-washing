@@ -18,7 +18,7 @@ const About = () => {
             Full Service Exterior Cleaners You Can Trust
           </h2>
           <ul className="space-y-2">
-            <li className="mt-14 flex items-start space-x-3">
+            <li className="mt-10 flex items-start space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
               <p className=" text-start w-full leading-loose">
                 Total Exterior Cleaning provides a brilliant finish to your
@@ -60,7 +60,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-full xl:w-1/2 h-[500px] xl:h-auto template-shadow rounded-md ">
+        <div className="w-full xl:w-1/2 h-[300px] sm:h-[500px] xl:h-auto template-shadow rounded-md ">
           <img
             src={about}
             alt=""
