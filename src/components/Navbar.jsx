@@ -13,7 +13,7 @@ const Navbar = () => {
             alt="Logo"
           />
           <h1
-            className="font-bold pr-5 sm:pr-0 text-base sm:text-xl md:text-2xl text-gray-800"
+            className="font-bold pr-5 sm:pr-0 text-xl md:text-2xl text-gray-800"
             style={{ textShadow: "4px 4px 3px rgba(0,0,0,0.1)" }}
           >
             Total Exterior Cleaning
