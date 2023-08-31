@@ -29,11 +29,11 @@ html {
 #services,
 #quotes,
 #photos {
-  scroll-margin-top: 112px;
+  scroll-margin-top: 140px;
 }
 
 #quotes {
-  scroll-margin-top: 60px;
+  scroll-margin-top: 84px;
 }
 
 .image1 {
@@ -58,6 +58,8 @@ html {
 
 .nav-link {
   transition: all 150ms ease-in;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .nav-link:hover {
@@ -186,9 +188,9 @@ html {
 }
 
 .navLeft__logo {
-  height: 50px;
+  height: 80px;
+  width: 120px;
   display: flex;
-  padding-left: 10px;
 }
 
 .burger__logo {
@@ -289,7 +291,7 @@ html {
   }
 
   #quotes {
-    scroll-margin-top: 10px;
+    scroll-margin-top: -10px;
   }
 }
 

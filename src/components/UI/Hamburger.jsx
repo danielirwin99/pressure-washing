@@ -45,16 +45,16 @@ export default function Hamburger() {
   return (
     <Stack direction="row" spacing={2} style={{ zIndex: "999" }}>
       <div>
-        <Button
+        <button
           ref={anchorRef}
-          id="composition-button"
           aria-controls={open ? "composition-menu" : undefined}
           aria-expanded={open ? "true" : undefined}
           aria-haspopup="true"
           onClick={handleToggle}
+          className="w-20"
         >
-          <GiHamburgerMenu className="text-black text-2xl" />
-        </Button>
+          <GiHamburgerMenu className="text-black" />
+        </button>
         <Popper
           className="z-999"
           open={open}

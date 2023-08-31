@@ -10,6 +10,7 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { BsPerson, BsArrowRight } from "react-icons/bs";
 import { BiHelpCircle, BiCart } from "react-icons/bi";
+import { logo } from "../../assets";
 
 const drawerWidth = 240;
 
@@ -42,19 +43,18 @@ export default function BurgerBar() {
         aria-label="open drawer"
         onClick={handleDrawerOpen}
         edge="start"
-        sx={{ mr: 1, ...(open && { display: "none" }) }}
+        sx={{ mr: 1, marginLeft: "20px", ...(open && { display: "none" }) }}
       >
-        <MenuIcon />
+        <MenuIcon sx={{ height: "40px", width: "40px" }} />
       </IconButton>
       <Drawer
         sx={{
           flexShrink: 0,
           "& .MuiDrawer-paper": {
-            width: "250px",
             boxSizing: "border-box",
             display: "flex",
             padding: "10px 10px",
-            zIndex: "999"
+            zIndex: 999,
           },
         }}
         variant="persistent"
@@ -63,11 +63,7 @@ export default function BurgerBar() {
       >
         <DrawerHeader>
           <a href="/">
-            <img
-              className="navLeft__logo burger__logo"
-              src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Shamrock.svg"
-              alt=""
-            />
+            <img className="navLeft__logo burger__logo" src={logo} alt="" />
           </a>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === "ltr" ? (
@@ -86,7 +82,7 @@ export default function BurgerBar() {
                 href="#about"
                 className="burger__list--header"
               >
-                About
+                About Us
               </a>
             </div>
             <div className="burger__list--wrapper">
@@ -95,7 +91,7 @@ export default function BurgerBar() {
                 href="#services"
                 className="burger__list--header"
               >
-                Services
+                Our Services
               </a>
             </div>
             <div className="burger__list--wrapper">
@@ -104,7 +100,7 @@ export default function BurgerBar() {
                 href="#quotes"
                 className="burger__list--header"
               >
-                Quotes
+                Contact Us
               </a>
             </div>
           </div>

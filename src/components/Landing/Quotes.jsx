@@ -1,5 +1,5 @@
 import React from "react";
-import { clean } from "../../assets";
+import { clean, logo } from "../../assets";
 
 const Quotes = () => {
   return (
@@ -9,7 +9,7 @@ const Quotes = () => {
           <img
             src={clean}
             alt="Header Img"
-            className="w-full h-full lg:object-fill object-cover brightness-[.45]"
+            className="w-full h-full lg:object-fill object-cover brightness-[.43]"
           />
         </div>
         <div className="flex flex-wrap justify-around w-full">
@@ -24,11 +24,7 @@ const Quotes = () => {
             >
               Contact Us
             </h2>
-            <img
-              className="mt-7 h-52 w-52 drop-shadow-lg"
-              src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Shamrock.svg"
-              alt=""
-            />
+            <img className="mt-7 h-52 w-80 brightness-125 drop-shadow-lg" src={logo} alt="" />
           </div>
           {/* Our Right Side of the Contact */}
           <div className="bg-white w-full lg:w-2/5 mx-3 md:mx-14 lg:mx-0 rounded-md">

@@ -9,11 +9,13 @@ import service3 from "./service3.jpg";
 import service4 from "./service4.jpg";
 import service5 from "./service5.jpg";
 import service6 from "./service6.jpg";
+import logo from "../assets/logo.jpg";
 
 export {
   // before1,
   // before2,
   // before3,
+  logo,
   clean,
   about,
   service1,
