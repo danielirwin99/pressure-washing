@@ -32,7 +32,7 @@ const Quotes = () => {
               <h2 className="font-semibold text-sm tracking-wide mb-5 text-cyan-500">
                 ASK US FOR A FREE QUOTE
               </h2>
-              <h2 className="font-extrabold text-3xl  mb-5 from-gray-700 via-cyan-500 to-white bg-gradient-to-r bg-clip-text text-transparent">
+              <h2 className="font-extrabold text-3xl mb-5 from-gray-700 via-cyan-500 to-white bg-gradient-to-r bg-clip-text text-transparent">
                 Contact Form
               </h2>
               <p className="mb-3">
