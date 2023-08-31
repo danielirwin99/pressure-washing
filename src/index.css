@@ -70,7 +70,7 @@ html {
 
 .nav-link {
   transition: all 100ms ease-in;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
 }
