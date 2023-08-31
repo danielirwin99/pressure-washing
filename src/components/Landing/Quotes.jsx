@@ -15,7 +15,7 @@ const Quotes = () => {
         <div className="flex flex-wrap justify-around w-full">
           {/* Our Left Side of the Contact */}
           <div className="w-full flex flex-col justify-center items-center lg:w-2/5 mb-20 lg:mb-0 lg:pr-30">
-            <h3 className="text-center text-cyan-300 tracking-widest font-semibold text-xl ">
+            <h3 className="text-center text-cyan-300 tracking-widest font-semibold text-lg ">
               GET IN TOUCH TODAY
             </h3>
             <h2
