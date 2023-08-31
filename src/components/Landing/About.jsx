@@ -12,13 +12,13 @@ const About = () => {
             ABOUT US
           </h3>
           <h2
-            className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider"
+            className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider sub-headers"
             style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
           >
             Full Service Exterior Cleaners You Can Trust
           </h2>
           <ul className="space-y-2">
-            <li className="mt-10 flex items-start space-x-3">
+            <li className="mt-10 flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
               <p className=" text-start md:text-xl w-full leading-loose">
                 Total Exterior Cleaning provides a brilliant finish to your

@@ -21,14 +21,14 @@ const Header = () => {
           />
         </div>
         <div className="flex h-full z-10 w-full flex-col justify-center items-center">
-          <h1 className="text-white font-bold text-center text-4xl lg:text-7xl z-10 tracking-wider text-shadow">
+          <h1 className="text-white font-bold text-center text-4xl lg:text-6xl z-10 tracking-wider text-shadow header-title">
             Total Exterior Cleaning
           </h1>
           <div className="flex items-center justify-center mt-10">
             <BsTelephone className="mr-3 text-2xl text-cyan-300 text-shadow" />
             <a
               href="tel:0417477117"
-              className="text-2xl font-bold text-cyan-300 text-shadow"
+              className="text-2xl font-bold text-cyan-300 text-shadow header-title"
             >
               0417 477 117
             </a>

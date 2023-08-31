@@ -23,10 +23,10 @@ const Footer = () => {
               Home
             </a>
             <a href="#about" className="footerLinks">
-              About
+              About Us
             </a>
             <a href="#services" className="footerLinks">
-              Services
+              Our Services
             </a>
             <a href="#photos" className="footerLinks">
               Before and Afters
@@ -67,9 +67,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-white w-full py-6">
-        <h2 className=" text-sm lg:text-md px-3 text-center ">
-          Copyright &copy; {`${new Date().getFullYear()}`} Total Exterior Cleaning.
-          &nbsp; All Rights Reserved
+        <h2 className=" text-sm lg:text-md font-semibold px-3 text-center ">
+          Copyright &copy; {`${new Date().getFullYear()}`} Total Exterior
+          Cleaning. &nbsp; All Rights Reserved
         </h2>
       </div>
     </footer>

@@ -19,7 +19,7 @@ const Quotes = () => {
               GET IN TOUCH TODAY
             </h3>
             <h2
-              className="text-center text-5xl lg:text-7xl font-bold text-white mt-7 tracking-wider"
+              className="text-center text-6xl px-4 sm:px-0 lg:text-7xl font-bold text-white mt-7 tracking-wider sub-headers"
               style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.2)" }}
             >
               Contact Us
@@ -32,7 +32,7 @@ const Quotes = () => {
               <h2 className="font-semibold text-sm tracking-wide mb-5 text-cyan-500">
                 ASK US FOR A FREE QUOTE
               </h2>
-              <h2 className="font-extrabold text-3xl mb-5 from-gray-700 via-cyan-500 to-white bg-gradient-to-r bg-clip-text text-transparent">
+              <h2 className="font-extrabold text-3xl mb-5 from-gray-700 via-cyan-500 to-white bg-gradient-to-r bg-clip-text text-transparent sub-headers">
                 Contact Form
               </h2>
               <p className="mb-3">

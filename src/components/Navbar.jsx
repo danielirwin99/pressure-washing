@@ -41,7 +41,7 @@ const Navbar = () => {
                 <BsTelephone className="mr-3" />
                 <span className="font-bold text-lg">0417 477 117</span>
               </div>
-              <p className="text-base lg:text-xl font-bold lg:font-normal">
+              <p className="text-base lg:text-xl font-bold lg:font-normal capitalize">
                 Call now for a free quote
               </p>
             </a>

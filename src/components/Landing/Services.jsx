@@ -16,7 +16,7 @@ const Services = () => {
         OUR SERVICES
       </h3>
       <h2
-        className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider"
+        className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider sub-headers"
         style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
       >
         What We Can Do
@@ -31,14 +31,14 @@ const Services = () => {
             alt="service1"
             className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
           />
-          <BsHouseDoor className="text-white text-4xl" />
+          <BsHouseDoor className="text-white text-4xl  mr-1" />
           <h2 className="services-header">Driveway Cleaning</h2>
           <a
             className="flex justify-center items-center services-quote"
             href="#quotes"
           >
             <p className="text-sm">Get a Quote</p>
-            <BsArrowRight className="ml-2 text-xl" />
+            <BsArrowRight className="ml-2 text-xl " />
           </a>
         </div>
         <div className="services-tabs">
@@ -47,7 +47,7 @@ const Services = () => {
             alt="service1"
             className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
           />
-          <BsHouseDoor className="text-white text-4xl" />
+          <BsHouseDoor className="text-white text-4xl mr-1" />
           <h2 className="services-header">Window Cleaning</h2>
           <a
             className="flex justify-center items-center services-quote"
@@ -63,7 +63,7 @@ const Services = () => {
             alt="service1"
             className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
           />
-          <BsHouseDoor className="text-white text-4xl" />
+          <BsHouseDoor className="text-white text-4xl  mr-1" />
           <h2 className="services-header">Driveway Sealing</h2>
           <a
             className="flex justify-center items-center services-quote"
@@ -80,7 +80,7 @@ const Services = () => {
             alt="service1"
             className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
           />
-          <BsHouseDoor className="text-white text-4xl" />
+          <BsHouseDoor className="text-white text-4xl mr-1" />
           <h2 className="services-header ">General Pressure Cleaning</h2>
           <a
             className="flex justify-center items-center services-quote"

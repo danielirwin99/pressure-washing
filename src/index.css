@@ -36,6 +36,18 @@ html {
   scroll-margin-top: 84px;
 }
 
+.header-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.sub-headers {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+
 .image1 {
   -webkit-clip-path: polygon(0 0, 60% 0, 40% 100%, 0 100%);
   clip-path: polygon(0 0, 60% 0, 40% 100%, 0 100%);
@@ -60,6 +72,7 @@ html {
   transition: all 150ms ease-in;
   font-size: 20px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .nav-link:hover {

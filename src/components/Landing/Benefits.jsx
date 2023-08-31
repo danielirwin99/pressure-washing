@@ -9,7 +9,7 @@ const Benefits = () => {
           GET A FREE QUOTE TODAY
         </h3> */}
         <h2
-          className="text-3xl font-extrabold  mt-1 tracking-wider mb-6 text-cyan-300"
+          className="text-3xl font-extrabold  mt-1 tracking-wider mb-6 text-cyan-300 sub-headers"
           style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
         >
           Benefits of Pressuring Cleaning:
