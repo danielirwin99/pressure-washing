@@ -69,7 +69,7 @@ const Benefits = () => {
                 {" "}
                 Saves Time
               </span>{" "}
-              - You''re busy, and manually cleaning areas can quickly eat up any
+              - You're busy, and manually cleaning areas can quickly eat up any
               excess time you or your staff may have.{" "}
               <span className="hidden lg:inline">
                 {" "}
