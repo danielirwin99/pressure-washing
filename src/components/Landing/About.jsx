@@ -1,7 +1,7 @@
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
 import { BiCheck } from "react-icons/bi";
-import { about, service1, service6 } from "../../assets";
+import { about } from "../../assets";
 
 const About = () => {
   return (

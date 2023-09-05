@@ -66,7 +66,7 @@ const Footer = () => {
                 irwin@powerwashings.com.au
               </a>
             </p>
-            <p className="text-white space-y-1 py-4">ABN: 42 444 999 313</p>
+            <p className="text-white space-y-1 py-4">ABN: 94 421 597 028</p>
           </div>
         </div>
       </div>

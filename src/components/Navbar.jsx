@@ -48,7 +48,6 @@ const Navbar = () => {
           </li>
           <li className="nav-item lg:hidden lg:pl-5">
             <a className="nav-link">
-              {/* <Hamburger /> */}
               <BurgerBar />
             </a>
           </li>
