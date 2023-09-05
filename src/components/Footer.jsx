@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-[#004358] flex flex-col justify-center items-center pt-14 md:pl-0 ">
-      <div className="flex items-center pb-10 max-w-5xl px-7">
+      <div className="flex items-center pb-10 max-w-5xl px-3 md:px-7">
         {/* <a
           href="#"
           className="flex items-center cursor-pointer space-x-4 mr-10"
@@ -17,8 +17,10 @@ const Footer = () => {
           </figure>
         </a> */}
         <div className="grid grid-cols-2 lg:grid-cols-3 lg:text-md">
-          <ul className="flex flex-col text-xs md:text-sm lg:text-md ">
-            <p className="text-white font-extrabold">QUICK LINKS</p>
+          <ul className="flex flex-col text-[12px] md:text-sm lg:text-md ">
+            <p className="text-white text-sm lg:text-base font-extrabold">
+              QUICK LINKS
+            </p>
             <a href="#" className="footerLinks">
               Home
             </a>
@@ -41,8 +43,10 @@ const Footer = () => {
               <a className="text-white py-3 ">Gutter &nbsp; Vacuuming</a>
             </ul>
           </div>
-          <div className="flex flex-col text-xs md:text-sm lg:text-md -ml-3">
-            <p className="text-white font-extrabold">CONTACT US</p>
+          <div className="flex flex-col text-[12px] md:text-sm lg:text-md -ml-3">
+            <p className="text-white text-sm lg:text-base font-extrabold">
+              CONTACT US
+            </p>
             <p className="text-white space-y-1 py-4">
               We Cater All South Sydney & Illawarra Services <br /> Company
               based in in Sydney NSW
@@ -53,7 +57,7 @@ const Footer = () => {
                 0417 477 117
               </a>
             </p>
-            <p className="text-white space-y-1 py-4">
+            <p className="text-white md:text-base  space-y-1 py-4">
               Email:{" "}
               <a
                 className="hover:underline font-bold"
@@ -69,7 +73,7 @@ const Footer = () => {
       <div className="bg-white w-full py-6">
         <h2 className=" text-sm lg:text-md font-semibold px-3 text-center ">
           Copyright &copy; {`${new Date().getFullYear()}`} Total Exterior
-          Cleaning. &nbsp; All Rights Reserved
+          Cleaning Pty Ltd. &nbsp; All Rights Reserved
         </h2>
       </div>
     </footer>
