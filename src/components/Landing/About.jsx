@@ -50,22 +50,22 @@ const About = () => {
               </p>
             </li>
           </ul>
-          <div className="quote-now mt-6 md:mt-10 mx-auto template-shadow">
+          <a
+            className="quote-now mt-6 md:mt-10 mx-auto template-shadow"
+            href="tel:0417477117"
+          >
             <h4 className="font-semibold mb-1 text-md md:text-lg tracking-wide">
               Call Now For Your Free Quote
             </h4>
             <div className="flex items-center justify-center">
-              <a
-                href="tel:0417477117"
-                className="flex justify-center items-center space-x-3 "
-              >
+              <div className="flex justify-center items-center space-x-3 ">
                 <BsTelephone />
                 <p className="text-center ty font-bold tracking-widest">
                   0417 477 117
                 </p>
-              </a>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div className="w-full xl:w-1/2 h-[300px] md:h-[500px] xl:h-auto template-shadow-dark rounded-md">
           <img
