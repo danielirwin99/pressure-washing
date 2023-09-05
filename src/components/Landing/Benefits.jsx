@@ -69,7 +69,7 @@ const Benefits = () => {
                 {" "}
                 Saves Time
               </span>{" "}
-              - You''re busy, and manually cleaning areas can quickly eat up any
+              - You're busy, and manually cleaning areas can quickly eat up any
               excess time you or your staff may have.{" "}
               <span className="hidden lg:inline">
                 {" "}
@@ -81,7 +81,7 @@ const Benefits = () => {
           </div>
         </div>
         <p className="py-5 text-center mt-2 text-cyan-300 text-lg font-extrabold tracking-wide">
-          Get in touch With Total Exterior Cleaning today!
+          Get in touch with Total Exterior Cleaning today!
         </p>
       </div>
     </section>

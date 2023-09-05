@@ -46,7 +46,7 @@ const About = () => {
             <li className="flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
               <p className="w-full text-start md:text-xl  leading-loose">
-                Servicing All Sydney and Illawarra Areas
+                Servicing all Sydney and Illawarra Areas
               </p>
             </li>
           </ul>
