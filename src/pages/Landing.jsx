@@ -8,6 +8,7 @@ import About from "../components/Landing/About";
 import Footer from "../components/Footer";
 import Benefits from "../components/Landing/Benefits";
 import Tabs from "../components/Landing/Tabs";
+import Socials from "../components/Landing/Socials";
 
 const Landing = () => {
   return (
@@ -19,6 +20,7 @@ const Landing = () => {
       <Tabs />
       <Photos />
       <Benefits />
+      <Socials />
       <Quotes />
       <Footer />
     </>

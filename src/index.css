@@ -28,8 +28,13 @@ html {
 #about,
 #services,
 #quotes,
+
 #photos {
   scroll-margin-top: 140px;
+}
+
+#socials {
+  scroll-margin-top: 170px;
 }
 
 #quotes {
@@ -269,6 +274,18 @@ html {
   font-weight: 900;
   cursor: pointer;
 }
+
+.instagram {
+  color: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
 /*  */
 
 @media screen and (max-width: 500px) {

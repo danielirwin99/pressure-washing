@@ -3,16 +3,11 @@ import { styled, useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import CssBaseline from "@mui/material/CssBaseline";
-import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import { BsPerson, BsArrowRight } from "react-icons/bs";
-import { BiHelpCircle, BiCart } from "react-icons/bi";
 import { logo } from "../../assets";
-
-const drawerWidth = 240;
 
 const DrawerHeader = styled("div")(({ theme }) => ({
   display: "flex",
@@ -92,6 +87,15 @@ export default function BurgerBar() {
                 className="burger__list--header"
               >
                 Our Services
+              </a>
+            </div>
+            <div className="burger__list--wrapper">
+              <a
+                onClick={handleDrawerClose}
+                href="#socials"
+                className="burger__list--header"
+              >
+                Socials
               </a>
             </div>
             <div className="burger__list--wrapper">

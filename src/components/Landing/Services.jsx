@@ -22,7 +22,7 @@ const Services = () => {
         What We Can Do
       </h2>
       <p className="mt-4 text-[1.2rem] font-normal leading-loose text-center">
-        Some of our Sydney Pressure Cleaning Services Include:
+        Some of our Exterior Cleaning Services Include:
       </p>
       <div className="grid grid-cols-2 lg:grid-cols-3 w-full max-w-[1600px] mx-auto mt-5">
         <div className="services-tabs">
