@@ -58,6 +58,7 @@ const Quotes = () => {
                 placeholder="Phone #:"
                 className="border -ml-1 px-3 py-2 w-full outline-none"
               />
+               <p className="mt-4">Message *: </p>
               <textarea
                 className="border mt-5 w-full -ml-1 p-3 resize-none outline-none"
                 placeholder="Message..."
