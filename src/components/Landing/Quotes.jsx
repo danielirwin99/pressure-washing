@@ -52,13 +52,13 @@ const Quotes = () => {
                 placeholder="Email"
                 className="border -ml-1 px-3 outline-none py-2 w-full"
               />
-              <p className="mt-4 mb-3">Phone#: </p>
+              <p className="mt-4 mb-3">Phone# </p>
               <input
                 type="text"
                 placeholder="Phone #:"
                 className="border -ml-1 px-3 py-2 w-full outline-none"
               />
-               <p className="mt-4">Message *: </p>
+               <p className="mt-4">Message * </p>
               <textarea
                 className="border mt-5 w-full -ml-1 p-3 resize-none outline-none"
                 placeholder="Message..."
