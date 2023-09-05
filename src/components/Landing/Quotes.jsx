@@ -24,7 +24,7 @@ const Quotes = () => {
             >
               Contact Us
             </h2>
-            <img className="mt-7 h-52 w-80 brightness-125 drop-shadow-lg" src={logo} alt="" />
+            <img className="mt-9 h-52 w-80 brightness-125 drop-shadow-lg" src={logo} alt="" />
           </div>
           {/* Our Right Side of the Contact */}
           <div className="bg-white w-full lg:w-2/5 mx-3 md:mx-14 lg:mx-0 rounded-md">

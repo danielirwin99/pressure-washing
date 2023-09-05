@@ -27,19 +27,14 @@ html {
 
 #about,
 #services,
-#quotes,
-
 #photos {
-  scroll-margin-top: 140px;
+  scroll-margin-top: 40px;
 }
 
 #socials {
-  scroll-margin-top: 170px;
+  scroll-margin-top: 70px;
 }
 
-#quotes {
-  scroll-margin-top: 84px;
-}
 
 .header-title {
   font-family: "Raleway", sans-serif;
