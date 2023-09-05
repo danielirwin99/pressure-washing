@@ -35,7 +35,7 @@ const Quotes = () => {
               <h2 className="font-extrabold text-3xl mb-5 from-gray-700 via-cyan-500 to-white bg-gradient-to-r bg-clip-text text-transparent sub-headers">
                 Contact Form
               </h2>
-              <p className="mb-3 text-sm">
+              <p className="mb-3 text-sm italic">
                 Whether you have a residential or commercial property, our
                 services ensure that your property is immaculately rejuvenated,
                 radiating with a newfound brilliance.
