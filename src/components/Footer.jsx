@@ -61,9 +61,9 @@ const Footer = () => {
               Email:{" "}
               <a
                 className="hover:underline font-bold"
-                href="mailto:email@sample.com"
+                href="mailto:admin@totalexteriorco.com"
               >
-                irwin@powerwashings.com.au
+                admin@totalexteriorco.com
               </a>
             </p>
             <p className="text-white space-y-1 py-4">ABN: 94 421 597 028</p>
