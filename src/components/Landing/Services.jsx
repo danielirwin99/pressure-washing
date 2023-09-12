@@ -57,22 +57,6 @@ const Services = () => {
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
-        <div className="services-tabs ">
-          <img
-            src={service2}
-            alt="service1"
-            className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
-          />
-          <BsHouseDoor className="text-white text-4xl  mr-1" />
-          <h2 className="services-header">Driveway Sealing</h2>
-          <a
-            className="flex justify-center items-center services-quote"
-            href="#quotes"
-          >
-            <p className="text-sm">Get a Quote</p>
-            <BsArrowRight className="ml-2 text-xl" />
-          </a>
-        </div>
 
         <div className="services-tabs">
           <img
@@ -114,6 +98,22 @@ const Services = () => {
           />
           <BsHouseDoor className="text-white text-4xl" />
           <h2 className="services-header md:ml-0">Exterior Cleaning</h2>
+          <a
+            className="flex justify-center items-center services-quote"
+            href="#quotes"
+          >
+            <p className="text-sm">Get a Quote</p>
+            <BsArrowRight className="ml-2 text-xl" />
+          </a>
+        </div>
+        <div className="services-tabs ">
+          <img
+            src={service2}
+            alt="service1"
+            className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
+          />
+          <BsHouseDoor className="text-white text-4xl  mr-1" />
+          <h2 className="services-header">Driveway Sealing</h2>
           <a
             className="flex justify-center items-center services-quote"
             href="#quotes"

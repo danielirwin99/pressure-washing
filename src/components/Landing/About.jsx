@@ -18,11 +18,24 @@ const About = () => {
             Full Service Exterior Cleaners You Can Trust
           </h2>
           <ul className="space-y-2">
-            <li className="mt-10 flex items-center space-x-3">
+            <li className=" mt-10 flex items-center space-x-3">
+              <BiCheck className="h-9 w-9 text-cyan-500" />
+              <p className="w-full text-start md:text-xl  leading-loose">
+                Family Owned and Operated
+              </p>
+            </li>
+            <li className=" flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
               <p className=" text-start md:text-xl w-full leading-loose">
                 Total Exterior Cleaning provides a brilliant finish to your
                 exterior surfaces.
+              </p>
+            </li>
+
+            <li className="flex items-center space-x-3">
+              <BiCheck className="h-9 w-9 text-cyan-500" />
+              <p className="w-full text-start md:text-xl  leading-loose">
+                Up to date cutting edge equipment
               </p>
             </li>
             <li className="flex items-center space-x-3">
@@ -31,22 +44,17 @@ const About = () => {
                 Environmentally friendly cleaning methods
               </p>
             </li>
+
             <li className="flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
               <p className="w-full text-start md:text-xl  leading-loose">
-                Family Owned and Operated
+                Reliable and friendly service at affordable prices
               </p>
             </li>
             <li className="flex items-center space-x-3">
               <BiCheck className="h-9 w-9 text-cyan-500" />
               <p className="w-full text-start md:text-xl  leading-loose">
-                Reliable and friendly service at affordable prices.
-              </p>
-            </li>
-            <li className="flex items-center space-x-3">
-              <BiCheck className="h-9 w-9 text-cyan-500" />
-              <p className="w-full text-start md:text-xl  leading-loose">
-                Servicing all Sydney and Illawarra Areas
+                Servicing all South Sydney and Illawarra Areas
               </p>
             </li>
           </ul>
