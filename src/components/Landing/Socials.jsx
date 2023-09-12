@@ -21,13 +21,13 @@ const Socials = () => {
           </a>
           <a
             className="w-10 h-10 hover:scale-110 transition duration-100 ease-in-out"
-            href=""
+            href="https://www.instagram.com/totalexteriorcleaning_/"
           >
             <BsInstagram className="h-full w-full text-4xl text-rose-700" />
           </a>
           <a
             className="w-10 h-10 hover:scale-110 transition duration-100 ease-in-out"
-            href=""
+            href="https://www.facebook.com/profile.php?id=61550873473201"
           >
             <BsFacebook className="h-full w-full text-3xl text-blue-800" />
           </a>
