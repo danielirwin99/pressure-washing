@@ -22,7 +22,7 @@ const Services = () => {
         What We Can Do
       </h2>
       <p className="mt-4 text-[1.2rem] font-normal leading-loose text-center">
-        Some of our Exterior Cleaning Services Include:
+        Some of our Exterior Cleaning Services include:
       </p>
       <div className="grid grid-cols-2 lg:grid-cols-3 w-full max-w-[1600px] mx-auto mt-5">
         <div className="services-tabs">
@@ -81,7 +81,7 @@ const Services = () => {
             className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl" />
-          <h2 className="services-header">Gutter Maintenance</h2>
+          <h2 className="services-header">Gutter Cleaning</h2>
           <a
             className="flex justify-center items-center services-quote"
             href="#quotes"
@@ -97,7 +97,7 @@ const Services = () => {
             className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl" />
-          <h2 className="services-header md:ml-0">Exterior Cleaning</h2>
+          <h2 className="services-header md:ml-0">Exterior Glass Cleaning</h2>
           <a
             className="flex justify-center items-center services-quote"
             href="#quotes"
