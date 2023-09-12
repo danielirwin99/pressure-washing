@@ -8,6 +8,7 @@ const Quotes = () => {
     name: "",
     email: "",
     message: "",
+    number: "",
   });
   const [loading, setLoading] = useState(false);
 
@@ -30,11 +31,16 @@ const Quotes = () => {
         {
           // Who is sending the email
           from_name: form.name,
+          // Your Name
           to_name: "Total Exterior Cleaning",
           // Sender email
           from_email: form.email,
+          // Your email
           to_email: "admin@totalexteriorco.com",
+          // Sender Message
           message: form.message,
+          // Sender Number
+          from_number: form.number,
         },
         // Account Public key
         "CbDkdqAKMVZVWUS_p"
@@ -51,6 +57,7 @@ const Quotes = () => {
             name: "",
             email: "",
             message: "",
+            number: "",
           });
         },
         (error) => {
@@ -125,12 +132,15 @@ const Quotes = () => {
                 placeholder="Email"
                 className="border -ml-1 px-3 outline-none py-2 w-full"
               />
-              {/* <p className="mt-4 mb-3">Phone# </p>
+              <p className="mt-4 mb-3">Phone# </p>
               <input
+                name="number"
+                value={form.number}
+                onChange={handleChange}
                 type="text"
                 placeholder="Phone #:"
                 className="border -ml-1 px-3 py-2 w-full outline-none"
-              /> */}
+              />
               <p className="mt-4">Message * </p>
               <textarea
                 value={form.message}
