@@ -20,7 +20,7 @@ const Tabs = () => {
         <div className="flex items-center space-x-3 text-white">
           <AiOutlineCheckCircle className="text-3xl lg:text-4xl text-white" />
           <h4 className="font-bold text-xs md:text-md lg:text-xl">
-            $20M Public Liability
+            $10M Public Liability
           </h4>
         </div>
         <div className="flex items-center space-x-3 text-white">
