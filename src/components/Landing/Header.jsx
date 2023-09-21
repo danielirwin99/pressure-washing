@@ -21,7 +21,7 @@ const Header = () => {
           />
         </div>
         <div className="flex h-full z-10 w-full flex-col justify-center items-center">
-          <h1 className="text-white font-bold text-center text-4xl lg:text-6xl z-10 tracking-wider text-shadow header-title">
+          <h1 className="text-white font-bold text-center text-4xl md:text-6xl z-10 tracking-wider text-shadow header-title">
             Total Exterior Cleaning
           </h1>
           <div className="flex items-center justify-center mt-10">
