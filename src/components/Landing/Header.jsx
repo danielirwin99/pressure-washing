@@ -42,9 +42,9 @@ const Header = () => {
         </div>
         <div className="absolute xs:bottom-10 bottom-8 w-full hidden sm:flex justify-center items-center">
           <a href="#about">
-            <div className="w-[35px] h-[64px] rounded-3xl border-4 border-white flex justify-center items-start p-2">
+            <div className="w-[34px] h-[56px] rounded-3xl border-4 border-white flex justify-center items-start p-2">
               <motion.div
-                animate={{ y: [0, 24, 0] }}
+                animate={{ y: [0, 18, 0] }}
                 transition={{
                   duration: 2,
                   repeat: Infinity,
