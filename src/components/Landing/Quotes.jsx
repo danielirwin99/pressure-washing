@@ -158,7 +158,11 @@ const Quotes = () => {
                   type="submit"
                   disabled={!form.email || !form.number}
                 >
-                  {loading ? "Sending" : "Send"}
+                  {loading ? (
+                    <p className="text-cyan-500">Sending...</p>
+                  ) : (
+                    "Send"
+                  )}
                 </button>
               </div>
             </form>
