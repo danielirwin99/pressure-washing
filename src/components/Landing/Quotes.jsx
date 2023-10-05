@@ -66,7 +66,6 @@ const Quotes = () => {
           alert("Something went wrong");
         }
       );
-      
   };
 
   return (
@@ -154,7 +153,11 @@ const Quotes = () => {
                 rows="8"
               ></textarea>
               <div className="flex items-center mt-3 justify-center">
-                <button className="contact-now !text-lg !px-10" type="submit" disabled={!form.email}>
+                <button
+                  className="contact-now !text-lg !px-10"
+                  type="submit"
+                  disabled={!form.email || !form.number}
+                >
                   {loading ? "Sending" : "Send"}
                 </button>
               </div>
