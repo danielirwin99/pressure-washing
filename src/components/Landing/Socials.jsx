@@ -14,7 +14,7 @@ const Socials = () => {
         </h2>
         <div className="mt-8 flex space-x-10 items-center">
           <a
-            href="https://www.google.com"
+            href="https://www.google.com/search?q=total+exterior+cleaning&rlz=1C1CHBF_en-GBAU937AU937&oq=total+exterior+cleaning&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg80gEINDAzMWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8"
             className="w-12 h-12 hover:scale-110 transition duration-100 ease-in-out"
           >
             <FcGoogle className="h-full w-full text-4xl" />
