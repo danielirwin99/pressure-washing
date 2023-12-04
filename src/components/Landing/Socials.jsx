@@ -21,25 +21,25 @@ const Socials = () => {
             <FcGoogle className="h-full w-full " />
           </a>
           <a
-            className="w-10 hover:scale-110 transition duration-100 ease-in-out"
+            className="w-8 sm:w-10 hover:scale-110 transition duration-100 ease-in-out"
             href="https://www.instagram.com/totalexteriorcleaning_/"
           >
             <BsInstagram className="h-full w-full  text-rose-700" />
           </a>
           <a
-            className="w-10 hover:scale-110 transition duration-100 ease-in-out"
+            className="w-8 sm:w-10 hover:scale-110 transition duration-100 ease-in-out"
             href="https://www.facebook.com/profile.php?id=61550873473201"
           >
             <BsFacebook className="h-full w-full  text-blue-800" />
           </a>
           <a
-            className="w-12 hover:scale-110 transition duration-100 ease-in-out"
+            className="w-10 sm:w-12 hover:scale-110 transition duration-100 ease-in-out"
             href="https://www.youtube.com/channel/UCsgfjljDcBb-LcDYvHt-D3w"
           >
             <BsYoutube className="h-full w-full text-red-700" />
           </a>
           <a
-            className="w-10 hover:scale-110 transition duration-100 ease-in-out"
+            className="w-8 sm:w-10 hover:scale-110 transition duration-100 ease-in-out"
             href="https://www.tiktok.com/@totalexteriorco"
           >
             <FaTiktok className="h-full w-full " />
