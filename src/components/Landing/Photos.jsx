@@ -7,6 +7,12 @@ import {
   after2,
   after3,
   before4,
+  before5,
+  after5,
+  before6,
+  after6,
+  before7,
+  after7,
 } from "../../assets/B&A/Index";
 
 const Photos = () => {
@@ -72,6 +78,46 @@ const Photos = () => {
               alt="before4"
               className="w-full h-full object-fill rounded-md lg:mt-0  "
             />
+          </figure>
+
+          <figure className="photos-container">
+            <div className="h-full flex overflow-hidden rounded-md">
+              <img
+                src={before5}
+                className="w-1/2 h-full object-fill hover:scale-105 rounded-l-md duration-150 ease-in-out"
+              />
+              <img
+                src={after5}
+                alt="before3"
+                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 duration-150 ease-in-out"
+              />
+            </div>
+          </figure>
+          <figure className="photos-container">
+            <div className="h-full flex overflow-hidden rounded-md">
+              <img
+                src={before6}
+                className="w-1/2 h-full object-fill hover:scale-105 rounded-l-md duration-150 ease-in-out"
+              />
+              <img
+                src={after6}
+                alt="before3"
+                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 duration-150 ease-in-out"
+              />
+            </div>
+          </figure>
+          <figure className="photos-container">
+            <div className="h-full flex overflow-hidden rounded-md">
+              <img
+                src={before7}
+                className="w-1/2 h-full object-fill hover:scale-105 rounded-l-md duration-150 ease-in-out"
+              />
+              <img
+                src={after7}
+                alt="before3"
+                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 duration-150 ease-in-out"
+              />
+            </div>
           </figure>
         </div>
       </div>
