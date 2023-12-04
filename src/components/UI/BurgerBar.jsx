@@ -57,9 +57,6 @@ export default function BurgerBar() {
         open={open}
       >
         <DrawerHeader>
-          <a href="/">
-            <img className="navLeft__logo burger__logo" src={logo} alt="" />
-          </a>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === "ltr" ? (
               <ChevronLeftIcon />
@@ -67,6 +64,9 @@ export default function BurgerBar() {
               <ChevronRightIcon />
             )}
           </IconButton>
+          <a href="/">
+            <img className="navLeft__logo burger__logo" src={logo} alt="" />
+          </a>
         </DrawerHeader>
 
         <div className="burger__list">
