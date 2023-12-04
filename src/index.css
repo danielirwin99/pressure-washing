@@ -172,6 +172,7 @@ html {
   font-size: 20px;
   color: white;
   text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6)
 }
 
 .services-quote {

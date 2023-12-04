@@ -37,7 +37,7 @@ const Services = () => {
             className="flex justify-center items-center services-quote"
             href="#quotes"
           >
-            <p className="text-sm">Get a Quote</p>
+            <p className="text-md text-shadow">Get a Quote</p>
             <BsArrowRight className="ml-2 text-xl " />
           </a>
         </div>
@@ -53,7 +53,7 @@ const Services = () => {
             className="flex justify-center items-center services-quote"
             href="#quotes"
           >
-            <p className="text-sm">Get a Quote</p>
+            <p className="text-md text-shadow">Get a Quote</p>
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
@@ -65,12 +65,14 @@ const Services = () => {
             className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl mr-1" />
-          <h2 className="services-header ">General Pressure Cleaning</h2>
+          <h2 className="services-header">
+            General Pressure Cleaning
+          </h2>
           <a
             className="flex justify-center items-center services-quote"
             href="#quotes"
           >
-            <p className="text-sm">Get a Quote</p>
+            <p className="text-md text-shadow">Get a Quote</p>
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
@@ -86,7 +88,7 @@ const Services = () => {
             className="flex justify-center items-center services-quote"
             href="#quotes"
           >
-            <p className="text-sm">Get a Quote</p>
+            <p className="text-md text-shadow">Get a Quote</p>
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
@@ -97,12 +99,14 @@ const Services = () => {
             className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl" />
-          <h2 className="services-header md:ml-0">Exterior Glass Cleaning</h2>
+          <h2 className="services-header md:ml-0">
+            Exterior Glass Cleaning
+          </h2>
           <a
-            className="flex justify-center items-center services-quote"
+            className="flex justify-center items-center services-quote "
             href="#quotes"
           >
-            <p className="text-sm">Get a Quote</p>
+            <p className="text-md text-shadow">Get a Quote</p>
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
@@ -118,7 +122,7 @@ const Services = () => {
             className="flex justify-center items-center services-quote"
             href="#quotes"
           >
-            <p className="text-sm">Get a Quote</p>
+            <p className="text-md ">Get a Quote</p>
             <BsArrowRight className="ml-2 text-xl" />
           </a>
         </div>
