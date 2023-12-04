@@ -12,7 +12,7 @@ const Benefits = () => {
           className="text-3xl font-extrabold  mt-1 tracking-wider mb-6 text-cyan-300 sub-headers"
           style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
         >
-          Benefits of Pressuring Cleaning:
+          Benefits of Pressuring Washing:
         </h2>
         <div className="space-y-6 text-white pl-1">
           <div className="flex items-center space-x-4">
@@ -22,7 +22,7 @@ const Benefits = () => {
                 {" "}
                 Prevent Costly Repairs
               </span>{" "}
-              - Pressure cleaning allows you to see and fix small repairs before
+              - Pressure washing allows you to see and fix small repairs before
               they turn into a huge problem.{" "}
               <span className="hidden lg:inline">
                 Mould, bird droppings, algae and dirt can actually wear away at
@@ -73,7 +73,7 @@ const Benefits = () => {
               excess time you or your staff may have.{" "}
               <span className="hidden lg:inline">
                 {" "}
-                Pressure cleaning is very fast and efficient, and we''ll work to
+                Pressure washing is very fast and efficient, and we''ll work to
                 complete the project while working around your schedule to save
                 you even more time.
               </span>

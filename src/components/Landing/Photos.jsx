@@ -72,13 +72,6 @@ const Photos = () => {
               />
             </div>
           </figure>
-          <figure className="photos-container  md:flex hidden xl:hidden">
-            <img
-              src={before4}
-              alt="before4"
-              className="w-full h-full object-fill rounded-md lg:mt-0  "
-            />
-          </figure>
 
           <figure className="photos-container">
             <div className="h-full flex overflow-hidden rounded-md">
