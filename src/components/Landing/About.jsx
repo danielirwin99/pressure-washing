@@ -80,21 +80,23 @@ const About = () => {
             Total Exterior Cleaning
           </h3>
           <h2
-            className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider sub-headers"
+            className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-5 tracking-wider sub-headers"
             style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
           >
             Why Choose Total Exterior Cleaning?
           </h2>
           <ul className="space-y-2">
             <li className=" mt-10 items-center space-y-3">
-              <p className="w-full text-start md:text-xl  leading-loose">
-                Total Exterior Cleaning stands out as a premier service in South
-                Sydney and the Illawarra Areas, offering a distinctive touch as
-                a family-owned and operated business. With a commitment to
-                excellence, they employ up-to-date cutting-edge equipment,
-                ensuring a brilliant finish to all exterior surfaces.
+              <p className="w-full text-start md:text-xl tracking-wide leading-loose">
+                Total Exterior Cleaning stands out as a trustworthy service in
+                South Sydney and the Illawarra Areas, offering a distinctive
+                touch as a{" "}
+                <span className="font-bold">Father & Son local business</span> .
+                With a commitment to excellence, they employ up-to-date
+                cutting-edge equipment, ensuring a brilliant finish to all
+                exterior surfaces.
               </p>
-              <p className="w-full text-start md:text-xl leading-loose">
+              <p className="w-full text-start md:text-xl tracking-wide leading-loose">
                 Our professional team at takes pride in providing reliable and
                 friendly service, all while maintaining affordability. From
                 residential spaces to commercial establishments, they cover it
