@@ -62,6 +62,17 @@ const Photos = () => {
               <ReactCompareSlider
                 className="w-full"
                 itemOne={
+                  <ReactCompareSliderImage src={before5} alt="Before 5" />
+                }
+                itemTwo={<ReactCompareSliderImage src={after5} alt="After 5" />}
+              />
+            </div>
+          </figure>
+          <figure className="photos-container">
+            <div className="h-full flex overflow-hidden rounded-md">
+              <ReactCompareSlider
+                className="w-full"
+                itemOne={
                   <ReactCompareSliderImage src={before3} alt="Before 3" />
                 }
                 itemTwo={<ReactCompareSliderImage src={after3} alt="After 3" />}
@@ -82,17 +93,7 @@ const Photos = () => {
               />
             </div>
           </figure> */}
-          <figure className="photos-container">
-            <div className="h-full flex overflow-hidden rounded-md">
-              <ReactCompareSlider
-                className="w-full"
-                itemOne={
-                  <ReactCompareSliderImage src={before5} alt="Before 5" />
-                }
-                itemTwo={<ReactCompareSliderImage src={after5} alt="After 5" />}
-              />
-            </div>
-          </figure>
+
           <figure className="photos-container">
             <div className="h-full flex overflow-hidden rounded-md">
               <ReactCompareSlider
