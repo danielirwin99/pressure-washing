@@ -35,7 +35,6 @@ html {
   scroll-margin-top: 70px;
 }
 
-
 .header-title {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -172,7 +171,7 @@ html {
   font-size: 20px;
   color: white;
   text-align: center;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6)
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
 }
 
 .services-quote {
@@ -189,7 +188,7 @@ html {
 }
 
 .photos-container {
-  height: 350px;
+  height: 400px;
   margin: 8px;
   border-radius: 6px;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);

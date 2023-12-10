@@ -14,6 +14,10 @@ import {
   before7,
   after7,
 } from "../../assets/B&A/Index";
+import {
+  ReactCompareSlider,
+  ReactCompareSliderImage,
+} from "react-compare-slider";
 
 const Photos = () => {
   return (
@@ -29,51 +33,43 @@ const Photos = () => {
           Our Recent Jobs
         </h2>
         <p></p>
-        <div className="mt-5 md:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-5 md:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full">
           <figure className="photos-container">
             <div className="h-full flex overflow-hidden rounded-md ">
-              <img
-                src={before1}
-                alt="before3"
-                className="w-1/2 h-full object-fill rounded-l-md hover:scale-105 duration-150 ease-in-out"
-              />
-              <img
-                src={after1}
-                alt="before3"
-                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 duration-150 ease-in-out"
+              <ReactCompareSlider
+                className="w-full"
+                itemOne={
+                  <ReactCompareSliderImage src={before1} alt="Before 1" />
+                }
+                itemTwo={<ReactCompareSliderImage src={after1} alt="After 1" />}
               />
             </div>
           </figure>
-          <figure className="photos-container">
-            <div className="h-full flex overflow-hidden rounded-md ">
-              <img
-                src={before2}
-                alt="before3"
-                className="w-1/2 h-full object-fill rounded-l-md hover:scale-105 duration-150 ease-in-out"
-              />
-              <img
-                src={after2}
-                alt="before3"
-                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105  duration-150 ease-in-out"
+
+          <figure className="photos-container hidden md:inline">
+            <div className="h-full flex overflow-hidden rounded-md">
+              <ReactCompareSlider
+                className="w-full"
+                itemOne={
+                  <ReactCompareSliderImage src={before2} alt="Before 2" />
+                }
+                itemTwo={<ReactCompareSliderImage src={after2} alt="After 2" />}
               />
             </div>
           </figure>
           <figure className="photos-container">
             <div className="h-full flex overflow-hidden rounded-md">
-              <img
-                src={before3}
-                alt="before3"
-                className="w-1/2 h-full object-fill hover:scale-105 rounded-l-md duration-150 ease-in-out"
-              />
-              <img
-                src={after3}
-                alt="before3"
-                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 duration-150 ease-in-out"
+              <ReactCompareSlider
+                className="w-full"
+                itemOne={
+                  <ReactCompareSliderImage src={before3} alt="Before 3" />
+                }
+                itemTwo={<ReactCompareSliderImage src={after3} alt="After 3" />}
               />
             </div>
           </figure>
-
-          <figure className="photos-container">
+          {/* This one is just for a backup */}
+          {/* <figure className="photos-container">
             <div className="h-full flex overflow-hidden rounded-md">
               <img
                 src={before5}
@@ -85,30 +81,37 @@ const Photos = () => {
                 className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 duration-150 ease-in-out"
               />
             </div>
-          </figure>
+          </figure> */}
           <figure className="photos-container">
             <div className="h-full flex overflow-hidden rounded-md">
-              <img
-                src={before6}
-                className="w-1/2 h-full object-fill hover:scale-105 rounded-l-md duration-150 ease-in-out"
-              />
-              <img
-                src={after6}
-                alt="before3"
-                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 duration-150 ease-in-out"
+              <ReactCompareSlider
+                className="w-full"
+                itemOne={
+                  <ReactCompareSliderImage src={before5} alt="Before 5" />
+                }
+                itemTwo={<ReactCompareSliderImage src={after5} alt="After 5" />}
               />
             </div>
           </figure>
           <figure className="photos-container">
             <div className="h-full flex overflow-hidden rounded-md">
-              <img
-                src={before7}
-                className="w-1/2 h-full object-fill hover:scale-105 rounded-l-md duration-150 ease-in-out"
+              <ReactCompareSlider
+                className="w-full"
+                itemOne={
+                  <ReactCompareSliderImage src={before6} alt="Before 6" />
+                }
+                itemTwo={<ReactCompareSliderImage src={after6} alt="After 6" />}
               />
-              <img
-                src={after7}
-                alt="before3"
-                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 duration-150 ease-in-out"
+            </div>
+          </figure>
+          <figure className="photos-container hidden md:inline">
+            <div className="h-full flex overflow-hidden rounded-md">
+              <ReactCompareSlider
+                className="w-full"
+                itemOne={
+                  <ReactCompareSliderImage src={before7} alt="Before 7" />
+                }
+                itemTwo={<ReactCompareSliderImage src={after7} alt="After 7" />}
               />
             </div>
           </figure>
