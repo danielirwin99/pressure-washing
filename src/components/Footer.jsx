@@ -40,7 +40,7 @@ const Footer = () => {
               <a className="text-white py-3 pt-5">Pressure Washing</a>
               <a className="text-white py-3 ">Driveway Sealing</a>
               <a className="text-white py-3 ">Window Cleaning</a>
-              <a className="text-white py-3 ">Gutter &nbsp; Vacuuming</a>
+              <a className="text-white py-3 ">Gutter Cleaning</a>
             </ul>
           </div>
           <div className="flex flex-col text-[12px] md:text-sm lg:text-md -ml-3">

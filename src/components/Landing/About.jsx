@@ -87,20 +87,19 @@ const About = () => {
           </h2>
           <ul className="space-y-2">
             <li className=" mt-10 items-center space-y-3">
-              <p className="w-full text-start md:text-xl tracking-wide leading-loose">
-                Total Exterior Cleaning stands out as a trustworthy service in
-                South Sydney and the Illawarra Areas, offering a distinctive
-                touch as a{" "}
+              <p className="w-full text-start md:text-xl leading-loose">
+                Total Exterior Cleaning is based in the Sutherland Shire Region,
+                offering a distinctive touch as a{" "}
                 <span className="font-bold">Father & Son local business</span> .
-                With a commitment to excellence, they employ up-to-date
-                cutting-edge equipment, ensuring a brilliant finish to all
-                exterior surfaces.
+                With a commitment to excellence, we employ up-to-date
+                <span className="font-bold"> cutting-edge equipment </span>,
+                ensuring a brilliant finish to all exterior surfaces.
               </p>
-              <p className="w-full text-start md:text-xl tracking-wide leading-loose">
+              <p className="w-full text-start md:text-xl leading-loose">
                 Our professional team at takes pride in providing reliable and
                 friendly service, all while maintaining affordability. From
-                residential spaces to commercial establishments, they cover it
-                all, making them the go-to choice for those seeking top-notch
+                residential spaces to commercial establishments, we cover it
+                all, making us the go-to choice for those seeking top-notch
                 exterior cleaning services in the region.
               </p>
             </li>

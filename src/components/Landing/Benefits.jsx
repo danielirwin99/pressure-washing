@@ -27,7 +27,7 @@ const Benefits = () => {
               <span className="hidden lg:inline">
                 Mould, bird droppings, algae and dirt can actually wear away at
                 your building or structure. Having routine pressure cleaning in
-                Sydney can help keep your repair costs low.{" "}
+                Sydney can help keep your home repair costs low.{" "}
               </span>{" "}
             </p>
           </div>
@@ -73,7 +73,7 @@ const Benefits = () => {
               excess time you or your staff may have.{" "}
               <span className="hidden lg:inline">
                 {" "}
-                Pressure washing is very fast and efficient, and we''ll work to
+                Pressure washing is very fast and efficient, and we'll work to
                 complete the project while working around your schedule to save
                 you even more time.
               </span>
