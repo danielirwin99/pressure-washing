@@ -37,7 +37,7 @@ const Header = () => {
             href="#quotes"
             className="contact-now header-button z-50 md:!text-xl "
           >
-            Get Your Free Quote
+            Claim Your Free Quote
           </a>
         </div>
         <div className="absolute xs:bottom-10 bottom-8 w-full hidden sm:flex justify-center items-center">
