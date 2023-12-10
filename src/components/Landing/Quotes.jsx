@@ -154,7 +154,7 @@ const Quotes = () => {
               ></textarea>
               <div className="flex items-center mt-3 justify-center">
                 <button
-                  className="contact-now !text-lg !px-10"
+                  className="contact-now !text-lg !px-10 w-full"
                   type="submit"
                   disabled={!form.email || !form.number}
                 >
