@@ -307,6 +307,7 @@ html {
   }
   .photos-container {
     height: 300px;
+    margin: 8px 24px;
   }
   .photos-container > img {
     height: 300px;
