@@ -95,7 +95,7 @@ const Contact = () => {
               placeholder="Full Name"
               className="border -ml-1 px-3 outline-none py-2 w-full"
             />
-            <p className="mt-4 mb-3">Email *</p>
+            <p className="mt-3 mb-3">Email *</p>
             <input
               value={form.email}
               onChange={handleChange}
@@ -104,7 +104,7 @@ const Contact = () => {
               placeholder="Email"
               className="border -ml-1 px-3 outline-none py-2 w-full"
             />
-            <p className="mt-4 mb-3">Phone# </p>
+            <p className="mt-3 mb-3">Phone# </p>
             <input
               name="number"
               value={form.number}
@@ -113,7 +113,7 @@ const Contact = () => {
               placeholder="Phone #:"
               className="border -ml-1 px-3 py-2 w-full outline-none"
             />
-            <p className="mt-4">Message * </p>
+            <p className="mt-3">Message * </p>
             <textarea
               value={form.message}
               onChange={handleChange}
@@ -122,7 +122,7 @@ const Contact = () => {
               placeholder="Provide us a brief description of the work..."
               id=""
               cols="30"
-              rows="6"
+              rows="4"
             ></textarea>
             <div className="flex items-center mt-3 justify-center">
               <button
@@ -135,6 +135,9 @@ const Contact = () => {
             </div>
           </form>
         </div>
+        <h1 className="mt-8 text-3xl text-white">
+          For Immediate Assistance Call <span className="font-bold">0417 477 117</span> 
+        </h1>
       </div>
     </main>
   );
