@@ -95,14 +95,14 @@ const Contact = () => {
               Contact Form
             </h2>
 
-            <p className="mt-8 mb-3">Full Name *</p>
+            <p className="mt-6 text-sm mb-3">Full Name *</p>
             <input
               value={form.name}
               onChange={handleChange}
               type="text"
               name="name"
               placeholder="Full Name"
-              className="border -ml-1 px-3 outline-none py-2 w-full"
+              className="border text-sm  -ml-1 px-3 outline-none py-2 w-full"
             />
             <p className="mt-3 mb-3">Email *</p>
             <input
@@ -111,29 +111,29 @@ const Contact = () => {
               type="email"
               name="email"
               placeholder="Email"
-              className="border -ml-1 px-3 outline-none py-2 w-full"
+              className="border -ml-1 text-sm  px-3 outline-none py-2 w-full"
             />
-            <p className="mt-3 mb-3">Phone# </p>
+            <p className="mt-3 text-sm  mb-3">Phone# </p>
             <input
               name="number"
               value={form.number}
               onChange={handleChange}
               type="text"
               placeholder="Phone #:"
-              className="border -ml-1 px-3 py-2 w-full outline-none"
+              className="border -ml-1 text-sm  px-3 py-2 w-full outline-none"
             />
-            <p className="mt-3">Message * </p>
+            <p className="mt-3 text-sm ">Message * </p>
             <textarea
               value={form.message}
               onChange={handleChange}
               name="message"
-              className="border mt-5 w-full -ml-1 p-3 resize-none outline-none"
+              className="border mt-5 w-full text-sm  -ml-1 p-3 resize-none outline-none"
               placeholder="Provide us a brief description of the work..."
               id=""
               cols="30"
               rows="4"
             ></textarea>
-            <div className="flex items-center mt-3 justify-center">
+            <div className="flex items-center  mt-3 justify-center">
               <button
                 className="contact-now !text-lg !px-10 w-full"
                 type="submit"
