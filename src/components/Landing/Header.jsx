@@ -34,12 +34,12 @@ const Header = () => {
               0417 477 117
             </a>
           </div>
-          <a
-            href="#quotes"
+          <Link
+            to={"/contact-us"}
             className="contact-now header-button z-50 md:!text-xl "
           >
             Claim Your Free Quote
-          </a>
+          </Link>
         </div>
         <div className="absolute xs:bottom-10 bottom-8 w-full hidden sm:flex justify-center items-center">
           <Link to={"/contact-us"}>
