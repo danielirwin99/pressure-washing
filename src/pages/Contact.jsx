@@ -69,11 +69,11 @@ const Contact = () => {
 
   return (
     <main className="bg-cyan-500 h-screen">
-      <div className="flex flex-col justify-center mx-10 lg:mx-0 items-center">
-        <h1 className="text-5xl font-bold py-2 text-white mt-10 text-shadow">
+      <div className="flex flex-col justify-center mx-3 sm:mx-6 lg:mx-0 items-center">
+        <h1 className="text-3xl md:text-5xl font-bold py-2 text-white mt-10 text-shadow text-center">
           Get A Fast Quote
         </h1>
-        <h2 className="text-white text-lg font-semibold text-shadow my-5">
+        <h2 className="text-white text-lg md:font-semibold text-shadow my-2 md:my-5 text-center">
           We Will Review Your Request and Reach Out to You As Soon As Possible!
         </h2>
         <div className="bg-white flex w-full lg:w-3/5  rounded-lg">
@@ -135,8 +135,9 @@ const Contact = () => {
             </div>
           </form>
         </div>
-        <h1 className="mt-8 text-3xl text-white">
-          For Immediate Assistance Call <span className="font-bold">0417 477 117</span> 
+        <h1 className="mt-6 sm:mt-8 text-2xl sm:text-3xl text-white text-center pb-5">
+          For Immediate Assistance Call <br />{" "}
+          <span className="font-bold">0417 477 117</span>
         </h1>
       </div>
     </main>
