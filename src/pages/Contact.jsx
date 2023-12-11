@@ -94,7 +94,7 @@ const Contact = () => {
             <h2 className="font-extrabold text-center text-2xl  mb-5 from-gray-700 via-cyan-500 to-white bg-gradient-to-r bg-clip-text text-transparent sub-headers">
               Contact Form
             </h2>
-            <div className="flex w-full items-center">
+            <div className="flex w-full items-center space-x-2">
               <div className="w-1/2">
                 <p className="text-sm mb-3">Full Name *</p>
                 <input
