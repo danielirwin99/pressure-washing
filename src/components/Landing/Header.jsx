@@ -2,6 +2,7 @@ import React from "react";
 import image from "../../assets/pressure.jpg";
 import { motion } from "framer-motion";
 import { BsTelephone } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -9,9 +10,9 @@ const Header = () => {
       <header className="h-[calc(100vh-106px)] relative ">
         {/* FIXED BUTTON */}
         <div className="fixed bottom-5 right-4 sm:bottom-7 sm:right-5 z-[995] template-shadow rounded-2xl">
-          <a href="#quotes" className="contact-now mobile">
+          <Link to={"/contact-us"} className="contact-now mobile">
             Contact Now
-          </a>
+          </Link>
         </div>
         <div className="absolute w-full h-full -z-10">
           <img
@@ -41,7 +42,7 @@ const Header = () => {
           </a>
         </div>
         <div className="absolute xs:bottom-10 bottom-8 w-full hidden sm:flex justify-center items-center">
-          <a href="#about">
+          <Link to={"/contact-us"}>
             <div className="w-[34px] h-[56px] rounded-3xl border-4 border-white flex justify-center items-start p-2">
               <motion.div
                 animate={{ y: [0, 18, 0] }}
@@ -53,7 +54,7 @@ const Header = () => {
                 className="w-2 h-3 rounded-full bg-white mb-1"
               />
             </div>
-          </a>
+          </Link>
         </div>
       </header>
     </>

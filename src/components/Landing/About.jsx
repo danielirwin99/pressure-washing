@@ -1,6 +1,5 @@
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
-import { BiCheck } from "react-icons/bi";
 import { about } from "../../assets";
 
 const About = () => {

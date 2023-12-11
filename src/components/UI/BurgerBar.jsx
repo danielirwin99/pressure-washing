@@ -8,6 +8,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { logo } from "../../assets";
+import { Link } from "react-router-dom";
 
 const DrawerHeader = styled("div")(({ theme }) => ({
   display: "flex",
@@ -99,13 +100,13 @@ export default function BurgerBar() {
               </a>
             </div>
             <div className="burger__list--wrapper">
-              <a
+              <Link
                 onClick={handleDrawerClose}
-                href="#quotes"
+                to={"/contact-us"}
                 className="burger__list--header"
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
           </div>
           {/* <ul className="burger__links--wrapper">
