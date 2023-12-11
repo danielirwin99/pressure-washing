@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { Link } from "react-router-dom";
+import { BsArrowLeftShort } from "react-icons/bs";
 
 const Contact = () => {
   const formRef = useRef();
@@ -69,6 +71,10 @@ const Contact = () => {
 
   return (
     <main className="bg-cyan-500 h-screen">
+      <Link to={"/"} className="fixed top-6 left-6 flex justify-center items-center space-x-1 hover:opacity-70 ">
+        <BsArrowLeftShort className="text-white text-3xl" />
+        <h1 className="text-white uppercase hidden sm:inline">Home</h1>
+      </Link>
       <div className="flex flex-col justify-center mx-3 sm:mx-6 lg:mx-0 items-center">
         <h1 className="text-3xl md:text-5xl font-bold py-2 text-white mt-10 text-shadow text-center">
           Get A Fast Quote
@@ -130,7 +136,11 @@ const Contact = () => {
                 type="submit"
                 disabled={!form.email || !form.number}
               >
-                {loading ? <p className="text-cyan-500">Sending...</p> : "Send"}
+                {loading ? (
+                  <p className="text-emerald-400">Sending...</p>
+                ) : (
+                  "Send"
+                )}
               </button>
             </div>
           </form>
