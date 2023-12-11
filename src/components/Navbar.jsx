@@ -4,6 +4,7 @@ import { BsTelephone } from "react-icons/bs";
 import BurgerBar from "./UI/BurgerBar";
 import { logo } from "../assets";
 import { Link } from "react-router-dom";
+import Menu from "./UI/Menu";
 
 const Navbar = () => {
   return (
@@ -19,9 +20,9 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item hidden lg:flex">
-            <a className="nav-link" href="#services">
-              Our Services
-            </a>
+            <div className="nav-link cursor-pointer" >
+              <Menu />
+            </div>
           </li>
           {/* <li className="nav-item">
             <a className="nav-link" href="#photos">
