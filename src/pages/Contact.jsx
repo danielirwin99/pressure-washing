@@ -70,8 +70,11 @@ const Contact = () => {
   };
 
   return (
-    <main className="bg-cyan-500 h-screen">
-      <Link to={"/"} className="fixed top-6 left-6 flex justify-center items-center space-x-1 hover:opacity-70 ">
+    <main className="bg-gradient-to-br from-cyan-500 to-cyan-500 h-screen !min-h-full">
+      <Link
+        to={"/"}
+        className="fixed top-6 left-6 flex justify-center items-center space-x-1 hover:opacity-70 "
+      >
         <BsArrowLeftShort className="text-white text-3xl" />
         <h1 className="text-white uppercase hidden sm:inline">Home</h1>
       </Link>
@@ -147,7 +150,7 @@ const Contact = () => {
         </div>
         <h1 className="mt-6 sm:mt-8 text-2xl sm:text-3xl text-white text-center pb-5">
           For Immediate Assistance Call <br />{" "}
-          <span className="font-bold">0417 477 117</span>
+          <span className="font-bold text-shadow">0417 477 117</span>
         </h1>
       </div>
     </main>
