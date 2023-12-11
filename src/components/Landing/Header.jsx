@@ -42,7 +42,7 @@ const Header = () => {
           </Link>
         </div>
         <div className="absolute xs:bottom-10 bottom-8 w-full hidden sm:flex justify-center items-center">
-          <Link to={"/contact-us"}>
+          <a href="#about">
             <div className="w-[34px] h-[56px] rounded-3xl border-4 border-white flex justify-center items-start p-2">
               <motion.div
                 animate={{ y: [0, 18, 0] }}
@@ -54,7 +54,7 @@ const Header = () => {
                 className="w-2 h-3 rounded-full bg-white mb-1"
               />
             </div>
-          </Link>
+          </a>
         </div>
       </header>
     </>
