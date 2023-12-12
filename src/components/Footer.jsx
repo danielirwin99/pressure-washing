@@ -21,25 +21,29 @@ const Footer = () => {
             <p className="text-white text-sm lg:text-base font-extrabold">
               QUICK LINKS
             </p>
-            <a href="#" className="footerLinks">
+            <a href="/" className="footerLinks">
               Home
             </a>
-            <a href="#about" className="footerLinks">
+            <a href="/" className="footerLinks">
               About Us
             </a>
             <a href="#services" className="footerLinks">
               Our Services
             </a>
-            <a href="#photos" className="footerLinks">
-              Before and Afters
+            <a href="/contact-us" className="footerLinks">
+              Contact Us
             </a>
           </ul>
           <div className="lg:flex flex-col text-xs md:text-sm lg:text-md hidden">
             <ul className="flex flex-col text-xs md:text-sm ">
               <p className="text-white font-extrabold">SERVICES</p>
-              <a className="text-white py-3 pt-5">Pressure Washing</a>
+              <a href="/pressure-washing" className="text-white py-3 pt-5">
+                Pressure Washing
+              </a>
               <a className="text-white py-3 ">Driveway Sealing</a>
-              <a className="text-white py-3 ">Window Cleaning</a>
+              <a href="/window-cleaning" className="text-white py-3 ">
+                Window Cleaning
+              </a>
               <a className="text-white py-3 ">Gutter Cleaning</a>
             </ul>
           </div>
