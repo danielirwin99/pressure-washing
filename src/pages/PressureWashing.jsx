@@ -19,16 +19,16 @@ const PressureWashing = () => {
         <div>
           <figure className="w-full absolute -z-10">
             <img
-              className="w-full object-cover  h-[500px] md:h-[800px] brightness-50"
+              className="w-full object-cover h-[500px] md:h-[800px] brightness-50"
               src={pressurewashing}
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[200px] md:pt-[300px] flex flex-col pl-12 md:pl-32 space-y-14">
-            <h1 className="text-white uppercase text-4xl md:text-6xl font-bold text-shadow">
+          <div className="pt-[200px] md:pt-[300px] flex flex-col pl-12 lg:pl-32 space-y-14">
+            <h1 className="text-white uppercase text-2xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Pressure Washing
             </h1>
-            <h2 className="uppercase text-3xl text-white font-semibold text-shadow">
+            <h2 className="uppercase text-xl md:text-3xl text-white font-semibold text-shadow">
               Executed with precision
             </h2>
             <Link to={"/contact-us"} className="">
@@ -39,11 +39,11 @@ const PressureWashing = () => {
           </div>
         </div>
       </main>
-      <div className="mt-80 lg:mt-36">
-        <div className="ml-16 lg:pt-40 mb-5 mr-16 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+      <div className="mt-36 sm:mt-32 md:mt-72 lg:mt-36">
+        <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
             <h1 className="text-5xl font-bold">Why Choose Pressure Washing?</h1>
-            <p className="leading-6 pt-12 text-xl">
+            <p className="leading-6 pt-8 text-xl">
               <span className="font-bold"> Total Exterior Cleaning</span>{" "}
               provides professional total exterior cleaning services for both
               residential and commercial properties throughout Sydney. Our
@@ -57,7 +57,7 @@ const PressureWashing = () => {
               possesses extensive knowledge of how and where high-pressure
               cleaning can be applied to enhance your home's external surfaces.
             </p>
-            <p className="leading-6 text-xl">
+            <p className="leading-6 text-xl hidden sm:inline">
               If you have concerns about specific surfaces and the potential
               risks of high pressure, we specialize in and offer low-pressure
               techniques, particularly suitable for more delicate surfaces
@@ -79,17 +79,17 @@ const PressureWashing = () => {
               areas.
             </p>
           </div>
-          <div className="flex lg:flex-col my-14 lg:mt-0  lg:pl-20 lg:space-y-5 space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
-            <div className="w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
+          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-20 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
+            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
               <ReactCompareSlider
-                className="w-full"
+                className="w-full mb-4 sm:mb-0"
                 itemOne={
                   <ReactCompareSliderImage src={before2} alt="Before 2" />
                 }
                 itemTwo={<ReactCompareSliderImage src={after2} alt="After 2" />}
               />
             </div>
-            <div className="w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
+            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
               <ReactCompareSlider
                 className="w-full"
                 itemOne={
