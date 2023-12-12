@@ -1,19 +1,8 @@
 import React from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
-import {
-  pressurewashing,
-  window1,
-  window2,
-  window3,
-  windows,
-} from "../assets/index";
+import { window1, window2, window3, windows } from "../assets/index";
 import { Link } from "react-router-dom";
-import {
-  ReactCompareSlider,
-  ReactCompareSliderImage,
-} from "react-compare-slider";
-import { after2, after3, before2, before3 } from "../assets/B&A/Index";
 
 const WindowCleaning = () => {
   return (
@@ -31,7 +20,7 @@ const WindowCleaning = () => {
             />
           </figure>
           <div className="pt-[200px] md:pt-[300px] flex flex-col pl-12 lg:pl-32 space-y-14">
-            <h1 className="text-white uppercase text-4xl  md:text-6xl font-bold text-shadow">
+            <h1 className="text-white uppercase text-4xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Window Cleaning
             </h1>
             <h2 className="uppercase text-xl md:text-3xl text-white font-semibold text-shadow">
