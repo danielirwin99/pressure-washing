@@ -25,7 +25,7 @@ const PressureWashing = () => {
             />
           </figure>
           <div className="pt-[200px] md:pt-[300px] flex flex-col pl-12 lg:pl-32 space-y-14">
-            <h1 className="text-white uppercase text-2xl sm:text-4xl md:text-6xl font-bold text-shadow">
+            <h1 className="text-white uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Pressure Washing
             </h1>
             <h2 className="uppercase text-xl md:text-3xl text-white font-semibold text-shadow">
