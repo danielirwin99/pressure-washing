@@ -10,6 +10,7 @@ import service4 from "./service4.jpg";
 import service5 from "./service5.jpg";
 import service6 from "./service6.jpg";
 import logo from "../assets/logo.jpg";
+import pressurewashing from "../assets/pressurewashing.jpg";
 
 export {
   // before1,
@@ -24,4 +25,5 @@ export {
   service4,
   service5,
   service6,
+  pressurewashing,
 };
