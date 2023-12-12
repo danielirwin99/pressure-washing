@@ -9,7 +9,7 @@ import BurgerService from "./UI/BurgerService";
 
 const NavbarServices = () => {
   return (
-    <nav className="top-0 z-[999] w-full py-1 px-4 xl:px-20 lg:px-10 fixed ">
+    <nav className="top-0 z-[999] w-full py-1 px-4 xl:px-20 lg:px-10 absolute ">
       <div className="flex justify-around items-center">
         <a className="flex items-center justify-center" href="/">
           <img className="h-24 w-40 brightness-150" src={logo} alt="Logo" />
