@@ -82,13 +82,40 @@ export default function BurgerBar() {
               </a>
             </div>
             <div className="burger__list--wrapper">
-              <a
+              <Link
                 onClick={handleDrawerClose}
-                href="#services"
+                to={"/pressure-washing"}
                 className="burger__list--header"
               >
-                Our Services
-              </a>
+                Pressure Washing
+              </Link>
+            </div>
+            <div className="burger__list--wrapper">
+              <Link
+                onClick={handleDrawerClose}
+                to={"/pressure-washing"}
+                className="burger__list--header"
+              >
+                Window Cleaning
+              </Link>
+            </div>
+            <div className="burger__list--wrapper">
+              <Link
+                onClick={handleDrawerClose}
+                to={"/pressure-washing"}
+                className="burger__list--header"
+              >
+                Gutter Cleaning
+              </Link>
+            </div>
+            <div className="burger__list--wrapper">
+              <Link
+                onClick={handleDrawerClose}
+                to={"/pressure-washing"}
+                className="burger__list--header"
+              >
+                Driveway Sealing
+              </Link>
             </div>
             <div className="burger__list--wrapper">
               <a

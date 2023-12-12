@@ -75,30 +75,57 @@ export default function BurgerService() {
             <div className="burger__list--wrapper">
               <a
                 onClick={handleDrawerClose}
-                href="#about"
+                href="/"
                 className="burger__list--header"
               >
-                About Us
+                Home
               </a>
             </div>
             <div className="burger__list--wrapper">
-              <a
+              <Link
                 onClick={handleDrawerClose}
-                href="#services"
+                to={"/pressure-washing"}
                 className="burger__list--header"
               >
-                Our Services
-              </a>
+                Pressure Washing
+              </Link>
             </div>
             <div className="burger__list--wrapper">
+              <Link
+                onClick={handleDrawerClose}
+                to={"/pressure-washing"}
+                className="burger__list--header"
+              >
+                Window Cleaning
+              </Link>
+            </div>
+            <div className="burger__list--wrapper">
+              <Link
+                onClick={handleDrawerClose}
+                to={"/pressure-washing"}
+                className="burger__list--header"
+              >
+                Gutter Cleaning
+              </Link>
+            </div>
+            <div className="burger__list--wrapper">
+              <Link
+                onClick={handleDrawerClose}
+                to={"/pressure-washing"}
+                className="burger__list--header"
+              >
+                Driveway Sealing
+              </Link>
+            </div>
+            {/* <div className="burger__list--wrapper">
               <a
                 onClick={handleDrawerClose}
-                href="#socials"
+                href="home/#socials"
                 className="burger__list--header"
               >
                 Socials
               </a>
-            </div>
+            </div> */}
             <div className="burger__list--wrapper">
               <Link
                 onClick={handleDrawerClose}
