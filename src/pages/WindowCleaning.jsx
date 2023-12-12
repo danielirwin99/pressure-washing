@@ -9,7 +9,7 @@ import {
 } from "react-compare-slider";
 import { after2, after3, before2, before3 } from "../assets/B&A/Index";
 
-const PressureWashing = () => {
+const WindowCleaning = () => {
   return (
     <>
       {/* Navbar */}
@@ -26,10 +26,10 @@ const PressureWashing = () => {
           </figure>
           <div className="pt-[200px] md:pt-[300px] flex flex-col pl-12 lg:pl-32 space-y-14">
             <h1 className="text-white uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
-              Pressure Washing
+              Window Cleaning
             </h1>
             <h2 className="uppercase text-xl md:text-3xl text-white font-semibold text-shadow">
-              Executed with precision
+              Crystal-clear Views.
             </h2>
             <Link to={"/contact-us"} className="">
               <button className="contact-now z-50 md:!text-xl ">
@@ -42,38 +42,39 @@ const PressureWashing = () => {
       <div className="mt-36 sm:mt-32 md:mt-72 lg:mt-36">
         <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
-            <h1 className="text-5xl font-bold">Why Choose Pressure Washing?</h1>
+            <h1 className="text-5xl font-bold">
+              Are Your Windows Begging for a Revitalizing Shine?
+            </h1>
             <p className="leading-6 pt-8 text-xl">
-              <span className="font-bold"> Total Exterior Cleaning</span>{" "}
-              provides professional total exterior cleaning services for both
-              residential and commercial properties throughout Sydney. Our
-              high-pressure cleaning methods have the capacity to refresh
-              various surfaces such as driveways, pavers, patios, concrete
-              floors, and pathways.
+              At <span className="font-bold"> Total Exterior Cleaning</span>, we
+              take pride in offering unparalleled expertise in window cleaning
+              services, bringing a new level of brilliance to your living or
+              workspace.
             </p>
             <p className="leading-6 text-xl">
-              When it comes to your property, Total Exterior Cleaning
-              exclusively uses the latest industrial-grade equipment and
-              possesses extensive knowledge of how and where high-pressure
-              cleaning can be applied to enhance your home's external surfaces.
+              Our skilled professionals are dedicated to transforming the
+              ordinary into the extraordinary. Say goodbye to the frustration of
+              smudged and streaky windows as our meticulous team employs
+              cutting-edge techniques and top-quality cleaning solutions to
+              ensure your windows gleam with a revitalizing shine.
             </p>
             <p className="leading-6 text-xl hidden sm:flex">
-              If you have concerns about specific surfaces and the potential
-              risks of high pressure, we specialize in and offer low-pressure
-              techniques, particularly suitable for more delicate surfaces
-              affected by mold and mildew.
+              Experience the transformative power of transparency as our
+              meticulous professionals enhance the aesthetic appeal of your
+              property. Total Exterior Cleaning goes beyond standard window
+              cleaning, addressing environmental pollutants and dirt to ensure
+              your windows are spotless and streak-free.
             </p>
             <p className="leading-6 text-xl">
-              {" "}
-              Dirt, mold, mildew, and stains not only alter the appearance of
-              your outdoor areas but also create hazardous and slippery
-              conditions. Through the use of high-pressure cleaning, we can
-              eliminate these dangers and restore the vibrant colors of your
-              outdoor spaces.{" "}
+              Choose <span className="font-bold">Total Exterior Cleaning</span>{" "}
+              for a transformative experience that goes beyond ordinary window
+              cleaning. Let us unveil the brilliance of your space, leaving you
+              with a home or office that radiates cleanliness and
+              sophistication.
             </p>
 
             <p className=" leading-6 text-xl">
-              Contact us today to schedule your free pressure washing quote
+              Contact us today to schedule your free window cleaning quote
               quote. We'll visit your property, provide a transparent,
               no-obligation estimate, and breathe new life into your outdoor
               areas.
@@ -114,4 +115,4 @@ const PressureWashing = () => {
   );
 };
 
-export default PressureWashing;
+export default WindowCleaning;

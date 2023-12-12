@@ -90,7 +90,7 @@ export default function DropDownMenu() {
             </a>
           </li>
           <li className="" onClick={handleClose} disableRipple>
-            <a href="/pressure-washing">
+            <a href="/window-cleaning">
               <h3 className="text-xl font-bold no-underline hover:opacity-70 transition-all duration-50 text-white">
                 Window Cleaning
               </h3>

@@ -93,7 +93,7 @@ export default function BurgerService() {
             <div className="burger__list--wrapper">
               <Link
                 onClick={handleDrawerClose}
-                to={"/pressure-washing"}
+                to={"/window-cleaning"}
                 className="burger__list--header"
               >
                 Window Cleaning
