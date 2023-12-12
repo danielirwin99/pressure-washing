@@ -1,7 +1,13 @@
 import React from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
-import { pressurewashing } from "../assets/index";
+import {
+  pressurewashing,
+  window1,
+  window2,
+  window3,
+  windows,
+} from "../assets/index";
 import { Link } from "react-router-dom";
 import {
   ReactCompareSlider,
@@ -19,8 +25,8 @@ const WindowCleaning = () => {
         <div>
           <figure className="w-full absolute -z-10">
             <img
-              className="w-full object-cover h-[500px] md:h-[800px] brightness-50"
-              src={pressurewashing}
+              className="w-full object-cover h-[500px] md:h-[800px] brightness-[.60]"
+              src={windows}
               alt="Background Image"
             />
           </figure>
@@ -40,9 +46,9 @@ const WindowCleaning = () => {
         </div>
       </main>
       <div className="mt-36 sm:mt-32 md:mt-72 lg:mt-36">
-        <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+        <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-5xl font-bold tracking-wide leading-snug">
               Are Your Windows Begging for a Revitalizing Shine?
             </h1>
             <p className="leading-6 pt-8 text-xl">
@@ -61,9 +67,8 @@ const WindowCleaning = () => {
             <p className="leading-6 text-xl hidden sm:flex">
               Experience the transformative power of transparency as our
               meticulous professionals enhance the aesthetic appeal of your
-              property. Total Exterior Cleaning goes beyond standard window
-              cleaning, addressing environmental pollutants and dirt to ensure
-              your windows are spotless and streak-free.
+              property. Total Exterior Cleaning services both commercial and
+              residential properties.
             </p>
             <p className="leading-6 text-xl">
               Choose <span className="font-bold">Total Exterior Cleaning</span>{" "}
@@ -87,24 +92,33 @@ const WindowCleaning = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-20 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
-            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
-              <ReactCompareSlider
-                className="w-full mb-4 sm:mb-0"
-                itemOne={
-                  <ReactCompareSliderImage src={before2} alt="Before 2" />
-                }
-                itemTwo={<ReactCompareSliderImage src={after2} alt="After 2" />}
-              />
+          <div className="relative flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-20  sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
+            <div className="w-full top-28 left-3 lg:absolute sm:w-1/3 lg:w-full  flex overflow-hidden rounded-md">
+              <figure>
+                <img
+                  className=" rounded-md w-[300px] h-[450px]"
+                  src={window1}
+                  alt=""
+                />
+              </figure>
             </div>
-            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
-              <ReactCompareSlider
-                className="w-full"
-                itemOne={
-                  <ReactCompareSliderImage src={before3} alt="Before 3" />
-                }
-                itemTwo={<ReactCompareSliderImage src={after3} alt="After 3" />}
-              />
+            <div className="w-full top-40 xl:left-[450px] left-[250px] lg:absolute mt-3 sm:mt-0 sm:w-1/3 lg:w-full flex overflow-hidden rounded-md">
+              <figure>
+                <img
+                  className="rounded-md w-[300px] h-[450px]"
+                  src={window2}
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div className="w-full bottom-2 xl:top-5 xl:left-[200px] lg:absolute mt-3 sm:mt-0 sm:w-1/3 lg:w-full flex overflow-hidden rounded-md">
+              <figure>
+                <img
+                  className="rounded-md w-[300px] h-[450px]"
+                  src={window3}
+                  alt=""
+                />
+              </figure>
             </div>
           </div>
         </div>

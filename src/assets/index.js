@@ -11,6 +11,10 @@ import service5 from "./service5.jpg";
 import service6 from "./service6.jpg";
 import logo from "../assets/logo.jpg";
 import pressurewashing from "../assets/pressurewashing.jpg";
+import windows from "../assets/windows.jpg";
+import window1 from "../assets/window1.jpg";
+import window2 from "../assets/window2.jpg";
+import window3 from "../assets/window3.jpg";
 
 export {
   // before1,
@@ -26,4 +30,8 @@ export {
   service5,
   service6,
   pressurewashing,
+  windows,
+  window1,
+  window2,
+  window3,
 };
