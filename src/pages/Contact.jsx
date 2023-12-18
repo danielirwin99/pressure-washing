@@ -79,7 +79,7 @@ const Contact = () => {
         <h1 className="text-white uppercase hidden sm:inline">Home</h1>
       </Link>
       <div className="flex flex-col justify-center mx-3 sm:mx-6 lg:mx-0 items-center">
-        <h1 className="text-3xl md:text-4xl font-bold py-2 text-white mt-8 text-shadow text-center">
+        <h1 className="text-3xl md:text-4xl font-bold py-2 text-white mt-14 text-shadow text-center">
           Get A Fast Quote
         </h1>
         <h2 className="text-white text-sm sm:text-lg md:font-semibold text-shadow my-2 md:my-5 text-center">
@@ -155,7 +155,9 @@ const Contact = () => {
         </div>
         <h1 className="mt-6 sm:mt-8 text-xl sm:text-2xl text-white text-center pb-5">
           For Immediate Assistance Call <br />{" "}
-          <span className="font-bold text-shadow">0417 477 117</span>
+          <span className="font-bold text-shadow">
+            0417&nbsp; 477 &nbsp; 117
+          </span>
         </h1>
       </div>
     </main>
