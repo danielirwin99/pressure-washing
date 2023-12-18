@@ -36,7 +36,7 @@ const WindowCleaning = () => {
         </div>
       </main>
       <div className="mt-28 md:mt-72 lg:mt-36">
-        <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
+        <div className="ml-10 lg:pt-24 mb-5 mr-10 lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
             <h1 className="text-3xl sm:text-5xl font-bold tracking-wide leading-snug">
               Are Your Windows Begging for a Revitalizing Shine?
