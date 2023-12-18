@@ -77,9 +77,9 @@ const WindowCleaning = () => {
             </p>
 
             <p className=" leading-6 sm:text-xl font-semibold">
-              Contact us today to schedule your free window cleaning quote
-              quote. We'll visit your property, provide a transparent,
-              no-obligation estimate.
+              Contact us today to schedule your free window cleaning quote.
+              We'll visit your property, provide a transparent, no-obligation
+              estimate.
             </p>
             <div className="pt-5 pb-10 flex justify-center">
               <Link to={"/contact-us"}>

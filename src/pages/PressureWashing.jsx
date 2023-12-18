@@ -78,10 +78,9 @@ const PressureWashing = () => {
             </p>
 
             <p className=" leading-6 text-lg font-semibold">
-              Contact Us today to schedule your free pressure washing quote
-              quote. We'll visit your property, provide a transparent,
-              no-obligation estimate, and breathe new life into your outdoor
-              areas.
+              Contact Us today to schedule your free pressure washing quote.
+              We'll visit your property, provide a transparent, no-obligation
+              estimate, and breathe new life into your outdoor areas.
             </p>
             <div className="py-5 flex justify-center">
               <Link to={"/contact-us"}>
