@@ -25,8 +25,8 @@ const PressureWashing = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[200px] md:pt-[300px] flex flex-col pl-12 lg:pl-32 space-y-14">
-            <h1 className="text-white uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
+          <div className="pt-[150px] md:pt-[300px] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-14">
+            <h1 className="text-white uppercase text-2xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Pressure Washing
             </h1>
             <h2 className="uppercase text-xl md:text-3xl text-white font-semibold text-shadow">
@@ -40,13 +40,13 @@ const PressureWashing = () => {
           </div>
         </div>
       </main>
-      <div className="mt-36 sm:mt-32 md:mt-72 lg:mt-36">
-        <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+      <div className="mt-32 md:mt-64 lg:mt-36">
+        <div className="ml-10 lg:pt-24 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-3xl sm:text-5xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
-            <p className="leading-6 pt-8 text-xl">
+            <p className="leading-6 pt-4 text-lg">
               <span className="font-bold"> Total Exterior Cleaning</span>{" "}
               provides professional total exterior cleaning services for both
               residential and commercial properties throughout Sydney. Our
@@ -58,7 +58,7 @@ const PressureWashing = () => {
               Cutting-Edge Pressure Washing Technology
             </h2>
 
-            <p className="leading-6 text-xl">
+            <p className="leading-6 text-lg">
               When it comes to your property, Total Exterior Cleaning
               exclusively uses the latest industrial-grade equipment and
               possesses extensive knowledge of how and where high-pressure
@@ -68,7 +68,7 @@ const PressureWashing = () => {
             <h2 className="text-3xl font-semibold text-cyan-500">
               Preservation and Protection
             </h2>
-            <p className="leading-6 text-xl">
+            <p className="leading-6 text-lg">
               {" "}
               Dirt, mold, mildew, and stains not only alter the appearance of
               your outdoor areas but also create hazardous and slippery
@@ -77,8 +77,8 @@ const PressureWashing = () => {
               outdoor spaces.{" "}
             </p>
 
-            <p className=" leading-6 text-xl">
-              Contact us today to schedule your free pressure washing quote
+            <p className=" leading-6 text-lg font-semibold">
+              Contact Us today to schedule your free pressure washing quote
               quote. We'll visit your property, provide a transparent,
               no-obligation estimate, and breathe new life into your outdoor
               areas.
@@ -90,6 +90,9 @@ const PressureWashing = () => {
                 </button>
               </Link>
             </div>
+            <h2 className="text-center text-2xl font-bold sm:hidden">
+              Check Out Some Of Our Photos!
+            </h2>
           </div>
           <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-16 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">

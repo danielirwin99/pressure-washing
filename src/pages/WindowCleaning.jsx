@@ -20,8 +20,8 @@ const WindowCleaning = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[200px] md:pt-[300px] flex flex-col pl-12 lg:pl-32 space-y-14">
-            <h1 className="text-white uppercase text-4xl sm:text-4xl md:text-6xl font-bold text-shadow">
+          <div className="pt-[200px] md:pt-[300px] flex flex-col pl-10 lg:pl-32 space-y-14">
+            <h1 className="text-white uppercase text-2xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Window Cleaning
             </h1>
             <h2 className="uppercase text-xl md:text-3xl text-white font-semibold text-shadow">
@@ -35,44 +35,51 @@ const WindowCleaning = () => {
           </div>
         </div>
       </main>
-      <div className="mt-36 sm:mt-32 md:mt-72 lg:mt-36">
+      <div className="mt-28 md:mt-72 lg:mt-36">
         <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
             <h1 className="text-3xl sm:text-5xl font-bold tracking-wide leading-snug">
               Are Your Windows Begging for a Revitalizing Shine?
             </h1>
-            <p className="leading-6 pt-8 sm:text-xl">
-              At <span className="font-bold"> Total Exterior Cleaning</span>, we
-              take pride in offering unparalleled expertise in window cleaning
-              services, bringing a new level of brilliance to your living or
-              workspace.
+            <p className="leading-6 pt-4 sm:text-xl">
+              At <span className="font-bold"> Total Exterior Cleaning</span>,we
+              understand the transformative power of crystal-clear windows.
+              Beyond aesthetics, clean windows enhance natural light, improve
+              energy efficiency, and create a welcoming atmosphere. Say goodbye
+              to smudges, streaks, and dirt that dull your view.
             </p>
-            <p className="leading-6 sm:text-xl">
-              Our skilled professionals are dedicated to transforming the
-              ordinary into the extraordinary. Say goodbye to the frustration of
-              smudged and streaky windows as our meticulous team employs
-              cutting-edge techniques and top-quality cleaning solutions to
-              ensure your windows gleam with a revitalizing shine.
+            <h2 className="text-3xl font-semibold text-cyan-500">
+              Brighter Spaces, Better Living
+            </h2>
+            <p className="leading-6 sm:text-lg">
+              Experience brighter, more inviting living and working spaces.
+              Clean windows enhance natural light, elevate ambiance, and
+              contribute to a positive environment.
             </p>
-            <p className="leading-6 text-xl hidden sm:flex">
-              Experience the transformative power of transparency as our
-              meticulous professionals enhance the aesthetic appeal of your
-              property. Total Exterior Cleaning services both commercial and
-              residential properties.
+            <h2 className="text-3xl font-semibold text-cyan-500">
+              Latest Window Cleaning Technology
+            </h2>
+            <p className="leading-6 sm:text-lg">
+              Our water-fed pole system offers efficient and eco-friendly window
+              cleaning. Using purified water, it ensures a streak-free finish
+              while eliminating the need for chemical cleaners. The telescopic
+              poles make it easy to reach challenging heights, making this
+              method both effective and environmentally conscious.
             </p>
-            <p className="leading-6 sm:text-xl">
-              Choose <span className="font-bold">Total Exterior Cleaning</span>{" "}
-              for a transformative experience that goes beyond ordinary window
-              cleaning. Let us unveil the brilliance of your space, leaving you
-              with a home or office that radiates cleanliness and
-              sophistication.
+            <h2 className="text-3xl font-semibold text-cyan-500">
+              Customer Satisfaction Guarantee
+            </h2>
+            <p className="leading-6 sm:text-lg">
+              At <span className="font-bold"> Total Exterior Cleaning</span>,
+              your satisfaction is our priority. We're not done until you're
+              thrilled with the results. Rediscover the joy of a crystal-clear
+              view – schedule your window cleaning with us today!
             </p>
 
-            <p className=" leading-6 sm:text-xl">
+            <p className=" leading-6 sm:text-xl font-semibold">
               Contact us today to schedule your free window cleaning quote
               quote. We'll visit your property, provide a transparent,
-              no-obligation estimate, and breathe new life into your outdoor
-              areas.
+              no-obligation estimate.
             </p>
             <div className="pt-5 pb-10 flex justify-center">
               <Link to={"/contact-us"}>
@@ -81,8 +88,34 @@ const WindowCleaning = () => {
                 </button>
               </Link>
             </div>
+            <h2 className="text-center text-2xl font-bold sm:hidden">
+              Check Out Some Of Our Photos!
+            </h2>
           </div>
-          <div className="relative flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-20  sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
+          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-20 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
+            <div className="w-full sm:w-1/2 lg:w-full lg:h-[500px] xl:h-[600px] flex overflow-hidden rounded-md">
+              <img
+                className="w-full mb-4 rounded-md sm:mb-0 xl:px-8"
+                src={window1}
+                alt=""
+              />
+            </div>
+            <div className="w-full sm:w-1/2 lg:w-full lg:h-[500px] xl:h-[600px] flex overflow-hidden rounded-md">
+              <img
+                className="w-full mb-4 rounded-md sm:mb-0 xl:px-8"
+                src={window2}
+                alt=""
+              />
+            </div>
+            <div className="w-full sm:w-1/2 lg:w-full lg:h-[500px] xl:hidden xl:h-[600px] flex overflow-hidden rounded-md">
+              <img
+                className="w-full mb-4 rounded-md sm:mb-0"
+                src={window3}
+                alt=""
+              />
+            </div>
+          </div>
+          {/* <div className="relative  flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-20  sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
             <div className="w-full top-28 left-3 lg:absolute sm:w-1/3 lg:w-full  flex overflow-hidden rounded-md">
               <figure>
                 <img
@@ -110,7 +143,7 @@ const WindowCleaning = () => {
                 />
               </figure>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Testimonials />

@@ -20,8 +20,8 @@ const GutterCleaning = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[200px] md:pt-[300px] flex flex-col pl-12 lg:pl-32 space-y-14">
-            <h1 className="text-white uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
+          <div className="pt-[150px] md:pt-[300px] flex flex-col pl-12 lg:pl-32 space-y-14">
+            <h1 className="text-white pr-5 sm:pr-0 uppercase text-2xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Gutter Cleaning
             </h1>
             <h2 className="uppercase text-xl md:text-3xl text-white font-semibold text-shadow">
@@ -35,10 +35,10 @@ const GutterCleaning = () => {
           </div>
         </div>
       </main>
-      <div className="mt-36 sm:mt-32 md:mt-72 lg:mt-36">
-        <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+      <div className="mt-36 sm:mt-32 md:mt-64 lg:mt-36">
+        <div className="ml-10 lg:pt-24 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
-            <h1 className="text-5xl font-bold ">
+            <h1 className="text-4xl md:text-5xl font-bold ">
               Revitalize Your Home with Gutter Cleaning
             </h1>
             <p className="leading-6 pt-8 text-xl">
@@ -83,13 +83,24 @@ const GutterCleaning = () => {
                 </button>
               </Link>
             </div>
+            <h2 className="text-center text-2xl font-bold sm:hidden">
+              Check Out Some Of Our Photos!
+            </h2>
           </div>
           <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-20 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
-              <img className="w-full mb-4 sm:mb-0" src={gutter1} alt="" />
+              <img
+                className="w-full mb-4 sm:mb-0 rounded-md"
+                src={gutter1}
+                alt=""
+              />
             </div>
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
-              <img className="w-full mb-4 sm:mb-0" src={gutter2} alt="" />
+              <img
+                className="w-full mb-4 sm:mb-0 rounded-md"
+                src={gutter2}
+                alt=""
+              />
             </div>
           </div>
         </div>
