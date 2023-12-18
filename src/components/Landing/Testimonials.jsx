@@ -53,7 +53,7 @@ const Testimonials = () => {
         className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 mb-20 tracking-wider sub-headers"
         style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
       >
-        What Our Customers Are Saying
+        What Customers Are Saying
       </h2>
       <div className="">
         <Slider {...settings}>
