@@ -44,7 +44,9 @@ const Footer = () => {
               <a href="/window-cleaning" className="text-white py-3 ">
                 Window Cleaning
               </a>
-              <a className="text-white py-3 ">Gutter Cleaning</a>
+              <a href="/gutter-cleaning" className="text-white py-3 ">
+                Gutter Cleaning
+              </a>
             </ul>
           </div>
           <div className="flex flex-col text-[12px] md:text-sm lg:text-md -ml-3">

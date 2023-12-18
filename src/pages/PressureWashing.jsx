@@ -78,7 +78,7 @@ const PressureWashing = () => {
               no-obligation estimate, and breathe new life into your outdoor
               areas.
             </p>
-            <div className="mt-10 flex justify-center">
+            <div className="py-5 flex justify-center">
               <Link to={"/contact-us"}>
                 <button className="contact-now z-50 md:!text-xl ">
                   Contact Us Now
