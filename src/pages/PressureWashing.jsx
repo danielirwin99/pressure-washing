@@ -42,7 +42,9 @@ const PressureWashing = () => {
       <div className="mt-36 sm:mt-32 md:mt-72 lg:mt-36">
         <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
-            <h1 className="text-5xl font-bold">Why Choose Pressure Washing?</h1>
+            <h1 className="text-5xl font-bold">
+              Refresh Your Home with High Pressure Cleaning.
+            </h1>
             <p className="leading-6 pt-8 text-xl">
               <span className="font-bold"> Total Exterior Cleaning</span>{" "}
               provides professional total exterior cleaning services for both
@@ -51,18 +53,20 @@ const PressureWashing = () => {
               various surfaces such as driveways, pavers, patios, concrete
               floors, and pathways.
             </p>
+            <h2 className="text-3xl font-semibold text-cyan-500">
+              Cutting-Edge Pressure Washing Technology
+            </h2>
+
             <p className="leading-6 text-xl">
               When it comes to your property, Total Exterior Cleaning
               exclusively uses the latest industrial-grade equipment and
               possesses extensive knowledge of how and where high-pressure
               cleaning can be applied to enhance your home's external surfaces.
             </p>
-            <p className="leading-6 text-xl hidden sm:flex">
-              If you have concerns about specific surfaces and the potential
-              risks of high pressure, we specialize in and offer low-pressure
-              techniques, particularly suitable for more delicate surfaces
-              affected by mold and mildew.
-            </p>
+
+            <h2 className="text-3xl font-semibold text-cyan-500">
+              Preservation and Protection
+            </h2>
             <p className="leading-6 text-xl">
               {" "}
               Dirt, mold, mildew, and stains not only alter the appearance of
@@ -86,7 +90,7 @@ const PressureWashing = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-20 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
+          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-16 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
               <ReactCompareSlider
                 className="w-full mb-4 sm:mb-0"
