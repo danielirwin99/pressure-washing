@@ -8,6 +8,7 @@ import {
   ReactCompareSliderImage,
 } from "react-compare-slider";
 import { after2, after3, before2, before3 } from "../assets/B&A/Index";
+import Testimonials from "../components/Landing/Testimonials";
 
 const PressureWashing = () => {
   return (
@@ -112,6 +113,7 @@ const PressureWashing = () => {
           </div>
         </div>
       </div>
+      <Testimonials />
       {/* Footer */}
       <Footer />
     </>

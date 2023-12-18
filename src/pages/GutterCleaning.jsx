@@ -3,11 +3,7 @@ import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
 import { gutter1, gutter2, guttercleaning } from "../assets/index";
 import { Link } from "react-router-dom";
-import {
-  ReactCompareSlider,
-  ReactCompareSliderImage,
-} from "react-compare-slider";
-import { after2, after3, before2, before3 } from "../assets/B&A/Index";
+import Testimonials from "../components/Landing/Testimonials";
 
 const GutterCleaning = () => {
   return (
@@ -91,15 +87,14 @@ const GutterCleaning = () => {
           <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-20 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
               <img className="w-full mb-4 sm:mb-0" src={gutter1} alt="" />
-              
             </div>
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
               <img className="w-full mb-4 sm:mb-0" src={gutter2} alt="" />
-              
             </div>
           </div>
         </div>
       </div>
+      <Testimonials />
       {/* Footer */}
       <Footer />
     </>

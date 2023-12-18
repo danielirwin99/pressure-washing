@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import Benefits from "../components/Landing/Benefits";
 import Tabs from "../components/Landing/Tabs";
 import Socials from "../components/Landing/Socials";
+import Testimonials from "../components/Landing/Testimonials";
 
 const Landing = () => {
   return (
@@ -19,6 +20,7 @@ const Landing = () => {
       <Services />
       <Tabs />
       <Photos />
+      <Testimonials />
       <Benefits />
       <Socials />
       <Quotes />

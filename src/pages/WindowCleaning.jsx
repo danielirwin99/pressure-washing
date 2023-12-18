@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
 import { window1, window2, window3, windows } from "../assets/index";
 import { Link } from "react-router-dom";
+import Testimonials from "../components/Landing/Testimonials";
 
 const WindowCleaning = () => {
   return (
@@ -112,6 +113,7 @@ const WindowCleaning = () => {
           </div>
         </div>
       </div>
+      <Testimonials />
       {/* Footer */}
       <Footer />
     </>

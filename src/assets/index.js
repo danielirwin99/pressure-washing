@@ -18,6 +18,7 @@ import window3 from "../assets/window3.jpg";
 import guttercleaning from "../assets/gutter.jpg";
 import gutter1 from "../assets/gutter1.jpg";
 import gutter2 from "../assets/gutter2.jpg";
+import user from "../assets/user.jpg";
 
 export {
   // before1,
@@ -40,4 +41,5 @@ export {
   guttercleaning,
   gutter1,
   gutter2,
+  user,
 };

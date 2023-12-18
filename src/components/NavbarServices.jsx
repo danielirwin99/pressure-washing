@@ -1,7 +1,5 @@
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
-// import Hamburger from "./UI/Hamburger";
-import BurgerBar from "./UI/BurgerBar";
 import { logo } from "../assets";
 import { Link } from "react-router-dom";
 import Menu from "./UI/Menu";
