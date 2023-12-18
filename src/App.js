@@ -5,6 +5,7 @@ import Error from "./pages/Error";
 import Contact from "./pages/Contact";
 import WindowCleaning from "./pages/WindowCleaning";
 import GutterCleaning from "./pages/GutterCleaning";
+import DrivewaySealing from "./pages/DrivewaySealing";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/pressure-washing" element={<PressureWashing />} />
           <Route path="/gutter-cleaning" element={<GutterCleaning />} />
           <Route path="/window-cleaning" element={<WindowCleaning />} />
+          <Route path="/sealing" element={<DrivewaySealing />} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="*" element={<Error />} />
         </Routes>

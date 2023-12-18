@@ -40,7 +40,9 @@ const Footer = () => {
               <a href="/pressure-washing" className="footerLinks">
                 Pressure Washing
               </a>
-              <a className="footerLinks">Driveway Sealing</a>
+              <a href="/sealing" className="footerLinks">
+                Driveway Sealing
+              </a>
               <a href="/window-cleaning" className="footerLinks">
                 Window Cleaning
               </a>

@@ -102,7 +102,7 @@ export default function DropDownMenu() {
             </a>
           </li>
           <li className="" onClick={handleClose} disableRipple>
-            <a href="/pressure-washing">
+            <a href="/sealing">
               <h3 className="text-xl font-bold no-underline hover:opacity-70 transition-all duration-50 text-white">
                 Driveway Sealing
               </h3>
