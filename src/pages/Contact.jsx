@@ -136,7 +136,7 @@ const Contact = () => {
               placeholder="Provide us a brief description of the work..."
               id=""
               cols="30"
-              rows="3"
+              rows="4"
             ></textarea>
             <div className="flex items-center  mt-3 justify-center">
               <button
