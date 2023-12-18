@@ -79,7 +79,7 @@ const Contact = () => {
         <h1 className="text-white uppercase hidden sm:inline">Home</h1>
       </Link>
       <div className="flex flex-col justify-center mx-3 sm:mx-6 lg:mx-0 items-center">
-        <h1 className="text-3xl md:text-4xl font-bold py-2 text-white pt-10  text-shadow text-center">
+        <h1 className="text-3xl lg:text-4xl font-bold py-2 text-white pt-10  text-shadow text-center">
           Get A Fast Quote
         </h1>
         <h2 className="text-white text-sm sm:text-lg md:font-semibold text-shadow my-2 md:my-5 text-center">
