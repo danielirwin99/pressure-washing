@@ -17,6 +17,7 @@ import {
   ReactCompareSlider,
   ReactCompareSliderImage,
 } from "react-compare-slider";
+import { gutterafter, gutterbefore } from "../../assets";
 
 const Photos = () => {
   return (
@@ -110,9 +111,11 @@ const Photos = () => {
               <ReactCompareSlider
                 className="w-full"
                 itemOne={
-                  <ReactCompareSliderImage src={before7} alt="Before 7" />
+                  <ReactCompareSliderImage src={gutterbefore} alt="Before 7" />
                 }
-                itemTwo={<ReactCompareSliderImage src={after7} alt="After 7" />}
+                itemTwo={
+                  <ReactCompareSliderImage src={gutterafter} alt="After 7" />
+                }
               />
             </div>
           </figure>

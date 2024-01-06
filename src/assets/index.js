@@ -22,6 +22,8 @@ import user from "../assets/user.jpg";
 import sealing from "../assets/sealing.jpg";
 import sealing1 from "../assets/sealing1.jpg";
 import sealing2 from "../assets/sealing2.jpg";
+import gutterbefore from "../assets/gutterbefore.jpg";
+import gutterafter from "../assets/gutterafter.jpg";
 
 export {
   // before1,
@@ -48,4 +50,6 @@ export {
   sealing,
   sealing1,
   sealing2,
+  gutterbefore,
+  gutterafter,
 };
