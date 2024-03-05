@@ -36,4 +36,10 @@ export const data = [
     review:
       "Thank you to the team at TOTAL EXTERIOR CLEANING for their incredible job today, they went above and beyond with our cleaning job. ",
   },
+  {
+    name: "Paul Para",
+    img: user,
+    review:
+      "Had my driveway cleaned, they did a great job! It looked brand new again. Very friendly also, would highly recommend.",
+  },
 ];
