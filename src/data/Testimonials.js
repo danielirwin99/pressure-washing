@@ -30,4 +30,10 @@ export const data = [
     review:
       "Total Exterior Cleaning exceeded my expectations with their pressure cleaning expertise. My home looks brand new—prompt, professional, and highly recommended!",
   },
+  {
+    name: "Theresa Chisari",
+    img: user,
+    review:
+      "Thank you to the team at TOTAL EXTERIOR CLEANING for their incredible job today, they went above and beyond with our cleaning job. ",
+  },
 ];

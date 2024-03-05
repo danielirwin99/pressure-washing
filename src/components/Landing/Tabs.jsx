@@ -11,7 +11,7 @@ const Tabs = () => {
             High Quality Service
           </h4>
         </div>
-        <div className="flex items-center space-x-3">
+        <div className="sm:flex items-center space-x-3 hidden ">
           <AiOutlineCheckCircle className="text-2xl md:text-3x lg:text-4xl text-white" />
           <h4 className="font-bold text-xs md:text-md lg:text-xl text-white">
             Fully Licensed
