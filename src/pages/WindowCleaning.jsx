@@ -35,7 +35,7 @@ const WindowCleaning = () => {
           </div>
         </div>
       </main>
-      <div className="mt-28 md:mt-72 lg:mt-36">
+      <div className="mt-28 lg:mx-5 md:mt-72 lg:mt-36">
         <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
             <h1 className="text-3xl sm:text-5xl font-bold tracking-wide leading-snug">
@@ -45,16 +45,25 @@ const WindowCleaning = () => {
               At <span className="font-bold"> Total Exterior Cleaning</span>,we
               understand the transformative power of crystal-clear windows.
               Beyond aesthetics, clean windows enhance natural light, improve
-              energy efficiency, and create a welcoming atmosphere. Say goodbye
-              to smudges, streaks, and dirt that dull your view.
+              energy efficiency, and create a welcoming atmosphere.{" "}
+              <span className="hidden lg:flex">
+                Say goodbye to smudges, streaks, and dirt that dull your view.
+              </span>
             </p>
             <h2 className="text-3xl font-semibold text-cyan-500">
               Brighter Spaces, Better Living
             </h2>
             <p className="leading-6 sm:text-lg">
-              Experience brighter, more inviting living and working spaces.
-              Clean windows enhance natural light, elevate ambiance, and
-              contribute to a positive environment.
+              Experience the difference that professionally cleaned windows can
+              make in your daily life. Clean windows not only allow more natural
+              light to filter through, brightening up your interiors, but they
+              also contribute to a positive and inviting environment.{" "}
+              <span className="hidden lg:flex">
+                Our meticulous window cleaning services aim to elevate the
+                ambiance of your spaces, creating a more enjoyable and
+                comfortable atmosphere for both residential and commercial
+                settings.
+              </span>
             </p>
             <h2 className="text-3xl font-semibold text-cyan-500">
               Latest Window Cleaning Technology
@@ -62,9 +71,9 @@ const WindowCleaning = () => {
             <p className="leading-6 sm:text-lg">
               Our water-fed pole system offers efficient and eco-friendly window
               cleaning. Using purified water, it ensures a streak-free finish
-              while eliminating the need for chemical cleaners. The telescopic
+              while eliminating the need for chemical cleaners. The carbon fibre
               poles make it easy to reach challenging heights, making this
-              method both effective and environmentally conscious.
+              method both effective and environmentally conscious practices.
             </p>
             <h2 className="text-3xl font-semibold text-cyan-500">
               Customer Satisfaction Guarantee
@@ -76,12 +85,13 @@ const WindowCleaning = () => {
               view – schedule your window cleaning with us today!
             </p>
 
-            <p className=" leading-6 sm:text-xl font-semibold">
+            <p className=" leading-6 sm:text-xl lg:text-2xl font-semibold">
               Contact us today to schedule your free window cleaning quote.
               We'll visit your property, provide a transparent, no-obligation
-              estimate.
+              estimate. Don't settle for anything less than perfection when it
+              comes to your windows.
             </p>
-            <div className="pt-5 pb-10 flex justify-center">
+            <div className="pt-20 pb-10 flex justify-center">
               <Link to={"/contact-us"}>
                 <button className="contact-now z-50 md:!text-xl ">
                   Contact Us Now
@@ -95,14 +105,14 @@ const WindowCleaning = () => {
           <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-20 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[500px] xl:h-[600px] flex overflow-hidden rounded-md">
               <img
-                className="w-full mb-4 rounded-md sm:mb-0 xl:px-8"
+                className="w-full mb-4 rounded-md sm:mb-0 xl:px-14"
                 src={window1}
                 alt=""
               />
             </div>
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[500px] xl:h-[600px] flex overflow-hidden rounded-md">
               <img
-                className="w-full mb-4 rounded-md sm:mb-0 xl:px-8"
+                className="w-full mb-4 rounded-md sm:mb-0 xl:px-14"
                 src={window2}
                 alt=""
               />

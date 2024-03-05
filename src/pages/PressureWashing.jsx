@@ -47,22 +47,28 @@ const PressureWashing = () => {
               Refresh Your Home with High Pressure Cleaning.
             </h1>
             <p className="leading-6 pt-4 text-lg">
-              <span className="font-bold"> Total Exterior Cleaning</span>{" "}
-              provides professional total exterior cleaning services for both
-              residential and commercial properties throughout Sydney. Our
-              high-pressure cleaning methods have the capacity to refresh
-              various surfaces such as driveways, pavers, patios, concrete
-              floors, and pathways.
+              <span className="font-bold"> Total Exterior Cleaning</span> is
+              your go-to provider for professional and comprehensive exterior
+              cleaning services in Sydney. Whether you own a residential
+              property or a commercial space, our specialized total exterior
+              cleaning solutions are designed to rejuvenate and enhance various
+              surfaces, ensuring a pristine and inviting outdoor environment.
             </p>
             <h2 className="text-3xl font-semibold text-cyan-500">
               Cutting-Edge Pressure Washing Technology
             </h2>
 
             <p className="leading-6 text-lg">
-              When it comes to your property, Total Exterior Cleaning
-              exclusively uses the latest industrial-grade equipment and
-              possesses extensive knowledge of how and where high-pressure
-              cleaning can be applied to enhance your home's external surfaces.
+              Our team at Total Exterior Cleaning utilizes cutting-edge pressure
+              washing technology to deliver efficient and effective results. We
+              employ the latest industrial-grade equipment, coupled with
+              extensive knowledge and experience, to apply high-pressure
+              cleaning methods to surfaces such as driveways, pavers, patios,
+              concrete floors, and pathways.{" "}
+              <span className="hidden xl:flex">
+                This approach ensures a thorough and lasting clean, removing
+                dirt, mold, mildew, and stains.
+              </span>
             </p>
 
             <h2 className="text-3xl font-semibold text-cyan-500">
@@ -70,19 +76,28 @@ const PressureWashing = () => {
             </h2>
             <p className="leading-6 text-lg">
               {" "}
-              Dirt, mold, mildew, and stains not only alter the appearance of
-              your outdoor areas but also create hazardous and slippery
-              conditions. Through the use of high-pressure cleaning, we can
-              eliminate these dangers and restore the vibrant colors of your
-              outdoor spaces.{" "}
+              Beyond the aesthetic benefits, our high-pressure cleaning services
+              contribute to the preservation and protection of your property.
+              Accumulated dirt, mold, and stains not only compromise the visual
+              appeal of your outdoor spaces but can also create hazardous and
+              slippery conditions.
+              <br />
+              <br />
+              <span className="hidden xl:flex">
+                Our professional cleaning methods eliminate these dangers,
+                providing a safer environment for you, your family, or your
+                customers. Additionally, the process helps to restore the
+                vibrant colors of your outdoor areas, adding to the overall curb
+                appeal of your property.
+              </span>
             </p>
 
-            <p className=" leading-6 text-lg font-semibold">
+            <p className=" leading-6 text-2xl font-semibold">
               Contact Us today to schedule your free pressure washing quote.
               We'll visit your property, provide a transparent, no-obligation
               estimate, and breathe new life into your outdoor areas.
             </p>
-            <div className="py-5 flex justify-center">
+            <div className="py-8 flex justify-center">
               <Link to={"/contact-us"}>
                 <button className="contact-now z-50 md:!text-xl ">
                   Contact Us Now
