@@ -49,7 +49,7 @@ const PressureWashing = () => {
       </main>
       <div className="mt-40 md:mt-80 lg:mt-40">
         <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
-          <div className="lg:w-1/2 space-y-6">
+          <div className="lg:w-[60%] space-y-8">
             <h1 className="text-3xl sm:text-5xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
@@ -106,7 +106,7 @@ const PressureWashing = () => {
             </p>
             <div className="py-8 flex justify-center">
               <Link to={"/contact-us"}>
-                <button className="contact-now z-50 md:!text-xl ">
+                <button className="contact-now z-50 md:!text-3xl ">
                   Contact Us Now
                 </button>
               </Link>
@@ -115,7 +115,7 @@ const PressureWashing = () => {
               Check Out Some Of Our Photos!
             </h2>
           </div>
-          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-24 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
+          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-18 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]">
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
               <ReactCompareSlider
                 className="w-full mb-4 sm:mb-0"
