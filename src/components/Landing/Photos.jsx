@@ -12,6 +12,8 @@ import {
   after6,
   before7,
   after7,
+  before8,
+  after8,
 } from "../../assets/B&A/Index";
 import {
   ReactCompareSlider,
@@ -51,9 +53,9 @@ const Photos = () => {
               <ReactCompareSlider
                 className="w-full"
                 itemOne={
-                  <ReactCompareSliderImage src={before2} alt="Before 2" />
+                  <ReactCompareSliderImage src={before8} alt="Before 2" />
                 }
-                itemTwo={<ReactCompareSliderImage src={after2} alt="After 2" />}
+                itemTwo={<ReactCompareSliderImage src={after8} alt="After 2" />}
               />
             </div>
           </figure>

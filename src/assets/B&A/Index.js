@@ -11,6 +11,8 @@ import before6 from "./before6.jpg";
 import after6 from "./after6.jpg";
 import before7 from "./before7.jpg";
 import after7 from "./after7.jpg";
+import before8 from "./before8.jpg";
+import after8 from "./after8.jpg";
 
 export {
   before1,
@@ -26,4 +28,6 @@ export {
   after6,
   before7,
   after7,
+  before8,
+  after8,
 };

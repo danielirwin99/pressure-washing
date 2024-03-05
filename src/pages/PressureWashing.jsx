@@ -7,7 +7,14 @@ import {
   ReactCompareSlider,
   ReactCompareSliderImage,
 } from "react-compare-slider";
-import { after2, after3, before2, before3 } from "../assets/B&A/Index";
+import {
+  after2,
+  after3,
+  after8,
+  before2,
+  before3,
+  before8,
+} from "../assets/B&A/Index";
 import Testimonials from "../components/Landing/Testimonials";
 
 const PressureWashing = () => {
@@ -46,7 +53,7 @@ const PressureWashing = () => {
             <h1 className="text-3xl sm:text-5xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
-            <p className="leading-6 pt-4 text-lg">
+            <p className="leading-7 pt-4 text-2xl">
               <span className="font-bold"> Total Exterior Cleaning</span> is
               your go-to provider for professional and comprehensive exterior
               cleaning services in Sydney. Whether you own a residential
@@ -54,11 +61,11 @@ const PressureWashing = () => {
               cleaning solutions are designed to rejuvenate and enhance various
               surfaces, ensuring a pristine and inviting outdoor environment.
             </p>
-            <h2 className="text-3xl font-semibold text-cyan-500">
+            <h2 className="text-4xl font-semibold text-cyan-500">
               Cutting-Edge Pressure Washing Technology
             </h2>
 
-            <p className="leading-6 text-lg">
+            <p className="leading-7 text-2xl">
               Our team at Total Exterior Cleaning utilizes cutting-edge pressure
               washing technology to deliver efficient and effective results. We
               employ the latest industrial-grade equipment, coupled with
@@ -71,10 +78,10 @@ const PressureWashing = () => {
               </span>
             </p>
 
-            <h2 className="text-3xl font-semibold text-cyan-500">
+            <h2 className="text-4xl font-semibold text-cyan-500">
               Preservation and Protection
             </h2>
-            <p className="leading-6 text-lg">
+            <p className="leading-7 text-2xl">
               {" "}
               Beyond the aesthetic benefits, our high-pressure cleaning services
               contribute to the preservation and protection of your property.
@@ -92,7 +99,7 @@ const PressureWashing = () => {
               </span>
             </p>
 
-            <p className=" leading-6 text-2xl font-semibold">
+            <p className=" leading-10 text-3xl font-semibold">
               Contact Us today to schedule your free pressure washing quote.
               We'll visit your property, provide a transparent, no-obligation
               estimate, and breathe new life into your outdoor areas.
@@ -108,7 +115,7 @@ const PressureWashing = () => {
               Check Out Some Of Our Photos!
             </h2>
           </div>
-          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-16 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
+          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-24 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
               <ReactCompareSlider
                 className="w-full mb-4 sm:mb-0"
@@ -125,6 +132,15 @@ const PressureWashing = () => {
                   <ReactCompareSliderImage src={before3} alt="Before 3" />
                 }
                 itemTwo={<ReactCompareSliderImage src={after3} alt="After 3" />}
+              />
+            </div>
+            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
+              <ReactCompareSlider
+                className="w-full"
+                itemOne={
+                  <ReactCompareSliderImage src={before8} alt="Before 3" />
+                }
+                itemTwo={<ReactCompareSliderImage src={after8} alt="After 3" />}
               />
             </div>
           </div>
