@@ -114,13 +114,13 @@ const Quotes = () => {
                 services ensure that your property is immaculately rejuvenated,
                 radiating with a newfound brilliance.
               </p>
-              <p className="mt-8 mb-3">Full Name *</p>
+              <p className="mt-8 mb-3">Name *</p>
               <input
                 value={form.name}
                 onChange={handleChange}
                 type="text"
                 name="name"
-                placeholder="Full Name"
+                placeholder="Name"
                 className="border -ml-1 px-3 outline-none py-2 w-full"
               />
               <p className="mt-4 mb-3">Email *</p>

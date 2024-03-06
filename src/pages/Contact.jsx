@@ -96,13 +96,13 @@ const Contact = () => {
             </h2>
             <div className="flex w-full items-center space-x-2">
               <div className="w-1/2">
-                <p className="text-sm mb-3">Full Name *</p>
+                <p className="text-sm mb-3">Name *</p>
                 <input
                   value={form.name}
                   onChange={handleChange}
                   type="text"
                   name="name"
-                  placeholder="Full Name"
+                  placeholder="Name"
                   className="border text-sm  -ml-1 px-3 outline-none py-2 w-full"
                 />
               </div>
