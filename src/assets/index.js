@@ -15,6 +15,8 @@ import windows from "../assets/windows.jpg";
 import window1 from "../assets/window1.jpg";
 import window2 from "../assets/window2.jpg";
 import window3 from "../assets/window3.jpg";
+import window6 from "../assets/window6.jpg";
+import window7 from "../assets/window7.jpg";
 import guttercleaning from "../assets/gutter.jpg";
 import gutter1 from "../assets/gutter1.jpg";
 import gutter2 from "../assets/gutter2.jpg";
@@ -43,6 +45,8 @@ export {
   window1,
   window2,
   window3,
+  window6,
+  window7,
   guttercleaning,
   gutter1,
   gutter2,
