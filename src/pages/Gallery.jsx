@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Testimonials from "../components/Landing/Testimonials";
 import Navbar from "../components/Navbar";
 import GalleryPhotos from "../components/GalleryPhotos";
+import Socials from "../components/Landing/Socials";
 
 const Gallery = () => {
   return (
@@ -24,6 +25,9 @@ const Gallery = () => {
           <GalleryPhotos />
         </div>
       </main>
+      <section className="my-28 ">
+        <Socials />
+      </section>
 
       <Testimonials />
       {/* Footer */}
