@@ -106,7 +106,7 @@ const PressureWashing = () => {
             </p>
             <div className="py-8 flex justify-center">
               <Link to={"/contact-us"}>
-                <button className="contact-now z-50 md:!text-3xl ">
+                <button className="contact-now !capitalize z-50 md:!text-3xl !px-10 !py-4 ">
                   Contact Us Now
                 </button>
               </Link>
