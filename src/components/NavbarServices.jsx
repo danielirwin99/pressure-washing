@@ -10,12 +10,16 @@ const NavbarServices = () => {
     <nav className="top-0 z-[999] w-full py-1 px-4 xl:px-20 lg:px-10 absolute ">
       <div className="flex justify-around items-center">
         <a className="flex items-center justify-center" href="/">
-          <img className="sm:h-24 h-20 w-32 sm:w-40 brightness-150" src={logo} alt="Logo" />
+          <img
+            className="sm:h-24 h-20 w-32 sm:w-40 brightness-150"
+            src={logo}
+            alt="Logo"
+          />
         </a>
         <ul className="ms-auto flex lg:space-x-10 items-center ">
           <li className="nav-item hidden lg:flex">
-            <Link className="nav-link text-white" to={"/"}>
-              About
+            <Link className="nav-link text-white" to={"/gallery"}>
+              Our Work
             </Link>
           </li>
           <li className="nav-item hidden lg:flex">

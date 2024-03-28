@@ -68,7 +68,7 @@ export default function DropDownMenu() {
         onClick={handleClick}
         endIcon={<KeyboardArrowDownIcon />}
       >
-        Our Services
+        Services
       </div>
       <StyledMenu
         id="demo-customized-menu"

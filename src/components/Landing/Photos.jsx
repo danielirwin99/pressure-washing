@@ -34,7 +34,6 @@ const Photos = () => {
         >
           Our Recent Jobs
         </h2>
-        <p></p>
         <div className="mt-5 md:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full">
           <figure className="photos-container">
             <div className="h-full flex overflow-hidden rounded-md ">

@@ -8,19 +8,19 @@ import Menu from "./UI/Menu";
 
 const Navbar = () => {
   return (
-    <nav className="top-0 z-[999] w-full bg-white py-1 px-4 xl:px-20 lg:px-10 border-b-2 border-b-gray-200">
+    <nav className="top-0 z-[999] w-full bg-white py-1 px-4 xl:px-20 lg:px-10  border-b-gray-200">
       <div className="flex justify-around items-center">
         <a className="flex items-center justify-center" href="/">
           <img className="h-24 w-40" src={logo} alt="Logo" />
         </a>
         <ul className="ms-auto flex lg:space-x-10 items-center ">
-          <li className="nav-item hidden lg:flex">
-            <a className="nav-link" href="#about">
-              About
-            </a>
+          <li className="nav-item hidden lg:flex pr-3">
+            <Link className="nav-link" to={"/gallery"}>
+              Our Work
+            </Link>
           </li>
           <li className="nav-item hidden lg:flex">
-            <div className="nav-link cursor-pointer" >
+            <div className="nav-link cursor-pointer">
               <Menu />
             </div>
           </li>
