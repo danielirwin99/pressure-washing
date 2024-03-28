@@ -11,6 +11,7 @@ import {
 } from "../assets/index";
 import { Link } from "react-router-dom";
 import Testimonials from "../components/Landing/Testimonials";
+import Socials from "../components/Landing/Socials";
 
 const WindowCleaning = () => {
   return (
@@ -163,6 +164,9 @@ const WindowCleaning = () => {
           </div> */}
         </div>
       </div>
+      <section className="md:my-28 mb-20 ">
+        <Socials />
+      </section>
       <Testimonials />
       {/* Footer */}
       <Footer />

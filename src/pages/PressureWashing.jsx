@@ -16,6 +16,7 @@ import {
   before8,
 } from "../assets/B&A/Index";
 import Testimonials from "../components/Landing/Testimonials";
+import Socials from "../components/Landing/Socials";
 
 const PressureWashing = () => {
   return (
@@ -146,6 +147,9 @@ const PressureWashing = () => {
           </div>
         </div>
       </div>
+      <section className="md:my-28 mb-20 ">
+        <Socials />
+      </section>
       <Testimonials />
       {/* Footer */}
       <Footer />
