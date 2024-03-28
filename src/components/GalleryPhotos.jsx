@@ -134,7 +134,7 @@ const GalleryPhotos = () => {
               />
             </div>
           </figure>
-          <figure className="gallery-container hidden md:inline">
+          <figure className="gallery-container ">
             <div className="h-full flex overflow-hidden rounded-md">
               <ReactCompareSlider
                 className="w-full"
