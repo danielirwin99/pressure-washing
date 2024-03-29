@@ -34,10 +34,10 @@ const PressureWashing = () => {
             />
           </figure>
           <div className="pt-[150px] md:pt-[300px] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-14">
-            <h1 className="text-white uppercase text-2xl sm:text-4xl md:text-6xl font-bold text-shadow">
+            <h1 className="text-white uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Pressure Washing
             </h1>
-            <h2 className="uppercase text-xl md:text-3xl text-white font-semibold text-shadow">
+            <h2 className="uppercase text-lg md:text-3xl text-blue-200 font-semibold text-shadow">
               Executed with precision
             </h2>
             <Link to={"/contact-us"} className="">
@@ -48,13 +48,13 @@ const PressureWashing = () => {
           </div>
         </div>
       </main>
-      <div className="mt-40 md:mt-80 lg:mt-40">
-        <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+      <div className="mt-32 md:mt-80 lg:mt-40">
+        <div className="ml-10 lg:pt-24 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8 lg:mx-6 lg:pr-4">
             <h1 className="text-3xl sm:text-5xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
-            <p className="leading-7 pt-4 text-2xl">
+            <p className="leading-7 pt-4 md:text-xl">
               <span className="font-bold"> Total Exterior Cleaning</span> is
               your go-to provider for professional and comprehensive exterior
               cleaning services in Sydney. Whether you own a residential
@@ -62,11 +62,11 @@ const PressureWashing = () => {
               cleaning solutions are designed to rejuvenate and enhance various
               surfaces, ensuring a pristine and inviting outdoor environment.
             </p>
-            <h2 className="text-4xl font-semibold text-cyan-500">
+            <h2 className="text-3xl md:text-4xl font-semibold text-cyan-500">
               Cutting-Edge Pressure Washing Technology
             </h2>
 
-            <p className="leading-7 text-2xl">
+            <p className="leading-7 md:text-xl">
               Our team at Total Exterior Cleaning utilizes cutting-edge pressure
               washing technology to deliver efficient and effective results. We
               employ the latest industrial-grade equipment, coupled with
@@ -79,10 +79,10 @@ const PressureWashing = () => {
               </span>
             </p>
 
-            <h2 className="text-4xl font-semibold text-cyan-500">
+            <h2 className="text-3xl md:text-4xl font-semibold text-cyan-500">
               Preservation and Protection
             </h2>
-            <p className="leading-7 text-2xl">
+            <p className="leading-7 md:text-xl">
               {" "}
               Beyond the aesthetic benefits, our high-pressure cleaning services
               contribute to the preservation and protection of your property.
@@ -100,7 +100,7 @@ const PressureWashing = () => {
               </span>
             </p>
 
-            <p className=" leading-10 text-3xl font-semibold">
+            <p className=" leading-10 text-lg md:text-3xl font-semibold">
               Contact Us today to schedule your free pressure washing quote.
               We'll visit your property, provide a transparent, no-obligation
               estimate, and breathe new life into your outdoor areas.
