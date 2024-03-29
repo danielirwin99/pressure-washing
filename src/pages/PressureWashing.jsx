@@ -100,14 +100,14 @@ const PressureWashing = () => {
               </span>
             </p>
 
-            <p className=" leading-10 text-lg md:text-3xl font-semibold">
+            <p className=" leading-10 text-lg md:text-2xl font-semibold">
               Contact Us today to schedule your free pressure washing quote.
               We'll visit your property, provide a transparent, no-obligation
               estimate, and breathe new life into your outdoor areas.
             </p>
             <div className="py-8 flex justify-center">
               <Link to={"/contact-us"}>
-                <button className="contact-now !capitalize z-50 md:!text-3xl !px-10 !py-4 ">
+                <button className="contact-now !capitalize z-50 md:!text-2xl !px-10 !py-4 ">
                   Contact Us Now
                 </button>
               </Link>
@@ -128,7 +128,7 @@ const PressureWashing = () => {
             </div>
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
               <ReactCompareSlider
-                className="w-full"
+                className="w-full mb-4 sm:mb-0"
                 itemOne={
                   <ReactCompareSliderImage src={before3} alt="Before 3" />
                 }
