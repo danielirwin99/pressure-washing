@@ -7,6 +7,7 @@ import {
   service4,
   service5,
   service6,
+  servicewindow,
 } from "../../assets";
 import { Link } from "react-router-dom";
 
@@ -44,12 +45,12 @@ const Services = () => {
         </div>
         <div className="services-tabs">
           <img
-            src={service3}
+            src={service5}
             alt="service1"
             className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl mr-1" />
-          <h2 className="services-header">Window Cleaning</h2>
+          <h2 className="services-header">Soft Washing</h2>
           <Link
             className="flex justify-center items-center services-quote"
             to={"/contact-us"}
@@ -93,7 +94,7 @@ const Services = () => {
         </div>
         <div className="services-tabs">
           <img
-            src={service5}
+            src={servicewindow}
             alt="service1"
             className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
           />

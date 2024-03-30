@@ -9,6 +9,7 @@ import service3 from "./service3.jpg";
 import service4 from "./service4.jpg";
 import service5 from "./service5.jpg";
 import service6 from "./service6.jpg";
+import servicewindow from "./servicewindow.jpg";
 import logo from "../assets/logo.jpg";
 import pressurewashing from "../assets/pressurewashing.jpg";
 import windows from "../assets/windows.jpg";
@@ -39,6 +40,7 @@ export {
   service3,
   service4,
   service5,
+  servicewindow,
   service6,
   pressurewashing,
   windows,
