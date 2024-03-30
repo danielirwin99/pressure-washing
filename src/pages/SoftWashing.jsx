@@ -15,11 +15,11 @@ import {
   before3,
   before8,
 } from "../assets/B&A/Index";
-import {before1, after1} from "../assets/Gallery/Index"
+import { before1, after1 } from "../assets/Gallery/Index";
 import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
 
-const PressureWashing = () => {
+const SoftWashing = () => {
   return (
     <>
       {/* Navbar */}
@@ -36,10 +36,10 @@ const PressureWashing = () => {
           </figure>
           <div className="pt-[150px] md:pt-[300px] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-14">
             <h1 className="text-white uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
-              Pressure Washing
+              Soft Washing
             </h1>
             <h2 className="uppercase text-lg md:text-3xl text-blue-200 font-semibold text-shadow">
-              Executed with precision
+              House Washing Done Right
             </h2>
             <Link to={"/contact-us"} className="">
               <button className="contact-now z-50 md:!text-xl ">
@@ -158,4 +158,4 @@ const PressureWashing = () => {
   );
 };
 
-export default PressureWashing;
+export default SoftWashing;
