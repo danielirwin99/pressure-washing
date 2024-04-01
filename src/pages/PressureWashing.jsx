@@ -65,9 +65,7 @@ const PressureWashing = () => {
               <span className="font-bold">
                 family owned and operated business
               </span>{" "}
-              specialized total exterior cleaning solutions are designed to
-              rejuvenate and enhance various surfaces, ensuring a pristine and
-              inviting outdoor environment.
+              is here to help you restore you it back to its original way.
             </p>
             <h2 className="text-3xl font-semibold text-cyan-500">
               House Pressure Cleaning In Sydney For Freshness Of Your Home
