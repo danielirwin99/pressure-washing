@@ -23,7 +23,7 @@ import Tabs from "../components/Landing/Tabs";
 
 const PressureWashing = () => {
   return (
-    <>
+    <div className="">
       {/* Navbar */}
       <NavbarServices />
       <main className="relative ">
@@ -51,126 +51,118 @@ const PressureWashing = () => {
           </div>
         </div>
       </main>
-      <div className="bg-[#F7F7F7]">
-        <div className="mt-40  md:mt-80 lg:mt-40 text-center sm:text-start">
-          <div className="mx-5 lg:pt-28 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
-            <div className="lg:w-[60%] space-y-8 lg:mx-6 lg:pr-4">
-              <h1 className="text-3xl sm:text-4xl font-bold">
-                Refresh Your Home with High Pressure Cleaning.
-              </h1>
-              <p className="leading-7 lg:text-lg pt-4  ">
-                <span className="font-bold"> Total Exterior Cleaning</span> is
-                your go-to local pressure washers for professional and
-                comprehensive exterior cleaning services in Sydney. Whether you
-                own a residential property or a commercial space, our{" "}
-                <span className="font-bold">
-                  family owned and operated business
-                </span>{" "}
-                specialized total exterior cleaning solutions are designed to
-                rejuvenate and enhance various surfaces, ensuring a pristine and
-                inviting outdoor environment.
-              </p>
-              <h2 className="text-3xl font-semibold text-cyan-500">
-                House Pressure Cleaning In Sydney For Freshness Of Your Home
-              </h2>
+      <div className="mt-40  md:mt-80 lg:mt-40 text-center sm:text-start">
+        <div className="mx-5 lg:pt-28 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+          <div className="lg:w-[60%] space-y-8 lg:mx-6 lg:pr-4">
+            <h1 className="text-3xl sm:text-4xl font-bold">
+              Refresh Your Home with High Pressure Cleaning.
+            </h1>
+            <p className="leading-7 lg:text-lg pt-4  ">
+              <span className="font-bold"> Total Exterior Cleaning</span> is
+              your go-to local pressure washers for professional and
+              comprehensive exterior cleaning services in Sydney. Whether you
+              own a residential property or a commercial space, our{" "}
+              <span className="font-bold">
+                family owned and operated business
+              </span>{" "}
+              specialized total exterior cleaning solutions are designed to
+              rejuvenate and enhance various surfaces, ensuring a pristine and
+              inviting outdoor environment.
+            </p>
+            <h2 className="text-3xl font-semibold text-cyan-500">
+              House Pressure Cleaning In Sydney For Freshness Of Your Home
+            </h2>
 
-              <p className="leading-7 lg:text-lg ">
-                Our team at Total Exterior Cleaning utilizes cutting-edge
-                pressure washing technology to deliver efficient and effective
-                results. We employ the latest industrial-grade equipment,
-                coupled with extensive knowledge and experience, to apply
-                high-pressure cleaning methods to surfaces such as driveways,
-                pavers, patios, concrete floors, and pathways.{" "}
-                <span className="hidden xl:flex">
-                  This approach ensures a thorough and lasting clean, removing
-                  dirt, mold, mildew, and stains.
-                </span>
-              </p>
+            <p className="leading-7 lg:text-lg ">
+              Our team at Total Exterior Cleaning utilizes cutting-edge pressure
+              washing technology to deliver efficient and effective results. We
+              employ the latest industrial-grade equipment, coupled with
+              extensive knowledge and experience, to apply high-pressure
+              cleaning methods to surfaces such as driveways, pavers, patios,
+              concrete floors, and pathways.{" "}
+              <span className="hidden xl:flex">
+                This approach ensures a thorough and lasting clean, removing
+                dirt, mold, mildew, and stains.
+              </span>
+            </p>
 
-              <h2 className="text-3xl hidden sm:flex md:text-3xl font-semibold text-cyan-500">
-                Preservation and Protection
-              </h2>
-              <p className="leading-7 hidden lg:text-lg sm:inline">
-                {" "}
-                Beyond the aesthetic benefits, our high-pressure cleaning
-                services contribute to the preservation and protection of your
-                property. Accumulated dirt, mold, and stains not only compromise
-                the visual appeal of your outdoor spaces but can also create
-                hazardous and slippery conditions.
-                <br />
-                <br />
-                <span className="hidden xl:flex ">
-                  Our professional cleaning methods eliminate these dangers,
-                  providing a safer environment for you, your family, or your
-                  customers. Additionally, the process helps to restore the
-                  vibrant colors of your outdoor areas, adding to the overall
-                  curb appeal of your property.
-                </span>
-              </p>
+            <h2 className="text-3xl hidden sm:flex md:text-3xl font-semibold text-cyan-500">
+              Preservation and Protection
+            </h2>
+            <p className="leading-7 hidden lg:text-lg sm:inline">
+              {" "}
+              Beyond the aesthetic benefits, our high-pressure cleaning services
+              contribute to the preservation and protection of your property.
+              Accumulated dirt, mold, and stains not only compromise the visual
+              appeal of your outdoor spaces but can also create hazardous and
+              slippery conditions.
+              <br />
+              <br />
+              <span className="hidden xl:flex ">
+                Our professional cleaning methods eliminate these dangers,
+                providing a safer environment for you, your family, or your
+                customers. Additionally, the process helps to restore the
+                vibrant colors of your outdoor areas, adding to the overall curb
+                appeal of your property.
+              </span>
+            </p>
 
-              <p className=" leading-10 text-lg md:text-2xl font-semibold">
-                Contact Us today to schedule your free pressure washing quote.
-                We'll visit your property, provide a transparent, no-obligation
-                estimate, and breathe new life into your outdoor areas.
-              </p>
-              <div className="py-8 flex justify-center">
-                <Link to={"/contact-us"}>
-                  <button className="contact-now !capitalize z-50 md:!text-2xl !px-10 !py-4 ">
-                    Contact Us Now
-                  </button>
-                </Link>
-              </div>
-              <h2 className="text-center text-2xl font-bold sm:hidden">
-                Check Out Some Of Our Photos!
-              </h2>
+            <p className=" leading-10 text-lg md:text-2xl font-semibold">
+              Contact Us today to schedule your free pressure washing quote.
+              We'll visit your property, provide a transparent, no-obligation
+              estimate, and breathe new life into your outdoor areas.
+            </p>
+            <div className="py-8 flex justify-center">
+              <Link to={"/contact-us"}>
+                <button className="contact-now !capitalize z-50 md:!text-2xl !px-10 !py-4 ">
+                  Contact Us Now
+                </button>
+              </Link>
             </div>
-            <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-18 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]">
-              <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
-                <ReactCompareSlider
-                  className="w-full mb-4 sm:mb-0"
-                  itemOne={
-                    <ReactCompareSliderImage src={before1} alt="Before 2" />
-                  }
-                  itemTwo={
-                    <ReactCompareSliderImage src={after1} alt="After 2" />
-                  }
-                />
-              </div>
-              <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
-                <ReactCompareSlider
-                  className="w-full mb-4 sm:mb-0"
-                  itemOne={
-                    <ReactCompareSliderImage src={before3} alt="Before 3" />
-                  }
-                  itemTwo={
-                    <ReactCompareSliderImage src={after3} alt="After 3" />
-                  }
-                />
-              </div>
-              <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
-                <ReactCompareSlider
-                  className="w-full"
-                  itemOne={
-                    <ReactCompareSliderImage src={before8} alt="Before 3" />
-                  }
-                  itemTwo={
-                    <ReactCompareSliderImage src={after8} alt="After 3" />
-                  }
-                />
-              </div>
-              <div className="flex items-center  justify-center mt-5">
-                <Link
-                  className="bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
-                  to={"/gallery"}
-                >
-                  View More Photos
-                </Link>
-              </div>
+            <h2 className="text-center text-2xl font-bold sm:hidden">
+              Check Out Some Of Our Photos!
+            </h2>
+          </div>
+          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-18 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]">
+            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
+              <ReactCompareSlider
+                className="w-full mb-4 sm:mb-0"
+                itemOne={
+                  <ReactCompareSliderImage src={before1} alt="Before 2" />
+                }
+                itemTwo={<ReactCompareSliderImage src={after1} alt="After 2" />}
+              />
+            </div>
+            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
+              <ReactCompareSlider
+                className="w-full mb-4 sm:mb-0"
+                itemOne={
+                  <ReactCompareSliderImage src={before3} alt="Before 3" />
+                }
+                itemTwo={<ReactCompareSliderImage src={after3} alt="After 3" />}
+              />
+            </div>
+            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
+              <ReactCompareSlider
+                className="w-full"
+                itemOne={
+                  <ReactCompareSliderImage src={before8} alt="Before 3" />
+                }
+                itemTwo={<ReactCompareSliderImage src={after8} alt="After 3" />}
+              />
+            </div>
+            <div className="flex items-center  justify-center mt-5">
+              <Link
+                className="bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+                to={"/gallery"}
+              >
+                View More Photos
+              </Link>
             </div>
           </div>
         </div>
       </div>
-      <section className="md:my-20 mb-20">
+      <section className="md:my-20 mb-20 py-2 bg-gray-50 border-t-2 border-b-2 ">
         <Socials />
       </section>
       <Testimonials />
@@ -178,7 +170,7 @@ const PressureWashing = () => {
       <Quotes />
       {/* Footer */}
       <Footer />
-    </>
+    </div>
   );
 };
 
