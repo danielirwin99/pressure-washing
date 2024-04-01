@@ -84,6 +84,15 @@ export default function BurgerService() {
             <div className="burger__list--wrapper">
               <Link
                 onClick={handleDrawerClose}
+                to={"/about-us"}
+                className="burger__list--header"
+              >
+                About Us
+              </Link>
+            </div>
+            <div className="burger__list--wrapper">
+              <Link
+                onClick={handleDrawerClose}
                 to={"/gallery"}
                 className="burger__list--header"
               >

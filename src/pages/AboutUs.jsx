@@ -56,8 +56,8 @@ const AboutUs = () => {
                 />
               </div>
             </div>
-            <div className="md:flex w-full  md:flex-row my-10 flex-grow md:pb-5">
-              <div className="md:w-1/3 mt-5 md:mr-20  md:mt-0">
+            <div className="md:flex w-full space-x-10 md:flex-row my-10 flex-grow md:pb-5">
+              <div className="md:w-1/3 mt-5  md:mt-0">
                 <img
                   src={me2}
                   className="h-[400px] rounded-sm w-full object-cover"
