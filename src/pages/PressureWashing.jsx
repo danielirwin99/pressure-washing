@@ -55,7 +55,7 @@ const PressureWashing = () => {
             <h1 className="text-3xl sm:text-5xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
-            <p className="leading-7 pt-4 md:text-xl 2xl:2xl">
+            <p className="leading-7 pt-4 md:text-xl 2xl:text-2xl">
               <span className="font-bold"> Total Exterior Cleaning</span> is
               your go-to provider for professional and comprehensive exterior
               cleaning services in Sydney. Whether you own a residential
@@ -67,7 +67,7 @@ const PressureWashing = () => {
               Cutting-Edge Pressure Washing Technology
             </h2>
 
-            <p className="leading-7 md:text-xl">
+            <p className="leading-7 md:text-xl 2xl:text-2xl">
               Our team at Total Exterior Cleaning utilizes cutting-edge pressure
               washing technology to deliver efficient and effective results. We
               employ the latest industrial-grade equipment, coupled with
@@ -83,7 +83,7 @@ const PressureWashing = () => {
             <h2 className="text-3xl md:text-4xl font-semibold text-cyan-500">
               Preservation and Protection
             </h2>
-            <p className="leading-7 md:text-xl">
+            <p className="leading-7 md:text-xl 2xl:text-2xl">
               {" "}
               Beyond the aesthetic benefits, our high-pressure cleaning services
               contribute to the preservation and protection of your property.
@@ -92,7 +92,7 @@ const PressureWashing = () => {
               slippery conditions.
               <br />
               <br />
-              <span className="hidden xl:flex">
+              <span className="hidden xl:flex 2xl:text-2xl">
                 Our professional cleaning methods eliminate these dangers,
                 providing a safer environment for you, your family, or your
                 customers. Additionally, the process helps to restore the

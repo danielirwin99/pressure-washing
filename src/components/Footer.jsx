@@ -24,7 +24,7 @@ const Footer = () => {
             <a href="/" className="footerLinks">
               Home
             </a>
-            <a href="/" className="footerLinks">
+            <a href="/gallery" className="footerLinks">
               About Us
             </a>
             <a href="#services" className="footerLinks">
