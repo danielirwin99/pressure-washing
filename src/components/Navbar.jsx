@@ -15,6 +15,11 @@ const Navbar = () => {
         </a>
         <ul className="ms-auto flex lg:space-x-10 items-center ">
           <li className="nav-item hidden lg:flex pr-3">
+            <Link className="nav-link" to={"/about-us"}>
+              About Us
+            </Link>
+          </li>
+          <li className="nav-item hidden lg:flex pr-3">
             <Link className="nav-link" to={"/gallery"}>
               Our Work
             </Link>

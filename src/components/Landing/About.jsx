@@ -90,9 +90,12 @@ const About = () => {
                 Total Exterior Cleaning is based in the Sutherland Shire Region,
                 offering a distinctive touch as a{" "}
                 <span className="font-bold">Father & Son local business</span> .
-                With a commitment to excellence, we employ 
-                <span className="font-bold"> up-to-date cutting-edge equipment </span>,
-                ensuring a brilliant finish to all exterior surfaces.
+                With a commitment to excellence, we employ
+                <span className="font-bold">
+                  {" "}
+                  up-to-date cutting-edge equipment{" "}
+                </span>
+                , ensuring a brilliant finish to all exterior surfaces.
               </p>
               <p className="w-full text-start md:text-xl leading-loose">
                 Our professional team at takes pride in providing reliable and

@@ -8,6 +8,7 @@ import GutterCleaning from "./pages/GutterCleaning";
 import DrivewaySealing from "./pages/DrivewaySealing";
 import Gallery from "./pages/Gallery";
 import SoftWashing from "./pages/SoftWashing";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Landing />} />
+          <Route path="/about-us" element={<AboutUs />} />
           <Route path="/pressure-washing" element={<PressureWashing />} />
           <Route path="/gutter-cleaning" element={<GutterCleaning />} />
           <Route path="/window-cleaning" element={<WindowCleaning />} />

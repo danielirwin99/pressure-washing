@@ -27,6 +27,8 @@ import sealing1 from "../assets/sealing1.jpg";
 import sealing2 from "../assets/sealing2.jpg";
 import gutterbefore from "../assets/gutterbefore.jpg";
 import gutterafter from "../assets/gutterafter.jpg";
+import me1 from "../assets/me1.png";
+import me2 from "../assets/me2.png";
 
 export {
   // before1,
@@ -58,4 +60,6 @@ export {
   sealing2,
   gutterbefore,
   gutterafter,
+  me1,
+  me2,
 };
