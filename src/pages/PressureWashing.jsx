@@ -60,7 +60,7 @@ const PressureWashing = () => {
               </span>{" "}
               is here to help you restore your home back to its original state.
             </p>
-            <h2 className="text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-cyan-500">
               House Pressure Cleaning In Sydney For Freshness Of Your Home
             </h2>
 
@@ -147,7 +147,7 @@ const PressureWashing = () => {
                 itemTwo={<ReactCompareSliderImage src={after8} alt="After 3" />}
               />
             </div>
-            <div className="flex items-center  justify-center mt-5">
+            <div className="flex items-center  justify-center mt-7">
               <Link
                 className="bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
                 to={"/gallery"}
