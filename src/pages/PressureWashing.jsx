@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
-import { pressurewashing } from "../assets/index";
+import { me1, pressurewashing } from "../assets/index";
 import { Link } from "react-router-dom";
 import {
   ReactCompareSlider,
@@ -104,9 +104,14 @@ const PressureWashing = () => {
                 appeal of your property.
               </span>
             </p>
+            <img
+              className="sm:hidden h-[400px] rounded-sm w-full object-cover"
+              src={me1}
+              alt="Pressure Washing"
+            />
 
             <p className=" leading-10 text-lg md:text-2xl font-semibold">
-              Contact Us today to schedule your free pressure washing quote.
+              Contact Us today to schedule your free quote.
               We'll visit your property, provide a transparent, no-obligation
               estimate, and breathe new life into your outdoor areas.
             </p>
