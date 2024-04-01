@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <header className="h-[calc(100vh-106px)] relative ">
+      <header className="h-[calc(100vh-104px)] relative ">
         {/* FIXED BUTTON */}
         <div className="fixed bottom-5 right-4 sm:bottom-7 sm:right-5 z-[995] template-shadow rounded-2xl">
           <Link to={"/contact-us"} className="contact-now mobile">
