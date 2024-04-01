@@ -16,7 +16,7 @@ const AboutUs = () => {
               About Us
             </h1>
             <div className="md:flex w-full flex-wrap md:flex-row my-10 flex-grow">
-              <div className="space-y-5 pr-14 md:w-2/3">
+              <div className="space-y-5 md:pr-14 md:w-2/3">
                 <h2 className="text-xl capitalize lg:text-2xl font-bold text-gray-800 tracking-wider sub-headers">
                   Your go-to local guys.
                 </h2>
@@ -56,15 +56,15 @@ const AboutUs = () => {
                 />
               </div>
             </div>
-            <div className="md:flex  w-full flex-wrap md:flex-row my-10 flex-grow pb-5">
-              <div className="md:w-1/3 mt-5 pr-14 md:mt-0">
+            <div className="md:flex w-full  md:flex-row my-10 flex-grow md:pb-5">
+              <div className="md:w-1/3 mt-5 md:mr-20  md:mt-0">
                 <img
                   src={me2}
                   className="h-[400px] rounded-sm w-full object-cover"
                   alt="TEST"
                 />
               </div>
-              <div className="space-y-3 pl-40  md:w-2/3">
+              <div className="space-y-3  pt-10 md:pt-0  md:w-2/3">
                 <h2 className="text-xl capitalize lg:text-4xl font-bold text-gray-800 tracking-wider sub-headers">
                   The Services We Provide:
                 </h2>
@@ -108,7 +108,7 @@ const AboutUs = () => {
                 </ul>
               </div>
             </div>
-            <p className="font-semibold text-center text-xl py-10">
+            <p className="font-semibold text-center text-xl pt-5 pb-10">
               Call Us Today on <span className="font-bold">0434 114 479</span>{" "}
               or email us on{" "}
               <span className="bold"> admin@totalexteriorco.com </span>
