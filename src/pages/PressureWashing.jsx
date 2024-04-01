@@ -52,7 +52,7 @@ const PressureWashing = () => {
         </div>
       </main>
       <div className="mt-40 md:mt-80 lg:mt-40">
-        <div className="ml-10 lg:pt-24 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+        <div className="ml-10 lg:pt-20 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8 lg:mx-6 lg:pr-4">
             <h1 className="text-3xl sm:text-4xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
@@ -148,6 +148,15 @@ const PressureWashing = () => {
               />
             </div>
           </div>
+        </div>
+
+        <div className="flex items-center justify-center">
+          <Link
+            className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+            to={"/gallery"}
+          >
+            View More Photos
+          </Link>
         </div>
       </div>
       <section className="md:my-20 mb-20 py-2 bg-gray-50 border-t-2 border-b-2 ">
