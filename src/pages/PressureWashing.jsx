@@ -19,6 +19,7 @@ import { before1, after1 } from "../assets/Gallery/Index";
 import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
 import Quotes from "../components/Landing/Quotes";
+import Tabs from "../components/Landing/Tabs";
 
 const PressureWashing = () => {
   return (
@@ -65,7 +66,7 @@ const PressureWashing = () => {
               surfaces, ensuring a pristine and inviting outdoor environment.
             </p>
             <h2 className="text-3xl md:text-4xl font-semibold text-cyan-500">
-              Cutting-Edge Pressure Washing Technology
+              House Pressure Cleaning In Sydney For Freshness Of Your Home
             </h2>
 
             <p className="leading-7 md:text-xl 2xl:text-2xl">
@@ -153,6 +154,7 @@ const PressureWashing = () => {
         <Socials />
       </section>
       <Testimonials />
+      <Tabs />
       <Quotes />
       {/* Footer */}
       <Footer />

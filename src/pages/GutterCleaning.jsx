@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
 import Quotes from "../components/Landing/Quotes";
+import Tabs from "../components/Landing/Tabs";
 
 const GutterCleaning = () => {
   return (
@@ -111,6 +112,7 @@ const GutterCleaning = () => {
         <Socials />
       </section>
       <Testimonials />
+      <Tabs />
       <Quotes />
       {/* Footer */}
       <Footer />
