@@ -7,14 +7,7 @@ import {
   ReactCompareSlider,
   ReactCompareSliderImage,
 } from "react-compare-slider";
-import {
-  after2,
-  after3,
-  after8,
-  before2,
-  before3,
-  before8,
-} from "../assets/B&A/Index";
+import { after3, after8, before3, before8 } from "../assets/B&A/Index";
 import { before1, after1 } from "../assets/Gallery/Index";
 import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
@@ -111,9 +104,9 @@ const PressureWashing = () => {
             />
 
             <p className=" leading-10 text-lg md:text-2xl font-semibold">
-              Contact Us today to schedule your free quote.
-              We'll visit your property, provide a transparent, no-obligation
-              estimate, and breathe new life into your outdoor areas.
+              Contact Us today to schedule your free quote. We'll visit your
+              property, provide a transparent, no-obligation estimate, and
+              breathe new life into your outdoor areas.
             </p>
             <div className="py-8 flex justify-center">
               <Link className="w-full md:w-auto" to={"/contact-us"}>
