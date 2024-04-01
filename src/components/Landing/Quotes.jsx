@@ -111,8 +111,8 @@ const Quotes = () => {
               </h2>
               <p className="mb-3 text-sm italic">
                 Whether you have a residential or commercial property, our
-                services ensure that your property is immaculately rejuvenated,
-                radiating with a newfound brilliance.
+                services ensure that your serviced in the highest quality with
+                the right equipment.
               </p>
               <p className="mt-8 mb-3">Name *</p>
               <input
@@ -121,7 +121,7 @@ const Quotes = () => {
                 type="text"
                 name="name"
                 placeholder="Name"
-                className="border -ml-1 px-3 outline-none py-2 w-full"
+                className="border-4 -ml-1 px-3 outline-none py-2 w-full"
               />
               <p className="mt-4 mb-3">Email *</p>
               <input
@@ -130,7 +130,7 @@ const Quotes = () => {
                 type="email"
                 name="email"
                 placeholder="Email"
-                className="border -ml-1 px-3 outline-none py-2 w-full"
+                className="border-4 -ml-1 px-3 outline-none py-2 w-full"
               />
               <p className="mt-4 mb-3">Phone# </p>
               <input
@@ -139,14 +139,14 @@ const Quotes = () => {
                 onChange={handleChange}
                 type="text"
                 placeholder="Phone #:"
-                className="border -ml-1 px-3 py-2 w-full outline-none"
+                className="border-4 -ml-1 px-3 py-2 w-full outline-none"
               />
               <p className="mt-4">Message * </p>
               <textarea
                 value={form.message}
                 onChange={handleChange}
                 name="message"
-                className="border mt-5 w-full -ml-1 p-3 resize-none outline-none"
+                className="border-4 mt-5 w-full -ml-1 p-3 resize-none outline-none"
                 placeholder="Message..."
                 id=""
                 cols="30"
