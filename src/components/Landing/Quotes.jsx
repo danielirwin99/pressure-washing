@@ -147,7 +147,7 @@ const Quotes = () => {
                 onChange={handleChange}
                 name="message"
                 className="border-4 mt-5 w-full -ml-1 p-3 resize-none outline-none"
-                placeholder="Message..."
+                placeholder="Provide us with a brief description of the scope of work..."
                 id=""
                 cols="30"
                 rows="8"
