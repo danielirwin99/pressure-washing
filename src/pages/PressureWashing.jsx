@@ -52,12 +52,12 @@ const PressureWashing = () => {
         </div>
       </main>
       <div className="mt-40 md:mt-80 lg:mt-40">
-        <div className="ml-10 lg:pt-32 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+        <div className="ml-10 lg:pt-24 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8 lg:mx-6 lg:pr-4">
-            <h1 className="text-3xl sm:text-5xl font-bold">
+            <h1 className="text-3xl sm:text-4xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
-            <p className="leading-7 pt-4 md:text-xl 2xl:text-2xl">
+            <p className="leading-7 pt-4  ">
               <span className="font-bold"> Total Exterior Cleaning</span> is
               your go-to provider for professional and comprehensive exterior
               cleaning services in Sydney. Whether you own a residential
@@ -65,11 +65,11 @@ const PressureWashing = () => {
               cleaning solutions are designed to rejuvenate and enhance various
               surfaces, ensuring a pristine and inviting outdoor environment.
             </p>
-            <h2 className="text-3xl md:text-4xl font-semibold text-cyan-500">
+            <h2 className="text-3xl font-semibold text-cyan-500">
               House Pressure Cleaning In Sydney For Freshness Of Your Home
             </h2>
 
-            <p className="leading-7 md:text-xl 2xl:text-2xl">
+            <p className="leading-7 md:text-md ">
               Our team at Total Exterior Cleaning utilizes cutting-edge pressure
               washing technology to deliver efficient and effective results. We
               employ the latest industrial-grade equipment, coupled with
@@ -82,10 +82,10 @@ const PressureWashing = () => {
               </span>
             </p>
 
-            <h2 className="text-3xl md:text-4xl font-semibold text-cyan-500">
+            <h2 className="text-3xl md:text-3xl font-semibold text-cyan-500">
               Preservation and Protection
             </h2>
-            <p className="leading-7 md:text-xl 2xl:text-2xl">
+            <p className="leading-7 ">
               {" "}
               Beyond the aesthetic benefits, our high-pressure cleaning services
               contribute to the preservation and protection of your property.
@@ -94,7 +94,7 @@ const PressureWashing = () => {
               slippery conditions.
               <br />
               <br />
-              <span className="hidden xl:flex 2xl:text-2xl">
+              <span className="hidden xl:flex ">
                 Our professional cleaning methods eliminate these dangers,
                 providing a safer environment for you, your family, or your
                 customers. Additionally, the process helps to restore the
