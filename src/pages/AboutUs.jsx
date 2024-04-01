@@ -10,7 +10,7 @@ const AboutUs = () => {
     <>
       <div>
         <Navbar />
-        <div className="bg-slate-200">
+        <div className="bg-gradient-to-r from-blue-200 to-cyan-200">
           <main className="my-10 pt-10 mx-5 md:mx-20 ">
             <h1 className="text-3xl lg:text-5xl font-bold  tracking-wider sub-headers">
               About Us
@@ -64,7 +64,7 @@ const AboutUs = () => {
                   alt="TEST"
                 />
               </div>
-              <div className="space-y-3  pt-10 md:pt-0 lg:pl-40  md:w-2/3">
+              <div className="space-y-3  pt-10 md:pt-0 lg:pl-40n  md:w-2/3">
                 <h2 className="text-xl capitalize lg:text-4xl font-bold text-gray-800 tracking-wider sub-headers">
                   The Services We Provide:
                 </h2>
