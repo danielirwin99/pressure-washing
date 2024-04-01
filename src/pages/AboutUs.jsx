@@ -11,7 +11,7 @@ const AboutUs = () => {
       <div>
         <Navbar />
         <div className="bg-gradient-to-r from-blue-200 to-cyan-200">
-          <main className="my-10 pt-10 mx-5 xl:mx-20 ">
+          <main className="pt-10 mx-5 xl:mx-20 ">
             <h1 className="text-3xl lg:text-5xl font-bold  tracking-wider sub-headers">
               About Us
             </h1>
