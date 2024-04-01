@@ -51,8 +51,8 @@ const PressureWashing = () => {
           </div>
         </div>
       </main>
-      <div className="mt-40 md:mt-80 lg:mt-40">
-        <div className="ml-10 lg:pt-20 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+      <div className="mt-28 md:mt-80 lg:mt-40">
+        <div className="mx-10 lg:pt-20 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8 lg:mx-6 lg:pr-4">
             <h1 className="text-3xl sm:text-4xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
@@ -147,9 +147,9 @@ const PressureWashing = () => {
                 itemTwo={<ReactCompareSliderImage src={after8} alt="After 3" />}
               />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center  justify-center mt-5">
               <Link
-                className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+                className="bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
                 to={"/gallery"}
               >
                 View More Photos
