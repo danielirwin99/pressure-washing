@@ -24,7 +24,7 @@ const PressureWashing = () => {
         <div>
           <figure className="w-full absolute -z-10">
             <img
-              className="w-full object-cover h-[500px] md:h-[800px] brightness-[.45]"
+              className="w-full object-cover h-[550px] md:h-[800px] brightness-[.45]"
               src={pressurewashing}
               alt="Background Image"
             />
@@ -44,9 +44,9 @@ const PressureWashing = () => {
           </div>
         </div>
       </main>
-      <div className="mt-40  md:mt-80 lg:mt-40 text-center sm:text-start">
+      <div className="mt-44  md:mt-80 lg:mt-40 text-center sm:text-start">
         <div className="mx-5 lg:pt-36 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
-          <div className="lg:w-[60%] space-y-10 mt-10 lg:mx-6 lg:pr-4">
+          <div className="lg:w-[60%] space-y-10  lg:mx-6 lg:pr-4">
             <h1 className="text-3xl sm:text-4xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
