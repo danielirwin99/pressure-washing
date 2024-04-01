@@ -50,12 +50,12 @@ const PressureWashing = () => {
         </div>
       </main>
       <div className="mt-40 md:mt-80 lg:mt-40">
-        <div className="ml-10 lg:pt-30 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+        <div className="ml-10 lg:pt-32 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8 lg:mx-6 lg:pr-4">
             <h1 className="text-3xl sm:text-5xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
-            <p className="leading-7 pt-4 md:text-xl">
+            <p className="leading-7 pt-4 md:text-xl 2xl:2xl">
               <span className="font-bold"> Total Exterior Cleaning</span> is
               your go-to provider for professional and comprehensive exterior
               cleaning services in Sydney. Whether you own a residential
