@@ -15,9 +15,10 @@ import {
   before3,
   before8,
 } from "../assets/B&A/Index";
-import {before1, after1} from "../assets/Gallery/Index"
+import { before1, after1 } from "../assets/Gallery/Index";
 import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
+import Quotes from "../components/Landing/Quotes";
 
 const PressureWashing = () => {
   return (
@@ -52,7 +53,7 @@ const PressureWashing = () => {
       <div className="mt-40 md:mt-80 lg:mt-40">
         <div className="ml-10 lg:pt-32 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8 lg:mx-6 lg:pr-4">
-            <h1 className="text-3xl sm:text-5xl font-bold">
+            <h1 className="text-3xl sm:text-6xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
             <p className="leading-7 pt-4 md:text-xl 2xl:text-2xl">
@@ -148,10 +149,11 @@ const PressureWashing = () => {
           </div>
         </div>
       </div>
-      <section className="md:my-28 mb-20 ">
+      <section className="md:my-28 mb-20 py-2 bg-gray-50 ">
         <Socials />
       </section>
       <Testimonials />
+      <Quotes />
       {/* Footer */}
       <Footer />
     </>
