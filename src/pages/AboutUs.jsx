@@ -15,7 +15,7 @@ const AboutUs = () => {
             <h1 className="text-3xl lg:text-5xl font-bold  tracking-wider sub-headers">
               About Us
             </h1>
-            <div className="md:flex w-full flex-wrap md:flex-row my-10 flex-grow">
+            <div className="md:flex items-center w-full flex-wrap md:flex-row my-10 flex-grow">
               <div className="space-y-5 md:pr-14 md:w-2/3">
                 <h2 className="text-xl capitalize lg:text-2xl font-bold text-gray-800 tracking-wider sub-headers">
                   Your go-to local guys.
@@ -56,7 +56,7 @@ const AboutUs = () => {
                 />
               </div>
             </div>
-            <div className="md:flex w-full md:space-x-10 md:flex-row my-10 flex-grow md:pb-5">
+            <div className="md:flex items-center w-full md:space-x-10 md:flex-row my-10 flex-grow md:pb-5">
               <div className="md:w-1/3 mt-5  md:mt-0">
                 <img
                   src={me2}
