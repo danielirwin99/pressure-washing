@@ -57,50 +57,50 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="md:flex items-center w-full  md:flex-row my-10 flex-grow md:pb-5">
-              <div className="md:w-1/3 mt-5  md:mt-0">
+              <div className="md:w-1/3 mt-5 lg:h-[450px]  md:mt-0">
                 <img
                   src={me2}
                   className="rounded h-[450px] md:h-full -sm w-full object-cover"
                   alt="TEST"
                 />
               </div>
-              <div className="space-y-3 md:pl-20  pt-10 md:pt-0 lg:pl-40n  md:w-2/3">
-                <h2 className="text-2xl capitalize xl:text-4xl font-bold text-gray-800 tracking-wider sub-headers">
+              <div className="space-y-3 md:pl-20 pl-10  pt-10 md:pt-0 lg:pl-40n  md:w-2/3">
+                <h2 className="md:text-2xl text-3xl capitalize xl:text-4xl font-bold text-gray-800 tracking-wider sub-headers">
                   The Services We Provide:
                 </h2>
                 <ul className="space-y-4 py-5">
                   <li className="flex items-center space-x-4">
-                    <FaCheck className="text-5xl w-10 h-10 text-green-300" />
+                    <FaCheck className="text-5xl w-10 h-10 text-green-400" />
                     <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
                       Pressure Washing
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
-                    <FaCheck className="text-5xl w-10 h-10 text-green-300" />
+                    <FaCheck className="text-5xl w-10 h-10 text-green-400" />
                     <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
                       House Washing
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
-                    <FaCheck className="text-5xl w-10 h-10 text-green-300" />
+                    <FaCheck className="text-5xl w-10 h-10 text-green-400" />
                     <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
                       Window Cleaning
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
-                    <FaCheck className="text-5xl w-10 h-10 text-green-300" />
+                    <FaCheck className="text-5xl w-10 h-10 text-green-400" />
                     <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
                       Gutter Cleaning
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
-                    <FaCheck className="text-5xl w-10 h-10 text-green-300" />
+                    <FaCheck className="text-5xl w-10 h-10 text-green-400" />
                     <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
                       Driveway Sealing
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
-                    <FaCheck className="text-5xl w-10 h-10 text-green-300" />
+                    <FaCheck className="text-5xl w-10 h-10 text-green-400" />
                     <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
                       Residential & Commercial
                     </p>
@@ -109,7 +109,7 @@ const AboutUs = () => {
               </div>
             </div>
             <p className=" text-center text-xl pt-5 pb-10">
-              Call Us Today on <span className="font-bold">0434 114 479</span>{" "}
+              Call Us Today on <span className="underline font-bold">0434 114 479</span>{" "}
               or Email us on{" "}
               <a
                 href="mailto:admin@totalexteriorco.com"
