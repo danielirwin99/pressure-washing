@@ -59,13 +59,13 @@ const PressureWashing = () => {
             </h1>
             <p className="leading-7 lg:text-lg pt-4  ">
               <span className="font-bold"> Total Exterior Cleaning</span> is
-              your go-to local pressure washers for professional and
-              comprehensive exterior cleaning services in Sydney. Whether you
-              own a residential property or a commercial space, our{" "}
+              your go-to local pressure washers for professional exterior
+              cleaning services in Sydney. Whether you own a residential
+              property or a commercial space, our{" "}
               <span className="font-bold">
                 family owned and operated business
               </span>{" "}
-              is here to help you restore you it back to its original way.
+              is here to help you restore your home back to its original state.
             </p>
             <h2 className="text-3xl font-semibold text-cyan-500">
               House Pressure Cleaning In Sydney For Freshness Of Your Home
@@ -73,7 +73,7 @@ const PressureWashing = () => {
 
             <p className="leading-7 lg:text-lg ">
               Our team at Total Exterior Cleaning utilizes cutting-edge pressure
-              washing technology to deliver efficient and effective results. We
+              washing technology to deliver efficient and quality results. We
               employ the latest industrial-grade equipment, coupled with
               extensive knowledge and experience, to apply high-pressure
               cleaning methods to surfaces such as driveways, pavers, patios,
@@ -111,8 +111,8 @@ const PressureWashing = () => {
               estimate, and breathe new life into your outdoor areas.
             </p>
             <div className="py-8 flex justify-center">
-              <Link to={"/contact-us"}>
-                <button className="contact-now !capitalize z-50 md:!text-2xl !px-10 !py-4 ">
+              <Link className="w-full md:w-auto" to={"/contact-us"}>
+                <button className="contact-now w-full md:w-auto !capitalize z-50 md:!text-2xl !text-xl !px-10 !py-4 ">
                   Contact Us Now
                 </button>
               </Link>
