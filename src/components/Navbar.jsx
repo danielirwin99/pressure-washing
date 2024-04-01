@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="top-0 z-[999] w-full bg-white py-1 px-4 xl:px-20 lg:px-10  border-b-gray-200">
       <div className="flex justify-around items-center">
         <a className="flex items-center justify-center" href="/">
-          <img className="h-24 w-40" src={logo} alt="Logo" />
+          <img className="h-20 w-32 sm:h-24 sm:w-40" src={logo} alt="Logo" />
         </a>
         <ul className="ms-auto flex lg:space-x-10 items-center ">
           <li className="nav-item hidden lg:flex pr-3">
