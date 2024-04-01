@@ -49,7 +49,7 @@ const WindowCleaning = () => {
         <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8">
             <h1 className="text-3xl sm:text-5xl font-bold tracking-wide leading-snug">
-              Are Your Windows Begging for a Revitalizing Shine?
+              Residential & Commercial Window Cleaning
             </h1>
             <p className="leading-7 pt-4 lg:text-2xl sm:text-xl">
               At <span className="font-bold"> Total Exterior Cleaning</span>,we
