@@ -51,8 +51,8 @@ const PressureWashing = () => {
           </div>
         </div>
       </main>
-      <div className="mt-28 md:mt-80 lg:mt-40">
-        <div className="mx-10 lg:pt-20 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+      <div className="mt-28 md:mt-80 lg:mt-40 text-center sm:text-start">
+        <div className="mx-5 lg:pt-20 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8 lg:mx-6 lg:pr-4">
             <h1 className="text-3xl sm:text-4xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
@@ -82,10 +82,10 @@ const PressureWashing = () => {
               </span>
             </p>
 
-            <h2 className="text-3xl md:text-3xl font-semibold text-cyan-500">
+            <h2 className="text-3xl hidden sm:flex md:text-3xl font-semibold text-cyan-500">
               Preservation and Protection
             </h2>
-            <p className="leading-7 ">
+            <p className="leading-7 hidden sm:inline">
               {" "}
               Beyond the aesthetic benefits, our high-pressure cleaning services
               contribute to the preservation and protection of your property.

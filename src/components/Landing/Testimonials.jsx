@@ -50,7 +50,7 @@ const Testimonials = () => {
         Testimonials
       </h3>
       <h2
-        className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 mb-20 tracking-wider sub-headers"
+        className="text-center text-3xl lg:text-4xl font-bold text-gray-800 mt-7 mb-20 tracking-wider sub-headers"
         style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
       >
         What Customers Are Saying
@@ -60,7 +60,7 @@ const Testimonials = () => {
           {data.map((d) => (
             <div className="bg-white grid- text-black text-center rounded-xl">
               <div className="rounded-t-xl flex justify-center items-center">
-                <img src={d.img} className="h-24 sm:h-32" alt="" />
+                <img src={d.img} className="h-20" alt="" />
               </div>
               <div className="flex flex-col justify-center items-center gap-4 p-4">
                 <p className="text-xl font-bold">{d.name}</p>
