@@ -86,7 +86,7 @@ const About = () => {
           </h2>
           <ul className="space-y-2">
             <li className=" mt-10 items-center space-y-3">
-              <p className="w-full text-start md:text-xl leading-loose">
+              <p className="w-full text-center sm:text-start md:text-xl leading-loose">
                 Total Exterior Cleaning is based in the Sutherland Shire Region,
                 offering a distinctive touch as a{" "}
                 <span className="font-bold">Father & Son local business</span> .
@@ -97,7 +97,7 @@ const About = () => {
                 </span>
                 , ensuring a brilliant finish to all exterior surfaces.
               </p>
-              <p className="w-full text-start md:text-xl leading-loose">
+              <p className="w-full text-center sm:text-start md:text-xl leading-loose">
                 Our professional team at takes pride in providing reliable and
                 friendly service, all while maintaining affordability. From
                 residential spaces to commercial establishments, we cover it
