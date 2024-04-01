@@ -73,13 +73,13 @@ export default function BurgerBar() {
         <div className="burger__list">
           <div className="burger__list--container">
             <div className="burger__list--wrapper">
-              <a
+              <Link
                 onClick={handleDrawerClose}
-                href="#about"
+                to={"/about-us"}
                 className="burger__list--header"
               >
                 About Us
-              </a>
+              </Link>
             </div>
             <div className="burger__list--wrapper">
               <Link
