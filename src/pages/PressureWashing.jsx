@@ -147,16 +147,15 @@ const PressureWashing = () => {
                 itemTwo={<ReactCompareSliderImage src={after8} alt="After 3" />}
               />
             </div>
+            <div className="flex items-center justify-center">
+              <Link
+                className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+                to={"/gallery"}
+              >
+                View More Photos
+              </Link>
+            </div>
           </div>
-        </div>
-
-        <div className="flex items-center justify-center">
-          <Link
-            className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
-            to={"/gallery"}
-          >
-            View More Photos
-          </Link>
         </div>
       </div>
       <section className="md:my-20 mb-20 py-2 bg-gray-50 border-t-2 border-b-2 ">
