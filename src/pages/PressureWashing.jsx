@@ -50,7 +50,7 @@ const PressureWashing = () => {
             <h1 className="text-3xl sm:text-4xl font-bold">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
-            <p className="leading-7 lg:text-lg pt-4  ">
+            <p className="leading-7 lg:text-lg pt-2  ">
               <span className="font-bold"> Total Exterior Cleaning</span> is
               your go-to local pressure washers for professional exterior
               cleaning services in Sydney. Whether you own a residential
