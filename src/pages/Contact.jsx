@@ -100,7 +100,9 @@ const Contact = () => {
             </a>
           </div>
           <form className="pt-8">
-            <h2 className="uppercase font-bold text-3xl">Contact Form</h2>
+            <h2 className="uppercase font-bold text-3xl lg:mb-4">
+              Contact Form
+            </h2>
             <p className="my-3 text-sm italic">
               Whether you have a residential or commercial property, our
               services ensure that your serviced in the highest quality with the
@@ -112,7 +114,7 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Name*"
-              className=" bg-gray-200 my-2 -ml-1 px-3 rounded-sm outline-none py-2 w-full"
+              className=" bg-gray-200 text-sm my-2 lg:text-base px-4 rounded-sm outline-none py-2 w-full"
             />
             <input
               value={form.email}
@@ -120,7 +122,7 @@ const Contact = () => {
               type="email"
               name="email"
               placeholder="Email*"
-              className=" bg-gray-200 my-2 -ml-1 px-3 rounded-sm outline-none py-2 w-full"
+              className=" bg-gray-200 my-2 text-sm lg:text-base  px-4 rounded-sm outline-none py-2 w-full"
             />
             <input
               name="number"
@@ -128,13 +130,13 @@ const Contact = () => {
               onChange={handleChange}
               type="text"
               placeholder="Phone #:"
-              className=" bg-gray-200 my-2 -ml-1 px-3 py-2 rounded-sm w-full outline-none"
+              className=" bg-gray-200 my-2 text-sm lg:text-base px-4 py-2 rounded-sm w-full outline-none"
             />
             <textarea
               value={form.message}
               onChange={handleChange}
               name="message"
-              className=" bg-gray-200 w-full my-2 rounded-sm -ml-1 p-3 resize-none outline-none"
+              className=" bg-gray-200 w-full text-sm lg:text-base my-2 rounded-sm p-4 resize-none outline-none"
               placeholder="Provide us with a brief description of the scope of work..."
               id=""
               cols="30"
