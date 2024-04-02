@@ -102,7 +102,7 @@ const About = () => {
                 friendly service, all while maintaining affordability. From
                 residential spaces to commercial establishments, we cover it
                 all, making us the go-to choice for those seeking professional
-                pressure cleaning services in the region.
+                pressure exterior cleaning services in the region.
               </p>
             </li>
           </ul>
