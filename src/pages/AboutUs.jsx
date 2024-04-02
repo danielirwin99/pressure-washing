@@ -39,7 +39,7 @@ const AboutUs = () => {
                     Our Goal
                   </h3>
                   <p className="text-center sm:text-start lg:text-xl leading-relaxed">
-                    We currently service all of Sutherland Shire and surrounding
+                    We currently offer cleaning services all of Sutherland Shire and surrounding
                     regions. Our mission is to consistently deliver high-quality
                     workmanship on every project we undertake. <br /> We take
                     pride in our work, striving to exceed customer expectations

@@ -66,7 +66,7 @@ const PressureWashing = () => {
 
             <p className="leading-relaxed lg:text-xl text-[#676767]  ">
               Our team at Total Exterior Cleaning utilizes cutting-edge pressure
-              washing technology to deliver efficient and quality results. We
+              cleaning technology to deliver efficient and quality results. We
               employ the latest industrial-grade equipment, coupled with
               extensive knowledge and experience, to apply high-pressure
               cleaning methods to surfaces such as driveways, pavers, patios,

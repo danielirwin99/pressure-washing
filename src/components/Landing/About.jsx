@@ -89,8 +89,10 @@ const About = () => {
               <p className="w-full text-center sm:text-start md:text-xl leading-loose">
                 Total Exterior Cleaning is based in the Sutherland Shire Region,
                 offering a distinctive touch as a{" "}
-                <span className="font-bold">Father & Son local business</span> .
-                With a commitment to excellence, we employ
+                <span className="font-bold">
+                  family owned & operated located business
+                </span>{" "}
+                . With a commitment to excellence, we employ
                 <span className="font-bold">
                   {" "}
                   up-to-date cutting-edge equipment{" "}
@@ -103,6 +105,10 @@ const About = () => {
                 residential spaces to commercial establishments, we cover it
                 all, making us the go-to choice for those seeking professional
                 pressure exterior cleaning services in the region.
+              </p>
+              <p className="w-full font-semibold text-center sm:text-start md:text-xl leading-loose">
+                Are you looking for high pressure cleaning services in your
+                local area? &nbsp; Hit the button below and get started!
               </p>
             </li>
           </ul>

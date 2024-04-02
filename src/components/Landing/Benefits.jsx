@@ -12,7 +12,7 @@ const Benefits = () => {
           className="text-2xl font-extrabold  mt-1 tracking-wider mb-6 text-cyan-300 sub-headers"
           style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
         >
-          Benefits of Pressuring Washing:
+          Benefits of Pressuring Cleaning:
         </h2>
         <div className="space-y-6 text-white pl-1">
           <div className="flex items-center space-x-4">
@@ -73,7 +73,7 @@ const Benefits = () => {
               excess time you or your staff may have.{" "}
               <span className="hidden lg:inline">
                 {" "}
-                Pressure washing is very fast and efficient, and we'll work to
+                Pressure cleaning is very fast and efficient, and we'll work to
                 complete the project while working around your schedule to save
                 you even more time.
               </span>
