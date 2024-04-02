@@ -98,11 +98,11 @@ const About = () => {
                 , ensuring a brilliant finish to all exterior surfaces.
               </p>
               <p className="w-full text-center sm:text-start md:text-xl leading-loose">
-                Our professional team at takes pride in providing reliable and
+                Our professional team takes pride in providing reliable and
                 friendly service, all while maintaining affordability. From
                 residential spaces to commercial establishments, we cover it
-                all, making us the go-to choice for those seeking top-notch
-                exterior cleaning services in the region.
+                all, making us the go-to choice for those seeking professional
+                pressure cleaning services in the region.
               </p>
             </li>
           </ul>
