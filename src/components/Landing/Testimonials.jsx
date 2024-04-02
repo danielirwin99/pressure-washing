@@ -4,6 +4,7 @@ import { BsStarFill } from "react-icons/bs";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { FcGoogle } from "react-icons/fc";
 
 const Testimonials = () => {
   const settings = {
@@ -65,9 +66,12 @@ const Testimonials = () => {
       <div className="">
         <Slider {...settings}>
           {data.map((d) => (
-            <div className="bg-white grid- text-black text-center rounded-xl">
+            <div className="bg-white relative grid- text-black text-center rounded-xl">
               <div className="rounded-t-xl flex justify-center items-center">
                 <img src={d.img} className="h-20" alt="" />
+              </div>
+              <div className="absolute top-2 left-3/4">
+                <FcGoogle />
               </div>
               <div className="flex flex-col justify-center items-center gap-4 p-4">
                 <p className="text-xl font-bold">{d.name}</p>
@@ -78,7 +82,9 @@ const Testimonials = () => {
                   <BsStarFill />
                   <BsStarFill />
                 </div>
-                <p className="text-sm leading-relaxed text-[#676767] flex">{d.review}</p>
+                <p className="text-sm leading-relaxed text-[#676767] flex">
+                  {d.review}
+                </p>
                 {/* <button className="bg-cyan-500 text-white text-lg px-6 py-2 rounded-xl hover:opacity-75 transition-all duration-100">
                   Read More
                 </button> */}
