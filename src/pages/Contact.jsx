@@ -85,13 +85,13 @@ const Contact = () => {
             email anytime. We’ll get back to you as soon as possible.
           </p>
           <div>
-            <h3 className="text-cyan-500 font-semibold pb-1">Phone :</h3>
+            <h3 className="text-cyan-500 font-semibold py-1">Phone :</h3>
             <a href="tel:0417477117" className="hover:underline  ">
               0434 114 479
             </a>
-            <h3 className="text-cyan-500 font-semibold pt-3">Office Hours :</h3>
+            <h3 className="text-cyan-500 font-semibold pt-4">Office Hours :</h3>
             <p>Monday To Friday 8am - 5pm</p>
-            <h3 className="text-cyan-500 font-semibold pb-1 pt-3">Email :</h3>
+            <h3 className="text-cyan-500 font-semibold pb-1 pt-4">Email :</h3>
             <a
               className="hover:underline "
               href="mailto:admin@totalexteriorco.com"
@@ -103,7 +103,7 @@ const Contact = () => {
             <h2 className="uppercase font-bold text-3xl lg:mb-4">
               Contact Form
             </h2>
-            <p className="my-3 text-sm italic">
+            <p className="my-4 text-sm italic">
               Whether you have a residential or commercial property, our
               services ensure that your serviced in the highest quality with the
               right equipment.
