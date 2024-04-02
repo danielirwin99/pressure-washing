@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FcGoogle } from "react-icons/fc";
+import { FaGoogle } from "react-icons/fa";
 
 const Testimonials = () => {
   const settings = {
@@ -92,6 +93,21 @@ const Testimonials = () => {
             </div>
           ))}
         </Slider>
+      </div>
+      <div className="mt-14 space-x-4 flex items-center justify-center">
+        <a
+          className="contact-now !p-2  !text-xs template-shadow"
+          href="https://www.google.com/search?q=total+exterior+cleaning&rlz=1C1VDKB_enAU1092AU1092&oq=total+exterior+cleaning+&gs_lcrp=EgZjaHJvbWUyCggAEEUYFhgeGDkyBwgBEAAYgAQyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yBggFEEUYQTIGCAYQRRg8MgYIBxBFGEHSAQgzNjkxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x61f8ecfb4782edb3:0xb4524df1d6cb3f48,1,,,,"
+        >
+          See All Reviews
+        </a>
+        <a
+          href="https://g.page/r/CUg_y9bxTVK0EB0/review"
+          className=" !flex contact-now !p-2 !text-xs items-center space-x-2 justify-center template-shadow"
+        >
+          <p>Review Us on</p>
+          <FcGoogle className="bg-white rounded-full" />
+        </a>
       </div>
     </div>
   );
