@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Socials from "../components/Landing/Socials";
-import { me1, me2 } from "../assets";
+import { me1, me2, me3 } from "../assets";
 import { FaCheck } from "react-icons/fa";
 
 const AboutUs = () => {
@@ -12,16 +12,16 @@ const AboutUs = () => {
         <Navbar />
         <div className="bg-gradient-to-r from-blue-200 to-cyan-200">
           <main className="pt-10 mx-5 xl:mx-20 ">
-            <h1 className="text-3xl lg:text-5xl font-bold  tracking-wider sub-headers">
+            <h1 className="text-3xl lg:text-5xl font-bold text-center sm:text-start   tracking-wider sub-headers">
               About Us
             </h1>
             <div className="md:flex items-center w-full flex-wrap md:flex-row my-10 flex-grow">
               <div className="space-y-5 md:pr-14 md:w-2/3">
-                <h2 className="text-xl capitalize lg:text-2xl font-bold text-gray-800 tracking-wider sub-headers">
+                <h2 className="text-xl underline capitalize lg:text-2xl text-center sm:text-start font-bold text-gray-800 tracking-wider sub-headers">
                   Your go-to local guys.
                 </h2>
                 <div>
-                  <p className=" text-start lg:text-xl leading-loose">
+                  <p className=" text-center sm:text-start lg:text-xl leading-relaxed">
                     <span className="font-bold">Total Exterior Cleaning</span>{" "}
                     is based in the{" "}
                     <span className="font-bold">Sutherland Shire Region,</span>{" "}
@@ -35,20 +35,20 @@ const AboutUs = () => {
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-3xl pb-4 font-bold text-cyan-500">
+                  <h3 className="text-3xl text-center sm:text-start pb-4 font-bold text-cyan-500">
                     Our Goal
                   </h3>
-                  <p className="text-start lg:text-xl leading-loose">
+                  <p className="text-center sm:text-start lg:text-xl leading-relaxed">
                     We currently service all of Sutherland Shire and surrounding
                     regions. Our mission is to consistently deliver high-quality
-                    workmanship on every project we undertake. We take pride in
-                    our work, striving to exceed customer expectations with
-                    meticulous attention to detail and a dedication to customer
-                    satisfaction.
+                    workmanship on every project we undertake. <br /> We take
+                    pride in our work, striving to exceed customer expectations
+                    with meticulous attention to detail and a dedication to
+                    customer satisfaction.
                   </p>
                 </div>
               </div>
-              <div className="md:w-1/3 mt-5  md:mt-0">
+              <div className="md:w-1/3 mt-8  md:mt-0">
                 <img
                   className="h-[400px] rounded-sm w-full object-cover"
                   src={me1}
@@ -64,43 +64,43 @@ const AboutUs = () => {
                   alt="TEST"
                 />
               </div>
-              <div className="space-y-3 md:pl-20 pl-10  pt-10 md:pt-0 lg:pl-40n  md:w-2/3">
+              <div className="space-y-3 md:pl-20   pt-10 md:pt-0 lg:pl-40n  md:w-2/3">
                 <h2 className="md:text-2xl text-3xl capitalize xl:text-4xl font-bold text-gray-800 tracking-wider sub-headers">
-                  The Services We Provide:
+                  Services We Provide:
                 </h2>
-                <ul className="space-y-4 py-5">
+                <ul className="space-y-4 pt-5 sm:py-5">
                   <li className="flex items-center space-x-4">
-                    <FaCheck className="text-5xl w-10 h-10 text-green-400" />
+                    <FaCheck className="text-5xl w-8 h-8 text-green-400" />
                     <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
                       Pressure Washing
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
-                    <FaCheck className="text-5xl w-10 h-10 text-green-400" />
+                    <FaCheck className="text-5xl w-8 h-8 text-green-400" />
                     <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
                       House Washing
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
-                    <FaCheck className="text-5xl w-10 h-10 text-green-400" />
+                    <FaCheck className="text-5xl w-8 h-8 text-green-400" />
                     <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
                       Window Cleaning
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
-                    <FaCheck className="text-5xl w-10 h-10 text-green-400" />
+                    <FaCheck className="text-5xl w-8 h-8 text-green-400" />
                     <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
                       Gutter Cleaning
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
-                    <FaCheck className="text-5xl w-10 h-10 text-green-400" />
+                    <FaCheck className="text-5xl w-8 h-8 text-green-400" />
                     <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
                       Driveway Sealing
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
-                    <FaCheck className="text-5xl w-10 h-10 text-green-400" />
+                    <FaCheck className="text-5xl w-8 h-8 text-green-400" />
                     <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
                       Residential & Commercial
                     </p>
@@ -108,10 +108,13 @@ const AboutUs = () => {
                 </ul>
               </div>
             </div>
-            <p className=" text-center text-xl pt-5 pb-10">
-              Call Us Today on{" "}
-              <span className="underline font-bold">0434 114 479</span> or Email
-              us on{" "}
+            <div className="inline sm:hidden">
+              <img className="rounded-sm" src={me3} alt="Third Picture" />
+            </div>
+            <p className=" text-center sm:text-xl  leading-8 pt-10 sm:pt-5 pb-10">
+              Call us today on
+              <span className="underline font-bold"> 0434 114 479</span> or
+              email us on{" "}
               <a
                 href="mailto:admin@totalexteriorco.com"
                 className="font-bold underline"

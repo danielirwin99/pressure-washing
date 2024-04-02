@@ -29,6 +29,7 @@ import gutterbefore from "../assets/gutterbefore.jpg";
 import gutterafter from "../assets/gutterafter.jpg";
 import me1 from "../assets/me1.png";
 import me2 from "../assets/me2.png";
+import me3 from "../assets/me3.jpg";
 import testi from "../assets/dummyavatar.png";
 
 export {
@@ -63,5 +64,6 @@ export {
   gutterafter,
   me1,
   me2,
+  me3,
   testi,
 };
