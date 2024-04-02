@@ -76,8 +76,8 @@ const Contact = () => {
       <Navbar />
       <main className="w-full">
         <div className="space-y-5 p-[7%]">
-          <h1 className="text-3xl uppercase text-start font-bold">Contact</h1>
-          <p className="tracking-wide leading-6 text-sm">
+          <h1 className="text-4xl uppercase text-start font-bold">Contact</h1>
+          <p className="tracking-wide leading-6">
             If you have questions, comments or need more information about our
             pressure cleaning services in Sydney, please feel free to drop us an
             email anytime. We’ll get back to you as soon as possible.
@@ -87,9 +87,9 @@ const Contact = () => {
             <a href="tel:0417477117" className="hover:underline  ">
               0434 114 479
             </a>
-            <h3 className="text-cyan-500 font-semibold pt-2">Office Hours :</h3>
+            <h3 className="text-cyan-500 font-semibold pt-3">Office Hours :</h3>
             <p>Monday To Friday 8am - 5pm</p>
-            <h3 className="text-cyan-500 font-semibold pb-1 pt-2">Email :</h3>
+            <h3 className="text-cyan-500 font-semibold pb-1 pt-3">Email :</h3>
             <a
               className="hover:underline "
               href="mailto:admin@totalexteriorco.com"
