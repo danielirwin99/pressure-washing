@@ -59,7 +59,7 @@ const PressureWashing = () => {
               <span className="font-bold">
                 family owned and operated business
               </span>{" "}
-              is here to help you restore your home back to its original state.
+              is here to help you restore your property back to its original state.
             </p>
             <h2 className="text-2xl sm:text-3xl font-semibold text-cyan-500">
               House Pressure Cleaning In Sydney For Freshness Of Your Home
@@ -109,7 +109,7 @@ const PressureWashing = () => {
               property, provide a transparent, no-obligation estimate, and
               breathe new life into your outdoor areas.
             </p>
-            <div className="py-8 flex justify-center">
+            <div className="py-4 flex justify-center">
               <Link className="w-full md:w-auto" to={"/contact-us"}>
                 <button className="contact-now w-full md:w-auto !capitalize z-50 md:!text-2xl !text-xl !px-10 !py-4 ">
                   Contact Us Now
