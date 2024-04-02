@@ -78,7 +78,7 @@ const Testimonials = () => {
                   <BsStarFill />
                   <BsStarFill />
                 </div>
-                <p className="text-sm leading-relaxed flex">{d.review}</p>
+                <p className="text-sm leading-relaxed text-[#676767] flex">{d.review}</p>
                 {/* <button className="bg-cyan-500 text-white text-lg px-6 py-2 rounded-xl hover:opacity-75 transition-all duration-100">
                   Read More
                 </button> */}

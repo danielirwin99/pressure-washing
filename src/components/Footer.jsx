@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-white w-full py-6">
-        <h2 className=" text-sm lg:text-md font-semibold px-3 text-center ">
+        <h2 className=" text-sm lg:text-md text-[#676767] font-semibold px-3 text-center ">
           Copyright &copy; {`${new Date().getFullYear()}`} Total Exterior
           Cleaning Pty Ltd. &nbsp; All Rights Reserved
         </h2>
