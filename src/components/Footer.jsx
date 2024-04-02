@@ -57,7 +57,7 @@ const Footer = () => {
             </p>
             <p className="text-white space-y-1 py-4">
               We Cater All South Sydney & Illawarra Services <br /> Company
-              based in in Sydney NSW
+              based in Sydney NSW
             </p>
             <p className="text-white space-y-1 py-4">
               Phone :{" "}
