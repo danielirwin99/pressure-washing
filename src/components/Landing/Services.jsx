@@ -50,7 +50,7 @@ const Services = () => {
             className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl mr-1" />
-          <h2 className="services-header">Soft Washing</h2>
+          <h2 className="services-header">House Washing</h2>
           <Link
             className="flex justify-center items-center services-quote"
             to={"/contact-us"}
@@ -67,7 +67,7 @@ const Services = () => {
             className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl mr-1" />
-          <h2 className="services-header">Pressure Washing</h2>
+          <p className="services-header">Pressure Cleaning</p>
           <Link
             className="flex justify-center items-center services-quote"
             to={"/contact-us"}
@@ -83,7 +83,7 @@ const Services = () => {
             className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl" />
-          <h2 className="services-header">Gutter Cleaning</h2>
+          <p className="services-header">Gutter Cleaning</p>
           <Link
             className="flex justify-center items-center services-quote"
             to={"/contact-us"}
@@ -99,7 +99,7 @@ const Services = () => {
             className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl" />
-          <h2 className="services-header md:ml-0">Window Cleaning</h2>
+          <p className="services-header md:ml-0">Window Cleaning</p>
           <Link
             className="flex justify-center items-center services-quote "
             to={"/contact-us"}
@@ -115,7 +115,7 @@ const Services = () => {
             className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl  mr-1" />
-          <h2 className="services-header">Driveway Sealing</h2>
+          <p className="services-header">Driveway Sealing</p>
           <Link
             className="flex justify-center items-center services-quote"
             to={"/contact-us"}
