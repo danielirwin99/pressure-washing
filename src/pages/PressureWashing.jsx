@@ -52,8 +52,8 @@ const PressureWashing = () => {
               Refresh Your Home with High Pressure Cleaning.
             </h1>
             <p className="leading-relaxed lg:text-xl text-[#676767]  pt-2  ">
-              <span className="font-bold"> Total Exterior Cleaning</span> is
-              your go-to local pressure washers for professional exterior
+              <span className="font-bold"> Total Exterior Cleaning</span> are
+              your go-to local pressure cleaners for professional exterior
               cleaning services in Sydney. Whether you own a residential
               property or a commercial space, our{" "}
               <span className="font-bold">
@@ -85,8 +85,8 @@ const PressureWashing = () => {
               {" "}
               Beyond the aesthetic benefits, our high-pressure cleaning services
               contribute to the preservation and protection of your property.
-              Accumulated dirt, mold, and stains not only compromise the visual
-              appeal of your outdoor spaces but can also create hazardous and
+              Accumulated dirt, mould, and stains not only compromise the visual
+              appeal of your exterior surfaces but can also create hazardous and
               slippery conditions.
               <br />
               <br />
