@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 
 const Contact = () => {
   const formRef = useRef();
+
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -99,7 +100,12 @@ const Contact = () => {
               admin@totalexteriorco.com
             </a>
           </div>
-          <form className="pt-8">
+          <form
+            className="pt-8"
+            ref={formRef}
+            onSubmit={handleSubmit}
+            className="rounded py-6 px-5 md:px-10 template-shadow"
+          >
             <h2 className="uppercase font-bold text-3xl lg:mb-4">
               Contact Form
             </h2>
