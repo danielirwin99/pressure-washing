@@ -41,10 +41,10 @@ const AboutUs = () => {
                   <p className="text-start lg:text-xl leading-loose">
                     We currently service all of Sutherland Shire and surrounding
                     regions. Our mission is to consistently deliver high-quality
-                    workmanship on every project we undertake. We take immense
-                    pride in our work, striving to exceed customer expectations
-                    with meticulous attention to detail and a dedication to
-                    customer satisfaction.
+                    workmanship on every project we undertake. We take pride in
+                    our work, striving to exceed customer expectations with
+                    meticulous attention to detail and a dedication to customer
+                    satisfaction.
                   </p>
                 </div>
               </div>
@@ -109,8 +109,9 @@ const AboutUs = () => {
               </div>
             </div>
             <p className=" text-center text-xl pt-5 pb-10">
-              Call Us Today on <span className="underline font-bold">0434 114 479</span>{" "}
-              or Email us on{" "}
+              Call Us Today on{" "}
+              <span className="underline font-bold">0434 114 479</span> or Email
+              us on{" "}
               <a
                 href="mailto:admin@totalexteriorco.com"
                 className="font-bold underline"
