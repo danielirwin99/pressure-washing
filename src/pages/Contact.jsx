@@ -100,12 +100,7 @@ const Contact = () => {
               admin@totalexteriorco.com
             </a>
           </div>
-          <form
-            className="pt-8"
-            ref={formRef}
-            onSubmit={handleSubmit}
-            className="rounded py-6 px-5 md:px-10 template-shadow"
-          >
+          <form className="pt-8" ref={formRef} onSubmit={handleSubmit}>
             <h2 className="uppercase font-bold text-3xl lg:mb-4">
               Contact Form
             </h2>
