@@ -17,6 +17,7 @@ import Tabs from "../components/Landing/Tabs";
 const PressureWashing = () => {
   return (
     <div className="">
+      <title>High Pressure Cleaning - Pressure Washing Services</title>
       {/* Navbar */}
       <NavbarServices />
       <main className="relative ">
