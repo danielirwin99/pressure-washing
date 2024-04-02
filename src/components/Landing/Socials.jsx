@@ -11,7 +11,7 @@ const Socials = () => {
           className="text-center text-3xl md:text-4xl font-bold text-gray-800 tracking-wider sub-headers"
           style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
         >
-          Follow For More ! 
+          Follow Us For More ! 
         </h2>
         <div className="mt-8 flex space-x-8 sm:space-x-10 justify-center items-center">
           <a
