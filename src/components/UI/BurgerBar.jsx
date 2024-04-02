@@ -87,7 +87,7 @@ export default function BurgerBar() {
                 to={"/gallery"}
                 className="burger__list--header"
               >
-                Our Work
+                Gallery
               </Link>
             </div>
             <div className="burger__list--wrapper">

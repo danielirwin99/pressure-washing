@@ -21,7 +21,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item hidden lg:flex pr-3">
             <Link className="nav-link" to={"/gallery"}>
-              Our Work
+              Gallery
             </Link>
           </li>
           <li className="nav-item hidden lg:flex">

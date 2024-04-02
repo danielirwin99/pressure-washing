@@ -26,7 +26,7 @@ const Tabs = () => {
         <div className="flex items-center space-x-3 text-white">
           <AiOutlineCheckCircle className="text-2xl md:text-3xl lg:text-4xl text-white" />
           <h4 className="font-bold text-xs md:text-md lg:text-xl">
-            Professional Cleaners
+            Family Business
           </h4>
         </div>
       </div>

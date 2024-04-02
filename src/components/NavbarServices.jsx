@@ -24,7 +24,7 @@ const NavbarServices = () => {
           </li>
           <li className="nav-item hidden lg:flex">
             <Link className="nav-link text-white" to={"/gallery"}>
-              Our Work
+              Gallery
             </Link>
           </li>
           <li className="nav-item hidden lg:flex">
