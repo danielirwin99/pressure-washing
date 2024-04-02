@@ -121,7 +121,7 @@ const Quotes = () => {
                 type="text"
                 name="name"
                 placeholder="Name"
-                className="border-4 bg-gray-50 -ml-1 px-3 outline-none py-2 w-full"
+                className="border-2 bg-gray-50 -ml-1 px-3 outline-none py-2 w-full"
               />
               <p className="mt-4 mb-3">Email *</p>
               <input
@@ -130,7 +130,7 @@ const Quotes = () => {
                 type="email"
                 name="email"
                 placeholder="Email"
-                className="border-4 bg-gray-50 -ml-1 px-3 outline-none py-2 w-full"
+                className="border-2 bg-gray-50 -ml-1 px-3 outline-none py-2 w-full"
               />
               <p className="mt-4 mb-3">Phone# </p>
               <input
@@ -139,14 +139,14 @@ const Quotes = () => {
                 onChange={handleChange}
                 type="text"
                 placeholder="Phone #"
-                className="border-4 bg-gray-50 -ml-1 px-3 py-2 w-full outline-none"
+                className="border-2 bg-gray-50 -ml-1 px-3 py-2 w-full outline-none"
               />
               <p className="mt-4">Message * </p>
               <textarea
                 value={form.message}
                 onChange={handleChange}
                 name="message"
-                className="border-4 bg-gray-50 mt-5 w-full -ml-1 p-3 resize-none outline-none"
+                className="border-2 bg-gray-50 mt-5 w-full -ml-1 p-3 resize-none outline-none"
                 placeholder="Provide us with a brief description of the scope of work..."
                 id=""
                 cols="30"
