@@ -73,9 +73,11 @@ const Contact = () => {
 
   return (
     <>
-      <Navbar />
+      <div className="border-b-2">
+        <Navbar />
+      </div>
       <main className="w-full">
-        <div className="space-y-5 p-[7%]">
+        <div className="space-y-6 p-[7%] lg:p-[5%] ">
           <h1 className="text-4xl uppercase text-start font-bold">Contact</h1>
           <p className="tracking-wide leading-6">
             If you have questions, comments or need more information about our
@@ -132,7 +134,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               name="message"
-              className=" bg-gray-200 w-full my-2 -ml-1 p-3 resize-none outline-none"
+              className=" bg-gray-200 w-full my-2 rounded-sm -ml-1 p-3 resize-none outline-none"
               placeholder="Provide us with a brief description of the scope of work..."
               id=""
               cols="30"

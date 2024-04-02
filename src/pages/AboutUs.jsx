@@ -27,7 +27,7 @@ const AboutUs = () => {
                     <span className="font-bold">Sutherland Shire Region,</span>{" "}
                     offering a friendly smile as a{" "}
                     <span className="font-bold">
-                      Father & Son local business.
+                      family owned and operated business
                     </span>{" "}
                     With a commitment to excellence, we employ up-to-date
                     cutting-edge equipment, ensuring a brilliant finish to all
