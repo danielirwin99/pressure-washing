@@ -138,7 +138,7 @@ const Quotes = () => {
                 value={form.number}
                 onChange={handleChange}
                 type="text"
-                placeholder="Phone #:"
+                placeholder="Phone #"
                 className="border-4 bg-gray-50 -ml-1 px-3 py-2 w-full outline-none"
               />
               <p className="mt-4">Message * </p>
