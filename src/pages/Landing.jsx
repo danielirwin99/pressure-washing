@@ -14,6 +14,7 @@ import Testimonials from "../components/Landing/Testimonials";
 const Landing = () => {
   return (
     <>
+      <title>High Pressure Cleaning Service</title>
       <Navbar />
       <Header />
       <About />
