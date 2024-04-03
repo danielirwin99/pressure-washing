@@ -64,7 +64,7 @@ const PressureWashing = () => {
             <h1 className="text-3xl sm:text-4xl font-bold text-shadow sub-headers">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
-            <p className="leading-relaxed lg:text-xl text-shadow text-[#676767]  pt-2  ">
+            <p className="leading-relaxed lg:text-xl  text-[#676767]  pt-2  ">
               <span className="font-bold"> Total Exterior Cleaning</span> are
               your go-to local pressure cleaners for professional exterior
               cleaning services in Sydney. Whether you own a residential
@@ -79,7 +79,7 @@ const PressureWashing = () => {
               House Pressure Cleaning In Sydney For Freshness Of Your Home
             </h2>
 
-            <p className="leading-relaxed text-shadow lg:text-xl text-[#676767]  ">
+            <p className="leading-relaxed  lg:text-xl text-[#676767]  ">
               Our team at Total Exterior Cleaning utilizes cutting-edge pressure
               cleaning technology to deliver efficient and quality results. We
               employ the latest industrial-grade equipment, coupled with
@@ -104,7 +104,7 @@ const PressureWashing = () => {
               slippery conditions.
               <br />
               <br />
-              <span className="hidden xl:flex ">
+              <span className="hidden xl:flex  ">
                 Our professional cleaning methods eliminate these dangers,
                 providing a safer environment for you, your family, or your
                 customers. Additionally, the process helps to restore the
@@ -130,7 +130,7 @@ const PressureWashing = () => {
                 </button>
               </Link>
             </div>
-            <h2 className="text-center sub-headers text-shadow text-2xl font-bold sm:hidden">
+            <h2 className="text-center sub-headers text-3xl font-bold sm:hidden">
               Check Out Some Of Our Photos!
             </h2>
           </div>
@@ -177,7 +177,7 @@ const PressureWashing = () => {
                 className="sm:hidden inline-block bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
                 onClick={() => loadMore()}
               >
-                Load More 
+                Load More
               </button>
             </div>
           </div>

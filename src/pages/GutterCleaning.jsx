@@ -18,16 +18,16 @@ const GutterCleaning = () => {
         <div>
           <figure className="w-full absolute -z-10">
             <img
-              className="w-full object-cover h-[550px] md:h-[100vh] brightness-50"
+              className="w-full object-cover h-[550px] md:h-[100vh] brightness-[.45]"
               src={guttercleaning}
               alt="Background Image"
             />
           </figure>
           <div className="pt-[150px] md:pt-[300px] flex flex-col pl-12 lg:pl-20 space-y-20">
-            <h1 className="text-white sub-headers pr-5 sm:pr-0 uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
+            <h1 className="text-white sub-headers pr-5 sm:pr-0 uppercase text-4xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Gutter Cleaning
             </h1>
-            <h2 className="uppercase text-xl md:text-2xl text-white font-semibold text-shadow">
+            <h2 className="uppercase text-lg md:text-2xl text-white font-semibold text-shadow">
               Clear Skies, Clean Gutters.
             </h2>
             <Link to={"/contact-us"} className="">
@@ -41,43 +41,45 @@ const GutterCleaning = () => {
       <div className="mt-52  md:mt-[24rem] lg:mt-64 4xl:mt-[40rem]">
         <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
-            <h1 className="text-4xl md:text-5xl font-bold sub-headers ">
+            <h1 className="text-4xl text-shadow md:text-5xl font-bold sub-headers ">
               Revitalize Your Home with Gutter Cleaning
             </h1>
-            <p className="leading-6 pt-8 text-xl">
+            <p className="leading-relaxed text-[#676767] pt-8 sm:text-lg">
               At <span className="font-bold"> Total Exterior Cleaning,</span> we
               understand the integral role that well-maintained gutters play in
               preserving the integrity and aesthetic appeal of your home. Our
               commitment to excellence drives us to offer cutting-edge gutter
-              cleaning services, employing the latest technology in the form of
-              industrial level gutter vacuuming.
+              cleaning services with use of{" "}
+              <span className="font-semibold">
+                telescopic poles. <br /> This means we won't walk across your
+                roof and potentially crack one of your tiles leading to more
+                issues.
+              </span>
             </p>
-            <h2 className="text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-cyan-500">
               Unparalleled Precision
             </h2>
-            <p className="leading-6 text-xl">
+            <p className="leading-relaxed text-[#676767] sm:text-lg">
               Traditional gutter cleaning methods often miss hidden debris and
               pockets of dirt. Total Exterior Cleaning's gutter vacuuming
               ensures thorough and precise cleaning, reaching every nook and
               cranny of your gutters. Say goodbye to the risk of overlooked
               clogs and potential water damage.
             </p>
-            <h2 className="text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl sm:text-3xl font-semibold text-cyan-500">
               Extending the Lifespan of Your Gutters
             </h2>
-            <p className="leading-6 text-xl hidden sm:flex">
+            <p className="leading-relaxed text-[#676767] sm:text-lg ">
               Regular gutter maintenance is crucial for preventing water damage
               and extending the lifespan of your gutters. With our professional
               vacuuming services, you can trust Total Exterior Cleaning to keep
               your gutters in optimal condition, ensuring they function
               effectively for years to come.
             </p>
-            <p className="leading-6 text-xl">
-              Choose Total Exterior Cleaning for a seamless, worry-free gutter
-              cleaning experience. Our dedication to utilizing cutting-edge
-              technology, combined with a commitment to customer satisfaction,
-              makes us the preferred choice for homeowners seeking top-notch
-              gutter cleaning.
+            <p className="text-shadow leading-relaxed text-lg md:text-2xl font-semibold">
+              Contact Us today to schedule your free quote. We'll visit your
+              property, provide a transparent, no-obligation estimate, and
+              breathe new life into your outdoor areas.
             </p>
             <div className=" py-5 flex justify-center">
               <Link to={"/contact-us"}>
