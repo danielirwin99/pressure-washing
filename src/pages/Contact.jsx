@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { Link } from "react-router-dom";
-import { BsArrowLeftShort } from "react-icons/bs";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 

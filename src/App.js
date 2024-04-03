@@ -9,6 +9,7 @@ import DrivewaySealing from "./pages/DrivewaySealing";
 import Gallery from "./pages/Gallery";
 import SoftWashing from "./pages/SoftWashing";
 import AboutUs from "./pages/AboutUs";
+import ServiceAreas from "./pages/ServiceAreas";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/pressure-washing" element={<PressureWashing />} />
           <Route path="/gutter-cleaning" element={<GutterCleaning />} />
+          <Route path="/areas-of-service" element={<ServiceAreas />} />
           <Route path="/window-cleaning" element={<WindowCleaning />} />
           <Route path="/sealing" element={<DrivewaySealing />} />
           <Route path="/gallery" element={<Gallery />} />
