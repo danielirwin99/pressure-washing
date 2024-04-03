@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { GiCheckMark } from "react-icons/gi";
+import Quotes from "../components/Landing/Quotes";
 
 const ServiceAreas = () => {
   return (
@@ -18,10 +19,11 @@ const ServiceAreas = () => {
             <p className="leading-relaxed tracking-wide  text-[#66666]">
               Total Exterior Cleaning is a{" "}
               <span className="font-bold">family run business</span> operating
-              out of the Sutherland Shire area and covering the St George,
-              Eastern Suburbs and Surrounding areas. We believe when it comes to
-              house washing nothing beats experience. . We believe when it comes
-              to house washing nothing beats experience.{" "}
+              out of the Sutherland Shire area and covering St George, Eastern
+              Suburbs, Northern Illawara Region and Surrounding areas. We
+              believe when it comes to house washing nothing beats experience.
+              We believe when it comes to house washing nothing beats experience
+              and quality equipment.{" "}
             </p>
             <p className="leading-relaxed tracking-wide text-[#66666]">
               See what a difference{" "}
@@ -33,7 +35,7 @@ const ServiceAreas = () => {
               Areas Total Exterior Cleaning is Currently Servicing:
             </h2>
             <div>
-              <ul className="grid grid-cols-2">
+              <ul className="grid grid-cols-2 md:grid-cols-3 mb-10">
                 <li className="flex space-x-2 items-center">
                   <GiCheckMark className="text-cyan-400" />
                   <p className="text-cyan-400">Illawong</p>
@@ -160,7 +162,8 @@ const ServiceAreas = () => {
           </div>
         </div>
       </main>
-      {/* <Footer /> */}
+      <Quotes />
+      <Footer />
     </>
   );
 };

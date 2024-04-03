@@ -91,7 +91,7 @@ const Quotes = () => {
               Contact Us
             </h2>
             <img
-              className="mt-9 h-52 w-80 brightness-125 drop-shadow-lg"
+              className="mt-9 h-40 sm:h-52 sm:w-80 brightness-125 drop-shadow-lg"
               src={logo}
               alt=""
             />
