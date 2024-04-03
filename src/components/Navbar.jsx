@@ -13,7 +13,7 @@ const Navbar = () => {
         <a className="flex items-center justify-center" href="/">
           <img className="h-20 w-32 sm:h-24 sm:w-40" src={logo} alt="Logo" />
         </a>
-        <ul className="ms-auto flex lg:space-x-10 items-center ">
+        <ul className="ms-auto flex lg:space-x-7 xl:space-x-10 items-center ">
           <li className="nav-item hidden lg:flex pr-3">
             <Link className="nav-link" to={"/about-us"}>
               About Us
@@ -39,7 +39,7 @@ const Navbar = () => {
               Contact Us
             </Link>
           </li>
-          <li className="nav-item hidden md:flex pr-5">
+          <li className="nav-item hidden md:flex xl:pr-5">
             <a
               href="tel:0417477117"
               className="nav-link text-center flex flex-col"
@@ -48,7 +48,7 @@ const Navbar = () => {
                 <BsTelephone className="mr-3" />
                 <span className="font-bold text-lg">0417 477 117</span>
               </div>
-              <p className="text-base lg:text-xl font-bold lg:font-normal capitalize">
+              <p className="text-base xl:text-lg font-bold lg:font-normal capitalize">
                 Call now for a free quote
               </p>
             </a>
