@@ -5,13 +5,15 @@ const Footer = () => {
   return (
     <footer className="bg-[#004358] flex flex-col justify-center items-center pt-14 md:pl-0 ">
       <div className="flex flex-col lg:items-center pb-14 w-full lg:max-w-5xl px-3 md:px-7">
-        <div className=" md:hidden mb-10 max-w-sm mx-auto flex justify-center">
-          <Link className="w-full md:w-auto" to={"/areas-of-service"}>
+        <div className="flex-col items-center md:hidden mb-7  mx-auto flex justify-center">
+          <Link className=" max-w-xs md:w-auto" to={"/areas-of-service"}>
             <button className="contact-now !rounded-sm w-full md:w-auto underline underline-offset-4 !capitalize z-50 md:!text-2xl !text-base !px-8 !py-3 ">
               Areas Serviced
             </button>
           </Link>
+          <div className="w-[330px] mt-8 bg-cyan-400 h-[4px]"></div>
         </div>
+
         {/* <a
           href="#"
           className="flex items-center cursor-pointer space-x-4 mr-10"
@@ -40,6 +42,7 @@ const Footer = () => {
               Contact Us
             </Link>
           </ul>
+          <div className="w-[330px] mt-8 bg-cyan-400 h-[4px] sm:hidden" />
           <div className="lg:flex flex-col my-10 md:my-0 lg:mt-0 text-xs md:text-sm lg:text-md">
             <ul className="flex flex-col text-xs md:text-sm ">
               <p className="text-white text-xl font-extrabold">SERVICES</p>
@@ -57,6 +60,7 @@ const Footer = () => {
               </Link>
             </ul>
           </div>
+          <div className="w-[330px] mb-7 bg-cyan-400 h-[4px] sm:hidden" />
           <div className="flex flex-col mt-5 lg:mt-0 md:text-sm lg:text-md ">
             <p className="text-white text-xl font-extrabold">
               CONTACT TOTAL EXTERIOR CLEANING
