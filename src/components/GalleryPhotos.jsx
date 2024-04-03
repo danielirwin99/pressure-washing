@@ -23,48 +23,32 @@ import {
   ReactCompareSlider,
   ReactCompareSliderImage,
 } from "react-compare-slider";
+import data from "../data/imageslider";
 
 const GalleryPhotos = () => {
   return (
     <div id="photos" className=" mx-auto px-3 max-w-[1700px] w-full">
       <div className="flex flex-col w-full items-center justify-center">
         <div className="mt-5 md:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full">
-          <figure className="gallery-container">
-            <div className="h-full flex overflow-hidden rounded-md ">
-              <ReactCompareSlider
-                className="w-full"
-                itemOne={
-                  <ReactCompareSliderImage src={before1} alt="Before 1" />
-                }
-                itemTwo={<ReactCompareSliderImage src={after1} alt="After 1" />}
-              />
-            </div>
-          </figure>
+          {data.map((image) => (
+            <figure className="gallery-container">
+              <div className="h-full flex overflow-hidden rounded-md ">
+                <ReactCompareSlider
+                  className="w-full"
+                  itemOne={
+                    <ReactCompareSliderImage src={image.img1} alt="Before 1" />
+                  }
+                  itemTwo={
+                    <ReactCompareSliderImage src={image.img2} alt="After 1" />
+                  }
+                />
+              </div>
+            </figure>
+          ))}
 
-          <figure className="gallery-container">
-            <div className="h-full flex overflow-hidden rounded-md">
-              <ReactCompareSlider
-                className="w-full"
-                itemOne={
-                  <ReactCompareSliderImage src={before2} alt="Before 2" />
-                }
-                itemTwo={<ReactCompareSliderImage src={after2} alt="After 2" />}
-              />
-            </div>
-          </figure>
-          <figure className="gallery-container">
-            <div className="h-full flex overflow-hidden rounded-md">
-              <ReactCompareSlider
-                className="w-full"
-                itemOne={
-                  <ReactCompareSliderImage src={before3} alt="Before 6" />
-                }
-                itemTwo={<ReactCompareSliderImage src={after3} alt="After 6" />}
-              />
-            </div>
-          </figure>
-
-          <figure className="gallery-container">
+          {/* OLD WAY NO MAPPING */}
+          <>
+            {/* <figure className="gallery-container">
             <div className="h-full flex overflow-hidden rounded-md">
               <ReactCompareSlider
                 className="w-full"
@@ -86,20 +70,7 @@ const GalleryPhotos = () => {
               />
             </div>
           </figure>
-          {/* This one is just for a backup */}
-          {/* <figure className="gallery-container">
-            <div className="h-full flex overflow-hidden rounded-md">
-              <img
-                src={before5}
-                className="w-1/2 h-full object-fill hover:scale-105 rounded-l-md duration-150 ease-in-out"
-              />
-              <img
-                src={after5}
-                alt="before3"
-                className="w-1/2 h-full object-fill rounded-r-md hover:scale-105 duration-150 ease-in-out"
-              />
-            </div>
-          </figure> */}
+          
 
           <figure className="gallery-container hidden md:inline">
             <div className="h-full flex overflow-hidden rounded-md">
@@ -144,7 +115,8 @@ const GalleryPhotos = () => {
                 itemTwo={<ReactCompareSliderImage src={after9} alt="After 7" />}
               />
             </div>
-          </figure>
+          </figure> */}
+          </>
         </div>
       </div>
     </div>
