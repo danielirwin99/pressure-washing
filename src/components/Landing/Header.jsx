@@ -2,14 +2,16 @@ import React from "react";
 import image from "../../assets/pressure.jpg";
 import { motion } from "framer-motion";
 import { BsTelephone } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 
 const Header = () => {
+  // useScrollRestoration()
   return (
     <>
       <header className="h-[calc(100vh-104px)] relative ">
         {/* FIXED BUTTON */}
         <div className="fixed hidden sm:inline bottom-5 right-4 sm:bottom-7 sm:right-5 z-[995] template-shadow rounded-2xl">
+          {/* <ScrollRestoration /> */}
           <Link to={"/contact-us"} className="contact-now mobile">
             Contact Now
           </Link>
