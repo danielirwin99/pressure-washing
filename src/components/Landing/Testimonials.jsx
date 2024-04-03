@@ -54,12 +54,12 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="max-w-[1700px]  mt-10 mb-24 px-4 m-auto">
+    <div className="max-w-[1700px]  mt-5 mb-16 px-4 m-auto">
       <h3 className="text-center from-gray-700 uppercase to-cyan-500 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.3em] font-semibold text-md lg:text-lg ">
         Testimonials
       </h3>
       <h2
-        className="text-center text-3xl lg:text-4xl font-bold text-gray-800 mt-7 mb-20 tracking-wider sub-headers"
+        className="text-center text-3xl lg:text-4xl font-bold text-gray-800 mt-7 mb-16 tracking-wider sub-headers"
         style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
       >
         What Customers Are Saying
