@@ -46,9 +46,9 @@ const WindowCleaning = () => {
         </div>
       </main>
       <div className=" lg:mx-5 mt-40  md:mt-[24rem] lg:mt-72">
-        <div className="mx-10 lg:mx-5 lg:pt-40 mb-5  lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
+        <div className="mx-8 lg:mx-5 lg:pt-40 mb-5  lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8 text-center">
-            <h1 className="text-3xl sm:text-5xl font-bold tracking-wide leading-snug sub-headers">
+            <h1 className="text-3xl sm:text-5xl text-shadow font-bold tracking-wide leading-snug sub-headers">
               Residential & Commercial Window Cleaning
             </h1>
             <p className="leading-7 pt-4 lg:text-xl sm:text-xl">
@@ -60,7 +60,7 @@ const WindowCleaning = () => {
                 Say goodbye to smudges, streaks, and dirt that dull your view.
               </span>
             </p>
-            <h2 className="text-2xl md:text-4xl font-semibold text-cyan-500 sub-headers">
+            <h2 className="text-2xl text-shadow md:text-4xl font-semibold text-cyan-500 sub-headers">
               Brighter Spaces, Better Living
             </h2>
             <p className="leading-7 lg:text-xl sm:text-lg">
@@ -75,7 +75,7 @@ const WindowCleaning = () => {
                 settings.
               </span>
             </p>
-            <h2 className="text-2xl md:text-4xl sub-headers font-semibold text-cyan-500">
+            <h2 className="text-2xl text-shadow md:text-4xl sub-headers font-semibold text-cyan-500">
               Latest Window Cleaning Technology
             </h2>
             <p className="leading-7 lg:text-xl sm:text-lg">
@@ -85,7 +85,7 @@ const WindowCleaning = () => {
               poles make it easy to reach challenging heights, making this
               method both effective and environmentally conscious practices.
             </p>
-            <h2 className="text-2xl md:text-4xl sub-headers font-semibold text-cyan-500">
+            <h2 className="text-2xl text-shadow md:text-4xl sub-headers font-semibold text-cyan-500">
               Customer Satisfaction Guarantee
             </h2>
             <p className="leading-7 lg:text-xl sm:text-lg">

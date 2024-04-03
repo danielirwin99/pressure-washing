@@ -56,7 +56,7 @@ const GutterCleaning = () => {
                 issues.
               </span>
             </p>
-            <h2 className="text-2xl sm:text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl text-shadow sm:text-3xl font-semibold text-cyan-500">
               Unparalleled Precision
             </h2>
             <p className="leading-relaxed text-[#676767] sm:text-lg">
@@ -66,7 +66,7 @@ const GutterCleaning = () => {
               cranny of your gutters. Say goodbye to the risk of overlooked
               clogs and potential water damage.
             </p>
-            <h2 className="text-2xl sm:text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl text-shadow sm:text-3xl font-semibold text-cyan-500">
               Extending the Lifespan of Your Gutters
             </h2>
             <p className="leading-relaxed text-[#676767] sm:text-lg ">
@@ -88,7 +88,7 @@ const GutterCleaning = () => {
                 </button>
               </Link>
             </div>
-            <h2 className="text-center text-2xl font-bold sm:hidden">
+            <h2 className="text-center sub-headers text-shadow text-3xl font-bold sm:hidden">
               Check Out Some Of Our Photos!
             </h2>
           </div>
