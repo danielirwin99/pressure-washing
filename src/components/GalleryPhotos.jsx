@@ -1,24 +1,24 @@
-import React from "react";
-import {
-  before1,
-  before2,
-  before3,
-  after1,
-  after2,
-  after3,
-  before5,
-  after5,
-  before6,
-  after6,
-  before7,
-  after7,
-  before8,
-  after8,
-  before4,
-  after4,
-  before9,
-  after9,
-} from "../assets/Gallery/Index";
+import React, { useState } from "react";
+// import {
+//   before1,
+//   before2,
+//   before3,
+//   after1,
+//   after2,
+//   after3,
+//   before5,
+//   after5,
+//   before6,
+//   after6,
+//   before7,
+//   after7,
+//   before8,
+//   after8,
+//   before4,
+//   after4,
+//   before9,
+//   after9,
+// } from "../assets/Gallery/Index";
 import {
   ReactCompareSlider,
   ReactCompareSliderImage,
@@ -26,11 +26,17 @@ import {
 import data from "../data/imageslider";
 
 const GalleryPhotos = () => {
+  const [noOfElement, setNoOfElement] = useState(6);
+  const loadMore = () => {
+    setNoOfElement(noOfElement + 3);
+  };
+
+  const slice = data.slice(0, noOfElement);
   return (
     <div id="photos" className=" mx-auto px-3 max-w-[1700px] w-full">
       <div className="flex flex-col w-full items-center justify-center">
         <div className="mt-5 md:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full">
-          {data.map((image) => (
+          {slice.map((image) => (
             <figure className="gallery-container">
               <div className="h-full flex overflow-hidden rounded-md ">
                 <ReactCompareSlider
@@ -117,6 +123,14 @@ const GalleryPhotos = () => {
             </div>
           </figure> */}
           </>
+        </div>
+        <div className="mt-10">
+          <button
+            onClick={() => loadMore()}
+            className="contact-now w-full md:w-auto !uppercase  z-50  !text-lg !px-8 !py-2 "
+          >
+            Load More
+          </button>
         </div>
       </div>
     </div>
