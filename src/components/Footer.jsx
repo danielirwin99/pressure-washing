@@ -64,7 +64,7 @@ const Footer = () => {
               </Link>
             </ul>
           </div>
-          <div className="w-[330px] mb-7 bg-cyan-400 h-[4px] sm:hidden" />
+          <div className="w-[330px] mb-7 bg-cyan-400 h-[4px] sm:hidden" />  
           <div className="flex flex-col mt-5 lg:mt-0 md:text-sm lg:text-md ">
             <p className="text-white text-xl font-extrabold pb-5 sm:pb-0">
               CONTACT TOTAL EXTERIOR CLEANING

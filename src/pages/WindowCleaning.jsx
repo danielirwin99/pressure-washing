@@ -31,7 +31,7 @@ const WindowCleaning = () => {
             />
           </figure>
           <div className="pt-[200px] md:pt-[300px] flex flex-col pl-10 lg:pl-20 space-y-14">
-            <h1 className="text-white uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
+            <h1 className="text-white uppercase text-2xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Window Cleaning
             </h1>
             <h2 className="uppercase text-xl md:text-3xl text-white font-semibold text-shadow">
@@ -47,8 +47,8 @@ const WindowCleaning = () => {
       </main>
       <div className="mt-28 lg:mx-5 md:mt-72 lg:mt-36">
         <div className="mx-10 lg:mx-5 lg:pt-40 mb-5  lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
-          <div className="lg:w-[60%] space-y-8">
-            <h1 className="text-3xl sm:text-5xl font-bold tracking-wide leading-snug">
+          <div className="lg:w-[60%] space-y-8 text-center">
+            <h1 className="text-3xl sm:text-5xl font-bold tracking-wide leading-snug sub-headers">
               Residential & Commercial Window Cleaning
             </h1>
             <p className="leading-7 pt-4 lg:text-xl sm:text-xl">
@@ -60,7 +60,7 @@ const WindowCleaning = () => {
                 Say goodbye to smudges, streaks, and dirt that dull your view.
               </span>
             </p>
-            <h2 className="text-4xl font-semibold text-cyan-500">
+            <h2 className="text-2xl md:text-4xl font-semibold text-cyan-500 sub-headers">
               Brighter Spaces, Better Living
             </h2>
             <p className="leading-7 lg:text-xl sm:text-lg">
@@ -75,7 +75,7 @@ const WindowCleaning = () => {
                 settings.
               </span>
             </p>
-            <h2 className="text-4xl font-semibold text-cyan-500">
+            <h2 className="text-2xl md:text-4xl sub-headers font-semibold text-cyan-500">
               Latest Window Cleaning Technology
             </h2>
             <p className="leading-7 lg:text-xl sm:text-lg">
@@ -85,7 +85,7 @@ const WindowCleaning = () => {
               poles make it easy to reach challenging heights, making this
               method both effective and environmentally conscious practices.
             </p>
-            <h2 className="text-4xl font-semibold text-cyan-500">
+            <h2 className="text-2xl md:text-4xl sub-headers font-semibold text-cyan-500">
               Customer Satisfaction Guarantee
             </h2>
             <p className="leading-7 lg:text-xl sm:text-lg">
@@ -98,7 +98,7 @@ const WindowCleaning = () => {
             <p className=" leading-8 sm:text-xl lg:text-xl font-semibold">
               Contact us today to schedule your free window cleaning quote.
               We'll visit your property, provide a transparent, no-obligation
-              estimate. Don't settle for anything less than perfection when it
+              estimate. <br/> Don't settle for anything less than perfection when it
               comes to your windows.
             </p>
             <div className="py-6 flex justify-center">
@@ -108,7 +108,7 @@ const WindowCleaning = () => {
                 </button>
               </Link>
             </div>
-            <h2 className="text-center text-2xl font-bold sm:hidden">
+            <h2 className="text-center text-2xl sub-headers font-bold sm:hidden">
               Check Out Some Of Our Photos!
             </h2>
           </div>

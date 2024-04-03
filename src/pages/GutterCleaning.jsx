@@ -41,7 +41,7 @@ const GutterCleaning = () => {
       <div className="mt-40 sm:mt-40 md:mt-80 lg:mt-40">
         <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
-            <h1 className="text-4xl md:text-5xl font-bold ">
+            <h1 className="text-4xl md:text-5xl font-bold sub-headers ">
               Revitalize Your Home with Gutter Cleaning
             </h1>
             <p className="leading-6 pt-8 text-xl">
