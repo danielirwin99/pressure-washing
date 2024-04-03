@@ -28,7 +28,7 @@ const Footer = () => {
         </a> */}
         <div className="grid grid-cols-1 px-5 lg:px-0 md:grid-cols-2   lg:grid-cols-3 lg:text-md">
           <ul className="flex flex-col  md:text-sm lg:text-md ">
-            <p className="text-white text-xl font-extrabold pb-5 sm:pb-0">
+            <p className="text-white text-shadow text-xl font-extrabold pb-5 sm:pb-0">
               QUICK LINKS
             </p>
             <Link to={"/"} className="footerLinks">
@@ -47,7 +47,7 @@ const Footer = () => {
           <div className="w-[330px] mt-8 bg-cyan-400 h-[4px] sm:hidden" />
           <div className="lg:flex flex-col my-10 md:my-0 lg:mt-0 text-xs md:text-sm lg:text-md">
             <ul className="flex flex-col text-xs md:text-sm ">
-              <p className="text-white text-xl font-extrabold pb-5 sm:pb-0">
+              <p className="text-white text-xl text-shadow font-extrabold pb-5 sm:pb-0">
                 SERVICES
               </p>
               <Link to={"/pressure-washing"} className="footerLinks text-sm">
@@ -64,9 +64,9 @@ const Footer = () => {
               </Link>
             </ul>
           </div>
-          <div className="w-[330px] mb-7 bg-cyan-400 h-[4px] sm:hidden" />  
+          <div className="w-[330px] mb-7 bg-cyan-400 h-[4px] sm:hidden" />
           <div className="flex flex-col mt-5 lg:mt-0 md:text-sm lg:text-md ">
-            <p className="text-white text-xl font-extrabold pb-5 sm:pb-0">
+            <p className="text-white text-xl font-extrabold text-shadow pb-5 sm:pb-0">
               CONTACT TOTAL EXTERIOR CLEANING
             </p>
             <p className="text-white text-sm space-y-1 py-4">

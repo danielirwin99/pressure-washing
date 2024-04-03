@@ -5,12 +5,19 @@ import { BsTelephone } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <header className="h-[calc(100vh-104px)] relative ">
         {/* FIXED BUTTON */}
         <div className="fixed hidden sm:inline bottom-5 right-4 sm:bottom-7 sm:right-5 z-[995] template-shadow rounded-2xl">
-          <Link to={"/contact-us"} className="contact-now mobile">
+          <Link
+            onClick={scrollToTop}
+            to={"/contact-us"}
+            className="contact-now mobile"
+          >
             Contact Now
           </Link>
         </div>

@@ -12,7 +12,7 @@ const ServiceAreas = () => {
       </div>
       <main className="w-full bg-gray-50">
         <div className="space-y-6 px-[5%] py-[7%] lg:p-[5%] ">
-          <h1 className="text-center text-3xl md:text-4xl font-bold text-gray-800 tracking-wider sub-headers">
+          <h1 className="text-center text-shadow text-3xl md:text-4xl font-bold text-gray-800 tracking-wider sub-headers">
             Area's of Service
           </h1>
           <div className="space-y-5">

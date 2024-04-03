@@ -37,7 +37,7 @@ const PressureWashing = () => {
             />
           </figure>
           <div className="pt-[150px] md:pt-[300px] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-14">
-            <h1 className="text-white uppercase text-3xl sm:text-4xl md:text-6xl tracking-wider font-bold text-shadow">
+            <h1 className="text-white sub-headers uppercase text-3xl sm:text-4xl md:text-6xl tracking-wider font-bold text-shadow">
               High Pressure Cleaning
             </h1>
             <h2 className="uppercase text-lg md:text-3xl text-blue-200 font-semibold text-shadow">
@@ -54,7 +54,7 @@ const PressureWashing = () => {
       <div className="mt-44  md:mt-80 lg:mt-40 text-center sm:text-start">
         <div className="mx-5 lg:pt-36 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-10  lg:mx-6 lg:pr-4">
-            <h1 className="text-3xl sm:text-4xl font-bold sub-headers">
+            <h1 className="text-3xl sm:text-4xl font-bold text-shadow sub-headers">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
             <p className="leading-relaxed lg:text-xl text-[#676767]  pt-2  ">
@@ -68,7 +68,7 @@ const PressureWashing = () => {
               is here to help you restore your property back to its original
               state.
             </p>
-            <h2 className="text-2xl sm:text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl sub-headers  sm:text-3xl font-semibold text-cyan-500">
               House Pressure Cleaning In Sydney For Freshness Of Your Home
             </h2>
 
@@ -123,7 +123,7 @@ const PressureWashing = () => {
                 </button>
               </Link>
             </div>
-            <h2 className="text-center text-2xl font-bold sm:hidden">
+            <h2 className="text-center sub-headers text-shadow text-2xl font-bold sm:hidden">
               Check Out Some Of Our Photos!
             </h2>
           </div>
