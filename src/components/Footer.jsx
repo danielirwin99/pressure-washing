@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-[#004358] flex flex-col justify-center items-center pt-14 md:pl-0 ">
       <div className="flex flex-col lg:items-center pb-14 w-full lg:max-w-5xl px-3 md:px-7">
         <div className=" md:hidden mb-10 max-w-sm mx-auto flex justify-center">
-          <Link className="w-full md:w-auto" to={"/areas-to-service"}>
+          <Link className="w-full md:w-auto" to={"/areas-of-service"}>
             <button className="contact-now !rounded-sm w-full md:w-auto underline underline-offset-4 !capitalize z-50 md:!text-2xl !text-base !px-8 !py-3 ">
               Areas Serviced
             </button>
@@ -40,7 +40,7 @@ const Footer = () => {
               Contact Us
             </Link>
           </ul>
-          <div className="lg:flex flex-col my-10 lg:my-0 lg:mt-0 text-xs md:text-sm lg:text-md">
+          <div className="lg:flex flex-col my-10 md:my-0 lg:mt-0 text-xs md:text-sm lg:text-md">
             <ul className="flex flex-col text-xs md:text-sm ">
               <p className="text-white text-xl font-extrabold">SERVICES</p>
               <Link to={"/pressure-washing"} className="footerLinks text-sm">
