@@ -23,7 +23,7 @@ const GutterCleaning = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] md:pt-[300px] flex flex-col pl-12 lg:pl-20 space-y-20">
+          <div className="pt-[150px] md:pt-[300px] flex flex-col pl-12 lg:pl-20 space-y-14">
             <h1 className="text-white sub-headers pr-5 sm:pr-0 uppercase text-4xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Gutter Cleaning
             </h1>
@@ -38,8 +38,8 @@ const GutterCleaning = () => {
           </div>
         </div>
       </main>
-      <div className="mt-48  md:mt-[24rem] lg:mt-64 4xl:mt-[40rem] text-center sm:text-start">
-        <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+      <div className=" text-center sm:text-start">
+        <div className="ml-10 pt-32 md:pt-44 lg:pt-72 4xl:pt-[38rem] mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
             <h1 className="text-3xl sm:text-4xl text-shadow md:text-5xl font-bold sub-headers ">
               Professional Gutter Vacuuming
