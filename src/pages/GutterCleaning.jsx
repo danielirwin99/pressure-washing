@@ -38,11 +38,11 @@ const GutterCleaning = () => {
           </div>
         </div>
       </main>
-      <div className="mt-52  md:mt-[24rem] lg:mt-64 4xl:mt-[40rem]">
+      <div className="mt-48  md:mt-[24rem] lg:mt-64 4xl:mt-[40rem]">
         <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
-            <h1 className="text-4xl text-shadow md:text-5xl font-bold sub-headers ">
-              Revitalize Your Home with Gutter Cleaning
+            <h1 className="text-3xl sm:text-4xl text-shadow md:text-5xl font-bold sub-headers ">
+              Professional Gutter Vacuuming
             </h1>
             <p className="leading-relaxed text-[#676767] pt-8 sm:text-lg">
               At <span className="font-bold"> Total Exterior Cleaning,</span> we
