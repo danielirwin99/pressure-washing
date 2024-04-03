@@ -13,7 +13,7 @@ const GutterCleaning = () => {
     <>
       {/* Navbar */}
       <NavbarServices />
-      <main className="relative ">
+      <main className="relative md:h-[100vh] ">
         {/* Content */}
         <div>
           <figure className="w-full absolute -z-10">
@@ -38,8 +38,8 @@ const GutterCleaning = () => {
           </div>
         </div>
       </main>
-      <div className=" text-center sm:text-start">
-        <div className="ml-10 pt-32 md:pt-44 lg:pt-72 4xl:pt-[38rem] mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+      <div className="mt-52  md:mt-0 text-center sm:text-start">
+        <div className="ml-10 md:pt-32 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
             <h1 className="text-3xl sm:text-4xl text-shadow md:text-5xl font-bold sub-headers ">
               Professional Gutter Vacuuming
