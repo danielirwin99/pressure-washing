@@ -60,7 +60,7 @@ const PressureWashing = () => {
       </main>
       <div className="mt-52  md:mt-[22rem] lg:mt-72 4xl:mt-[40rem]  text-center sm:text-start">
         <div className="mx-5 lg:pt-36 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
-          <div className="lg:w-[60%] space-y-10  lg:mx-6 lg:pr-4">
+          <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-4">
             <h1 className="text-3xl sm:text-4xl font-bold text-shadow sub-headers">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
@@ -79,7 +79,7 @@ const PressureWashing = () => {
               House Pressure Cleaning In Sydney For Freshness Of Your Home
             </h2>
 
-            <p className="leading-relaxed  lg:text-xl text-[#676767]  ">
+            <p className="leading-relaxed   lg:text-xl text-[#676767]  ">
               Our team at Total Exterior Cleaning utilizes cutting-edge pressure
               cleaning technology to deliver efficient and quality results. We
               employ the latest industrial-grade equipment, coupled with
@@ -118,7 +118,7 @@ const PressureWashing = () => {
               alt="Pressure Washing"
             />
 
-            <p className="text-shadow leading-relaxed text-lg md:text-2xl font-semibold">
+            <p className="text-shadow-subtle leading-relaxed text-lg md:text-2xl font-semibold">
               Contact Us today to schedule your free quote. We'll visit your
               property, provide a transparent, no-obligation estimate, and
               breathe new life into your outdoor areas.
@@ -130,7 +130,7 @@ const PressureWashing = () => {
                 </button>
               </Link>
             </div>
-            <h2 className="text-center sub-headers text-3xl font-bold sm:hidden">
+            <h2 className="text-center text-shadow-subtle sub-headers text-3xl font-bold sm:hidden">
               Check Out Some Of Our Photos!
             </h2>
           </div>
