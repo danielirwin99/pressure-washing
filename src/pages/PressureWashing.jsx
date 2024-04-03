@@ -177,7 +177,7 @@ const PressureWashing = () => {
                 className="sm:hidden inline-block bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
                 onClick={() => loadMore()}
               >
-                View More Photos
+                Load More 
               </button>
             </div>
           </div>
