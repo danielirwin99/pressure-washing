@@ -15,7 +15,7 @@ import FAQ from "../components/Landing/FAQ";
 const Landing = () => {
   return (
     <>
-      <title>High Pressure Cleaning Service</title>
+      <title>High Pressure Cleaning Service Sutherland</title>
       <Navbar />
       <Header />
       <About />

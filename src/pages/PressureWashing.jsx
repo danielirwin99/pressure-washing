@@ -18,7 +18,7 @@ import FAQ from "../components/Landing/FAQ";
 const PressureWashing = () => {
   return (
     <div className="">
-      <title>High Pressure Cleaning - Pressure Washing Services</title>
+      <title>High Pressure Cleaning - Pressure Washing Sutherland</title>
       {/* Navbar */}
       <NavbarServices />
       <main className="relative ">
