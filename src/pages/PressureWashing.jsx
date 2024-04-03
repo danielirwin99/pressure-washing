@@ -17,7 +17,7 @@ import FAQ from "../components/Landing/FAQ";
 import data from "../data/imageslider";
 
 const PressureWashing = () => {
-  const [noOfElement, setNoOfElement] = useState(2);
+  const [noOfElement, setNoOfElement] = useState(3);
   const loadMore = () => {
     setNoOfElement(noOfElement + 2);
   };
