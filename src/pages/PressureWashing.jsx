@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
 import { me1, pressurewashing } from "../assets/index";
@@ -14,8 +14,15 @@ import Socials from "../components/Landing/Socials";
 import Quotes from "../components/Landing/Quotes";
 import Tabs from "../components/Landing/Tabs";
 import FAQ from "../components/Landing/FAQ";
+import data from "../data/imageslider";
 
 const PressureWashing = () => {
+  const [noOfElement, setNoOfElement] = useState(2);
+  const loadMore = () => {
+    setNoOfElement(noOfElement + 1);
+  };
+
+  const slice = data.slice(0, noOfElement);
   return (
     <div className="">
       <title>High Pressure Cleaning - Pressure Washing Sutherland</title>
@@ -57,7 +64,7 @@ const PressureWashing = () => {
             <h1 className="text-3xl sm:text-4xl font-bold text-shadow sub-headers">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
-            <p className="leading-relaxed lg:text-xl text-[#676767]  pt-2  ">
+            <p className="leading-relaxed lg:text-xl text-shadow text-[#676767]  pt-2  ">
               <span className="font-bold"> Total Exterior Cleaning</span> are
               your go-to local pressure cleaners for professional exterior
               cleaning services in Sydney. Whether you own a residential
@@ -72,7 +79,7 @@ const PressureWashing = () => {
               House Pressure Cleaning In Sydney For Freshness Of Your Home
             </h2>
 
-            <p className="leading-relaxed lg:text-xl text-[#676767]  ">
+            <p className="leading-relaxed text-shadow lg:text-xl text-[#676767]  ">
               Our team at Total Exterior Cleaning utilizes cutting-edge pressure
               cleaning technology to deliver efficient and quality results. We
               employ the latest industrial-grade equipment, coupled with
@@ -111,7 +118,7 @@ const PressureWashing = () => {
               alt="Pressure Washing"
             />
 
-            <p className=" leading-relaxed text-lg md:text-2xl font-semibold">
+            <p className="text-shadow leading-relaxed text-lg md:text-2xl font-semibold">
               Contact Us today to schedule your free quote. We'll visit your
               property, provide a transparent, no-obligation estimate, and
               breathe new life into your outdoor areas.
@@ -128,16 +135,20 @@ const PressureWashing = () => {
             </h2>
           </div>
           <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-18 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]">
-            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
-              <ReactCompareSlider
-                className="w-full mb-4 sm:mb-0"
-                itemOne={
-                  <ReactCompareSliderImage src={before1} alt="Before 2" />
-                }
-                itemTwo={<ReactCompareSliderImage src={after1} alt="After 2" />}
-              />
-            </div>
-            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
+            {slice.map((image) => (
+              <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
+                <ReactCompareSlider
+                  className="w-full mb-4 sm:mb-0"
+                  itemOne={
+                    <ReactCompareSliderImage src={image.img1} alt="Before 2" />
+                  }
+                  itemTwo={
+                    <ReactCompareSliderImage src={image.img2} alt="After 2" />
+                  }
+                />
+              </div>
+            ))}
+            {/* <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
               <ReactCompareSlider
                 className="w-full mb-4 sm:mb-0"
                 itemOne={
@@ -154,14 +165,20 @@ const PressureWashing = () => {
                 }
                 itemTwo={<ReactCompareSliderImage src={after8} alt="After 3" />}
               />
-            </div>
+            </div> */}
             <div className="flex items-center  justify-center mt-7">
               <Link
-                className="bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+                className="hidden sm:inline-block bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
                 to={"/gallery"}
               >
                 View More Photos
               </Link>
+              <button
+                className="sm:hidden inline-block bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+                onClick={() => loadMore()}
+              >
+                View More Photos
+              </button>
             </div>
           </div>
         </div>

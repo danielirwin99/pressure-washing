@@ -108,7 +108,7 @@ const WindowCleaning = () => {
                 </button>
               </Link>
             </div>
-            <h2 className="text-center text-2xl sub-headers font-bold sm:hidden">
+            <h2 className="text-center text-shadow text-2xl sub-headers font-bold sm:hidden">
               Check Out Some Of Our Photos!
             </h2>
           </div>
