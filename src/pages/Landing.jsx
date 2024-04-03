@@ -10,6 +10,7 @@ import Benefits from "../components/Landing/Benefits";
 import Tabs from "../components/Landing/Tabs";
 import Socials from "../components/Landing/Socials";
 import Testimonials from "../components/Landing/Testimonials";
+import FAQ from "../components/Landing/FAQ";
 
 const Landing = () => {
   return (
@@ -21,6 +22,7 @@ const Landing = () => {
       <Services />
       <Tabs />
       <Photos />
+      <FAQ />
       <Testimonials />
       <Benefits />
       <Socials />
