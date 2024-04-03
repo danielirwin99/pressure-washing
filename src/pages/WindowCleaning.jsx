@@ -25,27 +25,27 @@ const WindowCleaning = () => {
         <div>
           <figure className="w-full absolute -z-10">
             <img
-              className="w-full object-cover h-[500px] md:h-[800px] brightness-[.60]"
+              className="w-full object-cover h-[550px] md:h-[100vh] brightness-[.60]"
               src={windows}
               alt="Background Image"
             />
           </figure>
           <div className="pt-[200px] md:pt-[300px] flex flex-col pl-10 lg:pl-20 space-y-14">
-            <h1 className="text-white uppercase text-2xl sm:text-4xl md:text-6xl font-bold text-shadow">
+            <h1 className="text-white uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Window Cleaning
             </h1>
-            <h2 className="uppercase text-xl md:text-3xl text-white font-semibold text-shadow">
+            <h2 className="uppercase text-lg md:text-3xl text-white font-semibold text-shadow">
               Crystal-clear Views.
             </h2>
             <Link to={"/contact-us"} className="">
-              <button className="contact-now z-50 md:!text-xl ">
+              <button className="contact-now !text-sm z-50 md:!text-xl ">
                 Claim Your Free Quote
               </button>
             </Link>
           </div>
         </div>
       </main>
-      <div className="mt-28 lg:mx-5 md:mt-72 lg:mt-36">
+      <div className=" lg:mx-5 mt-40  md:mt-[24rem] lg:mt-72">
         <div className="mx-10 lg:mx-5 lg:pt-40 mb-5  lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8 text-center">
             <h1 className="text-3xl sm:text-5xl font-bold tracking-wide leading-snug sub-headers">
