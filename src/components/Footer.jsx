@@ -5,6 +5,13 @@ const Footer = () => {
   return (
     <footer className="bg-[#004358] flex flex-col justify-center items-center pt-14 md:pl-0 ">
       <div className="flex flex-col lg:items-center pb-14 w-full lg:max-w-5xl px-3 md:px-7">
+        <div className=" md:hidden mb-10 max-w-sm mx-auto flex justify-center">
+          <Link className="w-full md:w-auto" to={"/areas-to-service"}>
+            <button className="contact-now !rounded-none w-full md:w-auto !capitalize z-50 md:!text-2xl !text-base !px-10 !py-4 ">
+              Areas Serviced
+            </button>
+          </Link>
+        </div>
         {/* <a
           href="#"
           className="flex items-center cursor-pointer space-x-4 mr-10"
@@ -19,9 +26,7 @@ const Footer = () => {
         </a> */}
         <div className="grid grid-cols-1 px-5 lg:px-0 md:grid-cols-2   lg:grid-cols-3 lg:text-md">
           <ul className="flex flex-col  md:text-sm lg:text-md ">
-            <p className="text-white text-xl font-extrabold">
-              QUICK LINKS
-            </p>
+            <p className="text-white text-xl font-extrabold">QUICK LINKS</p>
             <Link to={"/"} className="footerLinks">
               Home
             </Link>
