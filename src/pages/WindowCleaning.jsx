@@ -30,7 +30,7 @@ const WindowCleaning = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[200px] md:pt-[300px] flex flex-col pl-10 lg:pl-32 space-y-14">
+          <div className="pt-[200px] md:pt-[300px] flex flex-col pl-10 lg:pl-20 space-y-14">
             <h1 className="text-white uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Window Cleaning
             </h1>
@@ -46,7 +46,7 @@ const WindowCleaning = () => {
         </div>
       </main>
       <div className="mt-28 lg:mx-5 md:mt-72 lg:mt-36">
-        <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
+        <div className="mx-10 lg:mx-5 lg:pt-40 mb-5  lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8">
             <h1 className="text-3xl sm:text-5xl font-bold tracking-wide leading-snug">
               Residential & Commercial Window Cleaning
@@ -112,7 +112,7 @@ const WindowCleaning = () => {
               Check Out Some Of Our Photos!
             </h2>
           </div>
-          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-20 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]">
+          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]">
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[500px] xl:h-[600px] flex overflow-hidden rounded-md">
               <img
                 className="w-full mb-4 rounded-md sm:mb-0 xl:mx-14"
