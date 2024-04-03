@@ -13,6 +13,7 @@ import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
 import Quotes from "../components/Landing/Quotes";
 import Tabs from "../components/Landing/Tabs";
+import FAQ from "../components/Landing/FAQ";
 
 const PressureWashing = () => {
   return (
@@ -59,7 +60,8 @@ const PressureWashing = () => {
               <span className="font-bold">
                 family owned and operated business
               </span>{" "}
-              is here to help you restore your property back to its original state.
+              is here to help you restore your property back to its original
+              state.
             </p>
             <h2 className="text-2xl sm:text-3xl font-semibold text-cyan-500">
               House Pressure Cleaning In Sydney For Freshness Of Your Home
@@ -163,6 +165,7 @@ const PressureWashing = () => {
         <Socials />
       </section>
       <Testimonials />
+      <FAQ />
       <Tabs />
       <Quotes />
       {/* Footer */}
