@@ -19,7 +19,7 @@ import data from "../data/imageslider";
 const PressureWashing = () => {
   const [noOfElement, setNoOfElement] = useState(2);
   const loadMore = () => {
-    setNoOfElement(noOfElement + 1);
+    setNoOfElement(noOfElement + 2);
   };
 
   const slice = data.slice(0, noOfElement);
