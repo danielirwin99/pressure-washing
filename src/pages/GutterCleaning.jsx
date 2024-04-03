@@ -18,16 +18,16 @@ const GutterCleaning = () => {
         <div>
           <figure className="w-full absolute -z-10">
             <img
-              className="w-full object-cover h-[500px] md:h-[800px] brightness-50"
+              className="w-full object-cover h-[550px] md:h-[100vh] brightness-50"
               src={guttercleaning}
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] md:pt-[300px] flex flex-col pl-12 lg:pl-32 space-y-14">
-            <h1 className="text-white pr-5 sm:pr-0 uppercase text-2xl sm:text-4xl md:text-6xl font-bold text-shadow">
+          <div className="pt-[150px] md:pt-[300px] flex flex-col pl-12 lg:pl-20 space-y-20">
+            <h1 className="text-white sub-headers pr-5 sm:pr-0 uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Gutter Cleaning
             </h1>
-            <h2 className="uppercase text-xl md:text-3xl text-white font-semibold text-shadow">
+            <h2 className="uppercase text-xl md:text-2xl text-white font-semibold text-shadow">
               Clear Skies, Clean Gutters.
             </h2>
             <Link to={"/contact-us"} className="">
@@ -38,7 +38,7 @@ const GutterCleaning = () => {
           </div>
         </div>
       </main>
-      <div className="mt-40 sm:mt-40 md:mt-80 lg:mt-40">
+      <div className="mt-52  md:mt-[24rem] lg:mt-64 4xl:mt-[40rem]">
         <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
             <h1 className="text-4xl md:text-5xl font-bold sub-headers ">
