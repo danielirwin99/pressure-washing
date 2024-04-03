@@ -8,7 +8,7 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 export default function AccordionLanding() {
   return (
-    <div className="my-7 mx-10 max-w-[800px] xl:max-w-[1000px] ">
+    <div className="my-7 mx-6 md:mx-10 max-w-[800px] xl:max-w-[1000px] ">
       <Accordion className="my-3">
         <AccordionSummary
           expandIcon={<ArrowDropDownIcon />}
