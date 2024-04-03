@@ -54,7 +54,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="max-w-[1700px] w-5/6 mt-10 mb-24 px-4 m-auto">
+    <div className="max-w-[1700px]  mt-10 mb-24 px-4 m-auto">
       <h3 className="text-center from-gray-700 uppercase to-cyan-500 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.3em] font-semibold text-md lg:text-lg ">
         Testimonials
       </h3>
@@ -96,14 +96,14 @@ const Testimonials = () => {
       </div>
       <div className="mt-14 space-x-4 flex items-center justify-center">
         <a
-          className="contact-now !p-3  !text-xs template-shadow"
+          className="contact-now !p-2 sm:!p-3  !text-xs template-shadow"
           href="https://www.google.com/search?q=total+exterior+cleaning&rlz=1C1VDKB_enAU1092AU1092&oq=total+exterior+cleaning+&gs_lcrp=EgZjaHJvbWUyCggAEEUYFhgeGDkyBwgBEAAYgAQyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yBggFEEUYQTIGCAYQRRg8MgYIBxBFGEHSAQgzNjkxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x61f8ecfb4782edb3:0xb4524df1d6cb3f48,1,,,,"
         >
           See All Reviews
         </a>
         <a
           href="https://g.page/r/CUg_y9bxTVK0EB0/review"
-          className=" !flex contact-now !p-3 !text-xs items-center space-x-2 justify-center template-shadow"
+          className=" !flex contact-now !p-2 sm:!p-3 !text-xs items-center space-x-2 justify-center template-shadow"
         >
           <p>Review Us on</p>
           <FcGoogle className="bg-white rounded-full" />

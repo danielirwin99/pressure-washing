@@ -9,6 +9,7 @@ const Gallery = () => {
   return (
     <>
       {/* Navbar */}
+
       <Navbar />
       <main className="my-5 mx-5 lg:mx-40">
         {" "}

@@ -51,7 +51,7 @@ const WindowCleaning = () => {
             <h1 className="text-3xl sm:text-5xl font-bold tracking-wide leading-snug">
               Residential & Commercial Window Cleaning
             </h1>
-            <p className="leading-7 pt-4 lg:text-2xl sm:text-xl">
+            <p className="leading-7 pt-4 lg:text-xl sm:text-xl">
               At <span className="font-bold"> Total Exterior Cleaning</span>,we
               understand the transformative power of crystal-clear windows.
               Beyond aesthetics, clean windows enhance natural light, improve
@@ -63,7 +63,7 @@ const WindowCleaning = () => {
             <h2 className="text-4xl font-semibold text-cyan-500">
               Brighter Spaces, Better Living
             </h2>
-            <p className="leading-7 lg:text-2xl sm:text-lg">
+            <p className="leading-7 lg:text-xl sm:text-lg">
               Experience the difference that professionally cleaned windows can
               make in your daily life. Clean windows not only allow more natural
               light to filter through, brightening up your interiors, but they
@@ -78,7 +78,7 @@ const WindowCleaning = () => {
             <h2 className="text-4xl font-semibold text-cyan-500">
               Latest Window Cleaning Technology
             </h2>
-            <p className="leading-7 lg:text-2xl sm:text-lg">
+            <p className="leading-7 lg:text-xl sm:text-lg">
               Our water-fed pole system offers efficient and eco-friendly window
               cleaning. Using purified water, it ensures a streak-free finish
               while eliminating the need for chemical cleaners. The carbon fibre
@@ -88,22 +88,22 @@ const WindowCleaning = () => {
             <h2 className="text-4xl font-semibold text-cyan-500">
               Customer Satisfaction Guarantee
             </h2>
-            <p className="leading-7 lg:text-2xl sm:text-lg">
+            <p className="leading-7 lg:text-xl sm:text-lg">
               At <span className="font-bold"> Total Exterior Cleaning</span>,
               your satisfaction is our priority. We're not done until you're
               thrilled with the results. Rediscover the joy of a crystal-clear
               view – schedule your window cleaning with us today!
             </p>
 
-            <p className=" leading-8 sm:text-xl lg:text-2xl font-semibold">
+            <p className=" leading-8 sm:text-xl lg:text-xl font-semibold">
               Contact us today to schedule your free window cleaning quote.
               We'll visit your property, provide a transparent, no-obligation
               estimate. Don't settle for anything less than perfection when it
               comes to your windows.
             </p>
-            <div className="pt-16 pb-10 flex justify-center">
+            <div className="py-6 flex justify-center">
               <Link to={"/contact-us"}>
-                <button className="contact-now z-50 md:!text-3xl ">
+                <button className="contact-now !px-10 z-50 !text-xl ">
                   Contact Us Now
                 </button>
               </Link>
@@ -166,7 +166,7 @@ const WindowCleaning = () => {
           </div> */}
         </div>
       </div>
-      <section className="md:my-20 mb-20 py-2 bg-gray-50 border-t-2 border-b-2 ">
+      <section className="md:my-10 mb-20 py-2 bg-gray-50 border-t-2 border-b-2 ">
         <Socials />
       </section>
       <Testimonials />
