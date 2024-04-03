@@ -145,6 +145,24 @@ export default function BurgerService() {
               </a>
             </div> */}
             <div className="burger__list--wrapper">
+              <a
+                onClick={handleDrawerClose}
+                href="https://www.instagram.com/totalexteriorcleaning_/"
+                className="burger__list--header"
+              >
+                Follow Us!
+              </a>
+            </div>
+            <div className="burger__list--wrapper">
+              <Link
+                onClick={handleDrawerClose}
+                to={"/areas-of-service"}
+                className="burger__list--header"
+              >
+                Areas Serviced
+              </Link>
+            </div>
+            <div className="burger__list--wrapper">
               <Link
                 onClick={handleDrawerClose}
                 to={"/contact-us"}
