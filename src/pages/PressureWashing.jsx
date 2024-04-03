@@ -61,7 +61,7 @@ const PressureWashing = () => {
       <div className="mt-52  md:mt-[22rem] lg:mt-72 4xl:mt-[40rem]  text-center sm:text-start">
         <div className="mx-5 lg:pt-36 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-4">
-            <h1 className="text-3xl sm:text-4xl font-bold text-shadow sub-headers">
+            <h1 className="text-3xl sm:text-4xl font-bold text-shadow-subtle sub-headers">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
             <p className="leading-relaxed lg:text-xl  text-[#676767]  pt-2  ">
@@ -75,7 +75,7 @@ const PressureWashing = () => {
               is here to help you restore your property back to its original
               state.
             </p>
-            <h2 className="text-2xl sub-headers text-shadow-subtle  sm:text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl sub-headers  sm:text-3xl font-semibold text-cyan-500">
               House Pressure Cleaning In Sydney For Freshness Of Your Home
             </h2>
 
