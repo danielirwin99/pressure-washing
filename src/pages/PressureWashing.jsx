@@ -59,7 +59,7 @@ const PressureWashing = () => {
         </div>
       </main>
       <div className="mt-52  md:mt-0 text-center sm:text-start">
-        <div className="mx-5 md:pt-32 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+        <div className="mx-5 lg:mx-10 md:pt-32 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-4">
             <h1 className="text-3xl sm:text-4xl font-bold text-shadow-subtle sub-headers">
               Refresh Your Home with High Pressure Cleaning.
