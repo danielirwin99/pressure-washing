@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col lg:items-center pb-14 w-full lg:max-w-5xl px-3 md:px-7">
         <div className=" md:hidden mb-10 max-w-sm mx-auto flex justify-center">
           <Link className="w-full md:w-auto" to={"/areas-to-service"}>
-            <button className="contact-now !rounded-none w-full md:w-auto !capitalize z-50 md:!text-2xl !text-base !px-10 !py-4 ">
+            <button className="contact-now !rounded-sm w-full md:w-auto underline underline-offset-4 !capitalize z-50 md:!text-2xl !text-base !px-8 !py-3 ">
               Areas Serviced
             </button>
           </Link>
