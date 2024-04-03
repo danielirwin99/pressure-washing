@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="bg-[#004358] flex flex-col justify-center items-center pt-14 md:pl-0 ">
-      <div className="flex items-center pb-10 max-w-5xl px-3 md:px-7">
+      <div className="flex flex-col lg:items-center pb-14 w-full lg:max-w-5xl px-3 md:px-7">
         {/* <a
           href="#"
           className="flex items-center cursor-pointer space-x-4 mr-10"
@@ -16,56 +17,56 @@ const Footer = () => {
             />
           </figure>
         </a> */}
-        <div className="grid grid-cols-2 lg:grid-cols-3 lg:text-md">
-          <ul className="flex flex-col text-[12px] md:text-sm lg:text-md ">
-            <p className="text-white text-sm lg:text-base font-extrabold">
+        <div className="grid grid-cols-1 px-5 lg:px-0 md:grid-cols-2   lg:grid-cols-3 lg:text-md">
+          <ul className="flex flex-col  md:text-sm lg:text-md ">
+            <p className="text-white text-xl lg:text-base font-extrabold">
               QUICK LINKS
             </p>
-            <a href="/" className="footerLinks">
+            <Link to={"/"} className="footerLinks">
               Home
-            </a>
-            <a href="/about-us" className="footerLinks">
+            </Link>
+            <Link to={"/about-us"} className="footerLinks">
               About Us
-            </a>
-            <a href="#services" className="footerLinks">
-              Our Services
-            </a>
-            <a href="/contact-us" className="footerLinks">
+            </Link>
+            <Link to={"/pressure-washing"} className="footerLinks">
+              Pressure Cleaning
+            </Link>
+            <Link to={"/contact-us"} className="footerLinks">
               Contact Us
-            </a>
+            </Link>
           </ul>
-          <div className="lg:flex flex-col text-xs md:text-sm lg:text-md hidden">
+          <div className="lg:flex flex-col my-10 lg:mt-0 text-xs md:text-sm lg:text-md">
             <ul className="flex flex-col text-xs md:text-sm ">
-              <p className="text-white font-extrabold">SERVICES</p>
-              <a href="/pressure-washing" className="footerLinks">
+              <p className="text-white text-xl font-extrabold">SERVICES</p>
+              <Link to={"/pressure-washing"} className="footerLinks text-sm">
                 Pressure Washing
-              </a>
-              <a href="/sealing" className="footerLinks">
+              </Link>
+              <Link to={"/sealing"} className="footerLinks text-sm">
                 Driveway Sealing
-              </a>
-              <a href="/window-cleaning" className="footerLinks">
+              </Link>
+              <Link to={"/window-cleaning"} className="footerLinks text-sm">
                 Window Cleaning
-              </a>
-              <a href="/gutter-cleaning" className="footerLinks ">
+              </Link>
+              <Link to={"/gutter-cleaning"} className="footerLinks text-sm ">
                 Gutter Cleaning
-              </a>
+              </Link>
             </ul>
           </div>
-          <div className="flex flex-col text-[12px] md:text-sm lg:text-md -ml-3">
-            <p className="text-white text-sm lg:text-base font-extrabold">
-              CONTACT US
+          <div className="flex flex-col mt-5 md:mt-0 md:text-sm lg:text-md ">
+            <p className="text-white text-xl lg:text-sm font-extrabold">
+              CONTACT TOTAL EXTERIOR CLEANING
             </p>
-            <p className="text-white space-y-1 py-4">
+            <p className="text-white text-sm space-y-1 py-4">
               We Cater All South Sydney & Illawarra Services <br /> Company
               based in Sydney NSW
             </p>
-            <p className="text-white space-y-1 py-4">
+            <p className="text-white text-sm space-y-1 py-4">
               Phone :{" "}
               <a href="tel:0417477117" className="hover:underline font-bold">
                 0417 477 117
               </a>
             </p>
-            <p className="text-white md:text-base  space-y-1 py-4">
+            <p className="text-white text-sm md:text-base  space-y-1 py-4">
               Email:{" "}
               <a
                 className="hover:underline font-bold"
@@ -74,7 +75,9 @@ const Footer = () => {
                 admin@totalexteriorco.com
               </a>
             </p>
-            <p className="text-white space-y-1 py-4">ABN: 94 421 597 028</p>
+            <p className="text-white text-sm space-y-1 py-4">
+              ABN: 94 421 597 028
+            </p>
           </div>
         </div>
       </div>

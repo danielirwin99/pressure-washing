@@ -91,8 +91,6 @@ html {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
-
-
 /* Old Button */
 /* .contact-now {
   appearance: none;
@@ -414,5 +412,5 @@ html {
 }
 
 .footerLinks {
-  @apply hover:underline  text-white space-y-1 py-4;
+  @apply hover:underline opacity-80 text-sm  text-white space-y-1 py-4;
 }
