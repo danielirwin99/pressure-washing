@@ -19,7 +19,7 @@ const Footer = () => {
         </a> */}
         <div className="grid grid-cols-1 px-5 lg:px-0 md:grid-cols-2   lg:grid-cols-3 lg:text-md">
           <ul className="flex flex-col  md:text-sm lg:text-md ">
-            <p className="text-white text-xl lg:text-base font-extrabold">
+            <p className="text-white text-xl font-extrabold">
               QUICK LINKS
             </p>
             <Link to={"/"} className="footerLinks">
@@ -35,7 +35,7 @@ const Footer = () => {
               Contact Us
             </Link>
           </ul>
-          <div className="lg:flex flex-col my-10 lg:mt-0 text-xs md:text-sm lg:text-md">
+          <div className="lg:flex flex-col my-10 lg:my-0 lg:mt-0 text-xs md:text-sm lg:text-md">
             <ul className="flex flex-col text-xs md:text-sm ">
               <p className="text-white text-xl font-extrabold">SERVICES</p>
               <Link to={"/pressure-washing"} className="footerLinks text-sm">
@@ -52,8 +52,8 @@ const Footer = () => {
               </Link>
             </ul>
           </div>
-          <div className="flex flex-col mt-5 md:mt-0 md:text-sm lg:text-md ">
-            <p className="text-white text-xl lg:text-sm font-extrabold">
+          <div className="flex flex-col mt-5 lg:mt-0 md:text-sm lg:text-md ">
+            <p className="text-white text-xl font-extrabold">
               CONTACT TOTAL EXTERIOR CLEANING
             </p>
             <p className="text-white text-sm space-y-1 py-4">

@@ -412,5 +412,5 @@ html {
 }
 
 .footerLinks {
-  @apply hover:underline opacity-80 text-sm  text-white space-y-1 py-4;
+  @apply hover:underline opacity-80 text-sm md:text-base  text-white space-y-1 py-4;
 }
