@@ -38,7 +38,7 @@ const GutterCleaning = () => {
           </div>
         </div>
       </main>
-      <div className="mt-48  md:mt-[24rem] lg:mt-64 4xl:mt-[40rem]">
+      <div className="mt-48  md:mt-[24rem] lg:mt-64 4xl:mt-[40rem] text-center sm:text-start">
         <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-1/2 space-y-6">
             <h1 className="text-3xl sm:text-4xl text-shadow md:text-5xl font-bold sub-headers ">
@@ -50,13 +50,13 @@ const GutterCleaning = () => {
               preserving the integrity and aesthetic appeal of your home. Our
               commitment to excellence drives us to offer cutting-edge gutter
               cleaning services with use of{" "}
-              <span className="font-semibold">
-                telescopic poles. <br /> This means we won't walk across your
-                roof and potentially crack one of your tiles leading to more
-                issues.
-              </span>
+              <span className="font-extrabold">telescopic poles.</span>
+              <p className="leading-relaxed font-extrabold  text-[#676767] pt-2 sm:text-lg">
+                This means we won't walk across your roof and potentially crack
+                one of your tiles leading to more issues.
+              </p>
             </p>
-            <h2 className="text-2xl text-shadow sm:text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl text-shadow-subtle sm:text-3xl font-semibold text-cyan-500">
               Unparalleled Precision
             </h2>
             <p className="leading-relaxed text-[#676767] sm:text-lg">
@@ -66,7 +66,7 @@ const GutterCleaning = () => {
               cranny of your gutters. Say goodbye to the risk of overlooked
               clogs and potential water damage.
             </p>
-            <h2 className="text-2xl text-shadow sm:text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl text-shadow-subtle sm:text-3xl font-semibold text-cyan-500">
               Extending the Lifespan of Your Gutters
             </h2>
             <p className="leading-relaxed text-[#676767] sm:text-lg ">
@@ -76,7 +76,7 @@ const GutterCleaning = () => {
               your gutters in optimal condition, ensuring they function
               effectively for years to come.
             </p>
-            <p className="text-shadow leading-relaxed text-lg md:text-2xl font-semibold">
+            <p className="text-shadow-subtle leading-relaxed text-lg md:text-2xl font-semibold">
               Contact Us today to schedule your free quote. We'll visit your
               property, provide a transparent, no-obligation estimate, and
               breathe new life into your outdoor areas.

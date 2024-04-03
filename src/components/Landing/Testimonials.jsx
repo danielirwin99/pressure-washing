@@ -75,7 +75,7 @@ const Testimonials = () => {
                 <FcGoogle />
               </div>
               <div className="flex flex-col justify-center items-center gap-4 p-4">
-                <p className="text-xl font-bold">{d.name}</p>
+                <p className="text-xl font-bold text-shadow-subtle">{d.name}</p>
                 <div className="flex text-yellow-500 text-lg space-x-2">
                   <BsStarFill />
                   <BsStarFill />
