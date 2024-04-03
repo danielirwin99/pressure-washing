@@ -19,7 +19,7 @@ const Gallery = () => {
         >
           Our Work
         </h1>
-        <h3 className="text-center from-gray-700 to-cyan-500 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.2em] font-semibold text-md lg:text-lg ">
+        <h3 className="text-center from-gray-700 to-cyan-500 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.15em] font-semibold text-md lg:text-lg ">
           Some Of Our Recent Work
         </h3>
         <div>
