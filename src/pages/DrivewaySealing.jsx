@@ -95,23 +95,23 @@ const DrivewaySealing = () => {
             </h2>
           </div>
           <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0   lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-2/5">
-            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
+            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
               <img
-                className="w-full mb-4 sm:mb-0 rounded-md"
+                className="w-full mb-4 sm:mb-0 rounded-sm"
                 src={sealing1}
                 alt=""
               />
             </div>
-            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
+            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
               <img
-                className="w-full mb-4 sm:mb-0 rounded-md"
+                className="w-full mb-4 sm:mb-0 rounded-sm"
                 src={sealing2}
                 alt=""
               />
             </div>
-            <div className="w-full sm:w-1/2 sm:hidden lg:w-full h-[300px] -mb-10 flex overflow-hidden rounded-md">
+            <div className="w-full sm:w-1/2 sm:hidden lg:w-full h-[300px] -mb-10 flex overflow-hidden rounded-sm">
               <img
-                className="w-full mb-4 sm:mb-0 rounded-md"
+                className="w-full mb-4 sm:mb-0 rounded-sm"
                 src={service2}
                 alt=""
               />
