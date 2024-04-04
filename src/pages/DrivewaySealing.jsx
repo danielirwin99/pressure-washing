@@ -37,8 +37,8 @@ const DrivewaySealing = () => {
           </div>
         </div>
       </main>
-      <div className="mt-32  md:mt-0 text-center sm:text-start">
-        <div className="mx-5 lg:mx-10 md:pt-20 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+      <div className="mt-52  md:mt-0 text-center sm:text-start">
+        <div className="mx-5 lg:mx-10 md:pt-32 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-3/5 space-y-5">
             <h1 className="text-3xl sm:text-4xl font-bold text-shadow-subtle sub-headers">
               Why Seal Your Driveway?
