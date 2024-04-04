@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
 import {
+  me2,
   window1,
   window2,
   window3,
@@ -38,7 +39,7 @@ const WindowCleaning = () => {
               Crystal-clear Views.
             </h2>
             <Link to={"/contact-us"} className="">
-              <button className="contact-now !text-sm z-50 md:!text-xl ">
+              <button className="contact-now !text-sm z-50 !px-7 md:!text-xl ">
                 Claim Your Free Quote
               </button>
             </Link>
@@ -85,6 +86,11 @@ const WindowCleaning = () => {
               poles make it easy to reach challenging heights, making this
               method both effective and environmentally conscious practices.
             </p>
+            <img
+              className="sm:hidden h-[400px] rounded-sm w-full object-cover"
+              src={me2}
+              alt="Pressure Washing"
+            />
             <h2 className="text-2xl text-shadow-subtle md:text-4xl sub-headers font-semibold text-cyan-500">
               Customer Satisfaction Guarantee
             </h2>
