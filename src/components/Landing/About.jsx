@@ -85,14 +85,14 @@ const About = () => {
             Why Choose Total Exterior Cleaning?
           </h2>
           <ul className="space-y-2">
-            <li className=" mt-10 items-center space-y-3">
+            <li className=" mt-10 items-center space-y-4">
               <p className="w-full text-center sm:text-start md:text-xl leading-loose">
                 Total Exterior Cleaning is based in the Sutherland Shire Region,
                 offering a distinctive touch as a{" "}
                 <span className="font-bold">
-                  family owned & operated located business.
+                  family owned & operated local business.
                 </span>{" "}
-                With a commitment to excellence, we employ
+                With a commitment to high quality work, we employ
                 <span className="font-bold">
                   {" "}
                   up-to-date cutting-edge equipment,{" "}
