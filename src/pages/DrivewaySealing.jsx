@@ -1,14 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
-import {
-  gutter1,
-  gutter2,
-  guttercleaning,
-  sealing,
-  sealing1,
-  sealing2,
-} from "../assets/index";
+import { sealing, sealing1, sealing2, service2 } from "../assets/index";
 import { Link } from "react-router-dom";
 import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
@@ -19,22 +12,22 @@ const DrivewaySealing = () => {
     <>
       {/* Navbar */}
       <NavbarServices />
-      <main className="relative ">
+      <main className="relative md:h-[100vh]">
         {/* Content */}
         <div>
           <figure className="w-full absolute -z-10">
             <img
-              className="w-full object-cover h-[500px] md:h-[800px] brightness-[.3]"
+              className="w-full object-cover h-[550px] md:h-[100vh] brightness-[.3]"
               src={sealing}
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] mr-4 md:pt-[300px] flex flex-col pl-8 lg:pl-32 space-y-14">
-            <h1 className="text-white uppercase text-2xl sm:text-4xl md:text-6xl font-bold text-shadow">
+          <div className="pt-[150px] mr-4 md:pt-[300px] flex flex-col pl-8 lg:pl-32 space-y-20">
+            <h1 className="text-white sub-headers uppercase text-3xl sm:text-4xl md:text-6xl tracking-wider font-bold text-shadow">
               Driveway Sealing
             </h1>
-            <h2 className="uppercase text-xl md:text-3xl text-white font-semibold text-shadow">
-              Preserve and Protect Your Driveway.
+            <h2 className="uppercase text-lg md:text-3xl text-blue-200 font-semibold text-shadow">
+              Restore and Protect Your Driveway.
             </h2>
             <Link to={"/contact-us"} className="">
               <button className="contact-now z-50 md:!text-xl ">
@@ -44,48 +37,48 @@ const DrivewaySealing = () => {
           </div>
         </div>
       </main>
-      <div className="mt-40 md:mt-72 lg:mt-40">
-        <div className="ml-10 lg:pt-40 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
-          <div className="lg:w-1/2 space-y-6">
-            <h1 className="text-4xl md:text-5xl font-bold ">
+      <div className="mt-52  md:mt-0 text-center sm:text-start">
+        <div className="mx-5 lg:mx-10 md:pt-20 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+          <div className="lg:w-3/5 space-y-5">
+            <h1 className="text-3xl sm:text-4xl font-bold text-shadow-subtle sub-headers">
               Why Seal Your Driveway?
             </h1>
-            <p className="leading-6 pt-4 sm:text-lg">
+            <p className="leading-relaxed lg:text-xl  text-[#676767]  pt-2 ">
               Your home's exterior is a valuable asset, and strategic
               maintenance is essential for long-term allure. Explore the
               transformative benefits of driveway sealing and painting—a dynamic
               duo that protects against the elements, improves aesthetics, and
               adds value to your property.
             </p>
-            <h2 className="text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl sub-headers  sm:text-3xl font-semibold text-cyan-500">
               Weather-Defying Protection
             </h2>
-            <p className="leading-6 sm:text-lg">
+            <p className="leading-relaxed lg:text-xl text-[#676767]">
               Sealing shields your driveway from the damaging effects of rain,
               extreme heat, and UV rays. This proactive measure prevents cracks
               and deterioration, significantly extending your driveway's
               lifespan and saving you from costly repairs.
             </p>
-            <h2 className="text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl sub-headers  sm:text-3xl font-semibold text-cyan-500">
               Value-Adding Curb Appeal
             </h2>
 
-            <p className="leading-6 sm:text-lg ">
+            <p className="leading-relaxed  lg:text-xl text-[#676767] ">
               Elevate your property's value by enhancing curb appeal with a
               well-kept driveway. The combination of sealing and painting makes
               a lasting impression on potential buyers, contributing to the
               overall appeal of your home.
             </p>
-            <h2 className="text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl sub-headers  sm:text-3xl font-semibold text-cyan-500">
               Easy Maintenance
             </h2>
-            <p className="leading-6 sm:text-lg">
+            <p className="leading-relaxed   lg:text-xl text-[#676767]">
               Sealed and painted driveways are easier to clean and maintain.
               Enjoy a spotless finish with minimal effort, as these treatments
               minimize the accumulation of dirt and stains, preserving the
               beauty of your driveway.
             </p>
-            <p className="leading-6 sm:text-lg">
+            <p className="text-shadow-subtle leading-relaxed text-lg md:text-2xl font-semibold">
               Ready to transform your driveway into a durable, aesthetically
               pleasing asset for your home? Our dedicated team is here to
               provide expert guidance on driveway sealing and painting.{" "}
@@ -101,7 +94,7 @@ const DrivewaySealing = () => {
               Check Out Some Of Our Photos!
             </h2>
           </div>
-          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-20 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-1/2">
+          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0   lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-2/5">
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
               <img
                 className="w-full mb-4 sm:mb-0 rounded-md"
@@ -118,8 +111,8 @@ const DrivewaySealing = () => {
             </div>
           </div>
         </div>
-        <h2 className="text-3xl px-5 py-10 text-center font-extrabold">
-          We Provide Pressure Cleaning & Sealing Packages.
+        <h2 className="text-3xl px-5 py-5 text-center font-extrabold sub-headers  sm:text-3xl text-cyan-500">
+          We Offer Pressure Cleaning & Sealing Packages.
         </h2>
       </div>
       <section className="md:my-20 mb-20 py-2 bg-gray-50 border-t-2 border-b-2 ">
