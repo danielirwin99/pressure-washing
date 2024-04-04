@@ -38,7 +38,7 @@ const PressureWashing = () => {
         <div>
           <figure className="w-full absolute -z-10">
             <img
-              className="w-full object-cover h-[550px] md:h-[100vh] brightness-[.45]"
+              className="w-full object-cover h-[550px] md:h-[100vh] brightness-[.40]"
               src={pressurewashing}
               alt="Background Image"
             />
