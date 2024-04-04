@@ -22,7 +22,7 @@ const DrivewaySealing = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] mr-4 md:pt-[300px] flex flex-col pl-8 lg:pl-32 space-y-20">
+          <div className="pt-[150px] mr-4 md:pt-[300px] flex flex-col pl-8 space-y-10 sm:space-y-20">
             <h1 className="text-white sub-headers uppercase text-3xl sm:text-4xl md:text-6xl tracking-wider font-bold text-shadow">
               Driveway Sealing
             </h1>
@@ -37,7 +37,7 @@ const DrivewaySealing = () => {
           </div>
         </div>
       </main>
-      <div className="mt-52  md:mt-0 text-center sm:text-start">
+      <div className="mt-32  md:mt-0 text-center sm:text-start">
         <div className="mx-5 lg:mx-10 md:pt-20 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-3/5 space-y-5">
             <h1 className="text-3xl sm:text-4xl font-bold text-shadow-subtle sub-headers">
@@ -69,10 +69,10 @@ const DrivewaySealing = () => {
               a lasting impression on potential buyers, contributing to the
               overall appeal of your home.
             </p>
-            <h2 className="text-2xl sub-headers  sm:text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl sub-headers hidden sm:inline-block  sm:text-3xl font-semibold text-cyan-500">
               Easy Maintenance
             </h2>
-            <p className="leading-relaxed   lg:text-xl text-[#676767]">
+            <p className="leading-relaxed hidden sm:inline-block  lg:text-xl text-[#676767]">
               Sealed and painted driveways are easier to clean and maintain.
               Enjoy a spotless finish with minimal effort, as these treatments
               minimize the accumulation of dirt and stains, preserving the
@@ -90,7 +90,7 @@ const DrivewaySealing = () => {
                 </button>
               </Link>
             </div>
-            <h2 className="text-center text-2xl font-bold sm:hidden">
+            <h2 className="text-3xl sm:text-4xl font-bold text-shadow-subtle sub-headers">
               Check Out Some Of Our Photos!
             </h2>
           </div>
@@ -109,9 +109,16 @@ const DrivewaySealing = () => {
                 alt=""
               />
             </div>
+            <div className="w-full sm:w-1/2 sm:hidden lg:w-full h-[300px] -mb-10 flex overflow-hidden rounded-md">
+              <img
+                className="w-full mb-4 sm:mb-0 rounded-md"
+                src={service2}
+                alt=""
+              />
+            </div>
           </div>
         </div>
-        <h2 className="text-3xl px-5 py-5 text-center font-extrabold sub-headers  sm:text-3xl text-cyan-500">
+        <h2 className="text-3xl px-5 py-5 text-center mb-10 sm:mb-0 font-extrabold sub-headers  sm:text-3xl text-cyan-500">
           We Offer Pressure Cleaning & Sealing Packages.
         </h2>
       </div>
