@@ -26,7 +26,11 @@ const PressureWashing = () => {
       <title>High Pressure Cleaning - Pressure Washing Sydney</title>
       {/* Navbar */}
       <NavbarServices />
-      <main className="relative md:h-[100vh] ">
+      <main
+        className="relative md:h-[100vh] "
+        data-aos="fade-in"
+        data-aos-easing="ease-in-out"
+      >
         <div className="fixed hidden sm:inline bottom-5 right-4 sm:bottom-7 sm:right-5 z-[995] template-shadow rounded-2xl">
           <Link to={"/contact-us"} className="contact-now mobile">
             Contact Now
@@ -36,7 +40,7 @@ const PressureWashing = () => {
         <div>
           <figure className="w-full absolute -z-10">
             <img
-              className="w-full object-cover h-[550px] md:h-[100vh] brightness-[.40]"
+              className="w-full object-cover h-[600px] md:h-[100vh] brightness-[.40]"
               src={pressurewashing}
               alt="Background Image"
             />
@@ -59,7 +63,7 @@ const PressureWashing = () => {
       <div
         data-aos="fade-up"
         data-aos-easing="ease-in-out"
-        className="mt-40  sm:mt-0 text-center sm:text-start"
+        className="mt-44  sm:mt-0 text-center sm:text-start"
       >
         <div className="mx-5 lg:mx-10 md:pt-28 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-4">
           <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-8">
@@ -193,7 +197,7 @@ const PressureWashing = () => {
       </section>
       <FAQ />
       <Tabs />
-      <div >
+      <div>
         <Quotes />
       </div>
       {/* Footer */}

@@ -46,9 +46,13 @@ const WindowCleaning = () => {
           </div>
         </div>
       </main>
-      <div className=" mt-44  md:mt-0 text-center sm:text-start">
-        <div className="mx-8 lg:mx-5 lg:pt-40 mb-5  lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
-          <div className="lg:w-[60%] mx-5 space-y-8">
+      <div
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        className=" mt-40  md:mt-0 text-center sm:text-start"
+      >
+        <div className="mx-8 lg:mx-5 md:pt-28 mb-5  lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
+          <div className="lg:w-[60%] md:mx-5 space-y-8">
             <h1 className="text-3xl sm:text-5xl text-shadow-subtle font-bold tracking-wide leading-snug sub-headers">
               Residential & Commercial Window Cleaning
             </h1>
@@ -118,7 +122,11 @@ const WindowCleaning = () => {
               Check Out Some Of Our Photos!
             </h2>
           </div>
-          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]">
+          <div
+            data-aos="fade-in"
+            data-aos-easing="ease-in-out"
+            className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]"
+          >
             <div className="w-full sm:w-1/2 lg:w-full lg:h-[500px] xl:h-[600px] flex overflow-hidden rounded-md">
               <img
                 className="w-full mb-4 rounded-md sm:mb-0 xl:mx-14"
@@ -175,7 +183,9 @@ const WindowCleaning = () => {
       <section className="md:my-10 mb-20 py-2 bg-gray-50 border-t-2 border-b-2 ">
         <Socials />
       </section>
-      <Testimonials />
+      <div data-aos="fade-in" data-aos-easing="ease-in-out">
+        <Testimonials />
+      </div>
       <Tabs />
       <Quotes />
       {/* Footer */}
