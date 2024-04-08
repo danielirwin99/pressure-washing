@@ -51,7 +51,7 @@ const PressureWashing = () => {
               Executed with precision
             </h2>
             <Link to={"/contact-us"} className="">
-              <button className="contact-now z-50 !px-10 md:!text-xl template-shadow-subtle ">
+              <button className="contact-now  z-50 !px-10 md:!text-xl template-shadow-subtle ">
                 Get Your Quote!
               </button>
             </Link>
@@ -123,7 +123,7 @@ const PressureWashing = () => {
               property, provide a transparent, no-obligation estimate, and
               breathe new life into your outdoor areas.
             </p>
-            <div className="py-8 flex justify-center">
+            <div className="py-6 flex justify-center">
               <Link className="w-full md:w-auto" to={"/contact-us"}>
                 <button className="contact-now w-full md:w-auto !capitalize z-50 md:!text-2xl !text-xl !px-10 !py-4 ">
                   Get Your Free Quote!
@@ -134,7 +134,7 @@ const PressureWashing = () => {
               Check Out Some Of Our Photos!
             </h2>
           </div>
-          <div className="flex flex-col mx-3 sm:mx-0 sm:flex-row lg:flex-col my-14 lg:mt-0 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]">
+          <div className="flex flex-col mx-3 sm:mx-0 sm:flex-row lg:flex-col my-10 lg:mt-0 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]">
             {slice.map((image) => (
               <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
                 <ReactCompareSlider
