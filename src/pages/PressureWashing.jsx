@@ -56,7 +56,7 @@ const PressureWashing = () => {
           </div>
         </div>
       </main>
-      <div className="mt-48  md:mt-0 text-center sm:text-start">
+      <div className="mt-40  sm:mt-0 text-center sm:text-start">
         <div className="mx-5 lg:mx-10 md:pt-28 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-4">
           <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-8">
             <h1 className="text-3xl sm:text-5xl font-bold text-shadow-subtle sub-headers">
