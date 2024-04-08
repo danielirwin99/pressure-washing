@@ -183,10 +183,10 @@ const PressureWashing = () => {
           </div>
         </div>
       </div>
+      <Testimonials />
       <section className=" mb-20 py-2 bg-gray-50 border-t-2 border-b-2 ">
         <Socials />
       </section>
-      <Testimonials />
       <FAQ />
       <Tabs />
 

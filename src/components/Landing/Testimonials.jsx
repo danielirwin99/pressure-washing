@@ -15,7 +15,7 @@ const Testimonials = () => {
     slidesToScroll: 1,
     autoplay: true,
     speed: 2500,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     pauseOnHover: true,
     responsive: [
