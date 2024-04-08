@@ -50,7 +50,7 @@ const PressureWashing = () => {
             <h1 className="text-white sub-headers uppercase text-4xl md:text-6xl tracking-wider font-bold text-shadow">
               High Pressure Cleaning Sydney
             </h1>
-            <h2 className="uppercase text-lg md:text-3xl text-blue-400 brightness-110 font-semibold text-shadow">
+            <h2 className="uppercase text-lg md:text-3xl text-sky-400 brightness-110 font-semibold text-shadow">
               Your heavy-duty cleaning, handled.
             </h2>
             <Link to={"/contact-us"} className="">
