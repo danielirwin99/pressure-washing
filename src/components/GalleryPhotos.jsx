@@ -1,24 +1,5 @@
 import React, { useState } from "react";
-// import {
-//   before1,
-//   before2,
-//   before3,
-//   after1,
-//   after2,
-//   after3,
-//   before5,
-//   after5,
-//   before6,
-//   after6,
-//   before7,
-//   after7,
-//   before8,
-//   after8,
-//   before4,
-//   after4,
-//   before9,
-//   after9,
-// } from "../assets/Gallery/Index";
+
 import {
   ReactCompareSlider,
   ReactCompareSliderImage,

@@ -1,9 +1,9 @@
 import {
   before1,
-  before2,
+  roofbefore,
   before3,
   after1,
-  after2,
+  roofafter,
   after3,
   before5,
   after5,
@@ -25,8 +25,8 @@ const data = [
     img2: after1,
   },
   {
-    img1: before2,
-    img2: after2,
+    img1: roofbefore,
+    img2: roofafter,
   },
   {
     img1: before3,

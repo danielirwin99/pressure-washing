@@ -10,11 +10,8 @@ import {
   after5,
   before6,
   after6,
-  before7,
-  after7,
-  before8,
-  after8,
 } from "../../assets/B&A/Index";
+import { roofbefore, roofafter } from "../../assets/Gallery/Index";
 import {
   ReactCompareSlider,
   ReactCompareSliderImage,
@@ -52,9 +49,9 @@ const Photos = () => {
               <ReactCompareSlider
                 className="w-full"
                 itemOne={
-                  <ReactCompareSliderImage src={before8} alt="Before 2" />
+                  <ReactCompareSliderImage src={before2} alt="Before 2" />
                 }
-                itemTwo={<ReactCompareSliderImage src={after8} alt="After 2" />}
+                itemTwo={<ReactCompareSliderImage src={after2} alt="After 2" />}
               />
             </div>
           </figure>
@@ -63,9 +60,11 @@ const Photos = () => {
               <ReactCompareSlider
                 className="w-full"
                 itemOne={
-                  <ReactCompareSliderImage src={before6} alt="Before 6" />
+                  <ReactCompareSliderImage src={roofbefore} alt="Before 6" />
                 }
-                itemTwo={<ReactCompareSliderImage src={after6} alt="After 6" />}
+                itemTwo={
+                  <ReactCompareSliderImage src={roofafter} alt="After 6" />
+                }
               />
             </div>
           </figure>

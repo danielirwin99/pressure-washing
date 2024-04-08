@@ -1,7 +1,7 @@
-import before2 from "./before2.jpg";
+import roofbefore from "./before2.jpg";
 import after1 from "./after1.jpg";
 import before1 from "./before1.jpg";
-import after2 from "./after2.jpg";
+import roofafter from "./after2.jpg";
 import before3 from "./before3.jpg";
 import after3 from "./after3.jpg";
 import before4 from "./before4.jpg";
@@ -19,9 +19,9 @@ import after9 from "./after9.jpg";
 
 export {
   before1,
-  before2,
+  roofbefore,
+  roofafter,
   after1,
-  after2,
   before3,
   after3,
   before4,
