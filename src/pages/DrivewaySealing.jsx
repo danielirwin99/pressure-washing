@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
 import { sealing, sealing1, sealing2, service2 } from "../assets/index";
@@ -8,6 +8,9 @@ import Socials from "../components/Landing/Socials";
 import Quotes from "../components/Landing/Quotes";
 
 const DrivewaySealing = () => {
+  useEffect(() => {
+    document.title = "Driveway Sealing & Pressure Washing";
+  }, []);
   return (
     <>
       {/* Navbar */}
