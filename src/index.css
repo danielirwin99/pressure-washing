@@ -12,7 +12,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow: none;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeSpeed;
+  font-display: swap;
 }
 
 html {
@@ -230,7 +231,7 @@ html {
 
 .services-tabs {
   position: relative;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
