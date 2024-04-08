@@ -25,7 +25,7 @@ const PressureWashing = () => {
   const slice = data.slice(0, noOfElement);
   return (
     <div className="">
-      <title>High Pressure Cleaning - Pressure Washing Sutherland</title>
+      <title>High Pressure Cleaning - Pressure Washing Sydney</title>
       {/* Navbar */}
       <NavbarServices />
       <main className="relative md:h-[100vh] ">
@@ -45,7 +45,7 @@ const PressureWashing = () => {
           </figure>
           <div className="pt-[150px] md:pt-[300px] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-20">
             <h1 className="text-white sub-headers uppercase text-3xl sm:text-4xl md:text-6xl tracking-wider font-bold text-shadow">
-              High Pressure Cleaning
+              High Pressure Cleaning Sydney
             </h1>
             <h2 className="uppercase text-lg md:text-3xl text-blue-200 font-semibold text-shadow">
               Executed with precision
