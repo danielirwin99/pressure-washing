@@ -31,18 +31,18 @@ const Footer = () => {
             <p className="text-white text-shadow text-xl font-extrabold pb-5 sm:pb-0">
               QUICK LINKS
             </p>
-            <Link to={"/"} className="footerLinks">
+            <a href={"/"} className="footerLinks">
               Home
-            </Link>
-            <Link to={"/about-us"} className="footerLinks">
+            </a>
+            <a href="/about-us" className="footerLinks">
               About Us
-            </Link>
-            <Link to={"/pressure-washing"} className="footerLinks">
+            </a>
+            <a href="/pressure-washing" className="footerLinks">
               Pressure Cleaning
-            </Link>
-            <Link to={"/contact-us"} className="footerLinks">
+            </a>
+            <a href="/contact-us" className="footerLinks">
               Contact Us
-            </Link>
+            </a>
           </ul>
           <div className="w-[330px] mt-8 bg-cyan-400 h-[4px] sm:hidden" />
           <div className="lg:flex flex-col my-10 md:my-0 lg:mt-0 text-xs md:text-sm lg:text-md">
@@ -50,18 +50,18 @@ const Footer = () => {
               <p className="text-white text-xl text-shadow font-extrabold pb-5 sm:pb-0">
                 SERVICES
               </p>
-              <Link to={"/pressure-washing"} className="footerLinks text-sm">
+              <a href="/pressure-washing" className="footerLinks text-sm">
                 Pressure Washing
-              </Link>
-              <Link to={"/sealing"} className="footerLinks text-sm">
+              </a>
+              <a href="/sealing" className="footerLinks text-sm">
                 Driveway Sealing
-              </Link>
-              <Link to={"/window-cleaning"} className="footerLinks text-sm">
+              </a>
+              <a href="/window-cleaning" className="footerLinks text-sm">
                 Window Cleaning
-              </Link>
-              <Link to={"/gutter-cleaning"} className="footerLinks text-sm ">
+              </a>
+              <a href="/gutter-cleaning" className="footerLinks text-sm ">
                 Gutter Cleaning
-              </Link>
+              </a>
             </ul>
           </div>
           <div className="w-[330px] mb-7 bg-cyan-400 h-[4px] sm:hidden" />

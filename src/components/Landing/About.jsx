@@ -75,9 +75,9 @@ const About = () => {
           </a>
         </div> */}
         <div className="w-full flex flex-col justify-center xl:w-3/5 mb-10 text-center lg:text-start xl:mb-0 pr-0 lg:pr-14">
-          <h3 className="text-center uppercase from-gray-700 to-cyan-400 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.3em] font-bold text-md lg:text-lg ">
+          <h1 className="text-center uppercase from-gray-700 to-cyan-400 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.3em] font-bold text-md lg:text-lg ">
             Total Exterior Cleaning
-          </h3>
+          </h1>
           <h2
             className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-5 tracking-wider sub-headers"
             style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
@@ -117,9 +117,9 @@ const About = () => {
             className="quote-now mt-6 md:mt-10 mx-auto template-shadow"
             href="tel:0417477117"
           >
-            <h4 className="font-semibold mb-1 text-md md:text-lg tracking-wide">
+            <h3 className="font-semibold mb-1 text-md md:text-lg tracking-wide">
               Call Now For Your Free Quote
-            </h4>
+            </h3>
             <div className="flex items-center justify-center">
               <div className="flex justify-center items-center space-x-3 ">
                 <BsTelephone />
