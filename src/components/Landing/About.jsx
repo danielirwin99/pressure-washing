@@ -130,7 +130,7 @@ const About = () => {
             </div>
           </a>
         </div>
-        <div className="w-full xl:w-2/5 h-[400px] md:h-[500px] xl:h-[750px] template-shadow rounded-md">
+        <div className="w-full xl:w-2/5 contrast-[1.10] h-[400px] md:h-[500px] xl:h-[750px] template-shadow rounded-md">
           <img
             src={me1}
             alt=""

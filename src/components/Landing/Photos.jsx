@@ -36,7 +36,7 @@ const Photos = () => {
         </h2>
         <div className="mt-5 md:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full">
           <figure className="photos-container">
-            <div className="h-full flex overflow-hidden rounded-md ">
+            <div className="h-full flex contrast-[1.10] overflow-hidden rounded-md ">
               <ReactCompareSlider
                 className="w-full"
                 itemOne={
@@ -48,7 +48,7 @@ const Photos = () => {
           </figure>
 
           <figure className="photos-container hidden md:inline">
-            <div className="h-full flex overflow-hidden rounded-md">
+            <div className="h-full flex contrast-[1.10] overflow-hidden rounded-md">
               <ReactCompareSlider
                 className="w-full"
                 itemOne={
@@ -59,7 +59,7 @@ const Photos = () => {
             </div>
           </figure>
           <figure className="photos-container">
-            <div className="h-full flex overflow-hidden rounded-md">
+            <div className="h-full flex contrast-[1.10] overflow-hidden rounded-md">
               <ReactCompareSlider
                 className="w-full"
                 itemOne={
@@ -71,7 +71,7 @@ const Photos = () => {
           </figure>
 
           <figure className="photos-container">
-            <div className="h-full flex overflow-hidden rounded-md">
+            <div className="h-full flex contrast-[1.10] overflow-hidden rounded-md">
               <ReactCompareSlider
                 className="w-full"
                 itemOne={
@@ -82,7 +82,7 @@ const Photos = () => {
             </div>
           </figure>
           <figure className="photos-container">
-            <div className="h-full flex overflow-hidden rounded-md">
+            <div className="h-full flex overflow-hidden contrast-[1.10] rounded-md">
               <ReactCompareSlider
                 className="w-full"
                 itemOne={

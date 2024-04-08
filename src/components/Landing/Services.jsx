@@ -31,7 +31,7 @@ const Services = () => {
           <img
             src={service1}
             alt="service1"
-            className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
+            className="absolute rounded-sm contrast-[1.10] -z-10 brightness-75 w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl  mr-1" />
           <h2 className="services-header">Driveway Cleaning</h2>
@@ -47,7 +47,7 @@ const Services = () => {
           <img
             src={service5}
             alt="service1"
-            className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
+            className="absolute rounded-sm contrast-[1.10] -z-10 brightness-75 w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl mr-1" />
           <h2 className="services-header">House Washing</h2>
@@ -64,7 +64,7 @@ const Services = () => {
           <img
             src={service4}
             alt="service1"
-            className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
+            className="absolute rounded-sm contrast-[1.10] -z-10 brightness-75  w-full h-full"
           />
           <BsHouseDoor className="text-white text-4xl mr-1" />
           <p className="services-header">Pressure Cleaning</p>
