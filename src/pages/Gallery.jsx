@@ -22,7 +22,12 @@ const Gallery = () => {
         <h3 className="text-center from-gray-700 to-cyan-500 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.15em] font-semibold text-md lg:text-lg ">
           Some Of Our Recent Work
         </h3>
-        <div>
+        <div
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="800"
+        >
           <GalleryPhotos />
         </div>
       </main>

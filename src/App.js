@@ -18,6 +18,11 @@ import SoftWashing from "./pages/SoftWashing";
 import AboutUs from "./pages/AboutUs";
 import ServiceAreas from "./pages/ServiceAreas";
 import ScrollToTop from "./components/UI/ScrollToTop";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+
+AOS.init();
 
 // const router = createBrowserRouter([
 //   {

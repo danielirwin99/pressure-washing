@@ -56,7 +56,11 @@ const PressureWashing = () => {
           </div>
         </div>
       </main>
-      <div className="mt-40  sm:mt-0 text-center sm:text-start">
+      <div
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        className="mt-40  sm:mt-0 text-center sm:text-start"
+      >
         <div className="mx-5 lg:mx-10 md:pt-28 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-4">
           <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-8">
             <h1 className="text-3xl sm:text-5xl font-bold text-shadow-subtle sub-headers">
@@ -181,14 +185,17 @@ const PressureWashing = () => {
           </div>
         </div>
       </div>
-      <Testimonials />
+      <div data-aos="fade-left" data-aos-easing="ease-in-out">
+        <Testimonials />
+      </div>
       <section className=" mb-20 py-2 bg-gray-50 border-t-2 border-b-2 ">
         <Socials />
       </section>
       <FAQ />
       <Tabs />
-
-      <Quotes />
+      <div data-aos="fade-in" data-aos-easing="ease-in-out">
+        <Quotes />
+      </div>
       {/* Footer */}
       <Footer />
     </div>
