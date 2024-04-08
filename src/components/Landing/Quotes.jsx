@@ -69,7 +69,12 @@ const Quotes = () => {
   };
 
   return (
-    <section id="quotes" className=" w-full">
+    <section
+      data-aos="fade-in"
+      data-aos-easing="ease-in-out"
+      id="quotes"
+      className=" w-full"
+    >
       <div className="flex flex-col w-full h-full items-center justify-center py-10 relative">
         <div className="absolute w-full h-full -z-10">
           <img

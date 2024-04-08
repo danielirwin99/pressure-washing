@@ -193,7 +193,7 @@ const PressureWashing = () => {
       </section>
       <FAQ />
       <Tabs />
-      <div data-aos="fade-in" data-aos-easing="ease-in-out">
+      <div >
         <Quotes />
       </div>
       {/* Footer */}

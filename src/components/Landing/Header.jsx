@@ -10,7 +10,7 @@ const Header = () => {
     <>
       <header
         data-aos="fade-in"
-        data-aos-delay="50"
+        data-aos-delay="100"
         data-aos-easing="ease-in-out"
         data-aos-duration="600"
         className="sm:h-[calc(100vh-104px)] h-[calc(100vh-88px)] relative "
