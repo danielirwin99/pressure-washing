@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <section id="services" className="mt-24 max-w-[1700px] mx-5">
+    <section id="services" className="mt-24 max-w-[1700px] lg:mx-auto px-3 mx-5">
       <h3 className="text-center from-gray-700 to-cyan-400 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.3em] font-semibold text-md lg:text-lg ">
         OUR SERVICES
       </h3>

@@ -4,7 +4,7 @@ import { FaCheck } from "react-icons/fa";
 const Benefits = () => {
   return (
     <section id="benefits" className="bg-[#004358] gradient ">
-      <div className="flex flex-col w-full justify-center px-6 lg:px-16 pt-10 pb-5 mt-10">
+      <div className="flex flex-col w-full justify-center max-w-[1700px] px-6 lg:px-16 pt-10 pb-5 mt-10">
         {/* <h3 className="text-[aqua] tracking-[0.3em] font-semibold text-lg ">
           GET A FREE QUOTE TODAY
         </h3> */}

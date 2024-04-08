@@ -106,7 +106,7 @@ const About = () => {
                 all, making us the go-to choice for those seeking professional
                 pressure exterior cleaning services in the region.
               </p>
-              <p className="w-full font-semibold text-center sm:text-start text-lg md:text-xl leading-loose">
+              <p className="w-full font-bold text-center sm:text-start text-lg md:text-xl leading-loose">
                 Are you looking for High Pressure Cleaning services in your
                 local area? &nbsp; <br />
                 Hit the button below and get started!
@@ -114,7 +114,7 @@ const About = () => {
             </li>
           </ul>
           <a
-            className="contact-now !px-10 !mt-6 sm:!mt-20 md:mx-auto template-shadow"
+            className="contact-now !px-10 !mt-6 sm:!mt-20 md:mx-auto template-shadow-subtle"
             href="tel:0417477117"
           >
             <h3 className="font-semibold mb-1 text-shadow-subtle  text-md md:text-lg tracking-wide">
