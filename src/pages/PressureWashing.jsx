@@ -116,7 +116,7 @@ const PressureWashing = () => {
               alt="Pressure Washing"
             />
 
-            <p className="text-shadow-subtle leading-relaxed text-lg md:text-2xl font-semibold">
+            <p className=" leading-relaxed text-lg md:text-2xl font-semibold">
               Contact Us today to schedule your free quote. We'll visit your
               property, provide a transparent, no-obligation estimate, and
               breathe new life into your outdoor areas.

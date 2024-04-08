@@ -1,6 +1,6 @@
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
-import { about } from "../../assets";
+import { about, me1, me2 } from "../../assets";
 
 const About = () => {
   return (
@@ -106,33 +106,33 @@ const About = () => {
                 all, making us the go-to choice for those seeking professional
                 pressure exterior cleaning services in the region.
               </p>
-              <p className="w-full font-semibold text-center sm:text-start md:text-xl leading-loose">
-                Are you looking for high pressure cleaning services in your
+              <p className="w-full font-semibold text-center sm:text-start text-lg md:text-xl leading-loose">
+                Are you looking for High Pressure Cleaning services in your
                 local area? &nbsp; <br />
                 Hit the button below and get started!
               </p>
             </li>
           </ul>
           <a
-            className="quote-now mt-6 md:mt-10 mx-auto template-shadow"
+            className="contact-now !px-10 !mt-6 sm:!mt-20 md:mx-auto template-shadow"
             href="tel:0417477117"
           >
-            <h3 className="font-semibold mb-1 text-md md:text-lg tracking-wide">
-              Call Now For Your Free Quote
+            <h3 className="font-semibold mb-1 text-shadow-subtle  text-md md:text-lg tracking-wide">
+              Call Us for a Free Quote
             </h3>
             <div className="flex items-center justify-center">
               <div className="flex justify-center items-center space-x-3 ">
                 <BsTelephone />
-                <p className="text-center ty font-bold tracking-widest">
+                <p className="text-center text-shadow-subtle font-bold tracking-widest">
                   0417 477 117
                 </p>
               </div>
             </div>
           </a>
         </div>
-        <div className="w-full xl:w-2/5 h-[300px] md:h-[500px] xl:h-auto template-shadow-dark rounded-md">
+        <div className="w-full xl:w-2/5 h-[400px] md:h-[500px] xl:h-[750px] template-shadow rounded-md">
           <img
-            src={about}
+            src={me1}
             alt=""
             className="w-full h-full rounded-md object-cover xl:object-fill"
           />

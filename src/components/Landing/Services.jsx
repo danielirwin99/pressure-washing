@@ -21,9 +21,9 @@ const Services = () => {
         className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider sub-headers"
         style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
       >
-        What We Can Do
+        What We Offer
       </h2>
-      <p className="mt-4 text-[1.2rem] font-normal leading-loose text-center">
+      <p className="mt-4 text-[1.2rem] font-semibold leading-loose text-center">
         Some of our Exterior Cleaning Services Include:
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full  sm:mx-auto mt-5">

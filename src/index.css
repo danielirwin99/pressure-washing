@@ -38,6 +38,10 @@ html {
   text-transform: uppercase;
 }
 
+p {
+  font-family: "Exo 2", sans-serif;
+}
+
 .sub-headers {
   font-family: "Exo 2", sans-serif;
   font-weight: 800;
