@@ -15,7 +15,12 @@ const AboutUs = () => {
             <h1 className="text-3xl lg:text-5xl font-bold text-center sm:text-start   tracking-wider sub-headers">
               About Us
             </h1>
-            <div className="md:flex items-center w-full flex-wrap md:flex-row my-10 flex-grow">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              className="md:flex items-center w-full flex-wrap md:flex-row my-10 flex-grow"
+            >
               <div className="space-y-5 md:pr-14 md:w-2/3">
                 <h2 className="text-xl underline capitalize lg:text-2xl text-center sm:text-start font-bold text-gray-800 tracking-wider sub-headers">
                   Your go-to local guys.
@@ -39,12 +44,12 @@ const AboutUs = () => {
                     Our Goal
                   </h3>
                   <p className="text-center sm:text-start lg:text-xl leading-relaxed">
-                    We currently offer cleaning services all of Sutherland Shire and surrounding
-                    regions. Our mission is to consistently deliver high-quality
-                    workmanship on every project we undertake. <br /> We take
-                    pride in our work, striving to exceed customer expectations
-                    with meticulous attention to detail and a dedication to
-                    customer satisfaction.
+                    We currently offer cleaning services all of Sutherland Shire
+                    and surrounding regions. Our mission is to consistently
+                    deliver high-quality workmanship on every project we
+                    undertake. <br /> We take pride in our work, striving to
+                    exceed customer expectations with meticulous attention to
+                    detail and a dedication to customer satisfaction.
                   </p>
                 </div>
               </div>
@@ -56,7 +61,12 @@ const AboutUs = () => {
                 />
               </div>
             </div>
-            <div className="md:flex items-center w-full  md:flex-row my-10 flex-grow md:pb-5">
+            <div
+              // data-aos="fade-up"
+              // data-aos-duration="700"
+              // data-aos-easing="ease-in-out"
+              className="md:flex items-center w-full md:flex-row my-10 flex-grow md:pb-5"
+            >
               <div className="md:w-1/3 mt-5 lg:h-[450px]  md:mt-0">
                 <img
                   src={me2}
@@ -64,54 +74,69 @@ const AboutUs = () => {
                   alt="TEST"
                 />
               </div>
-              <div className="space-y-3 md:pl-20   pt-10 md:pt-0 lg:pl-40n  md:w-2/3">
-                <h2 className="md:text-2xl text-3xl capitalize xl:text-4xl font-bold text-gray-800 tracking-wider sub-headers">
+
+              <div className="space-y-3 md:pl-20 lg:pl-52  pt-10 md:pt-0 lg:pl-40n  md:w-2/3">
+                <h2 className="md:text-3xl text-3xl capitalize lg:text-4xl xl:text-5xl font-bold text-gray-800 tracking-wider sub-headers">
                   Services We Provide:
                 </h2>
                 <ul className="space-y-4 pt-5 sm:py-5">
                   <li className="flex items-center space-x-4">
                     <FaCheck className="text-5xl w-8 h-8 text-green-400" />
-                    <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
+                    <p className="w-full text-xl lg:text-3xl font-bold text-sky-400 ">
                       Pressure Washing
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
                     <FaCheck className="text-5xl w-8 h-8 text-green-400" />
-                    <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
+                    <p className="w-full text-xl lg:text-3xl font-bold text-sky-400">
                       House Washing
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
                     <FaCheck className="text-5xl w-8 h-8 text-green-400" />
-                    <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
+                    <p className="w-full text-xl lg:text-3xl font-bold text-sky-400">
                       Window Cleaning
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
                     <FaCheck className="text-5xl w-8 h-8 text-green-400" />
-                    <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
+                    <p className="w-full text-xl lg:text-3xl font-bold text-sky-400">
                       Gutter Cleaning
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
                     <FaCheck className="text-5xl w-8 h-8 text-green-400" />
-                    <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
+                    <p className="w-full text-xl lg:text-3xl font-bold text-sky-400">
                       Driveway Sealing
                     </p>
                   </li>
                   <li className="flex items-center space-x-4">
                     <FaCheck className="text-5xl w-8 h-8 text-green-400" />
-                    <p className="w-full text-xl xl:text-2xl font-bold text-cyan-500 underline">
+                    <p className="w-full text-xl lg:text-3xl font-bold text-sky-400">
                       Residential & Commercial
                     </p>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="inline sm:hidden">
-              <img className="rounded-sm contrast-125" src={me3} alt="Third Picture" />
+            <div
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              className="inline sm:hidden"
+            >
+              <img
+                className="rounded-sm contrast-125"
+                src={me3}
+                alt="Third Picture"
+              />
             </div>
-            <p className=" text-center sm:text-xl  leading-8 pt-10 sm:pt-5 pb-10">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              className=" text-center sm:text-xl  leading-8 pt-10 sm:pt-5 pb-10"
+            >
               Call us today on
               <span className="underline font-bold"> 0434 114 479</span> or
               email us on{" "}
@@ -126,7 +151,13 @@ const AboutUs = () => {
             </p>
           </main>
         </div>
-        <Socials />
+        <div
+          data-aos="fade-in"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+        >
+          <Socials />
+        </div>
         <Footer />
       </div>
     </>
