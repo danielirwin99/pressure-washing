@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
 import { gutter1, gutter2, guttercleaning } from "../assets/index";
@@ -9,6 +9,9 @@ import Quotes from "../components/Landing/Quotes";
 import Tabs from "../components/Landing/Tabs";
 
 const GutterCleaning = () => {
+  useEffect(() => {
+    document.title = "Professional Gutter Cleaning";
+  }, []);
   return (
     <>
       {/* Navbar */}

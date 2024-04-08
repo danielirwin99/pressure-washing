@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
 import {
@@ -17,6 +17,10 @@ import Quotes from "../components/Landing/Quotes";
 import Tabs from "../components/Landing/Tabs";
 
 const WindowCleaning = () => {
+  useEffect(() => {
+    document.title = "Professional Window Cleaning";
+  }, []);
+
   return (
     <>
       {/* Navbar */}

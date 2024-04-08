@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
 import { me1, pressurewashing } from "../assets/index";
@@ -19,11 +19,13 @@ const PressureWashing = () => {
   const loadMore = () => {
     setNoOfElement(noOfElement + 2);
   };
+  useEffect(() => {
+    document.title = "High Pressure Cleaning Sydney";
+  }, []);
 
   const slice = data.slice(0, noOfElement);
   return (
     <div className="">
-      <title>High Pressure Cleaning - Pressure Washing Sydney</title>
       {/* Navbar */}
       <NavbarServices />
       <main
