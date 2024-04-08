@@ -4,8 +4,12 @@ import { about, me1, me2 } from "../../assets";
 
 const About = () => {
   return (
-    <section data-aos="fade-right"
-    data-aos-easing="ease-in-out" id="about" className="my-14 max-w-[1700px] mx-auto">
+    <section
+      data-aos="fade-right"
+      data-aos-easing="ease-in-out"
+      id="about"
+      className="my-14 max-w-[1700px] mx-auto"
+    >
       <div className="flex flex-wrap h-full mx-5 lg:mx-10">
         <div className="w-full flex flex-col justify-center xl:w-3/5 mb-10 text-center lg:text-start xl:mb-0 pr-0 lg:pr-14">
           <h1 className="text-center uppercase from-gray-700 to-cyan-400 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.3em] font-bold text-md lg:text-lg ">
