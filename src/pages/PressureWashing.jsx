@@ -20,7 +20,7 @@ const PressureWashing = () => {
     setNoOfElement(noOfElement + 2);
   };
   useEffect(() => {
-    document.title = "Pressure Washing | House Washing Sydney";
+    document.title = "Professional Pressure Washing | House Washing Sydney";
   }, []);
 
   const slice = data.slice(0, noOfElement);
