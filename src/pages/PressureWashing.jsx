@@ -120,9 +120,9 @@ const PressureWashing = () => {
               </span>
             </p>
             <img
-              data-aos="fade-up"
               data-aos-duration="700"
               data-aos-easing="ease-in-out"
+              data-aos="zoom-in-up"
               className="sm:hidden h-[400px] rounded-sm w-full object-cover"
               src={me1}
               alt="Pressure Washing"
@@ -146,7 +146,7 @@ const PressureWashing = () => {
           </div>
           <div
             data-aos="fade-up"
-            data-aos-duration="700"
+            data-aos-duration="500"
             data-aos-easing="ease-in-out"
             className="flex flex-col mx-3 sm:mx-0 sm:flex-row lg:flex-col my-10 lg:mt-0 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]"
           >

@@ -12,18 +12,23 @@ const DrivewaySealing = () => {
     <>
       {/* Navbar */}
       <NavbarServices />
-      <main className="relative md:h-[100vh] w-full">
+      <main
+        className="relative md:h-[100vh] w-full"
+        data-aos="fade-in"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+      >
         {/* Content */}
         <div>
           <figure className="w-full absolute -z-10">
             <img
-              className="w-full object-cover h-[550px] md:h-[100vh] brightness-[.3]"
+              className="w-full object-cover h-[700px] md:h-[100vh] brightness-[.3]"
               src={sealing}
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] mr-4 md:pt-[300px] flex flex-col pl-8 space-y-14 sm:space-y-20">
-            <h1 className="text-white sub-headers uppercase text-4xl sm:text-4xl md:text-6xl tracking-wider font-bold text-shadow">
+          <div className="pt-[150px] md:pt-[300px] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-20">
+            <h1 className="text-white sub-headers uppercase text-4xl md:text-6xl tracking-wider font-bold text-shadow">
               Driveway Sealing
             </h1>
             <h2 className="uppercase text-lg md:text-3xl text-blue-200 font-semibold text-shadow">
@@ -37,9 +42,13 @@ const DrivewaySealing = () => {
           </div>
         </div>
       </main>
-      <div className="mt-52  md:mt-0 text-center sm:text-start">
-        <div className="mx-5 lg:mx-10 md:pt-32 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
-          <div className="lg:w-3/5 space-y-5">
+      <div
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        className=" text-center sm:text-start"
+      >
+        <div className="mx-5 lg:mx-10 pt-72 md:pt-20 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-4">
+          <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-8">
             <h1 className="text-3xl sm:text-4xl font-bold text-shadow-subtle sub-headers">
               Why Seal Your Driveway?
             </h1>
