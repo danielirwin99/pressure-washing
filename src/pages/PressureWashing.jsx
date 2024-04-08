@@ -48,7 +48,7 @@ const PressureWashing = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] md:pt-[300px] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-20">
+          <div className="pt-[150px] md:pt-[300px] md:h-[100vh] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-20">
             <h1 className="text-white sub-headers uppercase text-4xl md:text-6xl tracking-wider font-bold text-shadow">
               High Pressure Cleaning Sydney
             </h1>
@@ -68,7 +68,7 @@ const PressureWashing = () => {
         data-aos-easing="ease-in-out"
         className=" text-center sm:text-start"
       >
-        <div className="mx-5 lg:mx-10 pt-60 sm:pt-10 md:pt-28 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-4">
+        <div className="mx-5 lg:mx-10 pt-60 sm:pt-72 md:pt-14 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-4">
           <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-8">
             <h1 className="text-3xl sm:text-5xl font-bold text-shadow-subtle sub-headers">
               Refresh Your Home with High Pressure Cleaning.
