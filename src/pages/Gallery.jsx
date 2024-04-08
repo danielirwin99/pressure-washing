@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/Footer";
 import Testimonials from "../components/Landing/Testimonials";
 import Navbar from "../components/Navbar";
@@ -6,6 +6,9 @@ import GalleryPhotos from "../components/GalleryPhotos";
 import Socials from "../components/Landing/Socials";
 
 const Gallery = () => {
+  useEffect(() => {
+    document.title = "Professional Pressure Washing | House Washing Sydney";
+  }, []);
   return (
     <>
       {/* Navbar */}
