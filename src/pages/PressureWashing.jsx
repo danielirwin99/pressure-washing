@@ -43,7 +43,7 @@ const PressureWashing = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] md:pt-[300px] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-14">
+          <div className="pt-[150px] md:pt-[300px] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-20">
             <h1 className="text-white sub-headers uppercase text-3xl sm:text-4xl md:text-6xl tracking-wider font-bold text-shadow">
               High Pressure Cleaning
             </h1>
@@ -51,8 +51,8 @@ const PressureWashing = () => {
               Executed with precision
             </h2>
             <Link to={"/contact-us"} className="">
-              <button className="contact-now z-50 !px-6 md:!text-xl ">
-                Claim Your Free Quote
+              <button className="contact-now z-50 !px-10 md:!text-xl ">
+                Get Your Quote!
               </button>
             </Link>
           </div>
@@ -123,10 +123,10 @@ const PressureWashing = () => {
               property, provide a transparent, no-obligation estimate, and
               breathe new life into your outdoor areas.
             </p>
-            <div className="py-4 flex justify-center">
+            <div className="py-8 flex justify-center">
               <Link className="w-full md:w-auto" to={"/contact-us"}>
                 <button className="contact-now w-full md:w-auto !capitalize z-50 md:!text-2xl !text-xl !px-10 !py-4 ">
-                  Contact Us Now
+                  Get Your Free Quote!
                 </button>
               </Link>
             </div>

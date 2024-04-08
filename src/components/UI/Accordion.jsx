@@ -17,16 +17,38 @@ export default function AccordionLanding() {
           className="!bg-gray-200 my-1 !py-1"
         >
           <h2 className="text-center text-[#676767]">
-            I'm worried if you pressure clean our travertine pavers they might
-            get damaged?
+            What is Pressure Washing?
           </h2>
         </AccordionSummary>
         <AccordionDetails>
           <p className="tracking-wide leading-relaxed">
-            We agree, pressure cleaning travertine is a delicate job and should
-            only be left to the professionals, we use a very low pressure and
-            have a blend of chemicals which we can also use on heavily stained
-            areas, which is fine to use around humans, plants and pets.
+            Pressure washing is the process of using a high-pressure stream of
+            water to remove dirt, grime, and other debris from the surface of
+            your home or business. We use this highest quality equipment
+            available on the market so that we can tailor our service to our
+            customers individual needs.
+          </p>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion className="my-3">
+        <AccordionSummary
+          expandIcon={<ArrowDropDownIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+          className="!bg-gray-200 my-1 !py-1"
+        >
+          <h2 className="text-center text-[#676767]">
+            What is the difference between soft washing and pressure washing?
+          </h2>
+        </AccordionSummary>
+        <AccordionDetails>
+          <p className="tracking-wide leading-relaxed">
+            The main difference between soft washing and pressure cleaning is
+            the pressure of the water. Pressure cleaning uses a high-pressure
+            stream of water to remove dirt and grime, while soft washing uses a
+            lower pressure with cleaning solutions. Our team have the experience
+            and knowledge to know what technique to use on your home or
+            property.
           </p>
         </AccordionDetails>
       </Accordion>
