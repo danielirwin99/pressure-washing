@@ -46,7 +46,7 @@ const WindowCleaning = () => {
           </div>
         </div>
       </main>
-      <div className=" mt-52  md:mt-0 text-center sm:text-start">
+      <div className=" mt-44  md:mt-0 text-center sm:text-start">
         <div className="mx-8 lg:mx-5 lg:pt-40 mb-5  lg:mr-6 flex flex-wrap justify-center lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-[60%] mx-5 space-y-8">
             <h1 className="text-3xl sm:text-5xl text-shadow-subtle font-bold tracking-wide leading-snug sub-headers">
