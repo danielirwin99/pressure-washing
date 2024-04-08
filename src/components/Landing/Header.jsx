@@ -8,7 +8,7 @@ const Header = () => {
   // useScrollRestoration()
   return (
     <>
-      <header className="h-[calc(100vh-104px)] relative ">
+      <header className="sm:h-[calc(100vh-104px)] h-[calc(100vh-88px)] relative ">
         {/* FIXED BUTTON */}
         <div className="fixed hidden sm:inline bottom-5 right-4 sm:bottom-7 sm:right-5 z-[995] template-shadow rounded-2xl">
           {/* <ScrollRestoration /> */}
