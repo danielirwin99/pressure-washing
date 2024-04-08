@@ -27,7 +27,7 @@ const Footer = () => {
           </figure>
         </a> */}
         <div className="grid grid-cols-1 px-5 lg:px-0 md:grid-cols-2   lg:grid-cols-3 lg:text-md">
-          <ul className="flex flex-col  md:text-sm lg:text-md ">
+          <div className="flex flex-col  md:text-sm lg:text-md ">
             <p className="text-white text-shadow text-xl font-extrabold pb-5 sm:pb-0">
               QUICK LINKS
             </p>
@@ -43,10 +43,10 @@ const Footer = () => {
             <a href="/contact-us" className="footerLinks">
               Contact Us
             </a>
-          </ul>
+          </div>
           <div className="w-[330px] mt-8 bg-cyan-400 h-[4px] sm:hidden" />
           <div className="lg:flex flex-col my-10 md:my-0 lg:mt-0 text-xs md:text-sm lg:text-md">
-            <ul className="flex flex-col text-xs md:text-sm ">
+            <div className="flex flex-col text-xs md:text-sm ">
               <p className="text-white text-xl text-shadow font-extrabold pb-5 sm:pb-0">
                 SERVICES
               </p>
@@ -62,7 +62,7 @@ const Footer = () => {
               <a href="/gutter-cleaning" className="footerLinks text-sm ">
                 Gutter Cleaning
               </a>
-            </ul>
+            </div>
           </div>
           <div className="w-[330px] mb-7 bg-cyan-400 h-[4px] sm:hidden" />
           <div className="flex flex-col mt-5 lg:mt-0 md:text-sm lg:text-md ">
