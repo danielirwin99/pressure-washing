@@ -29,6 +29,7 @@ const PressureWashing = () => {
       <main
         className="relative md:h-[100vh] "
         data-aos="fade-in"
+        data-aos-duration="700"
         data-aos-easing="ease-in-out"
       >
         <div className="fixed hidden sm:inline bottom-5 right-4 sm:bottom-7 sm:right-5 z-[995] template-shadow rounded-2xl">
@@ -140,7 +141,12 @@ const PressureWashing = () => {
               Check Out Some Of Our Photos!
             </h2>
           </div>
-          <div className="flex flex-col mx-3 sm:mx-0 sm:flex-row lg:flex-col my-10 lg:mt-0 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="700"
+            data-aos-easing="ease-in-out"
+            className="flex flex-col mx-3 sm:mx-0 sm:flex-row lg:flex-col my-10 lg:mt-0 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]"
+          >
             {slice.map((image) => (
               <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
                 <ReactCompareSlider
@@ -195,7 +201,9 @@ const PressureWashing = () => {
       <section className=" mb-20 py-2 bg-gray-50 border-t-2 border-b-2 ">
         <Socials />
       </section>
-      <FAQ />
+      <div>
+        <FAQ />
+      </div>
       <Tabs />
       <div>
         <Quotes />
