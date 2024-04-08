@@ -21,7 +21,7 @@ const WindowCleaning = () => {
     <>
       {/* Navbar */}
       <NavbarServices />
-      <main className="relative md:h-[100vh]">
+      <main className="relative md:h-[100vh] w-full">
         {/* Content */}
         <div>
           <figure className="w-full absolute -z-10">
