@@ -10,9 +10,9 @@ const Navbar = () => {
   return (
     <nav className="top-0 z-[999] w-full bg-white py-1 px-4 xl:px-20 lg:px-10  border-b-gray-200">
       <div className="flex justify-around items-center">
-        <a className="flex items-center justify-center" href="/">
+        <Link className="flex items-center justify-center" to={"/"}>
           <img className="h-20 w-32 sm:h-24 sm:w-40" src={logo} alt="Logo" />
-        </a>
+        </Link>
         <ul className="ms-auto flex lg:space-x-7 xl:space-x-10 items-center ">
           <li className="nav-item hidden lg:flex pr-3">
             <Link className="nav-link" to={"/about-us"}>
@@ -54,9 +54,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item lg:hidden lg:pl-5">
-            <a className="nav-link">
-              <BurgerBar />
-            </a>
+            <BurgerBar />
           </li>
         </ul>
       </div>
