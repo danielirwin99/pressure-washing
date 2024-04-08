@@ -27,7 +27,7 @@ const PressureWashing = () => {
       {/* Navbar */}
       <NavbarServices />
       <main
-        className="relative md:h-[100vh] "
+        className="relative md:h-[100vh] w-full "
         data-aos="fade-in"
         data-aos-duration="700"
         data-aos-easing="ease-in-out"
