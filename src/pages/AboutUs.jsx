@@ -50,7 +50,7 @@ const AboutUs = () => {
               </div>
               <div className="md:w-1/3 mt-8  md:mt-0">
                 <img
-                  className="h-[400px] rounded-sm w-full object-cover"
+                  className="h-[400px] contrast-[1.05] rounded-sm w-full object-cover"
                   src={me1}
                   alt="TEST"
                 />
@@ -109,7 +109,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="inline sm:hidden">
-              <img className="rounded-sm" src={me3} alt="Third Picture" />
+              <img className="rounded-sm contrast-125" src={me3} alt="Third Picture" />
             </div>
             <p className=" text-center sm:text-xl  leading-8 pt-10 sm:pt-5 pb-10">
               Call us today on
