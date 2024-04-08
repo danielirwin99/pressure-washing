@@ -7,9 +7,9 @@ const Tabs = () => {
       <div className="py-6 bg-cyan-500 w-full flex justify-around items-center px-2 md:px-0 ">
         <div className="flex items-center space-x-3">
           <AiOutlineCheckCircle className="text-2xl md:text-3x lg:text-4xl text-white" />
-          <h4 className="font-bold text-xs text-shadow-subtle md:text-md lg:text-xl text-white">
+          <h1 className="font-bold text-xs text-shadow-subtle md:text-md lg:text-xl text-white">
             High Quality Service
-          </h4>
+          </h1>
         </div>
         <div className="sm:flex items-center space-x-3 hidden ">
           <AiOutlineCheckCircle className="text-2xl md:text-3x lg:text-4xl text-white" />
