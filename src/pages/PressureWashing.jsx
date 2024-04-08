@@ -120,6 +120,9 @@ const PressureWashing = () => {
               </span>
             </p>
             <img
+              data-aos="fade-right"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
               className="sm:hidden h-[400px] rounded-sm w-full object-cover"
               src={me1}
               alt="Pressure Washing"
