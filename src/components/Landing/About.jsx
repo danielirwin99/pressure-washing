@@ -5,7 +5,7 @@ import { about, me1, me2 } from "../../assets";
 const About = () => {
   return (
     <section
-      data-aos="fade-right"
+      data-aos="fade-up"
       data-aos-easing="ease-in-out"
       id="about"
       className="my-14 max-w-[1700px] mx-auto"
