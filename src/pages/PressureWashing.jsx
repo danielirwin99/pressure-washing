@@ -51,7 +51,7 @@ const PressureWashing = () => {
               Executed with precision
             </h2>
             <Link to={"/contact-us"} className="">
-              <button className="contact-now z-50 !px-10 md:!text-xl ">
+              <button className="contact-now z-50 !px-10 md:!text-xl template-shadow-subtle ">
                 Get Your Quote!
               </button>
             </Link>
@@ -59,8 +59,8 @@ const PressureWashing = () => {
         </div>
       </main>
       <div className="mt-52  md:mt-0 text-center sm:text-start">
-        <div className="mx-5 lg:mx-10 md:pt-28 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
-          <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-4">
+        <div className="mx-5 lg:mx-10 md:pt-28 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-4">
+          <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-8">
             <h1 className="text-3xl sm:text-5xl font-bold text-shadow-subtle sub-headers">
               Refresh Your Home with High Pressure Cleaning.
             </h1>
@@ -134,7 +134,7 @@ const PressureWashing = () => {
               Check Out Some Of Our Photos!
             </h2>
           </div>
-          <div className="flex flex-col mx-3 sm:mx-0 sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-18 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]">
+          <div className="flex flex-col mx-3 sm:mx-0 sm:flex-row lg:flex-col my-14 lg:mt-0 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]">
             {slice.map((image) => (
               <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
                 <ReactCompareSlider

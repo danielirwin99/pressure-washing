@@ -4,7 +4,7 @@ import { AiOutlineCheckCircle } from "react-icons/ai";
 const Tabs = () => {
   return (
     <section id="tabs" className="my-10">
-      <div className="py-6 bg-cyan-500 w-full flex justify-around items-center px-1 md:px-0 ">
+      <div className="py-6 bg-cyan-500 w-full flex justify-around items-center px-2 md:px-0 ">
         <div className="flex items-center space-x-3">
           <AiOutlineCheckCircle className="text-2xl md:text-3x lg:text-4xl text-white" />
           <h4 className="font-bold text-xs text-shadow-subtle md:text-md lg:text-xl text-white">

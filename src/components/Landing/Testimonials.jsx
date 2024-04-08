@@ -67,7 +67,10 @@ const Testimonials = () => {
       <div className="">
         <Slider {...settings}>
           {data.map((d) => (
-            <div key={d.name} className="bg-white relative grid- text-black text-center rounded-xl">
+            <div
+              key={d.name}
+              className="bg-white relative grid- text-black text-center rounded-xl"
+            >
               <div className="rounded-t-xl flex justify-center items-center">
                 <img src={d.img} className="h-20" alt="" />
               </div>
@@ -96,14 +99,14 @@ const Testimonials = () => {
       </div>
       <div className="mt-14 space-x-4 flex items-center justify-center">
         <a
-          className="contact-now !p-2 sm:!p-3  !text-xs template-shadow"
+          className="contact-now !p-2 sm:!p-3  !text-xs template-shadow-subtle"
           href="https://www.google.com/search?q=total+exterior+cleaning&rlz=1C1VDKB_enAU1092AU1092&oq=total+exterior+cleaning+&gs_lcrp=EgZjaHJvbWUyCggAEEUYFhgeGDkyBwgBEAAYgAQyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yBggFEEUYQTIGCAYQRRg8MgYIBxBFGEHSAQgzNjkxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x61f8ecfb4782edb3:0xb4524df1d6cb3f48,1,,,,"
         >
           See All Reviews
         </a>
         <a
           href="https://g.page/r/CUg_y9bxTVK0EB0/review"
-          className=" !flex contact-now !p-2 sm:!p-3 !text-xs items-center space-x-2 justify-center template-shadow"
+          className=" !flex contact-now !p-2 sm:!p-3 !text-xs items-center space-x-2 justify-center template-shadow-subtle"
         >
           <p>Review Us on</p>
           <FcGoogle className="bg-white rounded-full" />

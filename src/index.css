@@ -82,6 +82,9 @@ html {
 .template-shadow {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
 }
+.template-shadow-subtle {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
 
 .template-shadow-dark {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.32);
