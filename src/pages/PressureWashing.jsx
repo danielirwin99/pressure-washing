@@ -7,8 +7,6 @@ import {
   ReactCompareSlider,
   ReactCompareSliderImage,
 } from "react-compare-slider";
-import { after3, after8, before3, before8 } from "../assets/B&A/Index";
-import { before1, after1 } from "../assets/Gallery/Index";
 import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
 import Quotes from "../components/Landing/Quotes";

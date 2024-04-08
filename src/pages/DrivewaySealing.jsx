@@ -22,8 +22,8 @@ const DrivewaySealing = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] mr-4 md:pt-[300px] flex flex-col pl-8 space-y-10 sm:space-y-20">
-            <h1 className="text-white sub-headers uppercase text-3xl sm:text-4xl md:text-6xl tracking-wider font-bold text-shadow">
+          <div className="pt-[150px] mr-4 md:pt-[300px] flex flex-col pl-8 space-y-14 sm:space-y-20">
+            <h1 className="text-white sub-headers uppercase text-4xl sm:text-4xl md:text-6xl tracking-wider font-bold text-shadow">
               Driveway Sealing
             </h1>
             <h2 className="uppercase text-lg md:text-3xl text-blue-200 font-semibold text-shadow">
