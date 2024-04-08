@@ -99,7 +99,7 @@ const DrivewaySealing = () => {
                 </button>
               </Link>
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-shadow-subtle sub-headers">
+            <h2 className="text-3xl text-center sm:hidden sm:text-4xl font-bold text-shadow-subtle sub-headers">
               Check Out Some Of Our Photos!
             </h2>
           </div>

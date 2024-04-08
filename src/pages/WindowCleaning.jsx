@@ -32,7 +32,7 @@ const WindowCleaning = () => {
             />
           </figure>
           <div className="pt-[200px] md:pt-[300px] flex flex-col pl-10 lg:pl-20 space-y-14">
-            <h1 className="text-white uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
+            <h1 className="text-white sub-headers uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Window Cleaning
             </h1>
             <h2 className="uppercase text-lg md:text-3xl text-white font-semibold text-shadow">
