@@ -374,7 +374,7 @@ p {
 
 @media screen and (max-width: 500px) {
   .services-header {
-    font-size: 16px;
+    font-size: 18px;
     padding: 20px 4px 0 4px;
   }
   .photos-container {
