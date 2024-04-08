@@ -47,7 +47,7 @@ const PressureWashing = () => {
             />
           </figure>
           <div className="pt-[150px] md:pt-[300px] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-20">
-            <h1 className="text-white sub-headers uppercase text-3xl sm:text-4xl md:text-6xl tracking-wider font-bold text-shadow">
+            <h1 className="text-white sub-headers uppercase text-4xl md:text-6xl tracking-wider font-bold text-shadow">
               High Pressure Cleaning Sydney
             </h1>
             <h2 className="uppercase text-lg md:text-3xl text-blue-200 font-semibold text-shadow">
@@ -64,7 +64,7 @@ const PressureWashing = () => {
       <div
         data-aos="fade-up"
         data-aos-easing="ease-in-out"
-        className="mt-72 md:mt-0 text-center sm:text-start"
+        className="mt-64 md:mt-0 text-center sm:text-start"
       >
         <div className="mx-5 lg:mx-10 sm:pt-10 md:pt-28 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-4">
           <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-8">
