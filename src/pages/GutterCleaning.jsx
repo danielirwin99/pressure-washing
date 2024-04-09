@@ -47,7 +47,7 @@ const GutterCleaning = () => {
             <h1 className="text-3xl sm:text-4xl text-shadow md:text-5xl font-bold sub-headers ">
               Telescopic Vacuum Gutter Cleaning
             </h1>
-            <p className="leading-relaxed text-[#66666] pt-8 sm:text-lg ">
+            <p className="leading-relaxed text-[#66666] pt-4 sm:text-lg ">
               At <span className="font-bold"> Total Exterior Cleaning,</span> we
               understand the integral role that well-maintained gutters play in
               preserving the integrity and aesthetic appeal of your home. Our
