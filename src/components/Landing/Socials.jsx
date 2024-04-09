@@ -13,10 +13,10 @@ const Socials = () => {
         >
           Follow Us For More!
         </h2>
-        <div className="mt-8 flex space-x-8 sm:space-x-10 justify-center items-center">
+        <div className="mt-8 flex space-x-6 sm:space-x-10 justify-center items-center">
           <a
             href="https://www.google.com/search?q=total+exterior+cleaning&rlz=1C1CHBF_en-GBAU937AU937&oq=total+exterior+cleaning&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg80gEINDAzMWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8"
-            className="w-11 hover:scale-110 transition duration-100 ease-in-out"
+            className="w-8 sm:w-12 hover:scale-110 transition duration-100 ease-in-out"
           >
             <FcGoogle className="h-full w-full " />
           </a>
@@ -33,7 +33,7 @@ const Socials = () => {
             <BsFacebook className="h-full w-full  text-blue-800" />
           </a>
           <a
-            className="w-10 sm:w-12 hover:scale-110 transition duration-100 ease-in-out"
+            className="w-8 sm:w-12 hover:scale-110 transition duration-100 ease-in-out"
             href="https://www.youtube.com/channel/UCsgfjljDcBb-LcDYvHt-D3w"
           >
             <BsYoutube className="h-full w-full text-red-700" />
