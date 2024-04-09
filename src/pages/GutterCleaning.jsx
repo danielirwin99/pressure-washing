@@ -20,6 +20,12 @@ const GutterCleaning = () => {
   }, []);
   return (
     <>
+      <meta
+        name="description"
+        content="Gutter vacuuming offers a safer, more efficient alternative to
+              traditional methods. By eliminating the need for ladders and
+              enabling easy access to high gutters."
+      />
       {/* Navbar */}
       <NavbarServices />
       <main className="relative md:h-[100vh] w-full">
