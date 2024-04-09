@@ -22,6 +22,7 @@ import guttercleaning from "../assets/gutter.jpg";
 import gutter1 from "../assets/gutter1.jpg";
 import gutter2 from "../assets/gutter2.jpg";
 import gutter3 from "../assets/gutter3.jpg";
+import gutter4 from "../assets/gutter4.jpg";
 import user from "../assets/user.jpg";
 import sealing from "../assets/sealing.jpg";
 import sealing1 from "../assets/sealing1.jpg";
@@ -58,6 +59,7 @@ export {
   gutter1,
   gutter2,
   gutter3,
+  gutter4,
   user,
   sealing,
   sealing1,

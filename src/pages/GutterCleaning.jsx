@@ -1,7 +1,13 @@
 import React, { useEffect } from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
-import { gutter1, gutter2, gutter3, guttercleaning } from "../assets/index";
+import {
+  gutter1,
+  gutter2,
+  gutter3,
+  gutter4,
+  guttercleaning,
+} from "../assets/index";
 import { Link } from "react-router-dom";
 import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
@@ -78,6 +84,14 @@ const GutterCleaning = () => {
               climbing. With powerful suction, it effectively removes debris,
               preventing clogs and preserving gutter integrity.
             </p>
+            <img
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              data-aos="zoom-in-up"
+              className="sm:hidden h-[400px] rounded-sm w-full object-cover"
+              src={gutter4}
+              alt="Gutter Cleaning"
+            />
             <h2 className="text-2xl text-shadow-subtle sm:text-4xl font-semibold text-cyan-500">
               Extending the Lifespan of Your Gutters
             </h2>
@@ -100,29 +114,36 @@ const GutterCleaning = () => {
                 </button>
               </Link>
             </div>
-            <h2 className="text-center sub-headers text-shadow text-3xl font-bold sm:hidden">
+            <h2 className="text-center sub-headers text-shadow text-3xl font-bold lg:hidden">
               Check Out Some Of Our Photos!
             </h2>
           </div>
-          <div className="flex flex-col sm:flex-row lg:flex-col my-10 lg:mt-0 lg:pl-5 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-2/5">
-            <div className="w-full sm:w-1/2 lg:w-full h-[350px] sm:h-[300px] lg:h-[400px] flex  rounded-md">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 w-full my-10 lg:mt-0 lg:pl-5 lg:space-y-5 gap-3 lg:gap-0 lg:space-x-0 justify-center items-center lg:w-2/5">
+            <div className="w-full  lg:w-full h-[350px] lg:h-[400px] flex  rounded-md">
               <img
                 className="w-full  mb-4 sm:mb-0 rounded-md"
                 src={gutter3}
                 alt=""
               />
             </div>
-            <div className="w-full sm:w-1/2 lg:w-full h-[350px] sm:h-[300px] lg:h-[400px] flex  rounded-md">
+            <div className="w-full  lg:w-full h-[350px] lg:h-[400px] flex  rounded-md">
               <img
                 className="w-full mb-4 sm:mb-0 rounded-md"
                 src={gutter1}
                 alt=""
               />
             </div>
-            <div className="w-full sm:w-1/2 lg:w-full h-[350px] sm:h-[300px] lg:h-[400px] flex  rounded-md">
+            <div className="w-full  lg:w-full h-[350px] lg:h-[400px] flex  rounded-md">
               <img
                 className="w-full h-full mb-4 sm:mb-0 rounded-md"
                 src={gutter2}
+                alt=""
+              />
+            </div>
+            <div className="w-full hidden sm:inline-block lg:hidden  mt-4 sm:mt-0 lg:w-full h-[350px]  rounded-md">
+              <img
+                className="w-full h-full mb-4 sm:mb-0 rounded-md"
+                src={gutter4}
                 alt=""
               />
             </div>
