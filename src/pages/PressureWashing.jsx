@@ -26,6 +26,10 @@ const PressureWashing = () => {
   const slice = data.slice(0, noOfElement);
   return (
     <div className="">
+      <meta
+        name="description"
+        content="Sydney's Best Pressure Cleaners. Professional Pressure Washers specialising in high or soft pressure washing."
+      />
       {/* Navbar */}
       <NavbarServices />
       <main
