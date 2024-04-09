@@ -48,8 +48,8 @@ const PressureWashing = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] md:pt-[300px] md:h-[100vh] h-[700px] flex flex-col mx-4 sm:pr-0 lg:pl-32 space-y-10 sm:space-y-20">
-            <h1 className="text-white sub-headers uppercase text-3xl md:text-6xl tracking-wider font-bold text-shadow">
+          <div className="pt-[150px] md:pt-[300px] md:h-[100vh] h-[700px] flex flex-col mx-4 sm:pr-0 lg:pl-32 space-y-14 sm:space-y-20">
+            <h1 className="text-white sub-headers uppercase text-4xl md:text-6xl tracking-wider font-bold text-shadow">
               High Pressure Cleaning Sydney
             </h1>
             <h2 className="uppercase sm:text-lg md:text-3xl text-sky-400 brightness-110 font-semibold text-shadow">
