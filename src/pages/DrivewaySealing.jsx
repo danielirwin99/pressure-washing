@@ -13,6 +13,10 @@ const DrivewaySealing = () => {
   }, []);
   return (
     <>
+      <meta
+        name="description"
+        content="Whether it's grey, coloured or patterned concrete, sealing after a pressure clean is strongly recommended and for the best results."
+      ></meta>
       {/* Navbar */}
       <NavbarServices />
       <main
