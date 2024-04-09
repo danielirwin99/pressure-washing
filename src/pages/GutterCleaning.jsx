@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
-import { gutter1, gutter2, guttercleaning } from "../assets/index";
+import { gutter1, gutter2, gutter3, guttercleaning } from "../assets/index";
 import { Link } from "react-router-dom";
 import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
@@ -26,11 +26,11 @@ const GutterCleaning = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] md:pt-[300px] flex flex-col pl-12 lg:pl-20 space-y-14">
+          <div className="pt-[150px] md:pt-[300px] flex flex-col h-[550px] mx-5 lg:pl-20 space-y-10 sm:space-y-14">
             <h1 className="text-white sub-headers pr-5 sm:pr-0 uppercase text-4xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Gutter Cleaning
             </h1>
-            <h2 className="uppercase text-lg md:text-2xl text-white font-semibold text-shadow">
+            <h2 className="uppercase sm:text-lg md:text-2xl text-white font-semibold text-shadow">
               Efficient gutter cleaning with telescopic vacuum poles.
             </h2>
             <Link to={"/contact-us"} className="">
@@ -41,8 +41,8 @@ const GutterCleaning = () => {
           </div>
         </div>
       </main>
-      <div className="mt-52  md:mt-0 text-center sm:text-start">
-        <div className="ml-10 md:pt-24 mb-5 mr-10 lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-12">
+      <div className="mt-10  md:mt-0 text-center sm:text-start">
+        <div className=" md:pt-24 mb-6 mx-6 sm:mx-10 2xl:mx-16  flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-3/5 space-y-6">
             <h1 className="text-3xl sm:text-4xl text-shadow md:text-5xl font-bold sub-headers ">
               Telescopic Vacuum Gutter Cleaning
@@ -104,23 +104,31 @@ const GutterCleaning = () => {
               Check Out Some Of Our Photos!
             </h2>
           </div>
-          <div className="flex flex-col sm:flex-row lg:flex-col my-14 lg:mt-0  lg:pl-10 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-2/5">
-            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
+          <div className="flex flex-col sm:flex-row lg:flex-col my-10 lg:mt-0 lg:pl-5 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-2/5">
+            <div className="w-full sm:w-1/2 lg:w-full h-[350px] sm:h-[300px] lg:h-[400px] flex  rounded-md">
+              <img
+                className="w-full  mb-4 sm:mb-0 rounded-md"
+                src={gutter3}
+                alt=""
+              />
+            </div>
+            <div className="w-full sm:w-1/2 lg:w-full h-[350px] sm:h-[300px] lg:h-[400px] flex  rounded-md">
               <img
                 className="w-full mb-4 sm:mb-0 rounded-md"
                 src={gutter1}
                 alt=""
               />
             </div>
-            <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-md">
+            <div className="w-full sm:w-1/2 lg:w-full h-[350px] sm:h-[300px] lg:h-[400px] flex  rounded-md">
               <img
-                className="w-full mb-4 sm:mb-0 rounded-md"
+                className="w-full h-full mb-4 sm:mb-0 rounded-md"
                 src={gutter2}
                 alt=""
               />
             </div>
+
             <Link
-              className="hidden sm:inline-block bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+              className="hidden lg:inline-block bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
               to={"/gallery"}
             >
               View More Photos
