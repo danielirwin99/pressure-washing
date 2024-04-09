@@ -25,20 +25,16 @@ const PressureWashing = () => {
 
   const slice = data.slice(0, noOfElement);
   return (
-    <div className="">
+    <div className="relative">
       {/* Navbar */}
       <NavbarServices />
+
       <main
         className="relative md:h-[100vh] w-full "
         data-aos="fade-in"
         data-aos-duration="700"
         data-aos-easing="ease-in-out"
       >
-        <div className="fixed hidden sm:inline bottom-5 right-4 sm:bottom-7 sm:right-5 z-[995] template-shadow rounded-2xl">
-          <Link to={"/contact-us"} className="contact-now mobile">
-            Contact Now
-          </Link>
-        </div>
         {/* Content */}
         <div>
           <figure className="w-full absolute -z-10">
