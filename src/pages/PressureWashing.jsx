@@ -33,6 +33,7 @@ const PressureWashing = () => {
         name="description"
         content="Sydney's Best Pressure Cleaners. Professional Pressure Washers specialising in high or soft pressure washing. Get Your Quote Now"
       />
+      <meta name="robots" content="index,follow" />
       <meta
         name="google-site-verification"
         content="SWXgkCi7EXF1-xtd6L2Fn9tTYDbWaq"
