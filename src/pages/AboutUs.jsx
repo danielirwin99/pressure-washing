@@ -8,6 +8,7 @@ import { FaCheck } from "react-icons/fa";
 const AboutUs = () => {
   return (
     <>
+      
       <div>
         <Navbar />
         <div className="bg-gradient-to-r from-blue-200 to-cyan-200">
