@@ -28,7 +28,23 @@ const PressureWashing = () => {
     <div className="relative">
       {/* Navbar */}
       <NavbarServices />
-
+      {/* META */}
+      <meta
+        name="description"
+        content="Sydney's Best Pressure Cleaners. Professional Pressure Washers specialising in high or soft pressure washing. Get Your Quote Now"
+      />
+      <meta
+        name="google-site-verification"
+        content="SWXgkCi7EXF1-xtd6L2Fn9tTYDbWaq"
+      />
+      <meta
+        name="robots"
+        content="Pressure Cleaning, Window Cleaning, Gutter Cleaning"
+      />
+      <meta
+        name="keywords"
+        content="Pressure Cleaning, Soft Washing, Low Pressure Cleaning, Sydney Pressure Washing, Driveway Cleaning, House Washing"
+      />
       <main
         className="relative md:h-[100vh] w-full "
         data-aos="fade-in"
