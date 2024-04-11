@@ -220,7 +220,7 @@ p {
 
 .quote-now:hover,
 .contact-now:hover {
-  opacity: 0.9;
+  opacity: 0.8;
   box-shadow: rgba(0, 0, 0, 0.2) 0 4px 15px;
 }
 
