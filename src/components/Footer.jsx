@@ -50,18 +50,18 @@ const Footer = () => {
               <p className="text-white text-xl text-shadow font-extrabold pb-5 sm:pb-0">
                 SERVICES
               </p>
-              <a href="/pressure-washing" className="footerLinks text-sm">
+              <Link to={"/pressure-washing"} className="footerLinks text-sm">
                 Pressure Washing
-              </a>
-              <a href="/sealing" className="footerLinks text-sm">
+              </Link>
+              <Link to={"/sealing"} className="footerLinks text-sm">
                 Driveway Sealing
-              </a>
-              <a href="/window-cleaning" className="footerLinks text-sm">
+              </Link>
+              <Link to={"/window-cleaning"} className="footerLinks text-sm">
                 Window Cleaning
-              </a>
-              <a href="/gutter-cleaning" className="footerLinks text-sm ">
+              </Link>
+              <Link to={"/gutter-cleaning"} className="footerLinks text-sm ">
                 Gutter Cleaning
-              </a>
+              </Link>
             </div>
           </div>
           <div className="w-[330px] mb-7 bg-cyan-400 h-[4px] sm:hidden" />
@@ -73,12 +73,13 @@ const Footer = () => {
               We Cater All South Sydney & Illawarra Services <br /> Company
               based in Sydney NSW
             </p>
-            <p className="text-white text-sm space-y-1 py-4">
+            <a
+              href="tel:0417477117"
+              className="text-white text-sm space-y-1 py-4"
+            >
               Phone :{" "}
-              <a href="tel:0417477117" className="hover:underline font-bold">
-                0417 477 117
-              </a>
-            </p>
+              <span className="hover:underline font-bold">0417 477 117</span>
+            </a>
             <p className="text-white text-sm md:text-base  space-y-1 py-4">
               Email:{" "}
               <a
