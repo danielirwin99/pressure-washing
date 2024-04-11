@@ -31,18 +31,18 @@ const Footer = () => {
             <p className="text-white text-shadow text-xl font-extrabold pb-5 sm:pb-0">
               QUICK LINKS
             </p>
-            <a href={"/"} className="footerLinks">
+            <Link to={"/"} className="footerLinks">
               Home
-            </a>
-            <a href="/about-us" className="footerLinks">
+            </Link>
+            <Link to={"/about-us"} className="footerLinks">
               About Us
-            </a>
-            <a href="/pressure-washing" className="footerLinks">
+            </Link>
+            <Link to={"/pressure-washing"} className="footerLinks">
               Pressure Cleaning
-            </a>
-            <a href="/contact-us" className="footerLinks">
+            </Link>
+            <Link to={"/contact-us"} className="footerLinks">
               Contact Us
-            </a>
+            </Link>
           </div>
           <div className="w-[330px] mt-8 bg-cyan-400 h-[4px] sm:hidden" />
           <div className="lg:flex flex-col my-10 md:my-0 lg:mt-0 text-xs md:text-sm lg:text-md">
