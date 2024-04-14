@@ -6,6 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
   ScrollRestoration,
+  Navigate,
 } from "react-router-dom";
 import PressureWashing from "./pages/PressureWashing";
 import Error from "./pages/Error";
@@ -90,7 +91,7 @@ function App() {
             <Route path="gallery" element={<Gallery />} />
             <Route path="soft-washing" element={<SoftWashing />} />
             <Route path="contact-us" element={<Contact />} />
-            <Route path="*" element={<Error />} />
+            <Route path="*" element={<Navigate to={"/"} />} />
           </Routes>
         </Router>
       </>

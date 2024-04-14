@@ -253,10 +253,6 @@ const PressureWashing = () => {
         </div>
         {/* Footer */}
         <Footer />
-        <meta
-          name="description"
-          content="Sydney's Best Pressure Cleaners. Professional Pressure Washers specialising in high or soft pressure washing."
-        />
       </div>
     </>
   );
