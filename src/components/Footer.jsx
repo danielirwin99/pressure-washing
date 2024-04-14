@@ -37,8 +37,8 @@ const Footer = () => {
             <Link to={"/about-us"} className="footerLinks">
               About Us
             </Link>
-            <Link to={"/pressure-washing"} className="footerLinks">
-              Pressure Cleaning
+            <Link to={"/gallery"} className="footerLinks">
+              Gallery
             </Link>
             <Link to={"/contact-us"} className="footerLinks">
               Contact Us
