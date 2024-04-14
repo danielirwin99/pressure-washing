@@ -16,12 +16,11 @@ const Header = () => {
         className="sm:h-[calc(100vh-104px)] h-[calc(100vh-88px)] relative "
       >
         {/* FIXED BUTTON */}
-        <div className="fixed hidden sm:inline bottom-5 right-4 sm:bottom-7 sm:right-5 z-[995] template-shadow rounded-2xl">
-          {/* <ScrollRestoration /> */}
+        {/* <div className="fixed hidden sm:inline bottom-5 right-4 sm:bottom-7 sm:right-5 z-[995] template-shadow rounded-2xl">
           <Link to={"/contact-us"} className="contact-now mobile">
             Contact Now
           </Link>
-        </div>
+        </div> */}
         <div className="absolute w-full h-full -z-10">
           <img
             src={image}

@@ -8,7 +8,6 @@ import { FaCheck } from "react-icons/fa";
 const AboutUs = () => {
   return (
     <>
-      
       <div>
         <Navbar />
         <div className="bg-gradient-to-r from-blue-200 to-cyan-200">
@@ -29,15 +28,16 @@ const AboutUs = () => {
                 <div>
                   <p className=" text-center sm:text-start lg:text-xl leading-relaxed">
                     <span className="font-bold">Total Exterior Cleaning</span>{" "}
-                    is based in the{" "}
-                    <span className="font-bold">Sutherland Shire Region,</span>{" "}
-                    offering a friendly smile as a{" "}
+                    specializes in pressure cleaning and is based in the
                     <span className="font-bold">
-                      family owned and operated business.
+                      Sutherland Shire Region.
                     </span>{" "}
-                    With a commitment to excellence, we employ up-to-date
-                    cutting-edge equipment, ensuring a brilliant finish to all
-                    exterior surfaces.
+                    We pride ourselves on being a{" "}
+                    <span className="font-bold">
+                      family owned and operated business,
+                    </span>{" "}
+                    , committed to excellence. Utilizing cutting-edge equipment,
+                    we ensure a brilliant finish on all exterior surfaces.
                   </p>
                 </div>
                 <div>

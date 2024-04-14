@@ -178,17 +178,20 @@ const PressureWashing = () => {
               className="flex flex-col sm:mx-0 sm:flex-row lg:flex-col my-10 lg:mt-0 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]"
             >
               {slice.map((image) => (
-                <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] flex overflow-hidden rounded-sm">
+                <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] xl:h-[500px] flex overflow-hidden rounded-sm">
                   <ReactCompareSlider
                     className="w-full mb-4 contrast-[1.10] sm:mb-0 rounded-sm"
                     itemOne={
                       <ReactCompareSliderImage
                         src={image.img1}
-                        alt="Before 2"
+                        alt="Pressure Wash Before"
                       />
                     }
                     itemTwo={
-                      <ReactCompareSliderImage src={image.img2} alt="After 2" />
+                      <ReactCompareSliderImage
+                        src={image.img2}
+                        alt="Pressure Wash After"
+                      />
                     }
                   />
                 </div>
