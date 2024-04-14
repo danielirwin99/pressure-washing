@@ -43,7 +43,7 @@ const Header = () => {
           </div>
           <Link
             to={"/contact-us"}
-            className="contact-now !px-8 header-button !rounded-md z-50 md:!text-lg "
+            className="contact-now !px-8 header-button !rounded-sm z-50 md:!text-lg "
           >
             Claim Your Free Quote
           </Link>
