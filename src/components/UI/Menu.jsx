@@ -87,7 +87,7 @@ export default function DropDownMenu() {
               </h3>
             </a>
           </li>
-          <li className="" onClick={handleClose} disableRipple>
+          <li className="" onClick={handleClose} disableRipple>   
             <a href="/window-cleaning">
               <h3 className="text-xl font-bold no-underline hover:opacity-70 transition-all duration-50 text-white">
                 Window Cleaning
