@@ -33,6 +33,10 @@ const PressureWashing = () => {
           name="keywords"
           content="Pressure Cleaning, Window Cleaning, Gutter Cleaning, House Washing"
         />
+        <link
+          rel="canonical"
+          href="https://totalexteriorcleaning.com.au/pressure-washing"
+        />
         <meta name="locale" content="en_US" />
         <meta name="author" content="Total Exterior Cleaning" />
         <meta property="og:site name" content="High Pressure Washing Sydney" />

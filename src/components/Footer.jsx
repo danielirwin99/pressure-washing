@@ -54,11 +54,11 @@ const Footer = () => {
               </p>
               <div
                 onClick={() => navigate("/pressure-washing")}
-                className="footerLinks text-sm"
+                className="footerLinks cursor-pointer text-sm"
               >
                 Pressure Washing
               </div>
-              <a to={"/sealing"} className="footerLinks text-sm">
+              <a href="/sealing" className="footerLinks text-sm">
                 Driveway Sealing
               </a>
               <a href="/window-cleaning" className="footerLinks text-sm">
