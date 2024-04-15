@@ -57,9 +57,7 @@ const NavbarServices = () => {
             </a>
           </li>
           <li className="nav-item lg:hidden lg:pl-5">
-            <a className="nav-link bg-white">
-              <BurgerService />
-            </a>
+            <BurgerService />
           </li>
         </ul>
       </div>
