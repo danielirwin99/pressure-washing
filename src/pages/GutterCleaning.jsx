@@ -55,11 +55,11 @@ const GutterCleaning = () => {
       </main>
       <div className="mt-10  md:mt-0 text-center sm:text-start">
         <div className=" md:pt-24 mb-6 mx-6 sm:mx-10 2xl:mx-16  flex flex-wrap lg:flex-nowrap lg:space-x-12">
-          <div className="lg:w-3/5 space-y-6">
+          <div className="lg:w-3/5 space-y-10">
             <h1 className="text-3xl sm:text-4xl text-shadow md:text-5xl font-bold sub-headers ">
               Telescopic Vacuum Gutter Cleaning
             </h1>
-            <p className="leading-relaxed text-[#66666] pt-4 sm:text-lg ">
+            <p className="leading-relaxed text-[#66666] pt-4 sm:text-xl 2xl:text-2xl 4xl:text-3xl">
               At <span className="font-bold"> Total Exterior Cleaning,</span> we
               understand the integral role that well-maintained gutters play in
               preserving the integrity and aesthetic appeal of your home. Our
@@ -69,7 +69,7 @@ const GutterCleaning = () => {
                 telescopic poles and cameras to safely remove all debris from
                 the ground.{" "}
               </span>
-              <p className="leading-relaxed font-extrabold  text-[#66666] underline pt-2 sm:text-lg lg:text-xl">
+              <p className="leading-relaxed font-extrabold  text-[#66666] underline pt-2 sm:text-lg lg:text-xl 2xl:text-2xl 4xl:text-3xl">
                 This means we won't walk across your roof and potentially crack
                 one of your tiles leading to more issues.
               </p>
@@ -77,7 +77,7 @@ const GutterCleaning = () => {
             <h2 className="text-2xl capitalize text-shadow-subtle sm:text-4xl font-semibold text-cyan-500">
               Gutter Vacuuming Without roof damage
             </h2>
-            <p className="leading-relaxed text-[#66666] sm:text-lg ">
+            <p className="leading-relaxed text-[#66666] sm:text-lg 2xl:text-2xl 4xl:text-3xl ">
               Gutter vacuuming offers a safer, more efficient alternative to
               traditional methods. By eliminating the need for ladders and
               enabling easy access to high gutters.{" "}
@@ -101,14 +101,14 @@ const GutterCleaning = () => {
             <h2 className="text-2xl text-shadow-subtle sm:text-4xl font-semibold text-cyan-500">
               Extending the Lifespan of Your Gutters
             </h2>
-            <p className="leading-relaxed text-[#66666] sm:text-lg  ">
+            <p className="leading-relaxed text-[#66666] sm:text-lg 2xl:text-2xl 4xl:text-3xl  ">
               Regular gutter maintenance is crucial for preventing water damage
               and extending the lifespan of your gutters. With our professional
               vacuuming services, you can trust Total Exterior Cleaning to keep
               your gutters in optimal condition, ensuring they function
               effectively for years to come.
             </p>
-            <p className="text-shadow-subtle leading-relaxed text-lg md:text-2xl font-semibold">
+            <p className="text-shadow-subtle leading-relaxed text-lg md:text-2xl 2xl:text-2xl 4xl:text-3xl font-semibold">
               Contact Us today to schedule your free quote. We'll visit your
               property, provide a transparent, no-obligation estimate, and
               breathe new life into your outdoor areas.
