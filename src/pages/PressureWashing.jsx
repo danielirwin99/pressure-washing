@@ -96,7 +96,7 @@ const PressureWashing = () => {
           data-aos-easing="ease-in-out"
           className=" text-center mx-5 sm:text-start"
         >
-          <div className=" lg:mx-10 pt-20 mb-5  lg:mr-6 sm:flex flex-wrap lg:flex-nowrap lg:space-x-4">
+          <div className=" lg:mx-10 pt-24 mb-5  lg:mr-6 sm:flex flex-wrap lg:flex-nowrap lg:space-x-4">
             <div className="lg:w-[60%] space-y-8 4xl:space-y-14  lg:mx-6 lg:pr-8">
               <h1 className="text-3xl sm:text-5xl 4xl:text-6xl font-bold text-shadow-subtle sub-headers">
                 Refresh Your Home with High Pressure Cleaning.
