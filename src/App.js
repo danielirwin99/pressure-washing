@@ -78,22 +78,20 @@ function App() {
       {/* NEW ROUTER WAY */}
       {/* <RouterProvider router={router} /> */}
       <>
-        <Router>
-          <ScrollToTop />
-          <Routes>
-            <Route path="/" element={<Landing />} />
-            <Route path="about-us" element={<AboutUs />} />
-            <Route path="pressure-washing" element={<PressureWashing />} />
-            <Route path="gutter-cleaning" element={<GutterCleaning />} />
-            <Route path="areas-of-service" element={<ServiceAreas />} />
-            <Route path="window-cleaning" element={<WindowCleaning />} />
-            <Route path="sealing" element={<DrivewaySealing />} />
-            <Route path="gallery" element={<Gallery />} />
-            <Route path="soft-washing" element={<SoftWashing />} />
-            <Route path="contact-us" element={<Contact />} />
-            <Route path="*" element={<Navigate to={"/"} />} />
-          </Routes>
-        </Router>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="about-us" element={<AboutUs />} />
+          <Route path="pressure-washing" element={<PressureWashing />} />
+          <Route path="gutter-cleaning" element={<GutterCleaning />} />
+          <Route path="areas-of-service" element={<ServiceAreas />} />
+          <Route path="window-cleaning" element={<WindowCleaning />} />
+          <Route path="sealing" element={<DrivewaySealing />} />
+          <Route path="gallery" element={<Gallery />} />
+          <Route path="soft-washing" element={<SoftWashing />} />
+          <Route path="contact-us" element={<Contact />} />
+          <Route path="*" element={<Navigate to={"/"} />} />
+        </Routes>
       </>
     </div>
   );
