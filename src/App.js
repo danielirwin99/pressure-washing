@@ -15,12 +15,12 @@ import WindowCleaning from "./pages/WindowCleaning";
 import GutterCleaning from "./pages/GutterCleaning";
 import DrivewaySealing from "./pages/DrivewaySealing";
 import Gallery from "./pages/Gallery";
-import SoftWashing from "./pages/SoftWashing";
 import AboutUs from "./pages/AboutUs";
 import ServiceAreas from "./pages/ServiceAreas";
 import ScrollToTop from "./components/UI/ScrollToTop";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import HouseWashing from "./pages/SoftWashing";
 // ..
 
 AOS.init();
@@ -82,13 +82,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="about-us" element={<AboutUs />} />
-          <Route path="pressure-washing" element={< PressureWashing />} />
+          <Route path="pressure-washing" element={<PressureWashing />} />
           <Route path="gutter-cleaning" element={<GutterCleaning />} />
           <Route path="areas-of-service" element={<ServiceAreas />} />
           <Route path="window-cleaning" element={<WindowCleaning />} />
           <Route path="sealing" element={<DrivewaySealing />} />
           <Route path="gallery" element={<Gallery />} />
-          <Route path="soft-washing" element={<SoftWashing />} />
+          <Route path="house-washing" element={<HouseWashing />} />
           <Route path="contact-us" element={<Contact />} />
           <Route path="*" element={<Navigate to={"/"} />} />
         </Routes>
