@@ -6,14 +6,15 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const StyledMenu = styled((props) => (
   <Menu
+    disableScrollLock={true}
     elevation={0}
     anchorOrigin={{
       vertical: "bottom",
-      horizontal: "right",
+      horizontal: "center",
     }}
     transformOrigin={{
       vertical: "top",
-      horizontal: "right",
+      horizontal: "center",
     }}
     {...props}
   />
@@ -36,7 +37,7 @@ const StyledMenu = styled((props) => (
       "& .MuiSvgIcon-root": {
         fontSize: 18,
         color: theme.palette.text.secondary,
-        marginRight: theme.spacing(1.5),
+        marginRight: theme.spacing(2),
       },
       "&:active": {
         backgroundColor: alpha(
@@ -79,7 +80,7 @@ export default function DropDownMenu() {
         open={open}
         onClose={handleClose}
       >
-        <div className="flex flex-col justify-center py-4 px-10 bg-cyan-500 items-center space-y-5">
+        <div className="flex flex-col justify-center py-4 px-14 bg-cyan-500 items-center space-y-5">
           <li className="" onClick={handleClose} disableRipple>
             <a href="/pressure-washing">
               <h3 className="text-xl font-bold no-underline hover:opacity-70 transition-all duration-50 text-white">
@@ -94,7 +95,7 @@ export default function DropDownMenu() {
               </h3>
             </a>
           </li>
-          <li className="" onClick={handleClose} disableRipple>   
+          <li className="" onClick={handleClose} disableRipple>
             <a href="/window-cleaning">
               <h3 className="text-xl font-bold no-underline hover:opacity-70 transition-all duration-50 text-white">
                 Window Cleaning
