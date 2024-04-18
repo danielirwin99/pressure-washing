@@ -132,7 +132,7 @@ export default function BurgerService() {
                 to={"/sealing"}
                 className="burger__list--header"
               >
-                Driveway Sealing
+                Concrete Sealing
               </Link>
             </div>
             {/* <div className="burger__list--wrapper">

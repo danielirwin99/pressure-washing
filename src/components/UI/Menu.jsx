@@ -87,6 +87,13 @@ export default function DropDownMenu() {
               </h3>
             </a>
           </li>
+          <li className="" onClick={handleClose} disableRipple>
+            <a href="/house-washing">
+              <h3 className="text-xl font-bold no-underline hover:opacity-70 transition-all duration-50 text-white">
+                House Washing
+              </h3>
+            </a>
+          </li>
           <li className="" onClick={handleClose} disableRipple>   
             <a href="/window-cleaning">
               <h3 className="text-xl font-bold no-underline hover:opacity-70 transition-all duration-50 text-white">
@@ -104,7 +111,7 @@ export default function DropDownMenu() {
           <li className="" onClick={handleClose} disableRipple>
             <a href="/sealing">
               <h3 className="text-xl font-bold no-underline hover:opacity-70 transition-all duration-50 text-white">
-                Driveway Sealing
+                Concrete Sealing
               </h3>
             </a>
           </li>

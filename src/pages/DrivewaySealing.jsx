@@ -34,9 +34,9 @@ const DrivewaySealing = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] md:pt-[300px] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-20">
+          <div className="pt-[150px] md:pt-[300px] md:h-[100vh] h-[700px] flex flex-col pl-8 pr-4 sm:pr-0 lg:pl-32 space-y-20">
             <h1 className="text-white sub-headers uppercase text-4xl md:text-6xl tracking-wider font-bold text-shadow">
-              Driveway Sealing
+              Concrete Sealing
             </h1>
             <h2 className="uppercase text-lg md:text-3xl text-blue-200 font-semibold text-shadow">
               Restore and Protect Your Driveway.
@@ -54,7 +54,7 @@ const DrivewaySealing = () => {
         data-aos-easing="ease-in-out"
         className=" text-center sm:text-start"
       >
-        <div className="mx-5 lg:mx-10 pt-72 md:pt-20 mb-5  lg:mr-6 flex flex-wrap lg:flex-nowrap lg:space-x-4">
+        <div className="mx-5 sm:px-10 2xl:max-w-[1800px]  pt-20 mb-5  flex flex-wrap lg:flex-nowrap lg:space-x-20">
           <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-8">
             <h1 className="text-3xl sm:text-4xl font-bold text-shadow-subtle sub-headers">
               Why Seal Your Driveway?
@@ -62,9 +62,9 @@ const DrivewaySealing = () => {
             <p className="leading-relaxed lg:text-xl  text-[#676767]  pt-2 ">
               Your home's exterior is a valuable asset, and strategic
               maintenance is essential for long-term allure. Explore the
-              transformative benefits of driveway sealing and painting—a dynamic
-              duo that protects against the elements, improves aesthetics, and
-              adds value to your property.
+              transformative benefits of driveway sealing that protects against
+              the elements, improves aesthetics, and adds value to your
+              property.
             </p>
             <h2 className="text-2xl sub-headers  sm:text-3xl font-semibold text-cyan-500">
               Weather-Defying Protection
@@ -85,14 +85,14 @@ const DrivewaySealing = () => {
               a lasting impression on potential buyers, contributing to the
               overall appeal of your home.
             </p>
-            <h2 className="text-2xl sub-headers hidden sm:inline-block  sm:text-3xl font-semibold text-cyan-500">
+            <h2 className="text-2xl sub-headers hidden md:inline-block  sm:text-3xl font-semibold text-cyan-500">
               Easy Maintenance
             </h2>
-            <p className="leading-relaxed hidden sm:inline-block  lg:text-xl text-[#676767]">
-              Sealed and painted driveways are easier to clean and maintain.
-              Enjoy a spotless finish with minimal effort, as these treatments
-              minimize the accumulation of dirt and stains, preserving the
-              beauty of your driveway.
+            <p className="leading-relaxed hidden md:inline-block  lg:text-xl text-[#676767]">
+              Sealed driveways make maintenance a breeze. Experience a spotless
+              finish with ease, as sealing acts as a barrier, preventing dirt
+              and stains from accumulating over time, thus preserving the
+              pristine beauty of your driveway for years to come.
             </p>
             <p className="text-shadow-subtle leading-relaxed text-lg md:text-2xl font-semibold">
               Ready to transform your driveway into a durable, aesthetically
