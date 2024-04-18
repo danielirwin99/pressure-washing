@@ -8,7 +8,7 @@ const Socials = () => {
     <section id="socials" className="my-10">
       <div className="flex flex-col justify-center items-center">
         <h2
-          className="text-center text-3xl md:text-4xl font-bold text-gray-800 tracking-wider sub-headers"
+          className="text-center text-3xl md:text-5xl font-bold text-gray-800 tracking-wider sub-headers"
           style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
         >
           Follow Us For More!

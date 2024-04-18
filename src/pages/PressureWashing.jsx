@@ -251,13 +251,13 @@ const PressureWashing = () => {
             </div>
           </div>
         </section>
-        <div data-aos="fade-up" data-aos-easing="ease-in-out">
+        <div className="mt-20" data-aos="fade-up" data-aos-easing="ease-in-out">
           <Testimonials />
         </div>
         <div
           data-aos="fade-in"
           data-aos-easing="ease-in-out"
-          className=" mb-20 py-2  bg-gray-50 border-t-2 border-b-2 "
+          className=" py-5  bg-cyan-200  "
         >
           <Socials />
         </div>

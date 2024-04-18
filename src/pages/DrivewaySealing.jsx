@@ -134,7 +134,7 @@ const DrivewaySealing = () => {
             </div>
           </div>
         </div>
-        <h2 className="text-3xl px-5 py-5 text-center mb-10 sm:mb-0 font-extrabold sub-headers  sm:text-3xl text-cyan-500">
+        <h2 className="text-4xl underline px-5 py-6 text-center mb-10 sm:mb-0 font-extrabold sub-headers  sm:text-4xl text-cyan-500">
           We Offer Pressure Cleaning & Sealing Packages.
         </h2>
       </div>

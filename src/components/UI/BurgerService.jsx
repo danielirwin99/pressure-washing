@@ -90,15 +90,7 @@ export default function BurgerService() {
                 About Us
               </Link>
             </div>
-            <div className="burger__list--wrapper">
-              <Link
-                onClick={handleDrawerClose}
-                to={"/gallery"}
-                className="burger__list--header"
-              >
-                Gallery
-              </Link>
-            </div>
+
             <div className="burger__list--wrapper">
               <Link
                 onClick={handleDrawerClose}
@@ -106,6 +98,15 @@ export default function BurgerService() {
                 className="burger__list--header"
               >
                 Pressure Washing
+              </Link>
+            </div>
+            <div className="burger__list--wrapper">
+              <Link
+                onClick={handleDrawerClose}
+                to={"/house-washing"}
+                className="burger__list--header"
+              >
+                House Washing
               </Link>
             </div>
             <div className="burger__list--wrapper">
@@ -133,6 +134,15 @@ export default function BurgerService() {
                 className="burger__list--header"
               >
                 Concrete Sealing
+              </Link>
+            </div>
+            <div className="burger__list--wrapper">
+              <Link
+                onClick={handleDrawerClose}
+                to={"/gallery"}
+                className="burger__list--header"
+              >
+                Gallery
               </Link>
             </div>
             {/* <div className="burger__list--wrapper">

@@ -59,7 +59,7 @@ const Testimonials = () => {
         Testimonials
       </h3>
       <h2
-        className="text-center text-3xl lg:text-4xl font-bold text-gray-800 mt-7 mb-16 tracking-wider sub-headers"
+        className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 mb-16 tracking-wider sub-headers"
         style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
       >
         What Customers Are Saying
