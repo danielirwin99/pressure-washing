@@ -3,7 +3,6 @@ import { BsHouseDoor, BsArrowRight } from "react-icons/bs";
 import {
   service1,
   service2,
-  service3,
   service4,
   service5,
   service6,
@@ -32,103 +31,115 @@ const Services = () => {
         Some of our Exterior Cleaning Services Include:
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full  sm:mx-auto mt-5">
-        <div className="services-tabs">
+        <div className="services-tabs !overflow-hidden ">
           <img
             src={service1}
             alt="service1"
-            className="absolute rounded-sm contrast-[1.10] -z-10 brightness-75 w-full h-full"
+            className="absolute hover:scale-[1.15] transition-transform duration-1000 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
           />
-          <BsHouseDoor className="text-white text-4xl  mr-1" />
-          <h2 className="services-header">Driveway Cleaning</h2>
-          <Link
-            className="flex justify-center items-center services-quote"
-            to={"/contact-us"}
-          >
-            <p className="text-md text-shadow">Get a Quote</p>
-            <BsArrowRight className="ml-2 text-xl " />
-          </Link>
+          <div className="flex flex-col justify-center items-center z-10">
+            <BsHouseDoor className="text-white text-4xl   mr-1" />
+            <h2 className="services-header">Driveway Cleaning</h2>
+            <Link
+              className="flex justify-center items-center services-quote"
+              to={"/contact-us"}
+            >
+              <p className="text-md text-shadow">Get a Quote</p>
+              <BsArrowRight className="ml-2 text-xl " />
+            </Link>
+          </div>
         </div>
-        <div className="services-tabs">
+        <div className="services-tabs !overflow-hidden ">
           <img
             src={service5}
             alt="service1"
-            className="absolute rounded-sm contrast-[1.10] -z-10 brightness-75 w-full h-full"
+            className="absolute hover:scale-[1.15] transition-transform duration-1000 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
           />
-          <BsHouseDoor className="text-white text-4xl mr-1" />
-          <h2 className="services-header">House Washing</h2>
-          <Link
-            className="flex justify-center items-center services-quote"
-            to={"/contact-us"}
-          >
-            <p className="text-md text-shadow">Get a Quote</p>
-            <BsArrowRight className="ml-2 text-xl" />
-          </Link>
+          <div className="flex flex-col justify-center items-center z-10">
+            <BsHouseDoor className="text-white text-4xl   mr-1" />
+            <h2 className="services-header">House Washing</h2>
+            <Link
+              className="flex justify-center items-center services-quote"
+              to={"/contact-us"}
+            >
+              <p className="text-md text-shadow">Get a Quote</p>
+              <BsArrowRight className="ml-2 text-xl " />
+            </Link>
+          </div>
         </div>
-
-        <div className="services-tabs">
+        <div className="services-tabs !overflow-hidden ">
           <img
             src={service4}
             alt="service1"
-            className="absolute rounded-sm contrast-[1.10] -z-10 brightness-75  w-full h-full"
+            className="absolute hover:scale-[1.15] transition-transform duration-1000 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
           />
-          <BsHouseDoor className="text-white text-4xl mr-1" />
-          <p className="services-header">Pressure Cleaning</p>
-          <Link
-            className="flex justify-center items-center services-quote"
-            to={"/contact-us"}
-          >
-            <p className="text-md text-shadow">Get a Quote</p>
-            <BsArrowRight className="ml-2 text-xl" />
-          </Link>
+          <div className="flex flex-col justify-center items-center z-10">
+            <BsHouseDoor className="text-white text-4xl   mr-1" />
+            <h2 className="services-header">Pressure Cleaning</h2>
+            <Link
+              className="flex justify-center items-center services-quote"
+              to={"/contact-us"}
+            >
+              <p className="text-md text-shadow">Get a Quote</p>
+              <BsArrowRight className="ml-2 text-xl " />
+            </Link>
+          </div>
         </div>
-        <div className="services-tabs ">
+        <div className="services-tabs !overflow-hidden ">
           <img
             src={service6}
             alt="service1"
-            className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
+            className="absolute hover:scale-[1.15] transition-transform duration-1000 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
           />
-          <BsHouseDoor className="text-white text-4xl" />
-          <p className="services-header">Gutter Cleaning</p>
-          <Link
-            className="flex justify-center items-center services-quote"
-            to={"/contact-us"}
-          >
-            <p className="text-md text-shadow">Get a Quote</p>
-            <BsArrowRight className="ml-2 text-xl" />
-          </Link>
+          <div className="flex flex-col justify-center items-center z-10">
+            <BsHouseDoor className="text-white text-4xl   mr-1" />
+            <h2 className="services-header">Gutter Cleaning</h2>
+            <Link
+              className="flex justify-center items-center services-quote"
+              to={"/contact-us"}
+            >
+              <p className="text-md text-shadow">Get a Quote</p>
+              <BsArrowRight className="ml-2 text-xl " />
+            </Link>
+          </div>
         </div>
-        <div className="services-tabs">
+        <div className="services-tabs !overflow-hidden ">
           <img
             src={servicewindow}
             alt="service1"
-            className="absolute rounded-sm -z-10 brightness-75  w-full h-full"
+            className="absolute hover:scale-[1.15] transition-transform duration-1000 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
           />
-          <BsHouseDoor className="text-white text-4xl" />
-          <p className="services-header md:ml-0">Window Cleaning</p>
-          <Link
-            className="flex justify-center items-center services-quote "
-            to={"/contact-us"}
-          >
-            <p className="text-md text-shadow">Get a Quote</p>
-            <BsArrowRight className="ml-2 text-xl" />
-          </Link>
+          <div className="flex flex-col justify-center items-center z-10">
+            <BsHouseDoor className="text-white text-4xl   mr-1" />
+            <h2 className="services-header">Window Cleaning</h2>
+            <Link
+              className="flex justify-center items-center services-quote"
+              to={"/contact-us"}
+            >
+              <p className="text-md text-shadow">Get a Quote</p>
+              <BsArrowRight className="ml-2 text-xl " />
+            </Link>
+          </div>
         </div>
-        <div className="services-tabs ">
+        <div className="services-tabs !overflow-hidden ">
           <img
             src={service2}
             alt="service1"
-            className="absolute rounded-sm -z-10 brightness-75 w-full h-full"
+            className="absolute hover:scale-[1.15] transition-transform duration-1000 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
           />
-          <BsHouseDoor className="text-white text-4xl  mr-1" />
-          <p className="services-header">Driveway Sealing</p>
-          <Link
-            className="flex justify-center items-center services-quote"
-            to={"/contact-us"}
-          >
-            <p className="text-md ">Get a Quote</p>
-            <BsArrowRight className="ml-2 text-xl" />
-          </Link>
+          <div className="flex flex-col justify-center items-center z-10">
+            <BsHouseDoor className="text-white text-4xl   mr-1" />
+            <h2 className="services-header">Concrete Sealing</h2>
+            <Link
+              className="flex justify-center items-center services-quote"
+              to={"/contact-us"}
+            >
+              <p className="text-md text-shadow">Get a Quote</p>
+              <BsArrowRight className="ml-2 text-xl " />
+            </Link>
+          </div>
         </div>
+        
       </div>
     </section>
   );
