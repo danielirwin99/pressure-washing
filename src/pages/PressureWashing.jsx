@@ -14,6 +14,7 @@ import Tabs from "../components/Landing/Tabs";
 import FAQ from "../components/Landing/FAQ";
 import data from "../data/imageslider";
 import { Helmet } from "react-helmet";
+import { motion } from "framer-motion";
 
 const PressureWashing = () => {
   const [noOfElement, setNoOfElement] = useState(3);
@@ -21,7 +22,8 @@ const PressureWashing = () => {
     setNoOfElement(noOfElement + 2);
   };
   useEffect(() => {
-    document.title = "Sydney Professional Pressure Washing | House Washing Sydney";
+    document.title =
+      "Sydney Professional Pressure Washing | House Washing Sydney";
   }, []);
 
   const slice = data.slice(0, noOfElement);
@@ -90,18 +92,34 @@ const PressureWashing = () => {
               </Link>
             </div>
           </div>
+          <div className="absolute xs:bottom-10 bottom-8 w-full hidden sm:flex justify-center items-center">
+            <a href="#content">
+              <div className="w-[34px] h-[56px] rounded-3xl border-4 border-white flex justify-center items-start p-2">
+                <motion.div
+                  animate={{ y: [0, 18, 0] }}
+                  transition={{
+                    duration: 2,
+                    repeat: Infinity,
+                    repeatType: "loop",
+                  }}
+                  className="w-2 h-3 rounded-full bg-white mb-1"
+                />
+              </div>
+            </a>
+          </div>
         </main>
-        <div
+        <section
+          id="content"
           data-aos="fade-up"
           data-aos-easing="ease-in-out"
-          className=" text-center mx-5 sm:text-start"
+          className=" text-center mx-10 sm:text-start"
         >
-          <div className=" lg:px-10 pt-24 mb-5 2xl:max-w-[1700px] mx-auto  sm:flex flex-wrap lg:flex-nowrap lg:space-x-20">
+          <div className=" lg:px-10 pt-20 mb-5 2xl:max-w-[1700px] mx-auto  sm:flex flex-wrap lg:flex-nowrap lg:space-x-20">
             <div className="lg:w-[60%] space-y-8 4xl:space-y-14  lg:mx-6 ">
               <h1 className="text-3xl sm:text-5xl 4xl:text-6xl font-bold text-shadow-subtle sub-headers">
                 Refresh Your Home with High Pressure Cleaning.
               </h1>
-              <p className="leading-relaxed lg:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]  pt-2  ">
+              <p className="leading-relaxed md:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]  pt-2  ">
                 <span className="font-bold"> Total Exterior Cleaning</span> are
                 your go-to local pressure cleaners for professional exterior
                 cleaning services in Sydney. Whether you own a residential
@@ -116,7 +134,7 @@ const PressureWashing = () => {
                 House Pressure Cleaning In Sydney For Freshness Of Your Home
               </h2>
 
-              <p className="leading-relaxed xl:text-2xl  lg:text-xl 4xl:text-3xl text-[#66666]  ">
+              <p className="leading-relaxed xl:text-2xl  md:text-xl 4xl:text-3xl text-[#66666]  ">
                 Our team at Total Exterior Cleaning utilizes cutting-edge
                 pressure cleaning technology to deliver efficient and quality
                 results. We employ the latest industrial-grade equipment,
@@ -131,7 +149,7 @@ const PressureWashing = () => {
               <h2 className="text-3xl hidden sub-headers 4xl:text-5xl !mb-5 sm:flex md:text-3xl xl:text-4xl font-semibold text-cyan-500">
                 Preservation and Protection
               </h2>
-              <p className="leading-relaxed pt-4 xl:text-2xl hidden 4xl:text-3xl lg:text-xl text-[#66666] sm:inline">
+              <p className="leading-relaxed pt-4 xl:text-2xl hidden 4xl:text-3xl md:text-xl text-[#66666] sm:inline">
                 {" "}
                 Beyond the aesthetic benefits, our high-pressure cleaning
                 services contribute to the preservation and protection of your
@@ -218,13 +236,13 @@ const PressureWashing = () => {
             </div> */}
               <div className="flex items-center  justify-center mt-7">
                 <Link
-                  className="hidden  sm:inline-block bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+                  className="hidden  lg:inline-block bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
                   to={"/gallery"}
                 >
                   View More Photos
                 </Link>
                 <button
-                  className="sm:hidden inline-block bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+                  className="sm:hidden inline bg-white text-center hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
                   onClick={() => loadMore()}
                 >
                   Load More
@@ -232,7 +250,7 @@ const PressureWashing = () => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
         <div data-aos="fade-up" data-aos-easing="ease-in-out">
           <Testimonials />
         </div>

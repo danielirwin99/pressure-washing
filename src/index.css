@@ -31,6 +31,10 @@ html {
   scroll-margin-top: 70px;
 }
 
+#content {
+  scroll-margin-top: 70px;
+}
+
 .header-title {
   font-family: "Exo 2", sans-serif;
   font-weight: 800;

@@ -3,9 +3,9 @@ import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
 import {
   me2,
-  window1,
+  // window1,
   window2,
-  window3,
+  // window3,
   window6,
   window7,
   windows,
