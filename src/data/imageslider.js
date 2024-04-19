@@ -17,6 +17,16 @@ import {
   after4,
   before9,
   after9,
+  before10,
+  after10,
+  after11,
+  before11,
+  before12,
+  after12,
+  before13,
+  after13,
+  before14,
+  after14,
 } from "../assets/Gallery/Index";
 
 const data = [
@@ -55,6 +65,34 @@ const data = [
   {
     img1: before9,
     img2: after9,
+  },
+  {
+    img1: before9,
+    img2: after9,
+  },
+  {
+    img1: before9,
+    img2: after9,
+  },
+  {
+    img1: before10,
+    img2: after10,
+  },
+  {
+    img1: before11,
+    img2: after11,
+  },
+  {
+    img1: before12,
+    img2: after12,
+  },
+  {
+    img1: before13,
+    img2: after13,
+  },
+  {
+    img1: before14,
+    img2: after14,
   },
 ];
 
