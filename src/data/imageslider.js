@@ -67,14 +67,6 @@ const data = [
     img2: after9,
   },
   {
-    img1: before9,
-    img2: after9,
-  },
-  {
-    img1: before9,
-    img2: after9,
-  },
-  {
     img1: before10,
     img2: after10,
   },
