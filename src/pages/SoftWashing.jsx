@@ -28,7 +28,7 @@ const HouseWashing = () => {
   const slice = data.slice(0, noOfElement);
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>House Washing Sydney | Pressure Washing Professionals</title>
         <meta
           name="keywords"
@@ -59,7 +59,7 @@ const HouseWashing = () => {
           content="Sydney's Best Pressure Cleaners. Professional Pressure Washers specialising in high or soft pressure washing. Get Your Quote Now"
         />
         <meta name="robots" content="index,follow" />
-      </Helmet>
+      </Helmet> */}
       <div className="relative">
         {/* Navbar */}
         <NavbarServices />

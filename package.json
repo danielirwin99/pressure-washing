@@ -13,6 +13,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@vercel/analytics": "^1.2.2",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.2",
     "emailjs": "^4.0.3",
@@ -36,7 +37,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "set  \"GENERATE_SOURCEMAP=true\" && react-scripts build" ,
+    "build": "set  \"GENERATE_SOURCEMAP=true\" && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

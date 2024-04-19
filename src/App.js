@@ -1,4 +1,5 @@
 import Landing from "./pages/Landing";
+import { Analytics } from "@vercel/analytics/react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -75,6 +76,7 @@ AOS.init();
 function App() {
   return (
     <div>
+      <Analytics />
       {/* NEW ROUTER WAY */}
       {/* <RouterProvider router={router} /> */}
       <>
