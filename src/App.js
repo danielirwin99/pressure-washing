@@ -90,7 +90,7 @@ function App() {
           <Route path="window-cleaning" element={<WindowCleaning />} />
           <Route path="sealing" element={<DrivewaySealing />} />
           <Route path="gallery" element={<Gallery />} />
-          <Route path="house-washing" element={<PressureWashing />} />
+          {/* <Route path="house-washing" element={<HouseWashing />} /> */}
           <Route path="contact-us" element={<Contact />} />
           <Route path="*" element={<Navigate to={"/"} />} />
         </Routes>
