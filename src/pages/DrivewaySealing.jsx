@@ -52,10 +52,10 @@ const DrivewaySealing = () => {
       <div
         data-aos="fade-up"
         data-aos-easing="ease-in-out"
-        className=" text-center sm:text-start"
+        className=" text-center sm:text-start mx-10"
       >
-        <div className="mx-5 sm:px-10 2xl:max-w-[1800px]  pt-20 mb-5  flex flex-wrap lg:flex-nowrap lg:space-x-20">
-          <div className="lg:w-[60%] space-y-8  lg:mx-6 lg:pr-8">
+        <div className="sm:px-10 2xl:max-w-[1800px] mx-auto pt-20 mb-5  flex flex-wrap lg:flex-nowrap lg:space-x-20">
+          <div className="lg:w-[60%] space-y-8  lg:mx-6 ">
             <h1 className="text-3xl sm:text-4xl font-bold text-shadow-subtle sub-headers">
               Why Seal Your Driveway?
             </h1>
