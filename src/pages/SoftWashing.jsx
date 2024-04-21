@@ -103,30 +103,25 @@ const HouseWashing = () => {
           <div className=" lg:mx-10 pt-24 mb-5  lg:mr-6 sm:flex flex-wrap lg:flex-nowrap lg:space-x-4">
             <div className="lg:w-[60%] space-y-8 4xl:space-y-14  lg:mx-6 lg:pr-8">
               <h1 className="text-3xl sm:text-5xl 4xl:text-6xl font-bold text-shadow-subtle sub-headers">
-                Refresh Your Home with High Pressure Cleaning.
+                Transform Your Home with Expert House Washing Services"
               </h1>
               <p className="leading-relaxed lg:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]  pt-2  ">
-                <span className="font-bold"> Total Exterior Cleaning</span> are
-                your go-to local pressure cleaners for professional exterior
-                cleaning services in Sydney. Whether you own a residential
-                property or a commercial space, our{" "}
-                <span className="font-bold">
-                  family owned and operated business
-                </span>{" "}
-                is here to help you restore your property back to its original
-                state.
+                Elevate the appearance and cleanliness of your home with
+                professional house washing services. Our expert team specializes
+                in restoring the beauty of your property by thoroughly cleaning
+                all exterior surfaces. From removing dirt, grime, and mold to
+                revitalizing siding, driveways, and decks, we ensure that your
+                home shines like new.
               </p>
               <h2 className="text-2xl sub-headers 4xl:text-5xl sm:text-3xl xl:text-4xl font-semibold text-cyan-500">
-                House Pressure Cleaning In Sydney For Freshness Of Your Home
+                Green or Black stains on your house? We Can Clean It.
               </h2>
-
               <p className="leading-relaxed xl:text-2xl  lg:text-xl 4xl:text-3xl text-[#66666]  ">
-                Our team at Total Exterior Cleaning utilizes cutting-edge
-                pressure cleaning technology to deliver efficient and quality
-                results. We employ the latest industrial-grade equipment,
-                coupled with extensive knowledge and experience, to apply
-                high-pressure cleaning methods to surfaces such as driveways,
-                pavers, patios, concrete floors, and pathways.{" "}
+                Our team at Total Exterior Cleaning utilizes cutting-edge house
+                washing technology to deliver efficient and quality results. We
+                employ the latest industrial-grade equipment, coupled with
+                extensive knowledge and experience, to apply safe house washing
+                methods using a soft wash mix.
                 <span className="hidden xl:flex">
                   This approach ensures a thorough and lasting clean, removing
                   dirt, mold, mildew, and stains.
