@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/pressure-washing", (req, res) => {
+app.get("/pressure-wash", (req, res) => {
   const filePath = path.resolve(__dirname, "./build", "index.html");
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {

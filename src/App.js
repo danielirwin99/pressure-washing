@@ -84,7 +84,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="about-us" element={<AboutUs />} />
-          <Route path="pressure-washing" element={<PressureWashing />} />
+          <Route path="pressure-wash" element={<PressureWashing />} />
           <Route path="gutter-cleaning" element={<GutterCleaning />} />
           <Route path="areas-of-service" element={<ServiceAreas />} />
           <Route path="window-cleaning" element={<WindowCleaning />} />

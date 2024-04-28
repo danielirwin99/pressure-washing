@@ -82,7 +82,7 @@ export default function DropDownMenu() {
       >
         <div className="flex flex-col justify-center py-6 px-10 bg-cyan-500 items-center space-y-8">
           <li className="" onClick={handleClose} disableRipple>
-            <a href="/pressure-washing">
+            <a href="/pressure-wash">
               <h3 className="text-xl font-bold no-underline hover:opacity-70 transition-all duration-50 text-white">
                 Pressure Cleaning
               </h3>

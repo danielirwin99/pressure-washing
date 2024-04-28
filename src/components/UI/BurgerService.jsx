@@ -94,7 +94,7 @@ export default function BurgerService() {
             <div className="burger__list--wrapper">
               <Link
                 onClick={handleDrawerClose}
-                to={"/pressure-washing"}
+                to={"/pressure-wash"}
                 className="burger__list--header"
               >
                 Pressure Washing

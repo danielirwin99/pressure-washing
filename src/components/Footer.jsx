@@ -52,7 +52,7 @@ const Footer = () => {
               <p className="text-white text-xl text-shadow font-extrabold pb-5 sm:pb-0">
                 SERVICES
               </p>
-              <a href="/pressure-washing" className="footerLinks text-sm">
+              <a href="/pressure-wash" className="footerLinks text-sm">
                 Pressure Washing
               </a>
               <a href="/sealing" className="footerLinks text-sm">
