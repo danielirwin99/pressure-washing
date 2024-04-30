@@ -132,8 +132,8 @@ const PressureWashing = () => {
                 is here to help you restore your property back to its original
                 state.
               </p>
-              <h2 className="text-2xl sub-headers 4xl:text-5xl sm:text-3xl xl:text-4xl font-semibold text-cyan-500">
-                House Pressure Cleaning In Sydney For Freshness Of Your Home
+              <h2 className="text-3xl sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
+                Quality Comes First
               </h2>
 
               <p className="leading-relaxed xl:text-xl  md:text-xl 4xl:text-3xl text-[#66666]  ">
