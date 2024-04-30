@@ -13,7 +13,7 @@ import Quotes from "../components/Landing/Quotes";
 import Tabs from "../components/Landing/Tabs";
 import FAQ from "../components/Landing/FAQ";
 import data from "../data/imageslider";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { motion } from "framer-motion";
 import Services from "../components/Services";
 
@@ -30,36 +30,41 @@ const PressureWashing = () => {
   const slice = data.slice(0, noOfElement);
   return (
     <>
-      <Helmet>
-        <title>Professional Pressure Washing | House Washing Sydney</title>
-        <meta
-          name="keywords"
-          content="Pressure Cleaning, Window Cleaning, Gutter Cleaning, House Washing"
-        />
+      <HelmetProvider>
+        <Helmet>
+          <title>Professional Pressure Washing | House Washing Sydney</title>
+          <meta
+            name="keywords"
+            content="Pressure Cleaning, Window Cleaning, Gutter Cleaning, House Washing"
+          />
 
-        <meta name="locale" content="en_US" />
-        <meta name="author" content="Total Exterior Cleaning" />
-        <meta property="og:site name" content="High Pressure Washing Sydney" />
-        <meta
-          property="og:title"
-          content="Professional Pressure Washing | House Washing Sydney"
-        />
-        <meta
-          property="og:description"
-          content="Sydney's Best Pressure Cleaners. Professional Pressure Washers specialising in high or soft pressure washing. Get Your Quote Now"
-        />
-        <meta
-          property="og:url"
-          content={window.location.pathname + window.location.search}
-        />
+          <meta name="locale" content="en_US" />
+          <meta name="author" content="Total Exterior Cleaning" />
+          <meta
+            property="og:site name"
+            content="High Pressure Washing Sydney"
+          />
+          <meta
+            property="og:title"
+            content="Professional Pressure Washing | House Washing Sydney"
+          />
+          <meta
+            property="og:description"
+            content="Sydney's Best Pressure Cleaners. Professional Pressure Washers specialising in high or soft pressure washing. Get Your Quote Now"
+          />
+          <meta
+            property="og:url"
+            content={window.location.pathname + window.location.search}
+          />
 
-        <meta
-          name="description"
-          content="Sydney's Best Pressure Cleaners. Professional Pressure Washers specialising in high or soft pressure washing. Get Your Quote Now"
-        />
+          <meta
+            name="description"
+            content="Sydney's Best Pressure Cleaners. Professional Pressure Washers specialising in high or soft pressure washing. Get Your Quote Now"
+          />
 
-        <meta name="robots" content="index,follow" />
-      </Helmet>
+          <meta name="robots" content="index,follow" />
+        </Helmet>
+      </HelmetProvider>
       <div className="relative">
         {/* Navbar */}
         <NavbarServices />
