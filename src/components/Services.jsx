@@ -7,7 +7,7 @@ import {
   service5,
   service6,
   servicewindow,
-} from "../../assets";
+} from "../assets";
 import { Link } from "react-router-dom";
 
 const Services = () => {

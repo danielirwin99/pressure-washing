@@ -15,6 +15,7 @@ import FAQ from "../components/Landing/FAQ";
 import data from "../data/imageslider";
 import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
+import Services from "../components/Services";
 
 const PressureWashing = () => {
   const [noOfElement, setNoOfElement] = useState(3);
@@ -115,7 +116,7 @@ const PressureWashing = () => {
           data-aos-easing="ease-in-out"
           className=" text-center mx-10 sm:text-start"
         >
-          <div className=" lg:px-10 pt-16 sm:pt-20 mb-5 2xl:max-w-[1800px] mx-auto  sm:flex flex-wrap lg:flex-nowrap lg:space-x-20">
+          <div className=" xl:px-10 pt-16 sm:pt-20 mb-5 2xl:max-w-[1800px] mx-auto  sm:flex flex-wrap lg:flex-nowrap lg:space-x-20">
             <div className="lg:w-[60%] space-y-8 4xl:space-y-14  lg:mx-6 ">
               <h1 className="text-3xl sm:text-5xl 4xl:text-6xl font-bold text-shadow-subtle sub-headers">
                 Refresh Your Home with High Pressure Cleaning.
@@ -171,7 +172,7 @@ const PressureWashing = () => {
                 data-aos-duration="700"
                 data-aos-easing="ease-in-out"
                 data-aos="zoom-in-up"
-                className="sm:hidden h-[400px] rounded-sm w-full object-cover"
+                className="md:hidden h-[400px] rounded-sm w-full object-cover"
                 src={me1}
                 alt="Pressure Washing"
               />
@@ -254,6 +255,9 @@ const PressureWashing = () => {
         </section>
         <div className="mt-20" data-aos="fade-up" data-aos-easing="ease-in-out">
           <Testimonials />
+        </div>
+        <div className="mb-10 sm:mx-5">
+          <Services />
         </div>
         <div
           data-aos="fade-in"
