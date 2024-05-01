@@ -8,7 +8,7 @@ const About = () => {
       data-aos="fade-up"
       data-aos-easing="ease-in-out"
       id="about"
-      className="my-14 max-w-[1700px] mx-auto"
+      className="mt-14 mb-6 max-w-[1700px] mx-auto"
     >
       <div className="flex flex-wrap h-full mx-5 lg:mx-10">
         <div className="w-full flex flex-col justify-center xl:w-3/5 mb-10 text-center lg:text-start xl:mb-0 pr-0 lg:pr-14">
@@ -40,15 +40,15 @@ const About = () => {
                 data-aos="fade-in"
                 data-aos-duration="700"
                 data-aos-easing="ease-in-out"
-                className="w-full xl:w-2/5 contrast-[1.10] h-[400px] md:h-[500px] xl:h-[750px] template-shadow rounded-md"
+                className="w-full xl:w-2/5 sm:hidden contrast-[1.10] h-[400px] md:h-[500px] xl:h-[750px] template-shadow rounded-md"
               >
                 <img
                   src={me1}
                   alt=""
-                  className="w-full h-full rounded-sm object-cover xl:object-fill"
+                  className="w-full h-full rounded-md object-cover xl:object-fill"
                 />
               </div>
-              <p className="w-full text-center sm:text-start md:text-xl leading-relaxed">
+              <p className="w-full text-center sm:text-start md:text-xl leading-loose">
                 Our professional team takes pride in providing reliable and
                 friendly service, all while maintaining affordability. From
                 residential spaces to commercial establishments, we cover it
@@ -78,6 +78,18 @@ const About = () => {
               </div>
             </div>
           </a>
+        </div>
+        <div
+          data-aos="fade-in"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+          className="w-full hidden sm:inline xl:w-2/5 contrast-[1.10] h-[400px] md:h-[500px] xl:h-[750px] template-shadow rounded-sm"
+        >
+          <img
+            src={me1}
+            alt=""
+            className="w-full h-full rounded-sm object-cover xl:object-fill"
+          />
         </div>
       </div>
     </section>
