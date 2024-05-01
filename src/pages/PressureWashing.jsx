@@ -137,22 +137,29 @@ const PressureWashing = () => {
                 is here to help you restore your property back to its original
                 state.
               </p>
+              <img
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos="zoom-in-up"
+                className="md:hidden h-[400px] rounded-sm w-full object-cover"
+                src={me1}
+                alt="Pressure Washing"
+              />
               <h2 className="text-3xl sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
                 Quality Comes First
               </h2>
-
               <p className="leading-relaxed xl:text-xl  md:text-xl 4xl:text-3xl text-[#66666]  ">
-                Our team at Total Exterior Cleaning utilizes cutting-edge
-                pressure cleaning technology to deliver efficient and quality
-                results. <br /> We employ the latest industrial-grade equipment,
-                coupled with extensive knowledge and experience, to apply
-                high-pressure cleaning methods to surfaces such as driveways,
-                pavers, patios, concrete floors, and pathways.{" "}
+                Our team at Total Exterior Cleaning utilizes the latest
+                industrial-grade equipment, coupled with extensive knowledge and
+                experience, to apply high-pressure cleaning methods to surfaces
+                such as driveways, pavers, patios, concrete floors, and
+                pathways.{" "}
                 <span className="hidden xl:flex">
                   This approach ensures a thorough and lasting clean, removing
                   dirt, mold, mildew, and stains.
                 </span>
               </p>
+
               <h2 className="text-3xl hidden sub-headers 4xl:text-5xl !mb-5 sm:flex md:text-3xl xl:text-4xl font-semibold text-cyan-500">
                 Preservation and Protection
               </h2>
@@ -173,14 +180,6 @@ const PressureWashing = () => {
                   curb appeal of your property.
                 </span>
               </p>
-              <img
-                data-aos-duration="700"
-                data-aos-easing="ease-in-out"
-                data-aos="zoom-in-up"
-                className="md:hidden h-[400px] rounded-sm w-full object-cover"
-                src={me1}
-                alt="Pressure Washing"
-              />
 
               <p className=" leading-relaxed text-lg md:text-2xl 4xl:text-3xl font-semibold">
                 Contact Us today to schedule your free quote. We'll visit your
@@ -189,7 +188,7 @@ const PressureWashing = () => {
               </p>
               <div className="py-6 flex justify-center">
                 <Link className="w-full md:w-auto" to={"/contact-us"}>
-                  <button className="contact-now w-full md:w-auto !capitalize z-50 md:!text-2xl !text-xl !px-10 !py-4 ">
+                  <button className="contact-now w-full md:w-auto !capitalize z-50 !text-lg md:!text-2xl !px-2 sm:!px-10 !py-4 ">
                     Get Your Free Quote!
                   </button>
                 </Link>
@@ -279,7 +278,7 @@ const PressureWashing = () => {
         <div>
           <FAQ />
         </div>
-        <div  data-aos="fade-in" data-aos-easing="ease-in-out">
+        <div data-aos="fade-in" data-aos-easing="ease-in-out">
           <Tabs />
         </div>
         <div>
