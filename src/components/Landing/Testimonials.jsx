@@ -13,7 +13,7 @@ const Testimonials = () => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     speed: 3000,
     autoplaySpeed: 2000,
     cssEase: "linear",
@@ -59,7 +59,7 @@ const Testimonials = () => {
         Testimonials
       </h3>
       <h2
-        className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 mb-16 tracking-wider sub-headers"
+        className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 mb-10 sm:mb-16 tracking-wider sub-headers"
         style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
       >
         What Customers Are Saying
@@ -86,7 +86,7 @@ const Testimonials = () => {
                   <BsStarFill />
                   <BsStarFill />
                 </div>
-                
+
                 <p className="text-sm leading-relaxed text-[#676767] flex">
                   {d.review}
                 </p>

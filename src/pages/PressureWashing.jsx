@@ -122,7 +122,7 @@ const PressureWashing = () => {
           className=" text-center mx-10 sm:text-start"
         >
           <div className=" xl:px-10 pt-16 sm:pt-20 mb-5 2xl:max-w-[1800px] mx-auto  sm:flex flex-wrap lg:flex-nowrap lg:space-x-20">
-            <div className="lg:w-[60%] space-y-8 4xl:space-y-14  lg:mx-6 ">
+            <div className="lg:w-[60%] space-y-6 4xl:space-y-14  lg:mx-6 ">
               <h1 className="text-3xl sm:text-5xl 4xl:text-6xl font-bold text-shadow-subtle sub-headers">
                 Refresh Your Home with High Pressure Cleaning.
               </h1>
@@ -193,7 +193,7 @@ const PressureWashing = () => {
                   </button>
                 </Link>
               </div>
-              <h2 className="text-center text-shadow-subtle sub-headers text-3xl font-bold sm:hidden">
+              <h2 className="text-center pb-5 text-shadow-subtle sub-headers text-3xl font-bold sm:hidden">
                 Check Out Some Of Our Photos!
               </h2>
             </div>
@@ -257,7 +257,7 @@ const PressureWashing = () => {
             </div>
           </div>
         </section>
-        <div className="mt-20" data-aos="fade-up" data-aos-easing="ease-in-out">
+        <div className="mt-14" data-aos="fade-up" data-aos-easing="ease-in-out">
           <Testimonials />
         </div>
         <div
