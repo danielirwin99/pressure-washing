@@ -36,7 +36,7 @@ const Photos = () => {
           className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider sub-headers"
           style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
         >
-          Our Recent Jobs
+          Our Recent Projects
         </h2>
         <div className="mt-5 md:mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full">
           <figure className="photos-container">

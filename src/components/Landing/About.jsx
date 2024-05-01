@@ -57,13 +57,13 @@ const About = () => {
               </p>
               <p className="w-full font-bold text-center sm:text-start text-lg md:text-xl leading-loose">
                 Are you looking for High Pressure Cleaning services in your
-                local area? &nbsp; <br />
+                local area? &nbsp;
                 Hit the button below and get started!
               </p>
             </li>
           </ul>
           <a
-            className="contact-now !px-10 !mt-6 sm:!mt-20 md:mx-auto template-shadow-subtle"
+            className="contact-now !px-10 !mt-6 sm:!mt-14 md:mx-auto template-shadow-subtle"
             href="tel:0417477117"
           >
             <h3 className="font-semibold mb-1 text-shadow-subtle  text-md md:text-lg tracking-wide">
