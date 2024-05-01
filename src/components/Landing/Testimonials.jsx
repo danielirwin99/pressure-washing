@@ -13,8 +13,8 @@ const Testimonials = () => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    speed: 2500,
+    // autoplay: true,
+    speed: 3000,
     autoplaySpeed: 2000,
     cssEase: "linear",
     pauseOnHover: true,
@@ -78,7 +78,7 @@ const Testimonials = () => {
                 <FcGoogle />
               </div>
               <div className="flex flex-col justify-center items-center gap-4 p-4">
-                <p className="text-xl font-bold text-shadow-subtle">{d.name}</p>
+                <p className="text-lg font-bold text-shadow-subtle">{d.name}</p>
                 <div className="flex text-yellow-500 text-lg space-x-2">
                   <BsStarFill />
                   <BsStarFill />
@@ -86,6 +86,7 @@ const Testimonials = () => {
                   <BsStarFill />
                   <BsStarFill />
                 </div>
+                
                 <p className="text-sm leading-relaxed text-[#676767] flex">
                   {d.review}
                 </p>
