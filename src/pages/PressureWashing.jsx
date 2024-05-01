@@ -189,7 +189,7 @@ const PressureWashing = () => {
               <div className="py-6 flex justify-center">
                 <Link className="w-full md:w-auto" to={"/contact-us"}>
                   <button className="contact-now w-full md:w-auto !capitalize z-50 !text-lg md:!text-2xl !px-2 sm:!px-10 !py-4 ">
-                    Get Your Free Quote!
+                    Claim Your Free Quote!
                   </button>
                 </Link>
               </div>
