@@ -16,6 +16,13 @@ export const data = [
       "❝ Sean & Daniel did an amazing job pressure cleaning and sealing my mum’s stencilling - it looks like new and she can't believe how good it looks. Thank you both for such a professional job you did. She would recommend them to anyone, they are so helpful and went above and beyond of what was quoted. ❞",
   },
   {
+    name: "La Renaissance, Oyster Bay",
+    area: "Caringbah",
+    img: testi,
+    review:
+      "❝ We had our house cleaned this week and they did a fantastic job - the driveway is at least 4 shades lighter and the house exterior has never looked cleaner. All traces of mould, dirt, cobwebs are gone and no mess left behind. Thank you very much!! ❞",
+  },
+  {
     name: "John Englezos, Alfords Point",
     img: testi,
     area: "Alfords Point",
