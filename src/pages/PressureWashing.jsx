@@ -206,11 +206,12 @@ const PressureWashing = () => {
               {slice.map((image) => (
                 <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] 4xl:h-[500px] flex overflow-hidden rounded-sm">
                   <ReactCompareSlider
-                    className="w-full mb-4 contrast-[1.10] sm:mb-0 rounded-sm"
+                    className="w-full mb-4 contrast-[1.10]  sm:mb-0 rounded-sm"
                     itemOne={
                       <ReactCompareSliderImage
                         src={image.img1}
                         alt="Pressure Wash Before"
+                        className=""
                       />
                     }
                     itemTwo={

@@ -27,6 +27,12 @@ import {
   after13,
   before14,
   after14,
+  before15,
+  after15,
+  before16,
+  after16,
+  before17,
+  after17,
 } from "../assets/Gallery/Index";
 
 const data = [
@@ -35,9 +41,10 @@ const data = [
     img2: after1,
   },
   {
-    img1: roofbefore,
-    img2: roofafter,
+    img1: before16,
+    img2: after16,
   },
+
   {
     img1: before3,
     img2: after3,
@@ -63,6 +70,10 @@ const data = [
     img2: after8,
   },
   {
+    img1: roofbefore,
+    img2: roofafter,
+  },
+  {
     img1: before9,
     img2: after9,
   },
@@ -85,6 +96,15 @@ const data = [
   {
     img1: before14,
     img2: after14,
+  },
+  {
+    img1: before15,
+    img2: after15,
+  },
+
+  {
+    img1: before17,
+    img2: after17,
   },
 ];
 
