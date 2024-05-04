@@ -122,7 +122,7 @@ const PressureWashing = () => {
           className=" text-center mx-10 sm:text-start"
         >
           <div className=" xl:px-10 pt-16 sm:pt-20 mb-5 2xl:max-w-[1800px] mx-auto  sm:flex flex-wrap lg:flex-nowrap lg:space-x-20">
-            <div className="lg:w-[60%] space-y-6 4xl:space-y-14  lg:mx-6 ">
+            <div className="lg:w-[55%] xl:pr-10 space-y-6 4xl:space-y-14  lg:mx-6 ">
               <h1 className="text-3xl sm:text-5xl 4xl:text-6xl font-bold text-shadow-subtle sub-headers">
                 Refresh Your Home with High Pressure Cleaning.
               </h1>
@@ -201,7 +201,7 @@ const PressureWashing = () => {
               data-aos="fade-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
-              className="flex flex-col sm:mx-0 sm:flex-row lg:flex-col my-10 lg:mt-0 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[40%]"
+              className="flex flex-col sm:mx-0 sm:flex-row lg:flex-col my-10 lg:mt-0 lg:space-y-5 sm:space-x-4 lg:space-x-0 justify-center items-center lg:w-[45%]"
             >
               {slice.map((image) => (
                 <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] 4xl:h-[500px] flex overflow-hidden rounded-sm">
@@ -272,7 +272,7 @@ const PressureWashing = () => {
         <div
           data-aos="fade-in"
           data-aos-easing="ease-in-out"
-          className=" py-5  bg-cyan-200  "
+          className=" py-1  bg-cyan-200  "
         >
           <Socials />
         </div>

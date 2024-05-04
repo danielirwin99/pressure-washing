@@ -22,7 +22,7 @@ const ServicesLanding = () => {
         OUR SERVICES
       </h3>
       <h2
-        className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-7 tracking-wider sub-headers"
+        className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-4 tracking-wider sub-headers"
         style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
       >
         What We Offer
