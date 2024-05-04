@@ -64,7 +64,7 @@ const Testimonials = () => {
       >
         What Customers Are Saying
       </h2>
-      <div className="">
+      <div >
         <Slider {...settings}>
           {data.map((d) => (
             <div

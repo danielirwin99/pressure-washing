@@ -58,6 +58,7 @@ const About = () => {
               <p className="w-full font-bold text-center sm:text-start text-lg md:text-2xl leading-loose">
                 Are you looking for High Pressure Cleaning services in your
                 local area?
+                <br />
                 Hit the button below and get started!
               </p>
             </li>
