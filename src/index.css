@@ -426,6 +426,14 @@ p {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .services-tabs {
+    padding: 100px 0;
+  }
+}
+
 .footerLinks {
   @apply hover:underline opacity-80 text-sm md:text-base  text-white space-y-1 py-4;
 }
+
+
