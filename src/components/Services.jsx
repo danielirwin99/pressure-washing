@@ -35,7 +35,7 @@ const Services = () => {
           <img
             src={service1}
             alt="service1"
-            className="absolute hover:scale-[1.10] transition-transform duration-1000 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
+            className="absolute hover:scale-[1.10] transition-transform duration-700 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
           />
           <div className="flex flex-col justify-center items-center z-10">
             <BsHouseDoor className="text-white text-4xl   mr-1" />
@@ -53,7 +53,7 @@ const Services = () => {
           <img
             src={service5}
             alt="service1"
-            className="absolute hover:scale-[1.10] transition-transform duration-1000 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
+            className="absolute hover:scale-[1.10] transition-transform duration-700 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
           />
           <div className="flex flex-col justify-center items-center z-10">
             <BsHouseDoor className="text-white text-4xl   mr-1" />
@@ -71,7 +71,7 @@ const Services = () => {
           <img
             src={service4}
             alt="service1"
-            className="absolute hover:scale-[1.10] transition-transform duration-1000 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
+            className="absolute hover:scale-[1.10] transition-transform duration-700 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
           />
           <div className="flex flex-col justify-center items-center z-10">
             <BsHouseDoor className="text-white text-4xl   mr-1" />
@@ -89,7 +89,7 @@ const Services = () => {
           <img
             src={service6}
             alt="service1"
-            className="absolute hover:scale-[1.10] transition-transform duration-1000 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
+            className="absolute hover:scale-[1.10] transition-transform duration-700 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
           />
           <div className="flex flex-col justify-center items-center z-10">
             <BsHouseDoor className="text-white text-4xl   mr-1" />
@@ -107,7 +107,7 @@ const Services = () => {
           <img
             src={servicewindow}
             alt="service1"
-            className="absolute hover:scale-[1.10] transition-transform duration-1000 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
+            className="absolute hover:scale-[1.10] transition-transform duration-700 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
           />
           <div className="flex flex-col justify-center items-center z-10">
             <BsHouseDoor className="text-white text-4xl   mr-1" />
@@ -125,7 +125,7 @@ const Services = () => {
           <img
             src={service2}
             alt="service1"
-            className="absolute hover:scale-[1.10] transition-transform duration-1000 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
+            className="absolute hover:scale-[1.10] transition-transform duration-700 rounded-sm contrast-[1.10] brightness-75 w-full h-full"
           />
           <div className="flex flex-col justify-center items-center z-10">
             <BsHouseDoor className="text-white text-4xl   mr-1" />
