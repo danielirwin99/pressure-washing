@@ -44,19 +44,18 @@ export const data = [
       "❝ Sean and Daniel did an amazing job cleaning the windows and tiles of my apartment balcony. They cleaned up after themselves and had great communication. ❞",
   },
   {
-    name: "Joshua Swan, Menai",
-    img: testi,
-    area: "Menai",
-    review:
-      "❝ Friendly, reliable and quick service. I would highly recommend. ❞",
-  },
-
-  {
     name: "Theresa Chisari, Bangor",
     img: testi,
     area: "Bangor",
     review:
       "❝ Thank you to the team at TOTAL EXTERIOR CLEANING for their incredible job today, they went above and beyond with our cleaning job. Our house is shining and I can look out our windows! The team are professional and knowledgeable and I can’t wait to have them back! ❞",
+  },
+  {
+    name: "Joshua Swan, Menai",
+    img: testi,
+    area: "Menai",
+    review:
+      "❝ Friendly, reliable and quick service. I would highly recommend. ❞",
   },
 
   {
