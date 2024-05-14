@@ -56,7 +56,7 @@ export const data = [
     img: testi,
     area: "Bangor",
     review:
-      "❝ Thank you to the team at TOTAL EXTERIOR CLEANING for their incredible job today, they went above and beyond with our cleaning job. ❞",
+      "❝ Thank you to the team at TOTAL EXTERIOR CLEANING for their incredible job today, they went above and beyond with our cleaning job. Our house is shining and I can look out our windows! The team are professional and knowledgeable and I can’t wait to have them back! ❞",
   },
 
   {
