@@ -20,11 +20,11 @@ import {
   after1,
   after16,
   after18,
-  after3,
+  after19,
   before1,
   before16,
   before18,
-  before3,
+  before19,
 } from "../assets/Gallery/Index";
 
 const PressureWashing = () => {
@@ -137,9 +137,9 @@ const PressureWashing = () => {
                 Refresh Your Home with High Pressure Cleaning.
               </h1>
               <div className="space-y-12">
-                <div className="flex space-x-10">
+                <div className="flex space-x-20">
                   <div className="lg:w-[55%] pr-4">
-                    <p className="leading-relaxed md:text-xl text-center xl:text-xl 4xl:text-2xl  text-[#66666]  pt-2  ">
+                    <p className="leading-relaxed md:text-xl  xl:text-xl 2xl:text-2xl 4xl:text-2xl  text-[#66666]  pt-2  ">
                       <span className="font-bold text-cyan-500">
                         {" "}
                         Total Exterior Cleaning
@@ -153,7 +153,7 @@ const PressureWashing = () => {
                       is here to help you restore your property back to its
                       original state.
                     </p>
-                    <p className="leading-relaxed md:text-xl text-center xl:text-xl 4xl:text-2xl  text-[#66666]  pt-2  ">
+                    <p className="leading-relaxed md:text-xl xl:text-xl 2xl:text-2xl  4xl:text-2xl  text-[#66666] pt-4  ">
                       We tailor our cleaning approach to suit your specific
                       needs, whether it's using{" "}
                       <span className="font-bold">low-pressure techniques</span>{" "}
@@ -186,21 +186,21 @@ const PressureWashing = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-10">
+                <div className="flex items-center space-x-20">
                   <div className="lg:w-[55%] pr-4">
                     <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px]  4xl:h-[500px] flex overflow-hidden rounded-sm ">
                       <ReactCompareSlider
                         className="w-full mb-4 contrast-[1.10]  sm:mb-0 rounded-sm"
                         itemOne={
                           <ReactCompareSliderImage
-                            src={before16}
+                            src={before19}
                             alt="Pressure Wash Before"
                             className=""
                           />
                         }
                         itemTwo={
                           <ReactCompareSliderImage
-                            src={after16}
+                            src={after19}
                             alt="Pressure Wash After"
                           />
                         }
@@ -208,29 +208,29 @@ const PressureWashing = () => {
                     </div>
                   </div>
                   <div className="lg:w-[45%] ">
-                    <h2 className="text-3xl pb-5 sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
+                    <h2 className="text-3xl pb-6 sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
                       Quality Comes First
                     </h2>
-                    <p className="leading-relaxed xl:text-xl  md:text-xl 4xl:text-2xl text-[#66666]  ">
+                    <p className="leading-relaxed md:text-xl 2xl:text-2xl  4xl:text-2xl text-[#66666]  ">
                       Our team at Total Exterior Cleaning utilizes the latest
                       industrial-grade equipment, coupled with extensive
                       knowledge and experience, to apply high-pressure cleaning
                       methods to surfaces such as driveways, pavers, patios,
                       concrete floors, and pathways.{" "}
-                      <span className="hidden mt-2 xl:flex">
+                      <span className="hidden mt-2 xl:inline-block">
                         This approach ensures a thorough and lasting clean,
-                        removing dirt, mold, mildew, and stains.
+                        removing dirt, mould, mildew, and stains.
                       </span>
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-10">
+                <div className="flex items-center space-x-20">
                   <div className="lg:w-[55%] ">
-                    <h2 className="text-3xl pb-5 sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
+                    <h2 className="text-3xl pb-6 sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
                       Preservation and Protection
                     </h2>
-                    <p className="leading-relaxed pt-4 xl:text-xl hidden 4xl:text-2xl md:text-xl text-[#66666] sm:inline">
+                    <p className="leading-relaxed pt-4 xl:text-xl 2xl:text-2xl hidden 4xl:text-2xl md:text-xl text-[#66666] sm:inline">
                       {" "}
                       Beyond the aesthetic benefits, our high-pressure cleaning
                       services contribute to the preservation and protection of
@@ -279,7 +279,7 @@ const PressureWashing = () => {
                 alt="Pressure Washing"
               />
 
-              <p className=" leading-relaxed !mt-16 text-center text-lg md:text-3xl 4xl:text-3xl font-semibold">
+              <p className=" leading-relaxed !mt-20 text-center text-lg md:text-3xl 4xl:text-3xl font-semibold">
                 Contact Us today to schedule your free quote. We'll visit your
                 property, provide a transparent, no-obligation estimate, and
                 breathe new life into your outdoor areas.
