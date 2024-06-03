@@ -19,9 +19,11 @@ import Services from "../components/Services";
 import {
   after1,
   after16,
+  after18,
   after3,
   before1,
   before16,
+  before18,
   before3,
 } from "../assets/Gallery/Index";
 
@@ -251,14 +253,14 @@ const PressureWashing = () => {
                         className="w-full mb-4 contrast-[1.10]  sm:mb-0 rounded-sm"
                         itemOne={
                           <ReactCompareSliderImage
-                            src={before3}
+                            src={before18}
                             alt="Pressure Wash Before"
                             className=""
                           />
                         }
                         itemTwo={
                           <ReactCompareSliderImage
-                            src={after3}
+                            src={after18}
                             alt="Pressure Wash After"
                           />
                         }
@@ -277,7 +279,7 @@ const PressureWashing = () => {
                 alt="Pressure Washing"
               />
 
-              <p className=" leading-relaxed !mt-16 text-center text-lg md:text-2xl 4xl:text-3xl font-semibold">
+              <p className=" leading-relaxed !mt-16 text-center text-lg md:text-3xl 4xl:text-3xl font-semibold">
                 Contact Us today to schedule your free quote. We'll visit your
                 property, provide a transparent, no-obligation estimate, and
                 breathe new life into your outdoor areas.

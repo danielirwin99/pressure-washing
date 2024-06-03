@@ -30,6 +30,13 @@ export const data = [
       "❝ Sean's service exceeded my expectations! I reached out to him to clean the area around my pool and the walls of my house, and I'm extremely impressed with the results. Not only did he do an amazing job, but he also managed to make it look as good as new! Sean's attention to detail and professionalism truly shines through his work. I highly recommend his services to anyone.❞",
   },
   {
+    name: "Paul Elarde, Loftus",
+    img: testi,
+    area: "Loftus",
+    review:
+      "❝ Sean and Daniel did a wonderful job on our drive and path ways which were covered in mould and dirt over many years.  Now transformed like new!  Rare to find honest, hardworking, skilled team like these guys.  ❞",
+  },
+  {
     name: "Jordan Dmello, Illawong",
     img: testi,
     area: "Illawong",
@@ -37,18 +44,18 @@ export const data = [
       "❝ Sean and Daniel are highly professional and do an amazing job, best in the business. Highly recommend this company ❞",
   },
   {
-    name: "Declan, Wollongong",
-    img: testi,
-    area: "Wollongong",
-    review:
-      "❝ Sean and Daniel did an amazing job cleaning the windows and tiles of my apartment balcony. They cleaned up after themselves and had great communication. ❞",
-  },
-  {
     name: "Theresa Chisari, Bangor",
     img: testi,
     area: "Bangor",
     review:
       "❝ Thank you to the team at TOTAL EXTERIOR CLEANING for their incredible job today, they went above and beyond with our cleaning job. Our house is shining and I can look out our windows! The team are professional and knowledgeable and I can’t wait to have them back! ❞",
+  },
+  {
+    name: "Declan, Wollongong",
+    img: testi,
+    area: "Wollongong",
+    review:
+      "❝ Sean and Daniel did an amazing job cleaning the windows and tiles of my apartment balcony. They cleaned up after themselves and had great communication. ❞",
   },
   {
     name: "Joshua Swan, Menai",
