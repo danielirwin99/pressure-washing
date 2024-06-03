@@ -16,6 +16,14 @@ import data from "../data/imageslider";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { motion } from "framer-motion";
 import Services from "../components/Services";
+import {
+  after1,
+  after16,
+  after3,
+  before1,
+  before16,
+  before3,
+} from "../assets/Gallery/Index";
 
 const PressureWashing = () => {
   const [noOfElement, setNoOfElement] = useState(3);
@@ -119,7 +127,179 @@ const PressureWashing = () => {
           id="content"
           data-aos="fade-up"
           data-aos-easing="ease-in-out"
-          className=" text-center mx-10 sm:text-start"
+          className=" text-center hidden lg:inline mx-10 sm:text-start"
+        >
+          <div className=" xl:px-16 pt-16 sm:pt-16 mb-5 2xl:max-w-[2000px] mx-auto  lg:flex-nowrap lg:space-x-20">
+            <div className="  space-y-6 4xl:space-y-14  lg:mx-6 ">
+              <h1 className="text-3xl sm:text-5xl text-center 4xl:text-6xl font-bold text-shadow-subtle pb-10 sub-headers">
+                Refresh Your Home with High Pressure Cleaning.
+              </h1>
+              <div className="space-y-12">
+                <div className="flex space-x-10">
+                  <div className="lg:w-[55%] pr-4">
+                    <p className="leading-relaxed md:text-xl text-center xl:text-xl 4xl:text-2xl  text-[#66666]  pt-2  ">
+                      <span className="font-bold text-cyan-500">
+                        {" "}
+                        Total Exterior Cleaning
+                      </span>{" "}
+                      are your go-to local pressure cleaners for professional
+                      exterior cleaning services in Sydney. Whether you own a
+                      residential property or a commercial space, our{" "}
+                      <span className="font-bold">
+                        family owned and operated business
+                      </span>{" "}
+                      is here to help you restore your property back to its
+                      original state.
+                    </p>
+                    <p className="leading-relaxed md:text-xl text-center xl:text-xl 4xl:text-2xl  text-[#66666]  pt-2  ">
+                      We tailor our cleaning approach to suit your specific
+                      needs, whether it's using{" "}
+                      <span className="font-bold">low-pressure techniques</span>{" "}
+                      for delicate surfaces or{" "}
+                      <span className="font-bold">high-pressure methods</span>{" "}
+                      for tougher stains. Our versatility ensures that we can
+                      handle any exterior cleaning challenge effectively and
+                      safely.
+                    </p>
+                  </div>
+                  <div className="lg:w-[45%]">
+                    <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px]  4xl:h-[500px] flex overflow-hidden rounded-sm ">
+                      <ReactCompareSlider
+                        className="w-full mb-4 contrast-[1.10]  sm:mb-0 rounded-sm"
+                        itemOne={
+                          <ReactCompareSliderImage
+                            src={before1}
+                            alt="Pressure Wash Before"
+                            className=""
+                          />
+                        }
+                        itemTwo={
+                          <ReactCompareSliderImage
+                            src={after1}
+                            alt="Pressure Wash After"
+                          />
+                        }
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-10">
+                  <div className="lg:w-[55%] pr-4">
+                    <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px]  4xl:h-[500px] flex overflow-hidden rounded-sm ">
+                      <ReactCompareSlider
+                        className="w-full mb-4 contrast-[1.10]  sm:mb-0 rounded-sm"
+                        itemOne={
+                          <ReactCompareSliderImage
+                            src={before16}
+                            alt="Pressure Wash Before"
+                            className=""
+                          />
+                        }
+                        itemTwo={
+                          <ReactCompareSliderImage
+                            src={after16}
+                            alt="Pressure Wash After"
+                          />
+                        }
+                      />
+                    </div>
+                  </div>
+                  <div className="lg:w-[45%] ">
+                    <h2 className="text-3xl pb-5 sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
+                      Quality Comes First
+                    </h2>
+                    <p className="leading-relaxed xl:text-xl  md:text-xl 4xl:text-2xl text-[#66666]  ">
+                      Our team at Total Exterior Cleaning utilizes the latest
+                      industrial-grade equipment, coupled with extensive
+                      knowledge and experience, to apply high-pressure cleaning
+                      methods to surfaces such as driveways, pavers, patios,
+                      concrete floors, and pathways.{" "}
+                      <span className="hidden mt-2 xl:flex">
+                        This approach ensures a thorough and lasting clean,
+                        removing dirt, mold, mildew, and stains.
+                      </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-10">
+                  <div className="lg:w-[55%] ">
+                    <h2 className="text-3xl pb-5 sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
+                      Preservation and Protection
+                    </h2>
+                    <p className="leading-relaxed pt-4 xl:text-xl hidden 4xl:text-2xl md:text-xl text-[#66666] sm:inline">
+                      {" "}
+                      Beyond the aesthetic benefits, our high-pressure cleaning
+                      services contribute to the preservation and protection of
+                      your property. Accumulated dirt, mould, and stains not
+                      only compromise the visual appeal of your exterior
+                      surfaces but can also create hazardous and slippery
+                      conditions.
+                      <br />
+                      <br />
+                      <span className="hidden xl:flex  ">
+                        Our professional cleaning methods eliminate these
+                        dangers, providing a safer environment for you, your
+                        family, or your customers.
+                      </span>
+                    </p>
+                  </div>
+                  <div className="lg:w-[45%] pr-4">
+                    <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] xl:h-[400px] 4xl:h-[500px] flex overflow-hidden rounded-sm ">
+                      <ReactCompareSlider
+                        className="w-full mb-4 contrast-[1.10]  sm:mb-0 rounded-sm"
+                        itemOne={
+                          <ReactCompareSliderImage
+                            src={before3}
+                            alt="Pressure Wash Before"
+                            className=""
+                          />
+                        }
+                        itemTwo={
+                          <ReactCompareSliderImage
+                            src={after3}
+                            alt="Pressure Wash After"
+                          />
+                        }
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <img
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                data-aos="zoom-in-up"
+                className="md:hidden h-[400px] rounded-sm w-full object-cover"
+                src={me1}
+                alt="Pressure Washing"
+              />
+
+              <p className=" leading-relaxed !mt-20 text-center text-lg md:text-2xl 4xl:text-3xl font-semibold">
+                Contact Us today to schedule your free quote. We'll visit your
+                property, provide a transparent, no-obligation estimate, and
+                breathe new life into your outdoor areas.
+              </p>
+              <div className="pt-5 flex justify-center">
+                <Link className="w-full md:w-auto" to={"/contact-us"}>
+                  <button className="contact-now w-full md:w-auto !capitalize z-50 !text-lg md:!text-2xl !px-2 sm:!px-10 !py-4 ">
+                    Claim Your Free Quote!
+                  </button>
+                </Link>
+              </div>
+              <h2 className="text-center pb-5 text-shadow-subtle sub-headers text-3xl font-bold sm:hidden">
+                Check Out Some Of Our Photos!
+              </h2>
+            </div>
+          </div>
+        </section>
+        <section
+          id="content"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          className=" text-center mx-10 lg:hidden sm:text-start"
         >
           <div className=" xl:px-10 pt-16 sm:pt-20 mb-5 2xl:max-w-[1800px] mx-auto  sm:flex flex-wrap lg:flex-nowrap lg:space-x-20">
             <div className="lg:w-[55%] xl:pr-10 space-y-6 4xl:space-y-14  lg:mx-6 ">
