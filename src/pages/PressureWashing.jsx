@@ -374,7 +374,7 @@ const PressureWashing = () => {
                 </Link>
               </div>
               <h2 className="text-center pb-5 text-shadow-subtle sub-headers text-3xl font-bold sm:hidden">
-                Check Out Some Of Our Photos!
+                Check Out Some Of Our Projects!
               </h2>
             </div>
             <div
