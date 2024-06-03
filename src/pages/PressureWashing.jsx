@@ -328,7 +328,7 @@ const PressureWashing = () => {
               <h2 className="text-3xl sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
                 Quality Comes First
               </h2>
-              <p className="leading-relaxed xl:text-2xl  md:text-xl 4xl:text-3xl text-[#66666]  ">
+              <p className="leading-relaxed text-lg xl:text-2xl  md:text-xl 4xl:text-3xl text-[#66666]  ">
                 Our team at Total Exterior Cleaning utilizes the latest
                 industrial-grade equipment, coupled with extensive knowledge and
                 experience, to apply high-pressure cleaning methods to surfaces
