@@ -195,7 +195,7 @@ const PressureWashing = () => {
                           <ReactCompareSliderImage
                             src={before19}
                             alt="Pressure Wash Before"
-                            className=""
+                            className=""  
                           />
                         }
                         itemTwo={
