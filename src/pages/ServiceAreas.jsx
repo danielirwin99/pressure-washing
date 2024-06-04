@@ -20,8 +20,7 @@ const ServiceAreas = () => {
               Total Exterior Cleaning is a{" "}
               <span className="font-bold">family run business</span> operating
               out of the Sutherland Shire area and covering St George, Eastern
-              Suburbs, Northern Illawara Region and Surrounding areas. We
-              believe when it comes to house washing nothing beats experience.
+              Suburbs, Northern Illawara Region and Surrounding areas.
               We believe when it comes to house washing nothing beats experience
               and quality equipment.{" "}
             </p>
