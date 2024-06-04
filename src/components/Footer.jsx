@@ -45,6 +45,9 @@ const Footer = () => {
             <Link to={"/contact-us"} className="footerLinks">
               Contact Us
             </Link>
+            <Link to={"/areas-of-service"} className="footerLinks">
+              Areas of Service
+            </Link>
           </div>
           <div className="w-[330px] mt-8 bg-cyan-400 h-[4px] sm:hidden" />
           <div className="lg:flex flex-col my-10 md:my-0 lg:mt-0 text-xs md:text-sm lg:text-md">
