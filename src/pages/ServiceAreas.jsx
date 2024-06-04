@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { GiCheckMark } from "react-icons/gi";
 import Quotes from "../components/Landing/Quotes";
+import Services from "../components/Services";
 
 const ServiceAreas = () => {
   return (
@@ -20,8 +21,8 @@ const ServiceAreas = () => {
               Total Exterior Cleaning is a{" "}
               <span className="font-bold">family run business</span> operating
               out of the Sutherland Shire area and covering St George, Eastern
-              Suburbs, Northern Illawara Region and Surrounding areas.
-              We believe when it comes to house washing nothing beats experience
+              Suburbs, Northern Illawara Region and Surrounding areas. We
+              believe when it comes to house washing nothing beats experience
               and quality equipment.{" "}
             </p>
             <p className="leading-relaxed tracking-wide text-[#66666]">
@@ -161,6 +162,9 @@ const ServiceAreas = () => {
           </div>
         </div>
       </main>
+      <div className="mb-6">
+        <Services />
+      </div>
       <Quotes />
       <Footer />
     </>
