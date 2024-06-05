@@ -14,6 +14,7 @@
   text-shadow: none;
   text-rendering: optimizeSpeed;
   font-display: swap;
+  image-rendering: optimizeSpeed;
 }
 
 html,body {
