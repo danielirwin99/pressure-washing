@@ -129,9 +129,9 @@ const PressureWashing = () => {
           id="content"
           data-aos="fade-up"
           data-aos-easing="ease-in-out"
-          className=" text-center hidden lg:inline mx-10 sm:text-start"
+          className=" text-center hidden lg:inline mx-14 sm:text-start"
         >
-          <div className=" xl:px-16 pt-12 sm:pt-16 mb-5 2xl:max-w-[2000px] mx-auto  lg:flex-nowrap lg:space-x-20">
+          <div className=" xl:px-20 pt-12 sm:pt-12 mb-5 2xl:max-w-[2000px] mx-auto  lg:flex-nowrap lg:space-x-20">
             <div className="  space-y-6 4xl:space-y-14  lg:mx-6 ">
               <h1 className="text-3xl sm:text-5xl text-center 4xl:text-6xl font-bold text-shadow-subtle pb-10 sub-headers">
                 Refresh Your Home with High Pressure Cleaning.
@@ -159,13 +159,15 @@ const PressureWashing = () => {
                       <span className="font-bold">low-pressure techniques</span>{" "}
                       for delicate surfaces or{" "}
                       <span className="font-bold">high-pressure methods</span>{" "}
-                      for tougher stains. Our versatility ensures that we can
-                      handle any exterior cleaning challenge effectively and
-                      safely.
+                      for tougher stains.{" "}
+                      <p className="hidden 2xl:flex">
+                        Our versatility ensures that we can handle any exterior
+                        cleaning challenge effectively and safely.
+                      </p>
                     </p>
                   </div>
                   <div className="lg:w-[45%]">
-                    <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px]  4xl:h-[500px] flex overflow-hidden rounded-sm ">
+                    <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] 2xl:h-[500px] 4xl:h-[500px] flex overflow-hidden rounded-sm ">
                       <ReactCompareSlider
                         className="w-full mb-4 contrast-[1.10]  sm:mb-0 rounded-sm"
                         itemOne={
@@ -188,7 +190,7 @@ const PressureWashing = () => {
 
                 <div className="flex items-center space-x-14">
                   <div className="lg:w-[55%] pr-4">
-                    <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px]  4xl:h-[500px] flex overflow-hidden rounded-sm ">
+                    <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] 2xl:h-[500px] 4xl:h-[500px] flex overflow-hidden rounded-sm ">
                       <ReactCompareSlider
                         className="w-full mb-4 contrast-[1.10]  sm:mb-0 rounded-sm"
                         itemOne={
@@ -216,9 +218,11 @@ const PressureWashing = () => {
                       industrial-grade equipment, coupled with extensive
                       knowledge and experience, to apply high-pressure cleaning
                       methods to surfaces such as driveways, pavers, patios,
-                      concrete floors, and pathways. This approach ensures a
-                      thorough and lasting clean, removing dirt, mould, grime,
-                      and stains.
+                      concrete floors, and pathways.
+                      <p className="hidden 2xl:inline-block">
+                        This approach ensures a thorough and lasting clean,
+                        removing dirt, mould, grime, and stains.
+                      </p>
                     </p>
                     <p className="leading-relaxed font-bold md:text-xl 2xl:text-2xl pt-2 4xl:text-2xl text-[#66666]  ">
                       Your satisfaction is our main goal. We will not stop until
@@ -250,7 +254,7 @@ const PressureWashing = () => {
                     </p>
                   </div>
                   <div className="lg:w-[45%] pr-4">
-                    <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] xl:h-[400px] 4xl:h-[500px] flex overflow-hidden rounded-sm ">
+                    <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px] xl:h-[400px] 2xl:h-[500px] 4xl:h-[500px] flex overflow-hidden rounded-sm ">
                       <ReactCompareSlider
                         className="w-full mb-4 contrast-[1.10]  sm:mb-0 rounded-sm"
                         itemOne={
