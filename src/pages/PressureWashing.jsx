@@ -153,7 +153,7 @@ const PressureWashing = () => {
                       is here to help you restore your property back to its
                       original state.
                     </p>
-                    <p className="leading-relaxed md:text-xl xl:text-xl 2xl:text-2xl  4xl:text-2xl  text-[#66666] pt-4  ">
+                    <p className="leading-relaxed md:text-xl xl:text-xl 2xl:text-2xl  4xl:text-2xl  text-[#66666] pt-4 xl:pt-8  ">
                       We tailor our cleaning approach to suit your specific
                       needs, whether it's using{" "}
                       <span className="font-bold">low-pressure techniques</span>{" "}
