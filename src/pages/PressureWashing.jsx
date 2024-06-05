@@ -186,7 +186,7 @@ const PressureWashing = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-20">
+                <div className="flex items-center space-x-14">
                   <div className="lg:w-[55%] pr-4">
                     <div className="w-full sm:w-1/2 lg:w-full lg:h-[400px]  4xl:h-[500px] flex overflow-hidden rounded-sm ">
                       <ReactCompareSlider
@@ -195,7 +195,7 @@ const PressureWashing = () => {
                           <ReactCompareSliderImage
                             src={before19}
                             alt="Pressure Wash Before"
-                            className=""  
+                            className=""
                           />
                         }
                         itemTwo={
@@ -216,11 +216,13 @@ const PressureWashing = () => {
                       industrial-grade equipment, coupled with extensive
                       knowledge and experience, to apply high-pressure cleaning
                       methods to surfaces such as driveways, pavers, patios,
-                      concrete floors, and pathways.{" "}
-                      <span className="hidden mt-2 xl:inline-block">
-                        This approach ensures a thorough and lasting clean,
-                        removing dirt, mould, mildew, and stains.
-                      </span>
+                      concrete floors, and pathways. This approach ensures a
+                      thorough and lasting clean, removing dirt, mould, grime,
+                      and stains.
+                    </p>
+                    <p className="leading-relaxed font-bold md:text-xl 2xl:text-2xl pt-2 4xl:text-2xl text-[#66666]  ">
+                      Your satisfaction is our main goal. We will not stop until
+                      you're happy with the job. 100% Guaranteed.
                     </p>
                   </div>
                 </div>
