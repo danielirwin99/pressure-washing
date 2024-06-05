@@ -246,11 +246,11 @@ const PressureWashing = () => {
                       conditions.
                       <br />
                       <br />
-                      <span className="hidden xl:flex  ">
+                      <p className="hidden xl:flex  ">
                         Our professional cleaning methods eliminate these
                         dangers, providing a safer environment for you, your
                         family, or your customers.
-                      </span>
+                      </p>
                     </p>
                   </div>
                   <div className="lg:w-[45%] pr-4">
