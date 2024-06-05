@@ -16,9 +16,11 @@
   font-display: swap;
 }
 
-html {
+html,body {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+ overflow-x: hidden !important;
+  box-sizing: border-box;
+  
 }
 
 #about,
