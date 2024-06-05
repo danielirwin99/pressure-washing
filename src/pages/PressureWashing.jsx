@@ -90,12 +90,12 @@ const PressureWashing = () => {
           <div>
             <figure className="w-full absolute -z-10">
               <img
-                className="w-full object-cover h-[700px] md:h-[100vh] brightness-[.40]"
+                className="w-full object-cover h-[750px] md:h-[100vh] brightness-[.40]"
                 src={pressurewashing}
                 alt="Background Image"
               />
             </figure>
-            <div className="pt-[150px] md:pt-[300px] text-center md:h-[100vh] h-[700px] flex flex-col mx-4 sm:pr-0  space-y-14 sm:space-y-20">
+            <div className="pt-[150px] md:pt-[300px] text-center md:h-[100vh] h-[750px] flex flex-col mx-4 sm:pr-0  space-y-20 sm:space-y-20">
               <h1 className="text-white sub-headers uppercase text-4xl md:text-6xl tracking-wider font-bold text-shadow">
                 High Pressure Cleaning Sydney
               </h1>
