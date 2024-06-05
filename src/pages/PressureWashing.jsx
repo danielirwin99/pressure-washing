@@ -301,7 +301,7 @@ const PressureWashing = () => {
           id="content"
           data-aos="fade-up"
           data-aos-easing="ease-in-out"
-          className=" text-center mx-10 lg:hidden sm:text-start"
+          className=" text-center mx-7 lg:hidden sm:text-start"
         >
           <div className=" xl:px-10 pt-12 sm:pt-20 mb-5 2xl:max-w-[1800px] mx-auto  sm:flex flex-wrap lg:flex-nowrap lg:space-x-20">
             <div className="lg:w-[55%] xl:pr-10 space-y-6 4xl:space-y-14  lg:mx-6 ">
