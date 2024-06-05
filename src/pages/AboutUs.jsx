@@ -28,15 +28,13 @@ const AboutUs = () => {
                 <div>
                   <p className=" text-center sm:text-start lg:text-xl leading-relaxed">
                     <span className="font-bold">Total Exterior Cleaning</span>{" "}
-                    specializes in pressure cleaning and is based in the
-                    <span className="font-bold">
-                      Sutherland Shire Region.
-                    </span>{" "}
+                    specializes in pressure cleaning and is based in the{" "}
+                    <span className="font-bold">Sutherland Shire Region.</span>{" "}
                     We pride ourselves on being a{" "}
                     <span className="font-bold">
                       family owned and operated business,
                     </span>{" "}
-                    , committed to excellence. Utilizing cutting-edge equipment,
+                    committed to excellence. Utilizing cutting-edge equipment,
                     we ensure a brilliant finish on all exterior surfaces.
                   </p>
                 </div>
