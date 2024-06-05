@@ -65,15 +65,17 @@ p {
   top: 0;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
+@media screen and (min-width: 600px) {
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(0, 208, 255);
-  border-radius: 4px;
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 208, 255);
+    border-radius: 4px;
+  }
 }
 
 .nav-link {
@@ -435,5 +437,3 @@ p {
 .footerLinks {
   @apply hover:underline opacity-80 text-sm md:text-base  text-white space-y-1 py-4;
 }
-
-
