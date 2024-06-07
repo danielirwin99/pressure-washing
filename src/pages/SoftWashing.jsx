@@ -109,9 +109,7 @@ const HouseWashing = () => {
                 Elevate the appearance and cleanliness of your home with
                 professional house washing services. Our expert team specializes
                 in restoring the beauty of your property by thoroughly cleaning
-                all exterior surfaces. From removing dirt, grime, and mold to
-                revitalizing siding, driveways, and decks, we ensure that your
-                home shines like new.
+                all exterior surfaces. 
               </p>
               <h2 className="text-2xl sub-headers 4xl:text-5xl sm:text-3xl xl:text-4xl font-semibold text-cyan-500">
                 Green or Black stains on your house? We Can Clean It.
@@ -122,10 +120,10 @@ const HouseWashing = () => {
                 employ the latest industrial-grade equipment, coupled with
                 extensive knowledge and experience, to apply safe house washing
                 methods using a soft wash mix.
-                <span className="hidden xl:flex">
+                <p className="hidden xl:flex">
                   This approach ensures a thorough and lasting clean, removing
                   dirt, mold, mildew, and stains.
-                </span>
+                </p>
               </p>
               <h2 className="text-3xl hidden sub-headers 4xl:text-5xl !mb-5 sm:flex md:text-3xl xl:text-4xl font-semibold text-cyan-500">
                 Preservation and Protection

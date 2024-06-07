@@ -87,8 +87,11 @@ const GutterCleaning = () => {
               </span>{" "}
               The adjustable poles cater to various gutter heights and angles,
               ensuring comprehensive cleaning without manual scooping or
-              climbing. With powerful suction, it effectively removes debris,
-              preventing clogs and preserving gutter integrity.
+              climbing.{" "}
+              <p className="hidden lg:flex">
+                With powerful suction, it effectively removes debris, preventing
+                clogs and preserving gutter integrity.
+              </p>
             </p>
             <img
               data-aos-duration="700"
