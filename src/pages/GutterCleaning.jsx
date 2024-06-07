@@ -124,7 +124,7 @@ const GutterCleaning = () => {
               </Link>
             </div>
             <h2 className="text-center sub-headers text-shadow text-3xl font-bold lg:hidden">
-              Check Out Some Of Our Photos!
+              Check Out Some Of Our Projects!
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 w-full my-10 lg:mt-0 lg:pl-5 lg:space-y-5 gap-3 lg:gap-0 lg:space-x-0 justify-center items-center lg:w-2/5">
