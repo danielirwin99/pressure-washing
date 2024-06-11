@@ -169,9 +169,9 @@ const PressureWashing = () => {
                     <p className="hidden leading-relaxed md:text-xl xl:text-xl 2xl:text-2xl  4xl:text-2xl  text-[#66666] pt-4 xl:pt-8  2xl:flex">
                       Our approach ensures we can handle any exterior cleaning
                       challenge effectively and safely. Choose Total Exterior
-                      Cleaning for all your exterior cleaning needs in Sydney
-                      and let us help you maintain the beauty and integrity of
-                      your property.
+                      Cleaning for all your exterior cleaning needs and let us
+                      help you maintain the beauty and integrity of your
+                      property.
                     </p>
                   </div>
                   <div className="lg:w-[45%]">
