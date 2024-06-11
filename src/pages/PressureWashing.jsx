@@ -134,9 +134,9 @@ const PressureWashing = () => {
           id="content"
           data-aos="fade-up"
           data-aos-easing="ease-in-out"
-          className=" text-center hidden lg:inline mx-14 sm:text-start"
+          className=" text-center hidden lg:inline mx-20 sm:text-start"
         >
-          <div className=" xl:px-20 pt-12 sm:pt-12 mb-5 2xl:max-w-[2000px] mx-auto  lg:flex-nowrap lg:space-x-20">
+          <div className=" xl:px-32 pt-12 sm:pt-12 mb-5 2xl:max-w-[2000px] mx-auto  lg:flex-nowrap lg:space-x-20">
             <div className="  space-y-6 4xl:space-y-14  lg:mx-6 ">
               <h1 className="text-3xl sm:text-5xl text-center 4xl:text-6xl font-bold text-shadow-subtle pb-10 sub-headers">
                 Refresh Your Home with High Pressure Cleaning.
