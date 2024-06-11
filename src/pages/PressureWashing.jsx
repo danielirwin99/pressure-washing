@@ -163,8 +163,7 @@ const PressureWashing = () => {
                       <span className="font-bold">low-pressure techniques</span>{" "}
                       for delicate surfaces and{" "}
                       <span className="font-bold">high-pressure methods</span>{" "}
-                      for tougher stains. for delicate surfaces or for tougher
-                      stains.{" "}
+                      for tougher stains.
                     </p>
                     <p className="hidden leading-relaxed md:text-xl xl:text-xl 2xl:text-2xl  4xl:text-2xl  text-[#66666] pt-4 xl:pt-8  2xl:flex">
                       Our approach ensures we can handle any exterior cleaning

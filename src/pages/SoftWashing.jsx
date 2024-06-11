@@ -161,8 +161,7 @@ const HouseWashing = () => {
                       <span className="font-bold">low-pressure techniques</span>{" "}
                       for delicate surfaces and{" "}
                       <span className="font-bold">high-pressure methods</span>{" "}
-                      for tougher stains. for delicate surfaces or for tougher
-                      stains.{" "}
+                      for tougher stains.
                     </p>
                     <p className="hidden leading-relaxed md:text-xl xl:text-xl 2xl:text-2xl  4xl:text-2xl  text-[#66666] pt-4 xl:pt-8  2xl:flex">
                       Our approach ensures we can handle any exterior cleaning
@@ -247,9 +246,10 @@ const HouseWashing = () => {
                       In addition to enhancing the appearance of your property,
                       our soft-washing cleaning services play a crucial role in
                       its upkeep and protection. The buildup of dirt, mold, and
-                      stains can detract from the look of your exterior surfaces. Our cleaning solutions effectively address these issues,
-                      ensuring your property remains in excellent condition and
-                      looks its best.
+                      stains can detract from the look of your exterior
+                      surfaces. Our cleaning solutions effectively address these
+                      issues, ensuring your property remains in excellent
+                      condition and looks its best.
                       <br />
                       <br />
                       <p className="hidden lg:inline">
