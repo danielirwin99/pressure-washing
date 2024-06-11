@@ -3,6 +3,7 @@ import image from "../../assets/pressure.jpg";
 import { motion } from "framer-motion";
 import { BsTelephone } from "react-icons/bs";
 import { Link, ScrollRestoration } from "react-router-dom";
+import { TbMailFilled } from "react-icons/tb";
 
 const Header = () => {
   // useScrollRestoration()
@@ -41,11 +42,13 @@ const Header = () => {
               0417 477 117
             </a>
           </div>
-          <Link
-            to={"/contact-us"}
-            className="contact-now !px-8 header-button !rounded-sm z-50 md:!text-lg "
-          >
-            Claim Your Free Quote
+          <Link to={"/contact-us"} className="mt-10">
+            <button className="contact-now z-50 px-5 md:!px-10 md:!text-2xl template-shadow-subtle ">
+              <div className="flex space-x-4 items-center">
+                <TbMailFilled className="text-2xl md:text-3xl" />
+                <p className="md:!text-2xl text-xl ">Get your free Quote</p>
+              </div>
+            </button>
           </Link>
         </div>
         <div className="absolute xs:bottom-10 bottom-8 w-full hidden sm:flex justify-center items-center">

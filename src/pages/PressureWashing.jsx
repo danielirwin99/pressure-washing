@@ -108,7 +108,7 @@ const PressureWashing = () => {
                 <button className="contact-now z-50 px-5 md:!px-10 md:!text-2xl template-shadow-subtle ">
                   <div className="flex space-x-4 items-center">
                     <TbMailFilled className="text-2xl md:text-3xl" />
-                    <p className="md:!text-2xl text-xl ">Get a Quote</p>
+                    <p className="md:!text-2xl text-xl ">Get your free Quote</p>
                   </div>
                 </button>
               </Link>
@@ -308,7 +308,7 @@ const PressureWashing = () => {
                 <Link className="w-full md:w-auto" to={"/contact-us"}>
                   <button className="contact-now space-x-3 items-center justify-center !flex w-full md:w-auto !capitalize z-50 !text-lg md:!text-2xl !px-2 sm:!px-10 !py-4 ">
                     <TbMailFilled className="text-3xl" />
-                    <p>GET A QUOTE</p>
+                    <p>GET YOUR FREE QUOTE</p>
                   </button>
                 </Link>
               </div>
@@ -393,7 +393,7 @@ const PressureWashing = () => {
                 <Link className="w-full md:w-auto" to={"/contact-us"}>
                   <button className="contact-now space-x-3 items-center justify-center !flex w-full md:w-auto !capitalize z-50 !text-lg md:!text-2xl !px-2 sm:!px-10 !py-4 ">
                     <TbMailFilled className="text-3xl" />
-                    <p>GET A QUOTE</p>
+                    <p>GET YOUR FREE QUOTE</p>
                   </button>
                 </Link>
               </div>
