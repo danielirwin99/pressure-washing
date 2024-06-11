@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
 import Quotes from "../components/Landing/Quotes";
+import { TbMailFilled } from "react-icons/tb";
 
 const DrivewaySealing = () => {
   useEffect(() => {
@@ -42,8 +43,11 @@ const DrivewaySealing = () => {
               Restore and Protect Your Driveway.
             </h2>
             <Link to={"/contact-us"} className="">
-              <button className="contact-now z-50 md:!text-xl ">
-                Claim Your Free Quote
+              <button className="contact-now z-50 px-5 md:!px-10 md:!text-2xl template-shadow-subtle ">
+                <div className="flex space-x-4 items-center">
+                  <TbMailFilled className="text-2xl md:text-3xl" />
+                  <p className="md:!text-2xl text-xl ">Get a Quote</p>
+                </div>
               </button>
             </Link>
           </div>
@@ -52,7 +56,7 @@ const DrivewaySealing = () => {
       <div
         data-aos="fade-up"
         data-aos-easing="ease-in-out"
-        className=" text-center sm:text-start mx-10"
+        className=" text-center sm:text-start "
       >
         <div className="sm:px-10 2xl:max-w-[1800px] mx-auto pt-20 mb-5  flex flex-wrap lg:flex-nowrap lg:space-x-20">
           <div className="lg:w-[60%] space-y-8  lg:mx-6 ">
@@ -100,9 +104,10 @@ const DrivewaySealing = () => {
               provide expert guidance on driveway sealing and painting.{" "}
             </p>
             <div className=" py-5 flex justify-center">
-              <Link to={"/contact-us"}>
-                <button className="contact-now z-50 md:!text-xl ">
-                  Contact Us Now
+              <Link className="w-full md:w-auto" to={"/contact-us"}>
+                <button className="contact-now space-x-3 items-center justify-center !flex w-full md:w-auto !capitalize z-50 !text-lg md:!text-2xl !px-2 sm:!px-10 !py-4 ">
+                  <TbMailFilled className="text-3xl" />
+                  <p>GET A QUOTE</p>
                 </button>
               </Link>
             </div>

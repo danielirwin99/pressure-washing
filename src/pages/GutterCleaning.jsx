@@ -13,6 +13,7 @@ import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
 import Quotes from "../components/Landing/Quotes";
 import Tabs from "../components/Landing/Tabs";
+import { TbMailFilled } from "react-icons/tb";
 
 const GutterCleaning = () => {
   useEffect(() => {
@@ -38,7 +39,7 @@ const GutterCleaning = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] md:pt-[300px] flex flex-col h-[550px] mx-5 lg:pl-20 space-y-10 sm:space-y-14">
+          <div className="pt-[150px] md:pt-[300px] text-center flex flex-col h-[550px] mx-5 lg:pl-20 space-y-10 sm:space-y-14">
             <h1 className="text-white sub-headers pr-5 sm:pr-0 uppercase text-4xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Gutter Cleaning
             </h1>
@@ -46,8 +47,11 @@ const GutterCleaning = () => {
               Efficient gutter cleaning with telescopic vacuum poles.
             </h2>
             <Link to={"/contact-us"} className="">
-              <button className="contact-now z-50 md:!text-xl ">
-                Claim Your Free Quote
+              <button className="contact-now z-50 px-5 md:!px-10 md:!text-2xl template-shadow-subtle ">
+                <div className="flex space-x-4 items-center">
+                  <TbMailFilled className="text-2xl md:text-3xl" />
+                  <p className="md:!text-2xl text-xl ">Get a Quote</p>
+                </div>
               </button>
             </Link>
           </div>
@@ -117,9 +121,10 @@ const GutterCleaning = () => {
               breathe new life into your outdoor areas.
             </p>
             <div className=" py-5 flex justify-center">
-              <Link to={"/contact-us"}>
-                <button className="contact-now z-50 md:!text-xl ">
-                  Contact Us Now
+              <Link className="w-full md:w-auto" to={"/contact-us"}>
+                <button className="contact-now space-x-3 items-center justify-center !flex w-full md:w-auto !capitalize z-50 !text-lg md:!text-2xl !px-2 sm:!px-10 !py-4 ">
+                  <TbMailFilled className="text-3xl" />
+                  <p>GET A QUOTE</p>
                 </button>
               </Link>
             </div>

@@ -15,6 +15,7 @@ import Testimonials from "../components/Landing/Testimonials";
 import Socials from "../components/Landing/Socials";
 import Quotes from "../components/Landing/Quotes";
 import Tabs from "../components/Landing/Tabs";
+import { TbMailFilled } from "react-icons/tb";
 
 const WindowCleaning = () => {
   useEffect(() => {
@@ -35,7 +36,7 @@ const WindowCleaning = () => {
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[200px] text-center md:pt-[300px] flex flex-col pl-10 lg:pl-20 space-y-14">
+          <div className="pt-[200px] text-center md:pt-[300px] flex flex-col lg:pl-20 space-y-14">
             <h1 className="text-white sub-headers uppercase text-4xl md:text-6xl font-bold text-shadow">
               Window Cleaning
             </h1>
@@ -43,8 +44,11 @@ const WindowCleaning = () => {
               Crystal-clear Views.
             </h2>
             <Link to={"/contact-us"} className="">
-              <button className="contact-now !text-sm z-50 !px-7 md:!text-xl ">
-                Claim Your Free Quote
+              <button className="contact-now z-50 px-5 md:!px-10 md:!text-2xl template-shadow-subtle ">
+                <div className="flex space-x-4 items-center">
+                  <TbMailFilled className="text-2xl md:text-3xl" />
+                  <p className="md:!text-2xl text-xl ">Get a Quote</p>
+                </div>
               </button>
             </Link>
           </div>
