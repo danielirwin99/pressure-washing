@@ -14,7 +14,7 @@ const Gallery = () => {
       {/* Navbar */}
 
       <Navbar />
-      <main className="my-5 mx-5 lg:mx-30">
+      <main className="my-5 mx-8 lg:mx-30">
         {" "}
         <h1
           className="text-center text-3xl uppercase lg:text-5xl font-bold text-gray-800 mt-7 mb-10 tracking-wider sub-headers"
