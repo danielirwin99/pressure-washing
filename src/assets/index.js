@@ -34,6 +34,7 @@ import me2 from "../assets/me2.png";
 import me3 from "../assets/me3.jpg";
 import me4 from "../assets/me4.png";
 import testi from "../assets/dummyavatar.png";
+import housewash from "../assets/house-wash.png";
 
 export {
   // before1,
@@ -72,4 +73,5 @@ export {
   me3,
   me4,
   testi,
+  housewash,
 };

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
-import { me1, me4, pressurewashing } from "../assets/index";
+import { housewash, me1, me4, pressurewashing } from "../assets/index";
 import { Link } from "react-router-dom";
 import {
   ReactCompareSlider,
@@ -99,7 +99,7 @@ const HouseWashing = () => {
             <figure className="w-full absolute -z-10">
               <img
                 className="w-full object-cover h-[750px] md:h-[100vh] brightness-[.40]"
-                src={pressurewashing}
+                src={housewash}
                 alt="Background Image"
               />
             </figure>
