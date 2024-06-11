@@ -5,7 +5,7 @@ import { FaTiktok } from "react-icons/fa";
 
 const Socials = () => {
   return (
-    <section id="socials" className="my-10">
+    <section id="socials" className=" my-10 lg:my-20">
       <div className="flex flex-col justify-center items-center">
         <h2
           className="text-center text-3xl md:text-5xl font-bold text-gray-800 tracking-wider sub-headers"
