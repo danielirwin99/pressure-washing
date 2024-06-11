@@ -399,9 +399,8 @@ const PressureWashing = () => {
               </p>
 
               <p className=" leading-relaxed text-lg md:text-2xl 4xl:text-3xl font-semibold">
-                Contact Us today to schedule your free quote. We'll visit your
-                property, provide a transparent, no-obligation estimate, and
-                breathe new life into your outdoor areas.
+                Contact us today to schedule your free quote. We'll visit your
+                property, provide a transparent, no-obligation estimate.
               </p>
               <div className="py-6 flex justify-center">
                 <Link className="w-full md:w-auto" to={"/contact-us"}>
