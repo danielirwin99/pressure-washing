@@ -78,7 +78,7 @@ const Contact = () => {
       </div>
       <main className="w-full">
         <div className="space-y-6 p-[7%] lg:p-[5%] ">
-          <h1 className="text-4xl uppercase text-start font-bold">Contact</h1>
+          <h1 className="text-4xl uppercase text-start font-bold">Contact US</h1>
           <p className="tracking-wide leading-6">
             If you have questions, comments or need more information about our
             pressure cleaning services in Sydney, please feel free to drop us an
