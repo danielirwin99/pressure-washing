@@ -40,17 +40,17 @@ const About = () => {
                 data-aos="fade-in"
                 data-aos-duration="700"
                 data-aos-easing="ease-in-out"
-                className="w-full xl:w-2/5 sm:hidden contrast-[1.10] h-[400px] md:h-[500px] xl:h-[750px] template-shadow rounded-md"
+                className="w-full xl:w-2/5 !my-5 sm:hidden contrast-[1.10] h-[400px] md:h-[500px] xl:h-[750px] template-shadow rounded-sm"
               >
                 <img
                   src={me1}
                   alt=""
-                  className="w-full h-full rounded-md object-cover xl:object-fill"
+                  className="w-full h-full rounded-sm object-cover xl:object-fill"
                 />
               </div>
               <p className="w-full text-center sm:text-start md:text-2xl leading-loose">
-                Our professional team takes pride in providing reliable and
-                friendly service, all while maintaining affordability. From
+                Our professional team is dedicated to delivering reliable and
+                friendly service, all while ensuring affordability. From
                 residential spaces to commercial establishments, we cover it
                 all, making us the go-to choice for those seeking professional
                 pressure exterior cleaning services in the region.
