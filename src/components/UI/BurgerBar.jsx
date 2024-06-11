@@ -60,7 +60,7 @@ export default function BurgerBar() {
         <DrawerHeader>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === "ltr" ? (
-              <ChevronLeftIcon />
+              <ChevronLeftIcon className="!text-3xl" />
             ) : (
               <ChevronRightIcon />
             )}
