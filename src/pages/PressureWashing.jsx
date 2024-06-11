@@ -254,10 +254,13 @@ const PressureWashing = () => {
                       conditions.
                       <br />
                       <br />
-                      <p className="hidden xl:flex  ">
+                      <p className="hidden lg:flex">
                         Our professional cleaning methods eliminate these
                         dangers, providing a safer environment for you, your
-                        family, or your customers.
+                        family, or your customers. We also apply a post
+                        soft-wash solution to the surfaces, this removes any
+                        potential spores or growth that may be residing after
+                        high pressure cleaning.
                       </p>
                     </p>
                   </div>

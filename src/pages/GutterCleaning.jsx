@@ -41,7 +41,7 @@ const GutterCleaning = () => {
           </figure>
           <div className="pt-[150px] md:pt-[300px] text-center flex flex-col h-[550px] mx-5 lg:pl-20 space-y-10 sm:space-y-14">
             <h1 className="text-white sub-headers pr-5 sm:pr-0 uppercase text-4xl sm:text-4xl md:text-6xl font-bold text-shadow">
-              Gutter Cleaning
+              Gutter Vacuum Cleaning
             </h1>
             <h2 className="uppercase sm:text-lg md:text-2xl text-white font-semibold text-shadow">
               Efficient gutter cleaning with telescopic vacuum poles.
