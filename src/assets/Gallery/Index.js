@@ -30,12 +30,16 @@ import before16 from "./before16.jpg";
 import before17 from "./before17.jpg";
 import before18 from "./before18.jpg";
 import before19 from "./before19.jpg";
+import before20 from "./before20.jpg";
+import before21 from "./before21.jpg";
 import after14 from "./after14.jpg";
 import after15 from "./after15.jpg";
 import after16 from "./after16.jpg";
 import after17 from "./after17.jpg";
 import after18 from "./after18.jpg";
 import after19 from "./after19.jpg";
+import after20 from "./after20.jpg";
+import after21 from "./after21.jpg";
 
 export {
   before1,
@@ -76,4 +80,8 @@ export {
   after18,
   before19,
   after19,
+  before20,
+  after20,
+  before21,
+  after21,
 };
