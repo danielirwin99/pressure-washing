@@ -49,7 +49,7 @@ export default function BurgerService() {
           "& .MuiDrawer-paper": {
             boxSizing: "border-box",
             display: "flex",
-            padding: "10px 10px",
+            padding: "20px 10px",
             zIndex: 999,
           },
         }}
@@ -60,7 +60,7 @@ export default function BurgerService() {
         <DrawerHeader>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === "ltr" ? (
-              <ChevronLeftIcon />
+              <ChevronLeftIcon className="!text-3xl" />
             ) : (
               <ChevronRightIcon />
             )}
