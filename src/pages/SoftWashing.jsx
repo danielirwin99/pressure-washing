@@ -361,7 +361,10 @@ const HouseWashing = () => {
                 alt="Pressure Washing"
               />
               <h2 className="text-3xl sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
-                Green or Black stains on your house? We Can Clean It.
+                Green or Black stains on your house? 
+              </h2>
+              <h2 className="text-3xl !mt-1 sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
+                 We Can Clean It.
               </h2>
               <p className="leading-relaxed text-lg xl:text-2xl  md:text-xl 4xl:text-3xl text-[#66666]  ">
                 Our team at Total Exterior Cleaning utilizes cutting-edge house
