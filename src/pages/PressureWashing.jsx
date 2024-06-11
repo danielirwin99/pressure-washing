@@ -145,8 +145,8 @@ const PressureWashing = () => {
                         Total Exterior Cleaning
                       </span>{" "}
                       are your go-to local pressure cleaners for professional
-                      exterior cleaning services in Sydney. Whether you own a
-                      residential property or a commercial space, our{" "}
+                      exterior cleaning in Sydney. Whether you own a residential
+                      property or a commercial space, our{" "}
                       <span className="font-bold">
                         family owned and operated business
                       </span>{" "}
@@ -154,16 +154,19 @@ const PressureWashing = () => {
                       original state.
                     </p>
                     <p className="leading-relaxed md:text-xl xl:text-xl 2xl:text-2xl  4xl:text-2xl  text-[#66666] pt-4 xl:pt-8  ">
-                      We tailor our cleaning approach to suit your specific
-                      needs, whether it's using{" "}
+                      We offer a range of services tailored to your needs, using{" "}
                       <span className="font-bold">low-pressure techniques</span>{" "}
-                      for delicate surfaces or{" "}
+                      for delicate surfaces and{" "}
                       <span className="font-bold">high-pressure methods</span>{" "}
-                      for tougher stains.{" "}
-                      <p className="hidden 2xl:flex">
-                        Our versatility ensures that we can handle any exterior
-                        cleaning challenge effectively and safely.
-                      </p>
+                      for tougher stains. for delicate surfaces or for tougher
+                      stains.{" "}
+                    </p>
+                    <p className="hidden leading-relaxed md:text-xl xl:text-xl 2xl:text-2xl  4xl:text-2xl  text-[#66666] pt-4 xl:pt-8  2xl:flex">
+                      Our approach ensures we can handle any exterior cleaning
+                      challenge effectively and safely. Choose Total Exterior
+                      Cleaning for all your exterior cleaning needs in Sydney
+                      and let us help you maintain the beauty and integrity of
+                      your property.
                     </p>
                   </div>
                   <div className="lg:w-[45%]">

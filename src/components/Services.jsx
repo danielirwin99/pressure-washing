@@ -75,7 +75,7 @@ const Services = () => {
           />
           <div className="flex flex-col justify-center items-center z-10">
             <BsHouseDoor className="text-white text-4xl   mr-1" />
-            <h2 className="services-header">Pressure Cleaning</h2>
+            <h2 className="services-header">High Pressure Cleaning</h2>
             <Link
               className="flex justify-center items-center services-quote"
               to={"/contact-us"}
@@ -93,7 +93,7 @@ const Services = () => {
           />
           <div className="flex flex-col justify-center items-center z-10">
             <BsHouseDoor className="text-white text-4xl   mr-1" />
-            <h2 className="services-header">Gutter Cleaning</h2>
+            <h2 className="services-header">Gutter Vacuum Cleaning</h2>
             <Link
               className="flex justify-center items-center services-quote"
               to={"/contact-us"}
@@ -139,7 +139,6 @@ const Services = () => {
             </Link>
           </div>
         </div>
-        
       </div>
     </section>
   );
