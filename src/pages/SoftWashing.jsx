@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Footer from "../components/Footer";
 import NavbarServices from "../components/NavbarServices";
-import { me1, pressurewashing } from "../assets/index";
+import { me1, me4, pressurewashing } from "../assets/index";
 import { Link } from "react-router-dom";
 import {
   ReactCompareSlider,
@@ -12,7 +12,7 @@ import Socials from "../components/Landing/Socials";
 import Quotes from "../components/Landing/Quotes";
 import Tabs from "../components/Landing/Tabs";
 import FAQ from "../components/Landing/FAQ";
-import data from "../data/imageslider";
+import data from "../data/house-wash-slider";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { motion } from "framer-motion";
 import Services from "../components/Services";
@@ -326,7 +326,7 @@ const HouseWashing = () => {
           <div className=" xl:px-10 pt-12 sm:pt-20 mb-5 2xl:max-w-[1800px] mx-auto  sm:flex flex-wrap lg:flex-nowrap lg:space-x-20">
             <div className="lg:w-[55%] xl:pr-10 space-y-6 4xl:space-y-14  lg:mx-6 ">
               <h1 className="text-3xl sm:text-5xl 4xl:text-6xl font-bold text-shadow-subtle sub-headers">
-                Refresh Your Home with High Pressure Cleaning.
+                Renew your Homes Shine
               </h1>
               <p className="leading-relaxed hidden md:inline-block text-lg md:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]  pt-2  ">
                 <span className="font-bold"> Total Exterior Cleaning</span> are
@@ -340,9 +340,8 @@ const HouseWashing = () => {
                 state.
               </p>
               <p className="leading-relaxed md:hidden text-lg md:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]  pt-2  ">
-                <span className="font-bold"> Total Exterior Cleaning</span> are
-                your go-to local pressure cleaners for professional exterior
-                cleaning services in Sydney.
+                Elevate the appearance and cleanliness of your home with
+                professional house washing services.
               </p>
               <p className="leading-relaxed md:hidden text-lg md:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]   ">
                 Whether you own a residential property or a commercial space,
@@ -358,18 +357,18 @@ const HouseWashing = () => {
                 data-aos-easing="ease-in-out"
                 data-aos="zoom-in-up"
                 className="md:hidden h-[400px] rounded-sm w-full object-cover"
-                src={me1}
+                src={me4}
                 alt="Pressure Washing"
               />
               <h2 className="text-3xl sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
-                Quality Comes First
+                Green or Black stains on your house? We Can Clean It.
               </h2>
               <p className="leading-relaxed text-lg xl:text-2xl  md:text-xl 4xl:text-3xl text-[#66666]  ">
-                Our team at Total Exterior Cleaning utilizes the latest
-                industrial-grade equipment, coupled with extensive knowledge and
-                experience, to apply high-pressure cleaning methods to surfaces
-                such as driveways, pavers, patios, concrete floors, and
-                pathways.{" "}
+                Our team at Total Exterior Cleaning utilizes cutting-edge house
+                washing technology to deliver efficient and quality results. We
+                employ the latest industrial-grade equipment, coupled with
+                extensive knowledge and experience, to apply safe house washing
+                methods using a soft-wash application.
                 <span className="hidden xl:flex">
                   This approach ensures a thorough and lasting clean, removing
                   dirt, mold, mildew, and stains.

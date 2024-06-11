@@ -100,15 +100,15 @@ export default function BurgerService() {
                 Pressure Washing
               </Link>
             </div>
-            {/* <div className="burger__list--wrapper">
+            <div className="burger__list--wrapper">
               <Link
                 onClick={handleDrawerClose}
-                to={"/house-washing"}
+                to={"/house-wash"}
                 className="burger__list--header"
               >
                 House Washing
               </Link>
-            </div> */}
+            </div>
             <div className="burger__list--wrapper">
               <Link
                 onClick={handleDrawerClose}

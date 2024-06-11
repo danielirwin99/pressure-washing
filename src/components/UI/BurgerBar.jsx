@@ -102,6 +102,15 @@ export default function BurgerBar() {
             <div className="burger__list--wrapper">
               <Link
                 onClick={handleDrawerClose}
+                to={"/house-wash"}
+                className="burger__list--header"
+              >
+                House Washing
+              </Link>
+            </div>
+            <div className="burger__list--wrapper">
+              <Link
+                onClick={handleDrawerClose}
                 to={"/window-cleaning"}
                 className="burger__list--header"
               >
