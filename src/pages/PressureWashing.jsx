@@ -227,10 +227,10 @@ const PressureWashing = () => {
                       knowledge and experience, to apply high-pressure cleaning
                       methods to surfaces such as driveways, pavers, patios,
                       concrete floors, and pathways.
-                      <p className="hidden 2xl:inline-block">
-                        This approach ensures a thorough and lasting clean,
-                        removing dirt, mould, grime, and stains.
-                      </p>
+                    </p>
+                    <p className="hidden leading-relaxed md:text-xl 2xl:text-2xl  4xl:text-2xl text-[#66666] 2xl:inline-block">
+                      This approach ensures a thorough and lasting clean,
+                      removing dirt, mould, grime, and stains.
                     </p>
                     <p className="leading-relaxed font-bold md:text-xl 2xl:text-2xl pt-2 4xl:text-2xl text-[#66666]  ">
                       Your satisfaction is our main goal. We will not stop until
