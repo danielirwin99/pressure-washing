@@ -7,9 +7,9 @@ const FAQ = () => {
       data-aos="fade-right"
       data-aos-easing="ease-in-out"
       id="faq"
-      className="mt-5 sm:mt-10 px-3 bg-[#F3F3F3]  w-full"
+      className=" px-3 bg-[#F7F7F7]  w-full"
     >
-      <div className="flex flex-col w-full items-center py-4 sm:py-8 justify-center">
+      <div className="flex flex-col w-full items-center py-6 sm:py-8 justify-center">
         <h2
           className="sub-headers text-center px-3  text-3xl lg:text-5xl mb-5 font-semibold text-gray-800 mt-7 tracking-wider "
           style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}

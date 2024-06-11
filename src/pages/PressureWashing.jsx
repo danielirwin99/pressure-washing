@@ -462,7 +462,11 @@ const PressureWashing = () => {
             </div>
           </div>
         </section>
-        <div className="mt-10" data-aos="fade-up" data-aos-easing="ease-in-out">
+        <div
+          className="mt-10 bg-[#F7F7F7]"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+        >
           <Testimonials />
         </div>
         <div

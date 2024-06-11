@@ -171,9 +171,13 @@ const GutterCleaning = () => {
           </div>
         </div>
       </div>
-      <section className="md:my-10 mb-20 py-2 bg-gray-50 ">
+      <div
+        data-aos="fade-in"
+        data-aos-easing="ease-in-out"
+        className=" py-1  bg-cyan-200  "
+      >
         <Socials />
-      </section>
+      </div>
       <Testimonials />
       <Tabs />
       <Quotes />

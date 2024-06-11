@@ -26,7 +26,7 @@ const Photos = () => {
       data-aos="fade-right"
       data-aos-easing="ease-in-out"
       id="photos"
-      className="mt-10 mx-auto px-3 max-w-[1700px] w-full"
+      className="mt-10 mb-10 mx-auto px-3 max-w-[1700px] w-full"
     >
       <div className="flex flex-col w-full items-center justify-center">
         <h3 className="text-center from-gray-700 to-cyan-500 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.3em] font-semibold text-md lg:text-lg ">
