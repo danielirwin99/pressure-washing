@@ -329,11 +329,25 @@ const PressureWashing = () => {
               <h1 className="text-3xl sm:text-5xl 4xl:text-6xl font-bold text-shadow-subtle sub-headers">
                 Refresh Your Home with High Pressure Cleaning.
               </h1>
-              <p className="leading-relaxed text-lg md:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]  pt-2  ">
+              <p className="leading-relaxed hidden md:inline-block text-lg md:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]  pt-2  ">
                 <span className="font-bold"> Total Exterior Cleaning</span> are
                 your go-to local pressure cleaners for professional exterior
                 cleaning services in Sydney. Whether you own a residential
                 property or a commercial space, our{" "}
+                <span className="font-bold">
+                  family owned and operated business
+                </span>{" "}
+                is here to help you restore your property back to its original
+                state.
+              </p>
+              <p className="leading-relaxed md:hidden text-lg md:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]  pt-2  ">
+                <span className="font-bold"> Total Exterior Cleaning</span> are
+                your go-to local pressure cleaners for professional exterior
+                cleaning services in Sydney.
+              </p>
+              <p className="leading-relaxed md:hidden text-lg md:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]   ">
+                Whether you own a residential property or a commercial space,
+                our{" "}
                 <span className="font-bold">
                   family owned and operated business
                 </span>{" "}
