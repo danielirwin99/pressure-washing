@@ -16,6 +16,8 @@ import data from "../data/imageslider";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { motion } from "framer-motion";
 import Services from "../components/Services";
+import { TbMailFilled } from "react-icons/tb";
+
 import {
   after1,
   after16,
@@ -103,8 +105,11 @@ const PressureWashing = () => {
                 Your heavy-duty cleaning, handled.
               </h2>
               <Link to={"/contact-us"} className="">
-                <button className="contact-now  z-50 !px-10 md:!text-xl template-shadow-subtle ">
-                  Get Your Quote!
+                <button className="contact-now z-50 px-5 md:!px-10 md:!text-2xl template-shadow-subtle ">
+                  <div className="flex space-x-4 items-center">
+                    <TbMailFilled className="text-2xl md:text-3xl" />
+                    <p className="md:!text-2xl text-xl ">Get a Quote</p>
+                  </div>
                 </button>
               </Link>
             </div>
@@ -295,8 +300,9 @@ const PressureWashing = () => {
               </p>
               <div className="pt-5 flex justify-center">
                 <Link className="w-full md:w-auto" to={"/contact-us"}>
-                  <button className="contact-now w-full md:w-auto !capitalize z-50 !text-lg md:!text-2xl !px-2 sm:!px-10 !py-4 ">
-                    Claim Your Free Quote!
+                  <button className="contact-now space-x-3 items-center justify-center !flex w-full md:w-auto !capitalize z-50 !text-lg md:!text-2xl !px-2 sm:!px-10 !py-4 ">
+                    <TbMailFilled className="text-3xl" />
+                    <p>GET A QUOTE</p>
                   </button>
                 </Link>
               </div>
@@ -379,8 +385,9 @@ const PressureWashing = () => {
               </p>
               <div className="py-6 flex justify-center">
                 <Link className="w-full md:w-auto" to={"/contact-us"}>
-                  <button className="contact-now w-full md:w-auto !capitalize z-50 !text-lg md:!text-2xl !px-2 sm:!px-10 !py-4 ">
-                    Claim Your Free Quote!
+                  <button className="contact-now space-x-3 items-center justify-center !flex w-full md:w-auto !capitalize z-50 !text-lg md:!text-2xl !px-2 sm:!px-10 !py-4 ">
+                    <TbMailFilled className="text-3xl" />
+                    <p>GET A QUOTE</p>
                   </button>
                 </Link>
               </div>
