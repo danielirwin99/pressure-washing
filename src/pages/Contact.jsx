@@ -78,7 +78,9 @@ const Contact = () => {
       </div>
       <main className="w-full">
         <div className="space-y-6 p-[7%] lg:p-[5%] ">
-          <h1 className="text-4xl uppercase text-start font-bold">Contact US</h1>
+          <h1 className="text-4xl uppercase text-start font-bold">
+            Contact US
+          </h1>
           <p className="tracking-wide leading-6">
             If you have questions, comments or need more information about our
             pressure cleaning services in Sydney, please feel free to drop us an
@@ -155,6 +157,11 @@ const Contact = () => {
         </div>
       </main>
       <Footer />
+      <script>
+        window.dataLayer = window.dataLayer || []; function gtag(){" "}
+        {dataLayer.push(arguments)}
+        gtag("js", new Date()); gtag("config", "G-YRN25BSF9V");
+      </script>
     </>
     // Old Contact Us
     // <main className="bg-gradient-to-br overflow-y-hidden from-cyan-500 to-cyan-500 !h-screen !min-h-full">
