@@ -20,7 +20,7 @@ const Gallery = () => {
           className="text-center text-3xl uppercase lg:text-5xl font-bold text-gray-800 mt-7 mb-10 tracking-wider sub-headers"
           style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
         >
-          Our Work
+          Our Recent Projects
         </h1>
         <h3 className="text-center from-gray-700 to-cyan-500 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.15em] font-semibold text-md lg:text-lg ">
           Before and After's
