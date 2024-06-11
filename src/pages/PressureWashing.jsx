@@ -254,13 +254,17 @@ const PressureWashing = () => {
                       conditions.
                       <br />
                       <br />
-                      <p className="hidden lg:flex">
+                      <p className="hidden lg:inline">
                         Our professional cleaning methods eliminate these
                         dangers, providing a safer environment for you, your
-                        family, or your customers. We also apply a post
-                        soft-wash solution to the surfaces, this removes any
-                        potential spores or growth that may be residing after
-                        high pressure cleaning.
+                        family, or your customers.{" "}
+                      </p>
+                      <br />
+                      <br />
+                      <p className="font-bold hidden  lg:inline-block">
+                        We also apply a post soft-wash solution to the surfaces,
+                        this removes any potential spores or growth that may be
+                        residing after high pressure cleaning.
                       </p>
                     </p>
                   </div>
@@ -296,10 +300,9 @@ const PressureWashing = () => {
                 alt="Pressure Washing"
               />
 
-              <p className=" leading-relaxed !mt-20 text-center text-lg md:text-3xl 4xl:text-3xl font-semibold">
-                Contact Us today to schedule your free quote. We'll visit your
-                property, provide a transparent, no-obligation estimate, and
-                breathe new life into your outdoor areas.
+              <p className="leading-relaxed !mt-10 text-center text-lg md:text-3xl 4xl:text-3xl font-semibold">
+                Contact us today to schedule your free quote. We'll visit your
+                property, provide a transparent, no-obligation estimate.
               </p>
               <div className="pt-5 flex justify-center">
                 <Link className="w-full md:w-auto" to={"/contact-us"}>
