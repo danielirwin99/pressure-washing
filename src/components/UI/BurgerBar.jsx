@@ -49,7 +49,7 @@ export default function BurgerBar() {
           "& .MuiDrawer-paper": {
             boxSizing: "border-box",
             display: "flex",
-            padding: "10px 10px",
+            padding: "20px 10px",
             zIndex: 999,
           },
         }}
