@@ -90,10 +90,12 @@ const GutterCleaning = () => {
                 Using the most update-to-date cameras we provide before and
                 after pictures for you on completion.
               </span>{" "}
-              The adjustable poles cater to various gutter heights and angles,
-              ensuring comprehensive cleaning without manual scooping or
-              climbing.{" "}
-              <p className="hidden lg:flex">
+              <p className="hidden lg:inline">
+                The adjustable poles cater to various gutter heights and angles,
+                ensuring comprehensive cleaning without manual scooping or
+                climbing.{" "}
+              </p>
+              <p className="hidden lg:inline">
                 With powerful suction, it effectively removes debris, preventing
                 clogs and preserving gutter integrity.
               </p>
@@ -102,7 +104,7 @@ const GutterCleaning = () => {
               data-aos-duration="700"
               data-aos-easing="ease-in-out"
               data-aos="zoom-in-up"
-              className="sm:hidden h-[400px] rounded-sm w-full object-cover"
+              className="md:hidden h-[400px] rounded-sm w-full object-cover"
               src={gutter4}
               alt="Gutter Cleaning"
             />
@@ -118,8 +120,7 @@ const GutterCleaning = () => {
             </p>
             <p className="text-shadow-subtle leading-relaxed text-lg md:text-2xl 2xl:text-2xl 4xl:text-3xl font-semibold">
               Contact Us today to schedule your free quote. We'll visit your
-              property, provide a transparent, no-obligation estimate, and
-              breathe new life into your outdoor areas.
+              property, provide a transparent, no-obligation estimate.
             </p>
             <div className=" py-5 flex justify-center">
               <Link className="w-full md:w-auto" to={"/contact-us"}>
