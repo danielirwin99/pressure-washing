@@ -172,6 +172,14 @@ const GutterCleaning = () => {
         </div>
       </div>
       <div
+        data-aos="fade-up"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        className="mb-10 sm:mx-5"
+      >
+        <Services />
+      </div>
+      <div
         data-aos="fade-in"
         data-aos-easing="ease-in-out"
         className=" py-1  bg-cyan-200  "
