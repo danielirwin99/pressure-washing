@@ -6,6 +6,7 @@ import {
   gutter2,
   gutter3,
   gutter4,
+  gutter5,
   guttercleaning,
 } from "../assets/index";
 import { Link } from "react-router-dom";
@@ -142,24 +143,31 @@ const GutterCleaning = () => {
                 alt=""
               />
             </div>
-            <div className="w-full  lg:w-full h-[350px] lg:h-[400px] flex  rounded-md">
+            <div className="w-full  lg:w-full h-[350px] lg:h-[400px] flex  rounded-sm">
               <img
-                className="w-full mb-4 sm:mb-0 rounded-md"
+                className="w-full mb-4 sm:mb-0 rounded-sm"
                 src={gutter1}
                 alt=""
               />
             </div>
-            <div className="w-full  lg:w-full h-[350px] lg:h-[400px] flex  rounded-md">
+            <div className="w-full  sm:inline-block lg:hidden  mt-4 sm:mt-0 lg:w-full h-[350px]  rounded-sm">
               <img
-                className="w-full h-full mb-4 sm:mb-0 rounded-md"
+                className="w-full h-full mb-4 sm:mb-0 rounded-sm"
+                src={gutter4}
+                alt=""
+              />
+            </div>
+            <div className="w-full  lg:w-full h-[350px] lg:h-[400px] flex  rounded-sm">
+              <img
+                className="w-full h-full mb-4 sm:mb-0 rounded-sm"
                 src={gutter2}
                 alt=""
               />
             </div>
-            <div className="w-full hidden sm:inline-block lg:hidden  mt-4 sm:mt-0 lg:w-full h-[350px]  rounded-md">
+            <div className="w-full  sm:hidden  mt-4 sm:mt-0 lg:w-full h-[350px]  rounded-sm">
               <img
-                className="w-full h-full mb-4 sm:mb-0 rounded-md"
-                src={gutter4}
+                className="w-full h-full mb-4 sm:mb-0 rounded-sm"
+                src={gutter5}
                 alt=""
               />
             </div>
