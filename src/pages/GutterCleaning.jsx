@@ -14,6 +14,7 @@ import Socials from "../components/Landing/Socials";
 import Quotes from "../components/Landing/Quotes";
 import Tabs from "../components/Landing/Tabs";
 import { TbMailFilled } from "react-icons/tb";
+import Services from "../components/Services";
 
 const GutterCleaning = () => {
   useEffect(() => {
@@ -179,6 +180,7 @@ const GutterCleaning = () => {
       >
         <Services />
       </div>
+      <Testimonials />
       <div
         data-aos="fade-in"
         data-aos-easing="ease-in-out"
@@ -186,7 +188,6 @@ const GutterCleaning = () => {
       >
         <Socials />
       </div>
-      <Testimonials />
       <Tabs />
       <Quotes />
       {/* Footer */}

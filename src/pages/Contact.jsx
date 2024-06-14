@@ -157,11 +157,6 @@ const Contact = () => {
         </div>
       </main>
       <Footer />
-      <script>
-        window.dataLayer = window.dataLayer || []; function gtag(){" "}
-        {dataLayer.push(arguments)}
-        gtag("js", new Date()); gtag("config", "G-YRN25BSF9V");
-      </script>
     </>
     // Old Contact Us
     // <main className="bg-gradient-to-br overflow-y-hidden from-cyan-500 to-cyan-500 !h-screen !min-h-full">
