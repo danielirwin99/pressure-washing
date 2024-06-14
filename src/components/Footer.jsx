@@ -58,6 +58,9 @@ const Footer = () => {
               <a href="/pressure-wash" className="footerLinks text-sm">
                 Pressure Washing
               </a>
+              <a href="/house-wash" className="footerLinks text-sm">
+                House Washing
+              </a>
               <a href="/sealing" className="footerLinks text-sm">
                 Driveway Sealing
               </a>
