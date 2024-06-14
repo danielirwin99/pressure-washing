@@ -35,12 +35,12 @@ const GutterCleaning = () => {
         <div>
           <figure className="w-full absolute -z-10">
             <img
-              className="w-full object-cover h-[550px] md:h-[100vh] brightness-[.45]"
+              className="w-full object-cover h-[750px] md:h-[100vh] brightness-[.45]"
               src={guttercleaning}
               alt="Background Image"
             />
           </figure>
-          <div className="pt-[150px] md:pt-[300px] text-center flex flex-col h-[550px] mx-5 lg:pl-20 space-y-10 sm:space-y-14">
+          <div className="pt-[150px] md:pt-[300px] text-center flex flex-col md:h-[100vh] h-[750px] mx-5 lg:pl-20 space-y-20 sm:space-y-20">
             <h1 className="text-white sub-headers pr-5 sm:pr-0 uppercase text-4xl sm:text-4xl md:text-6xl font-bold text-shadow">
               Gutter Vacuum Cleaning
             </h1>
@@ -59,7 +59,7 @@ const GutterCleaning = () => {
         </div>
       </main>
       <div className="mt-10  md:mt-0 text-center sm:text-start">
-        <div className=" md:pt-24 mb-6 mx-6 sm:mx-10 2xl:mx-16  flex flex-wrap lg:flex-nowrap lg:space-x-12">
+        <div className=" md:pt-20 mb-6 mx-6 sm:mx-10 2xl:mx-16  flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-3/5 space-y-7 lg:space-y-10">
             <h1 className="text-3xl sm:text-4xl text-shadow md:text-5xl font-bold sub-headers ">
               Telescopic Vacuum Gutter Cleaning
