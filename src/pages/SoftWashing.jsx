@@ -326,7 +326,7 @@ const HouseWashing = () => {
           <div className=" xl:px-10 pt-12 sm:pt-20 mb-5 2xl:max-w-[1800px] mx-auto  sm:flex flex-wrap lg:flex-nowrap lg:space-x-20">
             <div className="lg:w-[55%] xl:pr-10 space-y-6 4xl:space-y-14  lg:mx-6 ">
               <h1 className="text-3xl sm:text-5xl 4xl:text-6xl font-bold text-shadow-subtle sub-headers">
-                Transform Your Home with Expert House Washing Services
+                Transform Your Home with Professional House Washing Services
               </h1>
               <p className="leading-relaxed hidden md:inline-block text-lg md:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]  pt-2  ">
                 <span className="font-bold"> Total Exterior Cleaning</span> are
@@ -343,7 +343,7 @@ const HouseWashing = () => {
                 Elevate the appearance and cleanliness of your home with
                 professional house washing services.
               </p>
-              <p className="leading-relaxed md:hidden text-lg md:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]   ">
+              <p className="leading-relaxed md:hidden !mt-2 text-lg md:text-xl xl:text-2xl 4xl:text-3xl  text-[#66666]   ">
                 Whether you own a residential property or a commercial space,
                 our{" "}
                 <span className="font-bold">
@@ -368,10 +368,7 @@ const HouseWashing = () => {
               </h2>
               <p className="leading-relaxed text-lg xl:text-2xl  md:text-xl 4xl:text-3xl text-[#66666]  ">
                 Our team at Total Exterior Cleaning utilizes cutting-edge house
-                washing technology to deliver efficient and quality results. We
-                employ the latest industrial-grade equipment, coupled with
-                extensive knowledge and experience, to apply safe house washing
-                methods using a soft-wash application.
+                washing technology to deliver efficient and quality results.
                 <span className="hidden xl:flex">
                   This approach ensures a thorough and lasting clean, removing
                   dirt, mold, mildew, and stains.
