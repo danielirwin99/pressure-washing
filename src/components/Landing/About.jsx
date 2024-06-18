@@ -52,8 +52,7 @@ const About = () => {
                 Our professional team is dedicated to delivering reliable and
                 friendly service, all while ensuring affordability. From
                 residential spaces to commercial establishments, we cover it
-                all, making us the go-to choice for those seeking professional
-                pressure exterior cleaning services in the region.
+                all.
               </p>
               <p className="w-full font-bold text-center sm:text-start text-lg md:text-2xl leading-loose">
                 Are you looking for High Pressure Cleaning services in your
