@@ -16,14 +16,14 @@ const About = () => {
             Total Exterior Cleaning
           </h1>
           <h2
-            className="text-center text-3xl lg:text-5xl font-bold text-gray-800 mt-5 tracking-wider sub-headers"
+            className="text-center text-3xl lg:text-4xl font-bold text-gray-800 mt-5 tracking-wider sub-headers"
             style={{ textShadow: "2px 4px 3px rgba(0,0,0,0.1)" }}
           >
             Why Choose Total Exterior Cleaning?
           </h2>
           <ul className="space-y-2">
             <li className=" mt-10 items-center space-y-4">
-              <p className=" text-center sm:text-start lg:text-2xl leading-relaxed">
+              <p className=" text-center sm:text-start lg:text-xl leading-relaxed">
                 <span className="font-bold">Total Exterior Cleaning</span>{" "}
                 specializes in pressure cleaning and operates from the
                 <span className="font-bold"> Sutherland Shire Region. </span>
@@ -48,7 +48,7 @@ const About = () => {
                   className="w-full h-full rounded-sm object-cover xl:object-fill"
                 />
               </div>
-              <p className="w-full text-center sm:text-start md:text-2xl leading-loose">
+              <p className="w-full text-center sm:text-start md:text-xl leading-loose">
                 Our professional team is dedicated to delivering reliable and
                 friendly service, all while ensuring affordability. From
                 residential spaces to commercial establishments, we cover it
@@ -57,8 +57,8 @@ const About = () => {
               <p className="w-full font-bold text-center sm:text-start text-lg md:text-2xl leading-loose">
                 Are you looking for High Pressure Cleaning services in your
                 local area?
-                <br />
-                Hit the button below and get started!
+                <br className="sm:hidden" /> Hit the button below and get your
+                free quotation!
               </p>
             </li>
           </ul>

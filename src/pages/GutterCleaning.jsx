@@ -66,15 +66,19 @@ const GutterCleaning = () => {
               Telescopic Vacuum Gutter Cleaning
             </h1>
             <p className="leading-relaxed text-[#66666] pt-4 sm:text-xl 2xl:text-2xl 4xl:text-3xl">
-              At <span className="font-bold"> Total Exterior Cleaning,</span> we
-              understand the integral role that well-maintained gutters play in
-              preserving the integrity and aesthetic appeal of your home. Our
-              commitment to excellence drives us to offer cutting-edge gutter
-              cleaning vacuuming services with the use of{" "}
-              <span className="font-extrabold">
+              At{" "}
+              <span className="font-semibold inline">
+                {" "}
+                Total Exterior Cleaning,
+              </span>{" "}
+              we understand the integral role that well-maintained gutters play
+              in preserving the integrity and aesthetic appeal of your home. We
+              offer cutting-edge gutter cleaning vacuuming services with the use
+              of{" "}
+              <p className="font-bold inline">
                 telescopic poles and cameras to safely remove all debris from
                 the ground.{" "}
-              </span>
+              </p>
               <p className="leading-relaxed font-extrabold  text-[#66666] underline pt-2 text-lg lg:text-xl 2xl:text-2xl 4xl:text-3xl">
                 This means we won't walk across your roof and potentially crack
                 one of your tiles leading to more issues.
@@ -115,9 +119,9 @@ const GutterCleaning = () => {
             <p className="leading-relaxed text-[#66666] sm:text-lg 2xl:text-2xl 4xl:text-3xl  ">
               Regular gutter maintenance is crucial for preventing water damage
               and extending the lifespan of your gutters. With our professional
-              vacuuming services, you can trust Total Exterior Cleaning to keep
-              your gutters in optimal condition, ensuring they function
-              effectively for years to come.
+              vacuuming services, you can trust us to keep your gutters in
+              optimal condition, ensuring they function effectively for years to
+              come.
             </p>
             <p className="text-shadow-subtle leading-relaxed text-lg md:text-2xl 2xl:text-2xl 4xl:text-3xl font-semibold">
               Contact Us today to schedule your free quote. We'll visit your
