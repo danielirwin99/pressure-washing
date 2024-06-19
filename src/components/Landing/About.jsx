@@ -23,7 +23,7 @@ const About = () => {
           </h2>
           <ul className="space-y-2">
             <li className=" mt-10 items-center space-y-4">
-              <p className=" text-center sm:text-start lg:text-xl leading-relaxed">
+              <p className=" text-center sm:text-start lg:text-2xl leading-relaxed">
                 <span className="font-bold">Total Exterior Cleaning</span>{" "}
                 specializes in pressure cleaning and operates from the
                 <span className="font-bold"> Sutherland Shire Region. </span>
@@ -48,7 +48,7 @@ const About = () => {
                   className="w-full h-full rounded-sm object-cover xl:object-fill"
                 />
               </div>
-              <p className="w-full text-center sm:text-start md:text-xl leading-loose">
+              <p className="w-full text-center sm:text-start md:text-2xl leading-loose">
                 Our professional team is dedicated to delivering reliable and
                 friendly service, all while ensuring affordability. From
                 residential spaces to commercial establishments, we cover it
