@@ -37,11 +37,11 @@ export const data = [
       "❝ Sean and Daniel did a wonderful job on our drive and path ways which were covered in mould and dirt over many years.  Now transformed like new!  Rare to find honest, hardworking, skilled team like these guys.  ❞",
   },
   {
-    name: "Jordan Dmello, Illawong",
+    name: "Donna Halpin, Grays Point",
     img: testi,
-    area: "Illawong",
+    area: "Grays Point",
     review:
-      "❝ Sean and Daniel are highly professional and do an amazing job, best in the business. Highly recommend this company ❞",
+      "❝ We have engaged Total Exterior Cleaning 3 times in the past few months - cleaning windows, gutters, roof and also some pressure cleaning on our never ending retaining walls. Each time they arrived on time and completed the job making all surfaces look brand new. ❞",
   },
   {
     name: "Theresa Chisari, Bangor",
@@ -49,6 +49,13 @@ export const data = [
     area: "Bangor",
     review:
       "❝ Thank you to the team at TOTAL EXTERIOR CLEANING for their incredible job today, they went above and beyond with our cleaning job. Our house is shining and I can look out our windows! The team are professional and knowledgeable and I can’t wait to have them back! ❞",
+  },
+  {
+    name: "Mariylnn Thomas, Helensburgh",
+    img: testi,
+    area: "Bangor",
+    review:
+      "❝ Sean and Daniel did a great job cleaning our gutters today.  It wasn't an easy task but they handled it efficiently and professionally.  Very friendly and good communicators.  I would be happy recommend them. ❞",
   },
   {
     name: "Declan, Wollongong",
