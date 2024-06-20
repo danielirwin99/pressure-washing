@@ -21,9 +21,12 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
+  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    
 
     emailjs
       .send(
@@ -47,7 +50,9 @@ const Contact = () => {
         },
         // Account Public key
         "CbDkdqAKMVZVWUS_p"
+        
       )
+      
       .then(
         () => {
           setLoading(false);
@@ -70,6 +75,7 @@ const Contact = () => {
         }
       );
   };
+  
 
   return (
     <>
