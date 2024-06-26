@@ -136,6 +136,7 @@ const HouseWashing = () => {
             </a>
           </div>
         </main>
+        {/* DESKTOP PC */}
         <section
           id="content"
           data-aos="fade-up"
@@ -214,9 +215,9 @@ const HouseWashing = () => {
                       />
                     </div>
                   </div>
-                  <div className="lg:w-[45%] ">
+                  <div className="lg:w-[45%] text-center ">
                     <h2 className="text-3xl pb-6 sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
-                      Green or Black stains on your house? We Can Clean It.
+                      Green or Black Stains? We Can Clean It.
                     </h2>
                     <p className="leading-relaxed md:text-xl 2xl:text-2xl  4xl:text-2xl text-[#66666]  ">
                       Our team at Total Exterior Cleaning utilizes cutting-edge
@@ -245,11 +246,9 @@ const HouseWashing = () => {
                       {" "}
                       In addition to enhancing the appearance of your property,
                       our soft-washing cleaning services play a crucial role in
-                      its upkeep and protection. The buildup of dirt, mold, and
+                      its upkeep and protection. The build-up of dirt, mold, and
                       stains can detract from the look of your exterior
-                      surfaces. Our cleaning solutions effectively address these
-                      issues, ensuring your property remains in excellent
-                      condition and looks its best.
+                      surfaces.
                       <br />
                       <br />
                       <p className="hidden lg:inline">
@@ -317,6 +316,9 @@ const HouseWashing = () => {
             </div>
           </div>
         </section>
+        {/* MOBILE */}
+        {/* MOBILE */}
+        {/* MOBILE */}
         <section
           id="content"
           data-aos="fade-up"

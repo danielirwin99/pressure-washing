@@ -220,13 +220,14 @@ const PressureWashing = () => {
                     <h2 className="text-3xl pb-6 sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
                       Quality Comes First
                     </h2>
-                    <p className="leading-relaxed md:text-xl 2xl:text-2xl  4xl:text-2xl text-[#66666]  ">
+                    <p className="leading-relaxed md:text-xl 2xl:text-2xl pb-1 4xl:text-2xl text-[#66666]  ">
                       Our team at Total Exterior Cleaning utilizes the latest
                       industrial-grade equipment, coupled with extensive
                       knowledge and experience, to apply high-pressure cleaning
                       methods to surfaces such as driveways, pavers, patios,
                       concrete floors, and pathways.
                     </p>
+                    
                     <p className="hidden leading-relaxed md:text-xl 2xl:text-2xl  4xl:text-2xl text-[#66666] 2xl:inline-block">
                       This approach ensures a thorough and lasting clean,
                       removing dirt, mould, grime, and stains.
@@ -303,7 +304,7 @@ const PressureWashing = () => {
                 Contact us today to schedule your free quote. We'll visit your
                 property, provide a transparent, no-obligation estimate.
               </p>
-              <div className="pt-5 flex justify-center">
+              <div className="py-5 flex justify-center">
                 <Link className="w-full md:w-auto" to={"/contact-us"}>
                   <button className="contact-now space-x-3 items-center justify-center !flex w-full md:w-auto !capitalize z-50 !text-lg md:!text-2xl !px-2 sm:!px-10 !py-4 ">
                     <TbMailFilled className="text-3xl" />
@@ -317,6 +318,9 @@ const PressureWashing = () => {
             </div>
           </div>
         </section>
+        {/* MOBILE */}
+        {/* MOBILE */}
+        {/* MOBILE */}
         <section
           id="content"
           data-aos="fade-up"
@@ -474,7 +478,7 @@ const PressureWashing = () => {
             </div>
           </div>
         </section>
-        <div  data-aos="fade-in" data-aos-easing="ease-in-out">
+        <div data-aos="fade-in" data-aos-easing="ease-in-out">
           <Tabs />
         </div>
         <div

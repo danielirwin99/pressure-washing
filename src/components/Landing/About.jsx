@@ -22,10 +22,10 @@ const About = () => {
             Why Choose Total Exterior Cleaning?
           </h2>
           <ul className="space-y-2">
-            <li className=" mt-10 items-center space-y-4">
+            <li className=" mt-10 items-center space-y-4 2xl:space-y-10 text-center">
               <p className=" text-center sm:text-start lg:text-2xl leading-relaxed">
                 <span className="font-bold">Total Exterior Cleaning</span>{" "}
-                specializes in pressure cleaning and operates from the
+                specializes in pressure cleaning and  operates from the
                 <span className="font-bold"> Sutherland Shire Region. </span>
                 We take pride in being a
                 <span className="font-bold">
