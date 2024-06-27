@@ -54,7 +54,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className=" bg-[#F7F7F7] py-12 lg:py-16  px-4 ">
+    <div className=" bg-[#F7F7F7] py-12 lg:py-16 px-8 ">
       <div className="max-w-[1700px] m-auto">
         <h3 className="text-center from-gray-700 uppercase to-cyan-500 bg-gradient-to-r bg-clip-text text-transparent tracking-[0.3em] font-semibold text-md lg:text-lg ">
           Testimonials

@@ -60,12 +60,12 @@ const GutterCleaning = () => {
         </div>
       </main>
       <div className="mt-10 max-w-[1700px] 4xl:max-w-[2000px] mx-auto md:mt-0 text-center sm:text-start">
-        <div className=" md:pt-20 mb-6 mx-6    flex flex-wrap lg:flex-nowrap lg:space-x-12">
+        <div className=" md:pt-20 mb-6 mx-6 md:mx-10   flex flex-wrap lg:flex-nowrap lg:space-x-12">
           <div className="lg:w-3/5 space-y-7 lg:space-y-10 xl:pr-5">
             <h1 className="text-3xl sm:text-4xl text-shadow md:text-5xl font-bold sub-headers ">
               Telescopic Vacuum Gutter Cleaning
             </h1>
-            <p className="leading-relaxed text-[#66666] pt-4 sm:text-xl 2xl:text-2xl 4xl:text-3xl">
+            <p className="leading-relaxed text-[#66666] pt-4 sm:text-xl  2xl:text-2xl 4xl:text-3xl">
               At{" "}
               <span className="font-semibold inline">
                 {" "}
@@ -84,7 +84,7 @@ const GutterCleaning = () => {
                 one of your tiles leading to more issues.
               </p>
             </p>
-            <h2 className="text-2xl capitalize text-shadow-subtle sm:text-4xl font-semibold text-cyan-500">
+            <h2 className="text-2xl capitalize text-shadow-subtle sm:text-3xl xl:text-4xl font-semibold text-cyan-500">
               Gutter Vacuuming Without roof damage
             </h2>
             <p className="leading-relaxed text-[#66666] sm:text-lg 2xl:text-2xl 4xl:text-3xl ">
@@ -95,15 +95,13 @@ const GutterCleaning = () => {
                 Using the most update-to-date cameras we provide before and
                 after pictures for you on completion.
               </span>{" "}
-              <p className="hidden lg:inline">
+              <p className="hidden lg:inline-block mt-5">
                 The adjustable poles cater to various gutter heights and angles,
                 ensuring comprehensive cleaning without manual scooping or
-                climbing.{" "}
+                climbing. With a powerful suction, it effectively removes
+                debris, preventing clogs and preserving gutter integrity.
               </p>
-              <p className="hidden lg:inline">
-                With powerful suction, it effectively removes debris, preventing
-                clogs and preserving gutter integrity.
-              </p>
+              <p className="hidden lg:inline-block mt-5"></p>
             </p>
             <img
               data-aos-duration="700"
@@ -113,7 +111,7 @@ const GutterCleaning = () => {
               src={gutter4}
               alt="Gutter Cleaning"
             />
-            <h2 className="text-2xl text-shadow-subtle sm:text-4xl font-semibold text-cyan-500">
+            <h2 className="text-2xl text-shadow-subtle sm:text-3xl xl:text-4xl font-semibold text-cyan-500">
               Extending the Lifespan of Your Gutters
             </h2>
             <p className="leading-relaxed text-[#66666] sm:text-lg 2xl:text-2xl 4xl:text-3xl  ">
