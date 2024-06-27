@@ -148,7 +148,7 @@ const HouseWashing = () => {
               <h1 className="text-3xl sm:text-5xl text-center 4xl:text-6xl font-bold text-shadow-subtle pb-10 sub-headers">
                 Transform Your Home with Expert House Washing Services
               </h1>
-              <div className="space-y-8">
+              <div className="space-y-8 ">
                 <div className="flex space-x-20">
                   <div className="lg:w-[55%] pr-4">
                     <p className="leading-relaxed md:text-xl  xl:text-xl 2xl:text-2xl 4xl:text-2xl  text-[#66666]  pt-2  ">
@@ -215,25 +215,30 @@ const HouseWashing = () => {
                       />
                     </div>
                   </div>
-                  <div className="lg:w-[45%] text-center ">
+                  <div className="lg:w-[45%]  ">
                     <h2 className="text-3xl pb-6 sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
                       Green or Black Stains? We Can Clean It.
                     </h2>
-                    <p className="leading-relaxed md:text-xl 2xl:text-2xl  4xl:text-2xl text-[#66666]  ">
-                      Our team at Total Exterior Cleaning utilizes cutting-edge
-                      house washing technology to deliver efficient and quality
-                      results. We employ the latest industrial-grade equipment,
-                      coupled with extensive knowledge and experience, to apply
-                      safe house washing methods using a soft wash mix.
-                    </p>
-                    <p className="hidden leading-relaxed md:text-xl 2xl:text-2xl pt-2  4xl:text-2xl text-[#66666] 2xl:inline-block">
-                      This approach ensures a thorough and lasting clean,
-                      removing dirt, mould, grime, and stains.
-                    </p>
-                    <p className="leading-relaxed font-bold md:text-xl 2xl:text-2xl pt-2 4xl:text-2xl text-[#66666]  ">
-                      Your satisfaction is our main goal. We will not stop until
-                      you're happy with the job. 100% Guaranteed.
-                    </p>
+                    <div className="space-y-4">
+                      <p className="leading-relaxed md:text-xl 2xl:text-2xl  4xl:text-2xl text-[#66666]  ">
+                        Our team at Total Exterior Cleaning utilizes
+                        cutting-edge house washing technology to deliver
+                        efficient and quality results.
+                      </p>
+                      <p className="leading-relaxed md:text-xl 2xl:text-2xl  4xl:text-2xl text-[#66666]  ">
+                        We employ the latest industrial-grade equipment, coupled
+                        with extensive knowledge and experience, to apply safe
+                        house washing methods using a soft wash mix.
+                      </p>
+                      <p className="hidden leading-relaxed md:text-xl 2xl:text-2xl pt-2  4xl:text-2xl text-[#66666] 2xl:inline-block">
+                        This approach ensures a thorough and lasting clean,
+                        removing dirt, mould, grime, and stains.
+                      </p>
+                      <p className="leading-relaxed font-bold md:text-xl 2xl:text-2xl pt-2 4xl:text-2xl text-[#66666]  ">
+                        Your satisfaction is our main goal. We will not stop
+                        until you're happy with the job. 100% Guaranteed.
+                      </p>
+                    </div>
                   </div>
                 </div>
 
@@ -363,7 +368,7 @@ const HouseWashing = () => {
                 alt="Pressure Washing"
               />
               <h2 className="text-3xl sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
-                Green or Black stains on your house?
+                Green or Black stains on your home?
               </h2>
               <h2 className="text-3xl !mt-1 sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
                 We Can Clean It.
