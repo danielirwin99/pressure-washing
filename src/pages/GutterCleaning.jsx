@@ -79,7 +79,7 @@ const GutterCleaning = () => {
                 telescopic poles and cameras to safely remove all debris from
                 the ground.{" "}
               </p>
-              <p className="leading-relaxed font-extrabold  text-[#66666] underline pt-2 text-lg lg:text-xl 2xl:text-2xl 4xl:text-3xl">
+              <p className="leading-relaxed font-bold  text-[#66666] underline pt-2 text-lg lg:text-xl 2xl:text-2xl 4xl:text-3xl">
                 This means we won't walk across your roof and potentially crack
                 one of your tiles leading to more issues.
               </p>
@@ -91,7 +91,7 @@ const GutterCleaning = () => {
               Gutter vacuuming offers a safer, more efficient alternative to
               traditional methods. By eliminating the need for ladders and
               enabling easy access to high gutters.{" "}
-              <span className="font-semibold">
+              <span className=" font-semibold">
                 Using the most update-to-date cameras we provide before and
                 after pictures for you on completion.
               </span>{" "}

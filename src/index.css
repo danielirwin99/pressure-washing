@@ -17,11 +17,17 @@
   image-rendering: optimizeSpeed;
 }
 
-html,body {
+html,
+body {
   scroll-behavior: smooth;
- overflow-x: hidden !important;
+  overflow-x: hidden !important;
   box-sizing: border-box;
-  
+}
+
+span {
+  font-family: "Exo2", "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 #about,
