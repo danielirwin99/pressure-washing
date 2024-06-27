@@ -185,6 +185,7 @@ const GutterCleaning = () => {
           </div>
         </div>
       </div>
+      <Tabs />
       <div
         data-aos="fade-up"
         data-aos-duration="500"
@@ -201,7 +202,7 @@ const GutterCleaning = () => {
       >
         <Socials />
       </div>
-      <Tabs />
+
       <Quotes />
       {/* Footer */}
       <Footer />
