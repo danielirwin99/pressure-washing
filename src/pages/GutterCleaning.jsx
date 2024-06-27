@@ -61,7 +61,7 @@ const GutterCleaning = () => {
       </main>
       <div className="mt-10  md:mt-0 text-center sm:text-start">
         <div className=" md:pt-20 mb-6 mx-6 sm:mx-10 2xl:mx-16  flex flex-wrap lg:flex-nowrap lg:space-x-12">
-          <div className="lg:w-3/5 space-y-7 lg:space-y-10">
+          <div className="lg:w-3/5 space-y-7 lg:space-y-10 2xl:space-y-14 xl:pr-5">
             <h1 className="text-3xl sm:text-4xl text-shadow md:text-5xl font-bold sub-headers ">
               Telescopic Vacuum Gutter Cleaning
             </h1>
