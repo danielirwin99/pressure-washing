@@ -32,6 +32,8 @@ import before18 from "./before18.jpg";
 import before19 from "./before19.jpg";
 import before20 from "./before20.jpg";
 import before21 from "./before21.jpg";
+import before22 from "./before22.jpg";
+import before23 from "./before23.jpg";
 import after14 from "./after14.jpg";
 import after15 from "./after15.jpg";
 import after16 from "./after16.jpg";
@@ -40,6 +42,8 @@ import after18 from "./after18.jpg";
 import after19 from "./after19.jpg";
 import after20 from "./after20.jpg";
 import after21 from "./after21.jpg";
+import after22 from "./after22.jpg";
+import after23 from "./after23.jpg";
 
 export {
   before1,
@@ -84,4 +88,8 @@ export {
   after20,
   before21,
   after21,
+  before22,
+  after22,
+  before23,
+  after23,
 };

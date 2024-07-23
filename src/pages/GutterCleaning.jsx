@@ -87,6 +87,14 @@ const GutterCleaning = () => {
             <h2 className="text-2xl capitalize text-shadow-subtle sm:text-3xl xl:text-4xl font-semibold text-cyan-500">
               Gutter Vacuuming Without roof damage
             </h2>
+            <img
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              data-aos="zoom-in-up"
+              className="md:hidden h-[400px] rounded-sm w-full object-cover"
+              src={gutter4}
+              alt="Gutter Cleaning"
+            />
             <p className="leading-relaxed text-[#66666] sm:text-lg 2xl:text-2xl 4xl:text-3xl ">
               Gutter vacuuming offers a safer, more efficient alternative to
               traditional methods. By eliminating the need for ladders and
@@ -103,14 +111,7 @@ const GutterCleaning = () => {
               </p>
               <p className="hidden lg:inline-block mt-5"></p>
             </p>
-            <img
-              data-aos-duration="700"
-              data-aos-easing="ease-in-out"
-              data-aos="zoom-in-up"
-              className="md:hidden h-[400px] rounded-sm w-full object-cover"
-              src={gutter4}
-              alt="Gutter Cleaning"
-            />
+
             <h2 className="text-2xl text-shadow-subtle sm:text-3xl xl:text-4xl font-semibold text-cyan-500">
               Extending the Lifespan of Your Gutters
             </h2>
