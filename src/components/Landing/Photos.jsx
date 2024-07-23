@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
 import {
-  before1,
   before2,
   before3,
-  after1,
   after2,
   after3,
   before5,
@@ -13,7 +11,12 @@ import {
   before8,
   after8,
 } from "../../assets/B&A/Index";
-import { roofbefore, roofafter } from "../../assets/Gallery/Index";
+import {
+  roofbefore,
+  roofafter,
+  before1,
+  after1,
+} from "../../assets/Gallery/Index";
 import {
   ReactCompareSlider,
   ReactCompareSliderImage,
