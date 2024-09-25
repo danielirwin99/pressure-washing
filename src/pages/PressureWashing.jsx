@@ -227,7 +227,7 @@ const PressureWashing = () => {
                       methods to surfaces such as driveways, pavers, patios,
                       concrete floors, and pathways.
                     </p>
-                    
+
                     <p className="hidden leading-relaxed md:text-xl 2xl:text-2xl  4xl:text-2xl text-[#66666] 2xl:inline-block">
                       This approach ensures a thorough and lasting clean,
                       removing dirt, mould, grime, and stains.
@@ -242,7 +242,7 @@ const PressureWashing = () => {
                 <div className="flex items-center space-x-20">
                   <div className="lg:w-[55%] ">
                     <h2 className="text-3xl pb-6 sub-headers 4xl:text-5xl xl:text-4xl font-semibold text-cyan-500">
-                      Preservation and Protection
+                      Fast, Reliable & Affordable
                     </h2>
                     <p className="leading-relaxed pt-4 xl:text-xl 2xl:text-2xl hidden 4xl:text-2xl md:text-xl text-[#66666] sm:inline">
                       {" "}
