@@ -37,6 +37,8 @@ import {
   after18,
   before19,
   after19,
+  after22,
+  before22,
 } from "../assets/Gallery/Index";
 
 const data = [
@@ -45,8 +47,8 @@ const data = [
     img2: after1,
   },
   {
-    img1: before16,
-    img2: after16,
+    img1: before22,
+    img2: after22,
   },
   {
     img1: before19,
