@@ -44,6 +44,8 @@ import after20 from "./after20.jpg";
 import after21 from "./after21.jpg";
 import after22 from "./after22.jpg";
 import after23 from "./after23.jpg";
+import housebefore1 from "./housebefore1.jpg";
+import houseafter1 from "./houseafter1.jpg";
 
 export {
   before1,
@@ -92,4 +94,6 @@ export {
   after22,
   before23,
   after23,
+  housebefore1,
+  houseafter1,
 };

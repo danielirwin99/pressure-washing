@@ -33,6 +33,8 @@ import {
   before19,
   before20,
   before21,
+  housebefore1,
+  houseafter1,
 } from "../assets/Gallery/Index";
 
 const HouseWashing = () => {
@@ -178,14 +180,14 @@ const HouseWashing = () => {
                         className="w-full mb-4 contrast-[1.10]  sm:mb-0 rounded-sm"
                         itemOne={
                           <ReactCompareSliderImage
-                            src={before10}
+                            src={housebefore1}
                             alt="Pressure Wash Before"
                             className=""
                           />
                         }
                         itemTwo={
                           <ReactCompareSliderImage
-                            src={after10}
+                            src={houseafter1}
                             alt="Pressure Wash After"
                           />
                         }
@@ -277,14 +279,14 @@ const HouseWashing = () => {
                         className="w-full mb-4 contrast-[1.10]  sm:mb-0 rounded-sm"
                         itemOne={
                           <ReactCompareSliderImage
-                            src={before21}
+                            src={before10}
                             alt="Pressure Wash Before"
                             className=""
                           />
                         }
                         itemTwo={
                           <ReactCompareSliderImage
-                            src={after21}
+                            src={after10}
                             alt="Pressure Wash After"
                           />
                         }

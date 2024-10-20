@@ -41,9 +41,15 @@ import {
   after20,
   before21,
   after21,
+  housebefore1,
+  houseafter1,
 } from "../assets/Gallery/Index";
 
 const data = [
+  {
+    img1: housebefore1,
+    img2: houseafter1,
+  },
   {
     img1: before10,
     img2: after10,
