@@ -1,7 +1,7 @@
 // import before1 from "./before1.webp";
 // import before2 from "./before2.jpg";
 // import before3 from "./before3.jpg";
-import clean from "./clean.jpg";
+import clean from "./clean.webp";
 import about from "./about.jpg";
 import service1 from "./service1.webp";
 import service2 from "./service2.webp";
